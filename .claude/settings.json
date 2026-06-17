@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(sed -E 's/=.*/=<redacted>/' .env)",
+      "Bash(ls -la tools/)",
+      "Bash(ls -la workflows/)"
+    ]
+  }
+}

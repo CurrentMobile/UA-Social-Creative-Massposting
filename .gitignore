@@ -1,0 +1,17 @@
+# Environment & secrets
+.env
+*.env.local
+# May contain expanded tokens; keep out of version control
+.mcp.json
+
+# Claude runtime (do not sync)
+.claude/sessions/
+.claude/shell-snapshots/
+
+# OS
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Outputs (optional — remove if you want outputs synced)
+# outputs/
