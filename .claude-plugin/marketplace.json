@@ -1,0 +1,11 @@
+{
+  "name": "mode-marketing",
+  "owner": "Mode Mobile Marketing",
+  "plugins": [
+    {
+      "name": "mode-marketing-ua",
+      "source": "./",
+      "skills": ["./.agents/skills"]
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "name": "mode-marketing-ua",
+  "version": "1.0.0",
+  "description": "Mode Marketing's AI creative toolkit — 15 HyperFrames skills that turn a plain-English brief into a finished marketing video. Install once, then just describe the video you want.",
+  "skills": ["./.agents/skills"]
+}
