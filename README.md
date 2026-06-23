@@ -107,3 +107,36 @@ See `CLAUDE.md` for full agent instructions.
 ## Credits
 
 Skills sourced from [heygen-com/hyperframes](https://github.com/heygen-com/hyperframes).
+
+## Codebase Rules
+
+## Using & Contributing (read me first)
+
+This repo is the team's shared source of truth for our Claude Code skills.
+Treat `main` as read-only: you pull from it, you don't push straight to it.
+
+### Getting set up
+1. Clone the repo and copy `.env.example` → `.env`.
+2. Ask the owner for the shared API keys (kept in our password vault — never paste keys into any file or into Slack).
+3. Run `./run.sh` to launch Claude Code with the skills loaded.
+
+### Getting the latest version
+Run `git pull` before you start working. That's it — you'll have everyone's latest skills.
+
+### Suggesting an improvement
+Found a better prompt, a fix, or a new skill? Don't edit `main` directly. Instead:
+- In Claude Code, just say: *"Create a branch, commit these changes, and open a pull request."* Claude Code handles the git for you.
+- The owner reviews it. If it's good, it gets merged and everyone gets it on their next pull.
+
+### Want a personal tweak just for you?
+Keep personal experiments in your own user-level skills folder (`~/.claude/skills`),
+NOT by editing the shared files here. That way your version survives every update
+and never collides with the team's.
+
+### Please don't
+- ❌ Put API keys (or any passwords) in any file.
+- ❌ Push directly to `main` — it's protected; use a pull request.
+- ❌ Edit `CLAUDE.md`, `run.sh`, `skills-lock.json`, or `.claude/` unless you know what they do.
+
+### Who owns this
+@Prodart is the admin and reviewer. Changes get announced in #ad-creatives Slack channel with a link to the GitHub release notes.
