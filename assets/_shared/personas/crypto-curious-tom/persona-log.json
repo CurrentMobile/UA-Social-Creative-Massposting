@@ -1,0 +1,36 @@
+[
+  {
+    "label": "base-character",
+    "asset": "assets/_shared/personas/crypto-curious-tom/base-character.png",
+    "model": "gpt_image_2",
+    "prompt": "A thoughtful, smart 30-year-old South Asian man, a crypto hobbyist and tech enthusiast. Short neat dark hair, a well-groomed short beard, clear glasses, intelligent observant eyes, natural skin texture. Wearing a plain solid-colour casual t-shirt, no logos or graphics or prints. Extreme realism, detailed skin, realistic facial imperfections, natural daylight lighting, front-view close-up portrait looking directly at the camera, passport-style, only the close-up portrait.",
+    "media": {},
+    "params": {
+      "aspect_ratio": "2:3",
+      "resolution": "2k"
+    },
+    "job_id": "e60ccba3-6740-4903-97bf-63df4490ac5a",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260621_015229_e60ccba3-6740-4903-97bf-63df4490ac5a.png",
+    "bytes": 5940426,
+    "created": "2026-06-21T01:54:18+00:00"
+  },
+  {
+    "label": "base-character-v2",
+    "asset": "assets/_shared/personas/crypto-curious-tom/base-character-v2.png",
+    "model": "gpt_image_2",
+    "prompt": "Re-render this exact same person as a hyper-realistic photograph. Keep the identical identity, face shape, hair, expression, wardrobe, framing and lighting, but give the skin super-detailed, true-to-life texture: visible pores, fine lines and subtle wrinkles, natural blemishes and freckles, slight redness and uneven skin tone, faint under-eye shadows, peach fuzz and a natural skin sheen. Do NOT airbrush, smooth, or beautify; the face must NOT look too perfect or plastic. Candid, unretouched DSLR close-up realism, natural daylight, passport-style portrait.",
+    "media": {
+      "image": [
+        "assets/_shared/personas/crypto-curious-tom/base-character.png"
+      ]
+    },
+    "params": {
+      "aspect_ratio": "2:3",
+      "resolution": "2k"
+    },
+    "job_id": "b436a50c-09b6-4b3e-b157-a414e8e0d7f0",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260621_020216_b436a50c-09b6-4b3e-b157-a414e8e0d7f0.png",
+    "bytes": 6022800,
+    "created": "2026-06-21T02:04:20+00:00"
+  }
+]

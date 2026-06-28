@@ -1,0 +1,17 @@
+[
+  {
+    "label": "base-character",
+    "asset": "assets/_shared/personas/male-poc/base-character.png",
+    "model": "gpt_image_2",
+    "prompt": "A warm, friendly 63-year-old African American man, a relatable retiree. Short greying hair, neatly trimmed grey beard, kind eyes with gentle smile lines, dark skin with natural texture and pores. Wearing a plain solid-colour casual henley with no logos, no graphics, no prints. Approachable, trustworthy, down-to-earth expression. Extreme realism, detailed skin, realistic facial imperfections, natural daylight lighting, front-view close-up portrait looking directly at the camera, passport-style, only the close-up.",
+    "media": {},
+    "params": {
+      "aspect_ratio": "2:3",
+      "resolution": "2k"
+    },
+    "job_id": "599da830-8efb-4e46-9805-49919605ea7e",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260615_184304_599da830-8efb-4e46-9805-49919605ea7e.png",
+    "bytes": 6102475,
+    "created": "2026-06-15T18:45:31+00:00"
+  }
+]

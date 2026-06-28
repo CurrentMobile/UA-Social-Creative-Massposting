@@ -1,10 +1,11 @@
-# CLAUDE.md
-
-This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
-
 # Agent Instructions
 
 You're working inside the **WAT framework** (Workflows, Agents, Tools). This architecture separates concerns so that probabilistic AI handles reasoning while deterministic code handles execution. That separation is what makes this system reliable.
+
+> **First time on this machine (fresh clone)?** Run `tools/env_check.py` to see what's missing,
+> then follow `workflows/setup_environment.md` to install dependencies, build the venv from
+> `requirements.txt`, and create `.env` from `.env.example`. Heavy media is not in git — it
+> lives in the Google Shared Drive.
 
 ## The WAT Architecture
 
@@ -70,28 +71,21 @@ credentials.json, token.json  # Google OAuth (gitignored)
 
 **Core principle:** Local files are just for processing. Anything I need to see or use lives in cloud services. Everything in `.tmp/` is disposable.
 
-## Current State of the Repo
+## Asset organization (UGC pipeline)
 
-This repo is a **fresh scaffold** — the WAT structure above describes the target, not what exists yet:
-- `tools/` and `workflows/` **do not exist yet**. Create them the first time a task needs them.
-- `src/` and `outputs/` exist but are empty. `.claude/agents/` and `.claude/skills/` hold only `.gitkeep`.
-- There is no build, test, lint, or package manifest. Tools are standalone Python scripts run directly (e.g. `python tools/<name>.py`); add a dependency file (`requirements.txt`/`pyproject.toml`) when the first tool needs third-party packages.
-- This is **not a git repository** — don't expect git history for context.
-
-## Available Integrations
-
-This is the "Mode AI Creative Loop" — an AI creative-content automation pipeline. The intended external services are defined by API keys in `.env` (gitignored, secret — get values from Gianne). Build tools against these:
-
-| Env var | Service | Used for |
-|---|---|---|
-| `NOTION_API_KEY` | Notion | Content database / source of record |
-| `HIGGSFIELD_API_KEY` | Higgsfield | AI image & video generation |
-| `OPENROUTER_API_KEY` | OpenRouter | LLM gateway (multi-model) |
-| `APIFY_API_KEY` | Apify | Web scraping |
-| `POSTIZ_API_KEY` | Postiz | Social media scheduling/publishing |
-| `HEYGEN_API_KEY` | HeyGen | AI avatar video |
-
-Several of these are also reachable as MCP tools in this environment (e.g. Notion, Higgsfield). Prefer an MCP tool when one exists for the task; fall back to a Python tool hitting the API directly when it doesn't.
+Assets for the multi-app UGC video pipeline (Mode Earn, AppLock, NGL, Gallery, Cleaner, Trimbox)
+live under `assets/` in a per-app tree. **Before doing any work on an app's video, read
+`assets/<app>/manifest.md` then the specific `assets/<app>/<video-title>/manifest.md` first** —
+they are the single source of truth (brand, CTA, screen recordings, asset choices). The full
+layout and rules are in `assets/ASSETS.md` and `workflows/asset_organization.md`. Standing rules:
+SFX local-first via `tools/resolve_sfx.py` (yt-dlp fallback), background music always downloaded,
+and every final gets the per-app CTA appended via `tools/append_cta.py`. **Always give me an editable
+HyperFrames timeline preview before the final render** — each A-roll clip, B-roll cutaway, overlay,
+and caption as a separate, tweakable track (never one flattened video). Build it with
+`tools/build_editable_timeline.py` and serve via `npx hyperframes preview`, then wait for my edits
+before rendering the final (see `workflows/edit_video.md` step 8). **Final deliverables always go to
+the team Google Shared Drive at `G:\Shared drives\Mode AI Creative Loop\Videos`** — sync `outputs\*.mp4`
+there on every delivery via `robocopy` (see `workflows/edit_video.md` step 9).
 
 ## Bottom Line
 

@@ -1,0 +1,17 @@
+[
+  {
+    "label": "base-character",
+    "asset": "assets/_shared/personas/guilt-free-papa-greg/base-character.png",
+    "model": "gpt_image_2",
+    "prompt": "Greg, a warm, gentle 32-year-old White man, a hands-on dad balancing childcare and home. Short wavy light-brown hair, light stubble, warm hazel eyes, natural skin with a few freckles and faint tiredness, a kind expression. Wearing a plain solid-colour casual sweater or tee, no logos or graphics. Hyper-realistic photograph with super-detailed true-to-life skin texture: visible pores, fine lines, subtle natural blemishes and freckles, slight uneven skin tone and natural imperfections, not airbrushed and not too perfect. Natural daylight lighting, front-view close-up portrait looking directly at the camera, passport-style, only the close-up portrait.",
+    "media": {},
+    "params": {
+      "aspect_ratio": "2:3",
+      "resolution": "2k"
+    },
+    "job_id": "18024dc7-0d05-4773-a884-328515f52277",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260621_221902_18024dc7-0d05-4773-a884-328515f52277.png",
+    "bytes": 5860900,
+    "created": "2026-06-21T22:21:02+00:00"
+  }
+]

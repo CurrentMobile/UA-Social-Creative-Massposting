@@ -1,0 +1,51 @@
+[
+  {
+    "label": "s22-ultra-reference",
+    "asset": "assets/_shared/props/samsung-galaxy-s22-ultra.png",
+    "model": "gpt_image_2",
+    "prompt": "A clean studio product reference photo of a single Phantom Black Samsung Galaxy S22 Ultra Android smartphone, shown as TWO views side by side on a plain pure-white seamless background. LEFT: the FRONT view, a large 6.8-inch display turned on, with very subtly curved left and right screen edges, slim symmetrical bezels, and a single small centered punch-hole front camera at the top. RIGHT: the BACK view in matte black glass with NO rectangular camera bump module; instead four separate individual circular camera lenses arranged in a vertical column down the upper-left edge, with a small LED flash and sensor beside the top lens, a subtle SAMSUNG wordmark centered lower, and the squared-off boxy corners characteristic of the S22 Ultra. Both phones upright and parallel, accurate true-to-life proportions, even soft studio lighting, sharp high-detail commercial product photography, no text labels, no watermarks, no hands.",
+    "media": {},
+    "params": {
+      "aspect_ratio": "4:3",
+      "resolution": "2k"
+    },
+    "job_id": "ad0014a2-18e4-4d5a-890d-e324f23b665f",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260621_224854_ad0014a2-18e4-4d5a-890d-e324f23b665f.png",
+    "bytes": 4352317,
+    "created": "2026-06-21T22:51:24+00:00"
+  },
+  {
+    "label": "s22-ultra-reference-v2-accurate-back",
+    "asset": "assets/_shared/props/samsung-galaxy-s22-ultra.png",
+    "model": "gpt_image_2",
+    "prompt": "A clean studio product reference photo of a single Phantom Black Samsung Galaxy S22 Ultra Android smartphone, shown as TWO views side by side on a plain pure-white seamless background. LEFT: the FRONT view, a large 6.8-inch display turned on with a vivid abstract wallpaper, very subtly curved left and right screen edges, slim symmetrical bezels, and a single small centered punch-hole front camera at the top. RIGHT: the BACK view in Phantom Black matte glass with squared boxy corners, using the signature Samsung Galaxy S22 Ultra contour-cut camera design where each lens rises directly out of the glass with NO rectangular camera module: in the upper-left, the TOP camera lens has a small LED flash and a tiny red laser-autofocus sensor immediately to its right; below the top lens, three more separate circular camera lenses of varying sizes are stacked in a vertical column (the largest is the main camera), each lens with a metallic ring and faint blue-teal glass reflection; a centered 'SAMSUNG' wordmark in the lower third. Both phones upright and parallel, accurate true-to-life proportions, even soft studio lighting, sharp high-detail commercial product photography, no hands, no extra text, no watermarks.",
+    "media": {},
+    "params": {
+      "aspect_ratio": "4:3",
+      "resolution": "2k"
+    },
+    "job_id": "ea250984-39b5-48bd-b9e4-f4e31f51ede6",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260626_104900_ea250984-39b5-48bd-b9e4-f4e31f51ede6.png",
+    "bytes": 4588093,
+    "created": "2026-06-26T10:51:21+00:00"
+  },
+  {
+    "label": "s22-ultra-reference-v3-from-real-photo",
+    "asset": "assets/_shared/props/samsung-galaxy-s22-ultra.png",
+    "model": "gpt_image_2",
+    "prompt": "Create a clean studio product reference photo of a single Phantom Black Samsung Galaxy S22 Ultra Android smartphone on a plain pure-white seamless background, showing TWO views side by side. RIGHT: the BACK view, reproduced to EXACTLY match the camera layout of the phone in the reference image — Phantom Black matte glass, squared boxy corners, and the signature contour-cut cameras where each lens rises directly from the glass with no rectangular module: the top lens has an LED flash and a small red laser-autofocus sensor immediately to its right, with the large main lens directly below and the remaining lenses in the same staggered arrangement shown in the reference (faint teal reflections), and a centered SAMSUNG wordmark in the lower third. LEFT: the FRONT view of the same phone, a large 6.8-inch display turned on with a vivid abstract wallpaper, very subtly curved left/right edges, slim symmetrical bezels, and a single centered punch-hole front camera at the top. Both phones upright and parallel, accurate true-to-life proportions, even soft studio lighting, sharp high-detail commercial product photography, no hands, no text overlays, no watermarks.",
+    "media": {
+      "image": [
+        ".tmp/image.png"
+      ]
+    },
+    "params": {
+      "aspect_ratio": "4:3",
+      "resolution": "2k"
+    },
+    "job_id": "636d3727-9958-4866-9f94-d0ac709767c2",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260626_105443_636d3727-9958-4866-9f94-d0ac709767c2.png",
+    "bytes": 4722389,
+    "created": "2026-06-26T10:57:17+00:00"
+  }
+]

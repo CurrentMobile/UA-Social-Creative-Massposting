@@ -1,0 +1,36 @@
+[
+  {
+    "label": "base-character",
+    "asset": "assets/_shared/personas/gen-z-ashley/base-character.png",
+    "model": "gpt_image_2",
+    "prompt": "A trendy, expressive 19-year-old East Asian woman, a Gen Z TikTok native who loves aesthetic tech. Long dark hair with subtle styling, clear youthful skin, light dewy natural makeup, bright curious eyes, a playful confident expression. Wearing a plain solid-colour casual top, no logos or graphics or prints. Extreme realism, detailed skin, realistic facial imperfections, natural daylight lighting, front-view close-up portrait looking directly at the camera, passport-style, only the close-up portrait.",
+    "media": {},
+    "params": {
+      "aspect_ratio": "2:3",
+      "resolution": "2k"
+    },
+    "job_id": "56c37722-0600-4abd-a51d-29014225a6bc",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260621_015156_56c37722-0600-4abd-a51d-29014225a6bc.png",
+    "bytes": 6153873,
+    "created": "2026-06-21T01:53:51+00:00"
+  },
+  {
+    "label": "base-character-v2",
+    "asset": "assets/_shared/personas/gen-z-ashley/base-character-v2.png",
+    "model": "gpt_image_2",
+    "prompt": "Re-render this exact same person as a hyper-realistic photograph. Keep the identical identity, face shape, hair, expression, wardrobe, framing and lighting, but give the skin super-detailed, true-to-life texture: visible pores, fine lines and subtle wrinkles, natural blemishes and freckles, slight redness and uneven skin tone, faint under-eye shadows, peach fuzz and a natural skin sheen. Do NOT airbrush, smooth, or beautify; the face must NOT look too perfect or plastic. Candid, unretouched DSLR close-up realism, natural daylight, passport-style portrait.",
+    "media": {
+      "image": [
+        "assets/_shared/personas/gen-z-ashley/base-character.png"
+      ]
+    },
+    "params": {
+      "aspect_ratio": "2:3",
+      "resolution": "2k"
+    },
+    "job_id": "1f58db0c-1fba-496f-aeea-39df16850eb2",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260621_020151_1f58db0c-1fba-496f-aeea-39df16850eb2.png",
+    "bytes": 6340394,
+    "created": "2026-06-21T02:03:53+00:00"
+  }
+]

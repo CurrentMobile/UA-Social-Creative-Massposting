@@ -1,0 +1,287 @@
+[
+  {
+    "label": "Clip 4",
+    "asset": "assets/mode-earn/extra-cushion-on-a-budget/ai-videos/Clip 4.mp4",
+    "model": "kling3_0",
+    "prompt": "Begin on the exact medium waist-up shot of the same 52-year-old Caucasian woman from the reference sitting on her living-room sofa, looking directly into the lens, matching the reference pose precisely with the Black Samsung Galaxy S22 Ultra resting in her hand on her lap. The living room and soft warm daylight remain completely unchanged. The camera is completely static with no movement. She speaks directly to the camera in a warm, wry, genuine neighbourly tone with a light natural rasp and easy conversational pacing, delivering as a self-aware, wry STATEMENT with a settled, declarative, falling intonation, NOT a question: 'And I'm on my phone half the day anyway, all that time just going nowhere.' As she speaks she gives a small, self-aware shrug and a little glance at her phone. Her expression stays warm and wry. Lighting, wardrobe, and background stay completely consistent, a seamless single take.",
+    "media": {
+      "start_image": "assets/mode-earn/extra-cushion-on-a-budget/ai-images/img-4.png"
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "duration": "6",
+      "mode": "pro",
+      "sound": "on"
+    },
+    "job_id": "a4d69321-c15a-462f-8088-f7d1493c9b92",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260628_121641_a4d69321-c15a-462f-8088-f7d1493c9b92.mp4",
+    "bytes": 15827177,
+    "created": "2026-06-28T12:21:01+00:00"
+  },
+  {
+    "label": "Clip 3",
+    "asset": "assets/mode-earn/extra-cushion-on-a-budget/ai-videos/Clip 3.mp4",
+    "model": "kling3_0",
+    "prompt": "Begin on the exact medium waist-up shot of the same 52-year-old Caucasian woman from the reference at her bright dining nook, looking directly into the lens, matching the reference pose precisely with one hand resting lightly on the table, holding the Black Samsung Galaxy S22 Ultra in the other hand. The nook and warm daylight remain completely unchanged. The camera is completely static with no movement. She speaks directly to the camera in a warm, genuine neighbourly tone with a light natural rasp and easy conversational pacing, delivering as a candid, slightly rueful STATEMENT with a settled, declarative, falling intonation, NOT a question: 'I'm 52, running our house on a budget, and lately everything at the store costs more.' As she speaks she gives a small, knowing shake of the head. Her expression stays warm but rueful. Lighting, wardrobe, and background stay completely consistent, a seamless single take.",
+    "media": {
+      "start_image": "assets/mode-earn/extra-cushion-on-a-budget/ai-images/img-3.png"
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "duration": "6",
+      "mode": "pro",
+      "sound": "on"
+    },
+    "job_id": "fb7fa3bf-6333-46eb-99c6-3a61bb0dc585",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260628_121641_fb7fa3bf-6333-46eb-99c6-3a61bb0dc585.mp4",
+    "bytes": 13338962,
+    "created": "2026-06-28T12:21:05+00:00"
+  },
+  {
+    "label": "hook1",
+    "asset": "assets/mode-earn/extra-cushion-on-a-budget/ai-videos/hook1.mp4",
+    "model": "kling3_0",
+    "prompt": "Begin on the exact medium waist-up shot of the same 52-year-old Caucasian woman from the reference standing on her front porch, looking directly into the lens, matching the reference pose precisely, holding the Black Samsung Galaxy S22 Ultra naturally at her side. The porch and warm natural daylight remain completely unchanged. The camera is completely static with no movement. She speaks directly to the camera in a warm, bright, genuine tone with a friendly mid-range register and a light natural rasp, relaxed conversational pacing, down-to-earth and sincere as if chatting with a trusted neighbour over the fence, delivering as a candid, slightly vulnerable STATEMENT with a settled, declarative, falling intonation, NOT a question: 'I'm a widowed 52 year old, not a good time to be on a tight budget.' As she speaks she gives a small, candid tilt of the head. Her expression stays warm, open and real. Lighting, wardrobe, and background stay completely consistent, a seamless single take.",
+    "media": {
+      "start_image": "assets/mode-earn/extra-cushion-on-a-budget/ai-images/img-hook1.png"
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "duration": "6",
+      "mode": "pro",
+      "sound": "on"
+    },
+    "job_id": "dfb2b071-28a0-4fd9-b805-c0f7dd35fc3c",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260628_121642_dfb2b071-28a0-4fd9-b805-c0f7dd35fc3c.mp4",
+    "bytes": 16945351,
+    "created": "2026-06-28T12:21:06+00:00"
+  },
+  {
+    "label": "hook2",
+    "asset": "assets/mode-earn/extra-cushion-on-a-budget/ai-videos/hook2.mp4",
+    "model": "kling3_0",
+    "prompt": "Begin on the exact medium waist-up shot of the same 52-year-old Caucasian woman from the reference in her warm kitchen, looking directly into the lens, matching the reference pose precisely, holding the Black Samsung Galaxy S22 Ultra in one hand. The kitchen and warm morning light remain completely unchanged. The camera introduces a slight, natural handheld drift throughout. She speaks directly to the camera in a warm, bright, genuine neighbourly tone with a light natural rasp and easy conversational pacing, delivering as a hopeful, brightening STATEMENT with a settled, declarative, falling intonation, NOT a question: 'But I just found a way to cover groceries with gift cards from my phone.' As she speaks she gives a small, hopeful lift of her phone hand. Her expression brightens, warm and genuine. Lighting, wardrobe, and background stay completely consistent, a seamless single take.",
+    "media": {
+      "start_image": "assets/mode-earn/extra-cushion-on-a-budget/ai-images/img-hook2.png"
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "duration": "6",
+      "mode": "pro",
+      "sound": "on"
+    },
+    "job_id": "504b6c9c-ba38-4080-9f04-48a61673b069",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260628_121641_504b6c9c-ba38-4080-9f04-48a61673b069.mp4",
+    "bytes": 16448681,
+    "created": "2026-06-28T12:21:06+00:00"
+  },
+  {
+    "label": "Clip 5",
+    "asset": "assets/mode-earn/extra-cushion-on-a-budget/ai-videos/Clip 5.mp4",
+    "model": "kling3_0",
+    "prompt": "Begin on the exact medium waist-up shot of the same 52-year-old Caucasian woman from the reference leaning in at her warm kitchen island, looking directly into the lens, matching the reference pose precisely, holding the Black Samsung Galaxy S22 Ultra in one hand. The kitchen and warm morning light remain completely unchanged. The camera introduces a slight, natural handheld drift throughout. She speaks directly to the camera in a warm, genuine neighbourly tone with a light natural rasp and easy conversational pacing, delivering with a knowing, skeptical-turning-convinced energy, ending firmly and declaratively: 'Then my daughter showed me Mode Earn App. I figured, another scam? But no. It's legit.' As she speaks she gives a little skeptical eyebrow raise that softens into a convinced nod. Her expression stays warm and knowing. Lighting, wardrobe, and background stay completely consistent, a seamless single take.",
+    "media": {
+      "start_image": "assets/mode-earn/extra-cushion-on-a-budget/ai-images/img-5.png"
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "duration": "6",
+      "mode": "pro",
+      "sound": "on"
+    },
+    "job_id": "9fa2e6a9-2dc1-422f-b2a3-67959bc94450",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260628_121641_9fa2e6a9-2dc1-422f-b2a3-67959bc94450.mp4",
+    "bytes": 18816135,
+    "created": "2026-06-28T12:21:06+00:00"
+  },
+  {
+    "label": "Clip 6",
+    "asset": "assets/mode-earn/extra-cushion-on-a-budget/ai-videos/Clip 6.mp4",
+    "model": "kling3_0",
+    "prompt": "Begin on the exact medium waist-up shot of the same 52-year-old Caucasian woman from the reference in her snug reading corner, looking directly into the lens, matching the reference pose precisely, holding the Black Samsung Galaxy S22 Ultra in one hand. The reading corner and warm light remain completely unchanged. The camera is completely static with no movement. She speaks directly to the camera in a warm, genuine neighbourly tone with a light natural rasp and easy conversational pacing, delivering as an impressed STATEMENT with a settled, declarative, falling intonation, NOT a question: 'It has over 10 million downloads and 4.5 stars from more than 3 million reviews.' As she speaks she gives an impressed little eyebrow lift and a small nod. Her expression stays warm and impressed. Lighting, wardrobe, and background stay completely consistent, a seamless single take.",
+    "media": {
+      "start_image": "assets/mode-earn/extra-cushion-on-a-budget/ai-images/img-6.png"
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "duration": "6",
+      "mode": "pro",
+      "sound": "on"
+    },
+    "job_id": "7da7a9cc-f8e0-49e0-9333-78b8e106b815",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260628_121641_7da7a9cc-f8e0-49e0-9333-78b8e106b815.mp4",
+    "bytes": 15837141,
+    "created": "2026-06-28T12:21:28+00:00"
+  },
+  {
+    "label": "Clip 10",
+    "asset": "assets/mode-earn/extra-cushion-on-a-budget/ai-videos/Clip 10.mp4",
+    "model": "kling3_0",
+    "prompt": "Begin on the exact medium waist-up shot of the same 52-year-old Caucasian woman from the reference in her snug reading corner, looking directly into the lens, matching the reference pose precisely, holding the Black Samsung Galaxy S22 Ultra in one hand with her other hand resting warmly near her heart. The reading corner and warm light remain completely unchanged. The camera is completely static with no movement. She speaks directly to the camera in a warm, content, grateful neighbourly tone with a light natural rasp, delivering as a heartfelt STATEMENT with a settled, declarative, falling intonation, NOT a question: 'Mine go toward groceries and treats for the grandkids. A real cushion, and no catch.' As she speaks she gives a warm, content smile with a hand near her heart. Her expression stays warm and grateful. Lighting, wardrobe, and background stay completely consistent, a seamless single take.",
+    "media": {
+      "start_image": "assets/mode-earn/extra-cushion-on-a-budget/ai-images/img-10.png"
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "duration": "6",
+      "mode": "pro",
+      "sound": "on"
+    },
+    "job_id": "6189b09d-a409-44a7-ac8f-3bf2f1621dfd",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260628_122124_6189b09d-a409-44a7-ac8f-3bf2f1621dfd.mp4",
+    "bytes": 17018730,
+    "created": "2026-06-28T12:23:24+00:00"
+  },
+  {
+    "label": "Clip 9",
+    "asset": "assets/mode-earn/extra-cushion-on-a-budget/ai-videos/Clip 9.mp4",
+    "model": "kling3_0",
+    "prompt": "Begin on the exact medium waist-up shot of the same 52-year-old Caucasian woman from the reference in her warm kitchen, looking directly into the lens, matching the reference pose precisely, holding the Black Samsung Galaxy S22 Ultra in one hand. The kitchen and warm morning light remain completely unchanged. The camera is completely static with no movement. She speaks directly to the camera in a warm, pleased neighbourly tone with a light natural rasp, delivering as a satisfied STATEMENT with a settled, declarative, falling intonation, NOT a question: 'Those points turn into gift cards for Amazon, Best Buy, or PayPal.' As she speaks she gives a small, pleased nod. Her expression stays warm and satisfied. Lighting, wardrobe, and background stay completely consistent, a seamless single take.",
+    "media": {
+      "start_image": "assets/mode-earn/extra-cushion-on-a-budget/ai-images/img-9.png"
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "duration": "5",
+      "mode": "pro",
+      "sound": "on"
+    },
+    "job_id": "7319c106-c0f0-413b-a110-fc7e585a5918",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260628_122122_7319c106-c0f0-413b-a110-fc7e585a5918.mp4",
+    "bytes": 12629478,
+    "created": "2026-06-28T12:24:28+00:00"
+  },
+  {
+    "label": "hookB",
+    "asset": "assets/mode-earn/extra-cushion-on-a-budget/ai-videos/hookB.mp4",
+    "model": "kling3_0",
+    "prompt": "Begin on the exact medium waist-up shot of the same 52-year-old Caucasian woman from the reference at her bright dining nook, looking directly into the lens, matching the reference pose precisely, holding the Black Samsung Galaxy S22 Ultra in one hand, leaning in slightly. The nook and warm daylight remain completely unchanged. The camera introduces a slight, natural handheld drift throughout. She speaks directly to the camera in a warm, confiding neighbourly tone with a light natural rasp and easy conversational pacing, delivering as a candid STATEMENT with a settled, declarative, falling intonation, NOT a question: 'Everything's become more expensive lately. So here's the little trick that's been giving my budget some breathing room.' As she speaks she leans in a touch with a warm, confiding 'let me tell you' gesture. Her expression stays warm and confiding. Lighting, wardrobe, and background stay completely consistent, a seamless single take.",
+    "media": {
+      "start_image": "assets/mode-earn/extra-cushion-on-a-budget/ai-images/img-hookB.png"
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "duration": "8",
+      "mode": "pro",
+      "sound": "on"
+    },
+    "job_id": "2ce29783-972b-44e0-be91-cef8dee6da7c",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260628_122141_2ce29783-972b-44e0-be91-cef8dee6da7c.mp4",
+    "bytes": 23434312,
+    "created": "2026-06-28T12:25:41+00:00"
+  },
+  {
+    "label": "Clip 7",
+    "asset": "assets/mode-earn/extra-cushion-on-a-budget/ai-videos/Clip 7.mp4",
+    "model": "kling3_0",
+    "prompt": "Begin on the exact medium waist-up shot of the same 52-year-old Caucasian woman from the reference at her bright dining nook, looking directly into the lens, matching the reference pose precisely with the Black Samsung Galaxy S22 Ultra in one hand and the other hand making a relaxed open-palm gesture. The nook and warm daylight remain completely unchanged. The camera is completely static with no movement. She speaks directly to the camera in a warm, easygoing neighbourly tone with a light natural rasp, delivering as a reassuring STATEMENT with a settled, declarative, falling intonation, NOT a question: 'It's simple. You open it and pick how you want to earn.' As she speaks she gives an easy open-palm gesture. Her expression stays warm and easygoing. Lighting, wardrobe, and background stay completely consistent, a seamless single take.",
+    "media": {
+      "start_image": "assets/mode-earn/extra-cushion-on-a-budget/ai-images/img-7.png"
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "duration": "5",
+      "mode": "pro",
+      "sound": "on"
+    },
+    "job_id": "ea58c5c2-995d-4001-bf63-b62b76addff6",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260628_122116_ea58c5c2-995d-4001-bf63-b62b76addff6.mp4",
+    "bytes": 12633567,
+    "created": "2026-06-28T12:25:46+00:00"
+  },
+  {
+    "label": "Clip 8",
+    "asset": "assets/mode-earn/extra-cushion-on-a-budget/ai-videos/Clip 8.mp4",
+    "model": "kling3_0",
+    "prompt": "Begin on the exact medium waist-up shot of the same 52-year-old Caucasian woman from the reference sitting on her living-room sofa, looking directly into the lens, matching the reference pose precisely, holding the Black Samsung Galaxy S22 Ultra in one hand with her free hand mid-gesture. The living room and warm daylight remain completely unchanged. The camera is completely static with no movement. She speaks directly to the camera in a warm, lively, animated neighbourly tone with a light natural rasp and easy conversational pacing, bright and enthusiastic, ending firmly and declaratively: 'My favorite is reading the news, but you can also listen to music or even play a video game, it even rewards you for charging your phone!' As she speaks she counts the options lightly on her fingers with animated, lively gestures. Her expression stays bright, warm and enthusiastic. Lighting, wardrobe, and background stay completely consistent, a seamless single take.",
+    "media": {
+      "start_image": "assets/mode-earn/extra-cushion-on-a-budget/ai-images/img-8.png"
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "duration": "11",
+      "mode": "pro",
+      "sound": "on"
+    },
+    "job_id": "e2245974-46d5-4699-8d26-cfdc0317bcb3",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260628_122121_e2245974-46d5-4699-8d26-cfdc0317bcb3.mp4",
+    "bytes": 30042238,
+    "created": "2026-06-28T12:26:09+00:00"
+  },
+  {
+    "label": "cta2",
+    "asset": "assets/mode-earn/extra-cushion-on-a-budget/ai-videos/cta2.mp4",
+    "model": "kling3_0",
+    "prompt": "Begin on the exact medium waist-up shot of the same 52-year-old Caucasian woman from the reference in her warm kitchen, looking directly into the lens, matching the reference pose precisely, holding the Black Samsung Galaxy S22 Ultra in one hand. The kitchen and warm morning light remain completely unchanged. The camera is completely static with no movement. She speaks directly to the camera in a warm, reassuring neighbourly tone with a light natural rasp and easy conversational pacing, delivering as a gently encouraging STATEMENT with a settled, declarative, falling intonation, NOT a question: 'Give your budget a little breathing room. Search Mode Earn App on the Play Store, it's free to download.' As she speaks she gives a warm, reassuring nod and a small inviting gesture. Her expression stays warm and reassuring. Lighting, wardrobe, and background stay completely consistent, a seamless single take.",
+    "media": {
+      "start_image": "assets/mode-earn/extra-cushion-on-a-budget/ai-images/img-cta2.png"
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "duration": "9",
+      "mode": "pro",
+      "sound": "on"
+    },
+    "job_id": "fdf88b6d-d25d-41a4-86b2-f35885e8e7c5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260628_122337_fdf88b6d-d25d-41a4-86b2-f35885e8e7c5.mp4",
+    "bytes": 22770002,
+    "created": "2026-06-28T12:27:03+00:00"
+  },
+  {
+    "label": "hookC",
+    "asset": "assets/mode-earn/extra-cushion-on-a-budget/ai-videos/hookC.mp4",
+    "model": "kling3_0",
+    "prompt": "Begin on the exact medium close-up (chest-up) shot of the same 52-year-old Caucasian woman from the reference on her living-room sofa, looking directly into the lens, matching the reference pose precisely, holding the Black Samsung Galaxy S22 Ultra in one hand, leaning toward the camera. The living room and warm daylight remain completely unchanged. The camera introduces a slight, natural handheld drift throughout. She speaks directly to the camera in a warm, confidential neighbourly tone with a light natural rasp and easy conversational pacing, delivering as a gentle, reassuring STATEMENT with a settled, declarative, falling intonation, NOT a question: 'If money's tight right now, come closer, this is how my phone helps without me spending a thing.' As she speaks she leans in warmly as if sharing a secret between friends. Her expression stays warm and confidential. Lighting, wardrobe, and background stay completely consistent, a seamless single take.",
+    "media": {
+      "start_image": "assets/mode-earn/extra-cushion-on-a-budget/ai-images/img-hookC.png"
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "duration": "8",
+      "mode": "pro",
+      "sound": "on"
+    },
+    "job_id": "17c8a17d-8612-46ed-afb1-7436e975ac43",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260628_122438_17c8a17d-8612-46ed-afb1-7436e975ac43.mp4",
+    "bytes": 25029193,
+    "created": "2026-06-28T12:27:54+00:00"
+  },
+  {
+    "label": "cta3",
+    "asset": "assets/mode-earn/extra-cushion-on-a-budget/ai-videos/cta3.mp4",
+    "model": "kling3_0",
+    "prompt": "Begin on the exact medium waist-up shot of the same 52-year-old Caucasian woman from the reference on her front porch, looking directly into the lens, matching the reference pose precisely, holding the Black Samsung Galaxy S22 Ultra in one hand. The porch and bright warm daylight remain completely unchanged. The camera is completely static with no movement. She speaks directly to the camera in a warm, upbeat, motivating neighbourly tone with a light natural rasp and easy conversational pacing, bright and friendly: 'You're on your phone anyway! Why not make it count? Get Mode Earn App on Google Play, it's totally free.' As she speaks she gives an upbeat, encouraging gesture and a bright smile. Her expression stays upbeat and motivating. Lighting, wardrobe, and background stay completely consistent, a seamless single take.",
+    "media": {
+      "start_image": "assets/mode-earn/extra-cushion-on-a-budget/ai-images/img-cta3.png"
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "duration": "9",
+      "mode": "pro",
+      "sound": "on"
+    },
+    "job_id": "05f3fad6-b1a3-409b-ada0-cc67c5103b48",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260628_122556_05f3fad6-b1a3-409b-ada0-cc67c5103b48.mp4",
+    "bytes": 26405722,
+    "created": "2026-06-28T12:28:50+00:00"
+  },
+  {
+    "label": "cta1",
+    "asset": "assets/mode-earn/extra-cushion-on-a-budget/ai-videos/cta1.mp4",
+    "model": "kling3_0",
+    "prompt": "Begin on the exact medium waist-up shot of the same 52-year-old Caucasian woman from the reference on her front porch, looking directly into the lens, matching the reference pose precisely, holding the Black Samsung Galaxy S22 Ultra in one hand. The porch and warm daylight remain completely unchanged. The camera is completely static with no movement. She speaks directly to the camera in a warm, encouraging neighbourly tone with a light natural rasp and easy conversational pacing, delivering as an encouraging STATEMENT with a settled, declarative, falling intonation, NOT a question: 'If your grocery bill keeps climbing, let your phone help. Download Mode Earn App on Google Play. It's free.' As she speaks she gives a warm, encouraging nod and a small inviting gesture. Her expression stays warm and encouraging. Lighting, wardrobe, and background stay completely consistent, a seamless single take.",
+    "media": {
+      "start_image": "assets/mode-earn/extra-cushion-on-a-budget/ai-images/img-cta1.png"
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "duration": "8",
+      "mode": "pro",
+      "sound": "on"
+    },
+    "job_id": "702d8d72-8f75-439e-b9ab-0edc22df1f36",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260628_122122_702d8d72-8f75-439e-b9ab-0edc22df1f36.mp4",
+    "bytes": 22992224,
+    "created": "2026-06-28T12:30:11+00:00"
+  }
+]

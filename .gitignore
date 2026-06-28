@@ -1,17 +1,58 @@
 # Environment & secrets
 .env
 *.env.local
-# May contain expanded tokens; keep out of version control
-.mcp.json
+credentials.json
+token.json
+*.pem
+*.key
 
 # Claude runtime (do not sync)
 .claude/sessions/
 .claude/shell-snapshots/
+
+# Python / Node (regenerable — do not sync)
+.venv/
+__pycache__/
+node_modules/
+
+# Vendored repos & cloned skill payloads (regenerable from git)
+vendor/
+.claude/skills/video-use/
+.claude/skills/hyperframes*/
+.claude/skills/gsap/
+.claude/skills/css-animations/
+.claude/skills/website-to-hyperframes/
+
+# Working dirs
+.tmp/
+.tmp.driveupload/
+sync.log
+
+# === Assets: SELECTIVE tracking (see workflows/asset_organization.md) ===
+# Heavy per-video media — AI-generated A-roll/B-roll, screen recordings, and rendered
+# edits. Regenerable and/or stored in the Google Shared Drive; excluded to keep the repo
+# small. Each project's manifest.md / scripts/ / sops/ stay TRACKED so the knowledge and
+# structure are versioned even though the media isn't.
+assets/mode-earn/*/ai-images/
+assets/mode-earn/*/ai-videos/
+assets/mode-earn/*/audio/
+assets/mode-earn/*/edit/
+assets/mode-earn/*/screen-recordings/
+
+# Persona library (assets/_shared/personas/) is TRACKED on purpose — it's a reusable
+# identity asset used across all videos, even though it's AI-generated.
+
+# yt-dlp metadata sidecars (noise) anywhere.
+assets/**/*.info.json
+
+# TRACKED ON PURPOSE (do NOT add these): assets/mode-earn/{cta,brand,MEA Screenshots,
+# MEA Reviews,MEA-SCRIPT-WRITING-GUIDES-AND-BRIEF}, assets/sfx, assets/music,
+# assets/_shared/props, assets/fonts, assets/_templates, and all *.md / *.json catalogs.
 
 # OS
 Thumbs.db
 desktop.ini
 .DS_Store
 
-# Outputs (optional — remove if you want outputs synced)
-# outputs/
+# Outputs (632MB of finals — these live in Google Drive; uncomment to version them anyway)
+outputs/

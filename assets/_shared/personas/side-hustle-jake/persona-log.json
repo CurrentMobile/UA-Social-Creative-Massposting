@@ -1,0 +1,36 @@
+[
+  {
+    "label": "base-character",
+    "asset": "assets/_shared/personas/side-hustle-jake/base-character.png",
+    "model": "gpt_image_2",
+    "prompt": "An energetic, friendly, expressive 28-year-old Latino man with a hustler vibe, a freelancer and rideshare driver. Short dark hair, light stubble, lively eyes, a ready easy grin, natural skin texture. Wearing a plain solid-colour casual t-shirt, no logos or graphics or prints. Extreme realism, detailed skin, realistic facial imperfections, natural daylight lighting, front-view close-up portrait looking directly at the camera, passport-style, only the close-up portrait.",
+    "media": {},
+    "params": {
+      "aspect_ratio": "2:3",
+      "resolution": "2k"
+    },
+    "job_id": "548edb41-9b5f-4ccb-ad8c-8cf4214c3ab7",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260621_015151_548edb41-9b5f-4ccb-ad8c-8cf4214c3ab7.png",
+    "bytes": 5462347,
+    "created": "2026-06-21T01:53:45+00:00"
+  },
+  {
+    "label": "base-character-v2",
+    "asset": "assets/_shared/personas/side-hustle-jake/base-character-v2.png",
+    "model": "gpt_image_2",
+    "prompt": "Re-render this exact same person as a hyper-realistic photograph. Keep the identical identity, face shape, hair, expression, wardrobe, framing and lighting, but give the skin super-detailed, true-to-life texture: visible pores, fine lines and subtle wrinkles, natural blemishes and freckles, slight redness and uneven skin tone, faint under-eye shadows, peach fuzz and a natural skin sheen. Do NOT airbrush, smooth, or beautify; the face must NOT look too perfect or plastic. Candid, unretouched DSLR close-up realism, natural daylight, passport-style portrait.",
+    "media": {
+      "image": [
+        "assets/_shared/personas/side-hustle-jake/base-character.png"
+      ]
+    },
+    "params": {
+      "aspect_ratio": "2:3",
+      "resolution": "2k"
+    },
+    "job_id": "066b726d-18f5-4d4b-9cda-181555bc8f48",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260621_020151_066b726d-18f5-4d4b-9cda-181555bc8f48.png",
+    "bytes": 5587583,
+    "created": "2026-06-21T02:04:10+00:00"
+  }
+]

@@ -1,0 +1,1487 @@
+[
+  {
+    "label": "environment",
+    "asset": "assets/mode-earn/viral-app-guinea-pig/ai-images/environment.png",
+    "model": "gpt_image_2",
+    "prompt": "An aesthetic Gen Z teenager's bedroom, empty with no people. Soft warm and pink LED strip lighting glowing along the wall edges, a few small potted plants, delicate fairy string lights, a cozy neutral-toned bed with a tufted headboard and soft pillows, a couple of minimalist framed posters, light wood and white furniture, clean tidy uncluttered aesthetic. Bright soft natural daylight from a window mixing with the warm LED glow. Cozy, trendy, TikTok-native vibe. Single normal room, one bed only, no duplicate furniture. Suitable as the single consistent setting for the video, photorealistic, high detail.",
+    "media": {},
+    "params": {
+      "aspect_ratio": "9:16",
+      "resolution": "2k"
+    },
+    "job_id": "4e2f6414-3778-487a-8254-fa2cdc7f8673",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260621_235126_4e2f6414-3778-487a-8254-fa2cdc7f8673.png",
+    "bytes": 7788274,
+    "created": "2026-06-21T23:53:15+00:00"
+  },
+  {
+    "label": "grid-1-hook-problem",
+    "asset": "assets/mode-earn/viral-app-guinea-pig/ai-images/grid-1.png",
+    "model": "gpt_image_2",
+    "prompt": "A 3x3 grid of the exact same trendy 19-year-old East Asian woman from the first reference image — identical identity, face, long dark hair, and wardrobe (a plain solid-colour casual top, no logos). She is in the aesthetic pink-lit bedroom from the second reference, sitting on the bed in a different relaxed position and a different camera angle in each of the nine shots, but looking directly at the camera in all nine shots. Lively, playful, sassy Gen Z TikTok energy — expressive raised eyebrows, smirks, animated direct-to-camera expressions, big relatable reactions. Identical wardrobe, hair, and warm lighting across all nine shots. Single normal bedroom, one bed only, no duplicate furniture, anatomically correct hands. Photorealistic, high detail.",
+    "media": {
+      "image": [
+        "assets/_shared/personas/gen-z-ashley/base-character-v2.png",
+        "assets/mode-earn/viral-app-guinea-pig/ai-images/environment.png"
+      ]
+    },
+    "params": {
+      "aspect_ratio": "1:1",
+      "resolution": "2k"
+    },
+    "job_id": "2c331b34-0531-49f0-9138-e3c9213b8084",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260621_235430_2c331b34-0531-49f0-9138-e3c9213b8084.png",
+    "bytes": 10434116,
+    "created": "2026-06-21T23:57:48+00:00"
+  },
+  {
+    "label": "grid-2-solution",
+    "asset": "assets/mode-earn/viral-app-guinea-pig/ai-images/grid-2.png",
+    "model": "gpt_image_2",
+    "prompt": "A 3x3 grid of the exact same trendy 19-year-old East Asian woman from the first reference image — identical identity, face, long dark hair, and wardrobe (a plain solid-colour casual top, no logos). She is in the aesthetic pink-lit bedroom from the second reference, sitting on the bed in a different relaxed position and a different camera angle in each of the nine shots, but looking directly at the camera in all nine shots. Expressions range across skeptical raised-eyebrow, intrigued and curious, then pleasantly surprised and convinced — a 'wait, this is actually legit' vibe, hand near chin, a small knowing nod. Identical wardrobe, hair, and warm lighting across all nine shots. Single normal bedroom, one bed only, no duplicate furniture, anatomically correct hands. Photorealistic, high detail.",
+    "media": {
+      "image": [
+        "assets/_shared/personas/gen-z-ashley/base-character-v2.png",
+        "assets/mode-earn/viral-app-guinea-pig/ai-images/environment.png"
+      ]
+    },
+    "params": {
+      "aspect_ratio": "1:1",
+      "resolution": "2k"
+    },
+    "job_id": "50a58acf-f9a3-41d9-b08f-5b21527f4dd3",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260621_235618_50a58acf-f9a3-41d9-b08f-5b21527f4dd3.png",
+    "bytes": 10012243,
+    "created": "2026-06-21T23:59:53+00:00"
+  },
+  {
+    "label": "grid-3-howitworks",
+    "asset": "assets/mode-earn/viral-app-guinea-pig/ai-images/grid-3.png",
+    "model": "gpt_image_2",
+    "prompt": "A 3x3 grid of the exact same trendy 19-year-old East Asian woman from the first reference image — identical identity, face, long dark hair, and wardrobe (a plain solid-colour casual top, no logos). She is in the aesthetic pink-lit bedroom from the second reference, sitting on the bed in a different relaxed position and a different camera angle in each of the nine shots, but looking directly at the camera in all nine shots. Friendly explainer energy — casually gesturing with her hands, counting points on her fingers, an easy breezy 'it's so simple' shrug, relatable and warm direct-to-camera. Identical wardrobe, hair, and warm lighting across all nine shots. Single normal bedroom, one bed only, no duplicate furniture, anatomically correct hands. Photorealistic, high detail.",
+    "media": {
+      "image": [
+        "assets/_shared/personas/gen-z-ashley/base-character-v2.png",
+        "assets/mode-earn/viral-app-guinea-pig/ai-images/environment.png"
+      ]
+    },
+    "params": {
+      "aspect_ratio": "1:1",
+      "resolution": "2k"
+    },
+    "job_id": "efc3dce2-15cb-4cf5-8a18-45f3cc66a09b",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260621_235832_efc3dce2-15cb-4cf5-8a18-45f3cc66a09b.png",
+    "bytes": 10282681,
+    "created": "2026-06-22T00:02:43+00:00"
+  },
+  {
+    "label": "grid-4-result-cta",
+    "asset": "assets/mode-earn/viral-app-guinea-pig/ai-images/grid-4.png",
+    "model": "gpt_image_2",
+    "prompt": "A 3x3 grid of the exact same trendy 19-year-old East Asian woman from the first reference image — identical identity, face, long dark hair, and wardrobe (a plain solid-colour casual top, no logos). She is in the aesthetic pink-lit bedroom from the second reference, sitting on the bed in a different relaxed position and a different camera angle in each of the nine shots, but looking directly at the camera in all nine shots. Excited, delighted payoff energy — wide happy eyes, a big genuine grin, hands up in a 'no catch, I swear' open-palm gesture, and a warm direct-to-camera point as if recommending it to a friend. Identical wardrobe, hair, and warm lighting across all nine shots. Single normal bedroom, one bed only, no duplicate furniture, anatomically correct hands. Photorealistic, high detail.",
+    "media": {
+      "image": [
+        "assets/_shared/personas/gen-z-ashley/base-character-v2.png",
+        "assets/mode-earn/viral-app-guinea-pig/ai-images/environment.png"
+      ]
+    },
+    "params": {
+      "aspect_ratio": "1:1",
+      "resolution": "2k"
+    },
+    "job_id": "eb999852-749a-4a35-b8bc-77837695714d",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260622_000025_eb999852-749a-4a35-b8bc-77837695714d.png",
+    "bytes": 9561210,
+    "created": "2026-06-22T00:03:55+00:00"
+  },
+  {
+    "label": "img-1",
+    "asset": "assets/mode-earn/viral-app-guinea-pig/ai-images/img-1.png",
+    "model": "gpt_image_2",
+    "prompt": "Extract ONLY the single photo in row 1, column 1 (the top-left tile) of this 3x3 grid and recompose it as one clean full-frame vertical 9:16 portrait of the same 19-year-old East Asian woman — identical identity, face, long dark hair, plain black casual top, and the same pink-lit bedroom background. Medium close-up framing of her head and upper body, looking directly at the camera, leaning slightly toward the camera with a warm, playful, engaging expression. Remove all grid lines and the other eight tiles entirely. Photorealistic, sharp, natural skin detail, anatomically correct hands, single bedroom with no duplicate furniture.",
+    "media": {
+      "image": [
+        "assets/mode-earn/viral-app-guinea-pig/ai-images/grid-1.png"
+      ]
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "resolution": "2k"
+    },
+    "job_id": "ed34de5f-27da-4835-816d-5006fd11861d",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260622_000448_ed34de5f-27da-4835-816d-5006fd11861d.png",
+    "bytes": 8559267,
+    "created": "2026-06-22T00:07:15+00:00"
+  },
+  {
+    "label": "img-2",
+    "asset": "assets/mode-earn/viral-app-guinea-pig/ai-images/img-2.png",
+    "model": "gpt_image_2",
+    "prompt": "Extract ONLY the single photo in row 1, column 2 (the top-middle tile) of this 3x3 grid and recompose it as one clean full-frame vertical 9:16 portrait of the same 19-year-old East Asian woman — identical identity, face, long dark hair, plain black casual top, and the same pink-lit bedroom background. Medium close-up framing of her head and upper body, looking directly at the camera, resting her chin on her hand with an unimpressed, mock-exasperated, slightly bored expression. Remove all grid lines and the other eight tiles entirely. Photorealistic, sharp, natural skin detail, anatomically correct hands, single bedroom with no duplicate furniture.",
+    "media": {
+      "image": [
+        "assets/mode-earn/viral-app-guinea-pig/ai-images/grid-1.png"
+      ]
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "resolution": "2k"
+    },
+    "job_id": "252c2d32-3130-487a-99c4-cb93941bd99e",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260622_000642_252c2d32-3130-487a-99c4-cb93941bd99e.png",
+    "bytes": 8530474,
+    "created": "2026-06-22T00:08:46+00:00"
+  },
+  {
+    "label": "img-3",
+    "asset": "assets/mode-earn/viral-app-guinea-pig/ai-images/img-3.png",
+    "model": "gpt_image_2",
+    "prompt": "Extract ONLY the single photo in row 2, column 1 (the middle-left tile) of this 3x3 grid and recompose it as one clean full-frame vertical 9:16 portrait of the same 19-year-old East Asian woman — identical identity, face, long dark hair, plain black casual top, and the same pink-lit bedroom background. Medium close-up framing of her head and upper body, looking directly at the camera, mid-sentence talking with a sassy, expressive, animated open-mouth expression. Remove all grid lines and the other eight tiles entirely. Photorealistic, sharp, natural skin detail, anatomically correct hands, single bedroom with no duplicate furniture.",
+    "media": {
+      "image": [
+        "assets/mode-earn/viral-app-guinea-pig/ai-images/grid-1.png"
+      ]
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "resolution": "2k"
+    },
+    "job_id": "47b117ab-f258-414e-a9ac-cb2e5b021d7a",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260622_000847_47b117ab-f258-414e-a9ac-cb2e5b021d7a.png",
+    "bytes": 8615899,
+    "created": "2026-06-22T00:10:50+00:00"
+  },
+  {
+    "label": "img-4",
+    "asset": "assets/mode-earn/viral-app-guinea-pig/ai-images/img-4.png",
+    "model": "gpt_image_2",
+    "prompt": "Extract ONLY the single photo in row 2, column 2 (the center tile) of this 3x3 grid and recompose it as one clean full-frame vertical 9:16 portrait of the same 19-year-old East Asian woman — identical identity, face, long dark hair, plain black casual top, and the same pink-lit bedroom background. Medium close-up framing of her head and upper body, looking directly at the camera with a pleasantly surprised, intrigued expression as if she just discovered something good. Remove all grid lines and the other eight tiles entirely. Photorealistic, sharp, natural skin detail, anatomically correct hands, single bedroom with no duplicate furniture.",
+    "media": {
+      "image": [
+        "assets/mode-earn/viral-app-guinea-pig/ai-images/grid-2.png"
+      ]
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "resolution": "2k"
+    },
+    "job_id": "802639bd-dd4e-41e3-b80b-2f3f58b47ce3",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260622_001044_802639bd-dd4e-41e3-b80b-2f3f58b47ce3.png",
+    "bytes": 8928002,
+    "created": "2026-06-22T00:12:46+00:00"
+  },
+  {
+    "label": "img-5",
+    "asset": "assets/mode-earn/viral-app-guinea-pig/ai-images/img-5.png",
+    "model": "gpt_image_2",
+    "prompt": "Extract ONLY the single photo in row 1, column 1 (the top-left tile) of this 3x3 grid and recompose it as one clean full-frame vertical 9:16 portrait of the same 19-year-old East Asian woman — identical identity, face, long dark hair, plain black casual top, same pink-lit bedroom background. Medium close-up framing of her head and upper body, looking directly at the camera with a skeptical, raised-eyebrow, slightly suspicious expression, hand near her chin. Remove all grid lines and the other eight tiles entirely. Photorealistic, sharp, natural skin detail, anatomically correct hands, single bedroom with no duplicate furniture.",
+    "media": {
+      "image": [
+        "assets/mode-earn/viral-app-guinea-pig/ai-images/grid-2.png"
+      ]
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "resolution": "2k"
+    },
+    "job_id": "f3f89fa2-8992-4c6d-bc47-6cc82d1b45d7",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260622_001339_f3f89fa2-8992-4c6d-bc47-6cc82d1b45d7.png",
+    "bytes": 8293607,
+    "created": "2026-06-22T00:15:34+00:00"
+  },
+  {
+    "label": "img-6",
+    "asset": "assets/mode-earn/viral-app-guinea-pig/ai-images/img-6.png",
+    "model": "gpt_image_2",
+    "prompt": "Extract ONLY the single photo in row 2, column 1 (the middle-left tile) of this 3x3 grid and recompose it as one clean full-frame vertical 9:16 portrait of the same 19-year-old East Asian woman — identical identity, face, long dark hair, plain black casual top, same pink-lit bedroom background. Medium close-up framing of her head and upper body, looking directly at the camera with a friendly explainer expression, one hand gesturing as if listing options on her fingers. Remove all grid lines and the other eight tiles entirely. Photorealistic, sharp, natural skin detail, anatomically correct hands, single bedroom with no duplicate furniture.",
+    "media": {
+      "image": [
+        "assets/mode-earn/viral-app-guinea-pig/ai-images/grid-3.png"
+      ]
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "resolution": "2k"
+    },
+    "job_id": "d2a8b599-a6d0-4b9e-8c89-0dcede6ad9d7",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260622_001537_d2a8b599-a6d0-4b9e-8c89-0dcede6ad9d7.png",
+    "bytes": 8511402,
+    "created": "2026-06-22T00:17:43+00:00"
+  },
+  {
+    "label": "img-7",
+    "asset": "assets/mode-earn/viral-app-guinea-pig/ai-images/img-7.png",
+    "model": "gpt_image_2",
+    "prompt": "Extract ONLY the single photo in row 3, column 3 (the bottom-right tile) of this 3x3 grid and recompose it as one clean full-frame vertical 9:16 portrait of the same 19-year-old East Asian woman — identical identity, face, long dark hair, plain black casual top, same pink-lit bedroom background. Medium close-up framing of her head and upper body, looking directly at the camera with an easy, breezy, casual one-shoulder shrug and a relatable little smile. Remove all grid lines and the other eight tiles entirely. Photorealistic, sharp, natural skin detail, anatomically correct hands, single bedroom with no duplicate furniture.",
+    "media": {
+      "image": [
+        "assets/mode-earn/viral-app-guinea-pig/ai-images/grid-3.png"
+      ]
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "resolution": "2k"
+    },
+    "job_id": "adcb141d-c04c-4086-ad97-eede2a646af2",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260622_001736_adcb141d-c04c-4086-ad97-eede2a646af2.png",
+    "bytes": 8660444,
+    "created": "2026-06-22T00:19:37+00:00"
+  },
+  {
+    "label": "img-8",
+    "asset": "assets/mode-earn/viral-app-guinea-pig/ai-images/img-8.png",
+    "model": "gpt_image_2",
+    "prompt": "Extract ONLY the single photo in row 2, column 2 (the center tile) of this 3x3 grid and recompose it as one clean full-frame vertical 9:16 portrait of the same 19-year-old East Asian woman — identical identity, face, long dark hair, plain black casual top, same pink-lit bedroom background. Medium close-up framing of her head and upper body, looking directly at the camera, both hands raised in an excited, delighted gesture with a big genuine grin. Remove all grid lines and the other eight tiles entirely. Photorealistic, sharp, natural skin detail, anatomically correct hands, single bedroom with no duplicate furniture.",
+    "media": {
+      "image": [
+        "assets/mode-earn/viral-app-guinea-pig/ai-images/grid-4.png"
+      ]
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "resolution": "2k"
+    },
+    "job_id": "d615e399-79f8-4b5f-b743-e7076da4586b",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260622_001938_d615e399-79f8-4b5f-b743-e7076da4586b.png",
+    "bytes": 8332524,
+    "created": "2026-06-22T00:21:37+00:00"
+  },
+  {
+    "label": "img-9",
+    "asset": "assets/mode-earn/viral-app-guinea-pig/ai-images/img-9.png",
+    "model": "gpt_image_2",
+    "prompt": "Extract ONLY the single photo in row 1, column 1 (the top-left tile) of this 3x3 grid and recompose it as one clean full-frame vertical 9:16 portrait of the same 19-year-old East Asian woman — identical identity, face, long dark hair, plain black casual top, same pink-lit bedroom background. Medium close-up framing of her head and upper body, looking directly at the camera with both palms open and raised in a relaxed 'no catch, I swear' gesture and a warm grin. Remove all grid lines and the other eight tiles entirely. Photorealistic, sharp, natural skin detail, anatomically correct hands, single bedroom with no duplicate furniture.",
+    "media": {
+      "image": [
+        "assets/mode-earn/viral-app-guinea-pig/ai-images/grid-4.png"
+      ]
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "resolution": "2k"
+    },
+    "job_id": "c7f5a66f-faff-4f9f-93c0-8097a2f89677",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260622_002138_c7f5a66f-faff-4f9f-93c0-8097a2f89677.png",
+    "bytes": 8050490,
+    "created": "2026-06-22T00:23:42+00:00"
+  },
+  {
+    "label": "img-10",
+    "asset": "assets/mode-earn/viral-app-guinea-pig/ai-images/img-10.png",
+    "model": "gpt_image_2",
+    "prompt": "Extract ONLY the single photo in row 1, column 2 (the top-middle tile) of this 3x3 grid and recompose it as one clean full-frame vertical 9:16 portrait of the same 19-year-old East Asian woman — identical identity, face, long dark hair, plain black casual top, same pink-lit bedroom background. Medium close-up framing of her head and upper body, looking directly at the camera, pointing directly at the camera with one hand and a confident, encouraging grin as if recommending something to a friend. Remove all grid lines and the other eight tiles entirely. Photorealistic, sharp, natural skin detail, anatomically correct hands, single bedroom with no duplicate furniture.",
+    "media": {
+      "image": [
+        "assets/mode-earn/viral-app-guinea-pig/ai-images/grid-4.png"
+      ]
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "resolution": "2k"
+    },
+    "job_id": "0b00fc7e-31eb-44ff-80c6-4d6e476303d2",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260622_002339_0b00fc7e-31eb-44ff-80c6-4d6e476303d2.png",
+    "bytes": 7701207,
+    "created": "2026-06-22T00:25:39+00:00"
+  },
+  {
+    "label": "img-8-refix",
+    "asset": "assets/mode-earn/viral-app-guinea-pig/ai-images/img-8.png",
+    "model": "gpt_image_2",
+    "prompt": "A clean full-frame vertical 9:16 photograph of the exact same 19-year-old East Asian woman from the first reference image — identical identity, face, long dark hair, and her plain SHORT-SLEEVE black crew-neck t-shirt with bare forearms — sitting on the bed in the pink-lit aesthetic bedroom from the second reference. Medium close-up of her head and upper body, looking directly at the camera, both hands raised in an excited delighted gesture with a big genuine grin. Short sleeves, NOT long sleeves. Photorealistic, sharp, natural skin detail, anatomically correct hands, single bedroom with no duplicate furniture.",
+    "media": {
+      "image": [
+        "assets/_shared/personas/gen-z-ashley/base-character-v2.png",
+        "assets/mode-earn/viral-app-guinea-pig/ai-images/environment.png"
+      ]
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "resolution": "2k"
+    },
+    "job_id": "770b9209-90ff-4c16-ac7b-636b98368b59",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260622_002718_770b9209-90ff-4c16-ac7b-636b98368b59.png",
+    "bytes": 8606531,
+    "created": "2026-06-22T00:29:21+00:00"
+  },
+  {
+    "label": "img-9-refix",
+    "asset": "assets/mode-earn/viral-app-guinea-pig/ai-images/img-9.png",
+    "model": "gpt_image_2",
+    "prompt": "A clean full-frame vertical 9:16 photograph of the exact same 19-year-old East Asian woman from the first reference image — identical identity, face, long dark hair, and her plain SHORT-SLEEVE black crew-neck t-shirt with bare forearms — sitting on the bed in the pink-lit aesthetic bedroom from the second reference. Medium close-up of her head and upper body, looking directly at the camera, both palms open and raised in a relaxed 'no catch, I swear' gesture with a warm grin. Short sleeves, NOT long sleeves. Photorealistic, sharp, natural skin detail, anatomically correct hands, single bedroom with no duplicate furniture.",
+    "media": {
+      "image": [
+        "assets/_shared/personas/gen-z-ashley/base-character-v2.png",
+        "assets/mode-earn/viral-app-guinea-pig/ai-images/environment.png"
+      ]
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "resolution": "2k"
+    },
+    "job_id": "25ca416c-ab7f-487b-8a17-d0951df38a58",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260622_002918_25ca416c-ab7f-487b-8a17-d0951df38a58.png",
+    "bytes": 8086538,
+    "created": "2026-06-22T00:31:15+00:00"
+  },
+  {
+    "label": "img-10-refix",
+    "asset": "assets/mode-earn/viral-app-guinea-pig/ai-images/img-10.png",
+    "model": "gpt_image_2",
+    "prompt": "A clean full-frame vertical 9:16 photograph of the exact same 19-year-old East Asian woman from the first reference image — identical identity, face, long dark hair, and her plain SHORT-SLEEVE black crew-neck t-shirt with bare forearms — sitting on the bed in the pink-lit aesthetic bedroom from the second reference. Medium close-up of her head and upper body, pointing directly at the camera with one hand and a confident, encouraging grin as if recommending something to a friend. Short sleeves, NOT long sleeves. Photorealistic, sharp, natural skin detail, anatomically correct hands, single bedroom with no duplicate furniture.",
+    "media": {
+      "image": [
+        "assets/_shared/personas/gen-z-ashley/base-character-v2.png",
+        "assets/mode-earn/viral-app-guinea-pig/ai-images/environment.png"
+      ]
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "resolution": "2k"
+    },
+    "job_id": "393e8433-2082-457e-912a-8d98ea6a3885",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260622_003118_393e8433-2082-457e-912a-8d98ea6a3885.png",
+    "bytes": 8498516,
+    "created": "2026-06-22T00:33:50+00:00"
+  },
+  {
+    "label": "img-10-refix2",
+    "asset": "assets/mode-earn/viral-app-guinea-pig/ai-images/img-10.png",
+    "model": "gpt_image_2",
+    "prompt": "A clean full-frame vertical 9:16 photograph of the exact same 19-year-old East Asian woman from the references — identical identity and face, long dark hair, wearing the SAME plain short-sleeve black crew-neck t-shirt as in the references. Both of her arms are completely BARE skin from the shoulder down (short sleeves end at the upper arm; bare forearms and wrists; absolutely no long-sleeve fabric on the arms). She sits on the bed in the pink-lit aesthetic bedroom, medium close-up of her head and upper body, looking directly at the camera, pointing at the camera with one bare arm and a confident encouraging grin. Photorealistic, sharp, natural skin detail, anatomically correct hands.",
+    "media": {
+      "image": [
+        "assets/_shared/personas/gen-z-ashley/base-character-v2.png",
+        "assets/mode-earn/viral-app-guinea-pig/ai-images/img-8.png"
+      ]
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "resolution": "2k"
+    },
+    "job_id": "6670e2e7-5304-435c-ad4a-f9a896858efe",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260622_003433_6670e2e7-5304-435c-ad4a-f9a896858efe.png",
+    "bytes": 8869443,
+    "created": "2026-06-22T00:36:36+00:00"
+  },
+  {
+    "label": "phone-reveal-first",
+    "asset": "assets/mode-earn/viral-app-guinea-pig/ai-images/phone-reveal-first.png",
+    "model": "gpt_image_2",
+    "prompt": "The same 19-year-old East Asian woman from the first reference, identical identity and face, long dark hair, wearing her plain short-sleeve black crew-neck t-shirt, sitting on the bed in the pink-lit aesthetic bedroom from the second reference. She is holding up the same Black Samsung Galaxy S22 Ultra Android phone from the third reference in one hand with the BACK of the phone toward the camera (screen not visible), relaxed natural grip, with a warm excited 'check this out' smile, looking at the camera. Medium shot, she and the phone are sharp and in focus. Photorealistic, natural daylight mixed with warm LED glow, anatomically correct hands. The phone is a modern Black Samsung Galaxy S22 Ultra, never an iPhone.",
+    "media": {
+      "image": [
+        "assets/_shared/personas/gen-z-ashley/base-character-v2.png",
+        "assets/mode-earn/viral-app-guinea-pig/ai-images/environment.png",
+        "assets/_shared/props/samsung-galaxy-s22-ultra.png"
+      ]
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "resolution": "2k"
+    },
+    "job_id": "2bcac6d7-a32d-43d2-9b2f-b61e43fcc413",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260622_003802_2bcac6d7-a32d-43d2-9b2f-b61e43fcc413.png",
+    "bytes": 8290699,
+    "created": "2026-06-22T00:40:08+00:00"
+  },
+  {
+    "label": "lifestyle-first",
+    "asset": "assets/mode-earn/viral-app-guinea-pig/ai-images/lifestyle-first.png",
+    "model": "gpt_image_2",
+    "prompt": "The same 19-year-old East Asian woman from the first reference, identical identity and face, long dark hair, wearing her plain short-sleeve black crew-neck t-shirt, relaxing and reclining back against the pillows on the bed in the pink-lit aesthetic bedroom from the second reference, wearing casual white over-ear headphones, casually holding and scrolling the same Black Samsung Galaxy S22 Ultra Android phone from the third reference held vertically in one hand, looking down at the phone screen with a chill, content, relaxed expression (NOT looking at the camera). Cozy candid everyday lifestyle shot, medium shot. Photorealistic, natural daylight mixed with warm LED glow, anatomically correct hands. The phone is a modern Black Samsung Galaxy S22 Ultra, never an iPhone.",
+    "media": {
+      "image": [
+        "assets/_shared/personas/gen-z-ashley/base-character-v2.png",
+        "assets/mode-earn/viral-app-guinea-pig/ai-images/environment.png",
+        "assets/_shared/props/samsung-galaxy-s22-ultra.png"
+      ]
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "resolution": "2k"
+    },
+    "job_id": "dd009626-20de-4339-8baa-95736f648858",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260622_004001_dd009626-20de-4339-8baa-95736f648858.png",
+    "bytes": 8373029,
+    "created": "2026-06-22T00:42:16+00:00"
+  },
+  {
+    "label": "phone-reveal-last-raw",
+    "asset": "assets/mode-earn/viral-app-guinea-pig/ai-images/phone-reveal-last-raw.png",
+    "model": "gpt_image_2",
+    "prompt": "Edit this photo: the same woman now rotates the Black Samsung Galaxy S22 Ultra forward so its SCREEN faces the camera directly, holding it closer to the lens so the phone screen fills about 70% of the frame and is the sharp, clear focus, while her face and the pink bedroom blur into soft warm bokeh behind her. The phone screen is switched on but blank — a plain bright clean screen with nothing on it yet. Keep her identity, long dark hair, short-sleeve black t-shirt, and the pink bedroom completely consistent. Photorealistic, shallow depth of field, the phone is a modern Black Samsung Galaxy S22 Ultra, never an iPhone.",
+    "media": {
+      "image": [
+        "assets/mode-earn/viral-app-guinea-pig/ai-images/phone-reveal-first.png",
+        "assets/_shared/props/samsung-galaxy-s22-ultra.png"
+      ]
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "resolution": "2k"
+    },
+    "job_id": "2acf87bf-ca07-4dd9-a72f-a71c958278f5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260622_004234_2acf87bf-ca07-4dd9-a72f-a71c958278f5.png",
+    "bytes": 6989357,
+    "created": "2026-06-22T00:44:24+00:00"
+  },
+  {
+    "label": "phone-reveal-last",
+    "asset": "assets/mode-earn/viral-app-guinea-pig/ai-images/phone-reveal-last.png",
+    "model": "gpt_image_2",
+    "prompt": "Edit this photo: the blank white phone screen now displays this exact mobile app user interface from the second reference image, fitted neatly to fill the entire phone screen edge to edge, sharp, bright, vivid and clear, with correct perspective and slight angle matching the phone in her hand. Do not crop or distort the UI. Keep everything else completely identical — her hand and grip, the Black Samsung Galaxy S22 Ultra phone, her identity and short-sleeve black t-shirt, and the soft warm bokeh bedroom background. Photorealistic, the screen is the bright sharp focus.",
+    "media": {
+      "image": [
+        "assets/mode-earn/viral-app-guinea-pig/ai-images/phone-reveal-last-raw.png",
+        "assets/mode-earn/MEA Screenshots/Home.png"
+      ]
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "resolution": "2k"
+    },
+    "job_id": "c2e0d938-96ac-4a73-82b9-95ed0e3576db",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260622_004513_c2e0d938-96ac-4a73-82b9-95ed0e3576db.png",
+    "bytes": 7660508,
+    "created": "2026-06-22T00:47:19+00:00"
+  },
+  {
+    "label": "env-living-room",
+    "asset": "assets/mode-earn/viral-app-guinea-pig/ai-images/env-living-room.png",
+    "model": "gpt_image_2",
+    "prompt": "An aesthetic cozy Gen Z apartment living room, empty with no people. A comfortable light cream fabric sofa with soft blush throw pillows and a knit blanket, a small round wooden coffee table, a soft area rug on light wood floor, a few potted plants, warm fairy string lights, minimalist framed art on the wall, soft warm natural daylight from a window. Warm cozy aesthetic, cohesive with a pink-toned Gen Z home. Clean, tidy, uncluttered. Establishing wide vertical shot showing the floor, rug and the whole sofa clearly for natural proportions and grounding. Photorealistic, high detail.",
+    "media": {},
+    "params": {
+      "aspect_ratio": "9:16",
+      "resolution": "2k"
+    },
+    "job_id": "ce972346-2993-4139-bff0-a79868107cad",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260622_073003_ce972346-2993-4139-bff0-a79868107cad.png",
+    "bytes": 9718651,
+    "created": "2026-06-22T07:32:09+00:00"
+  },
+  {
+    "label": "env-kitchen",
+    "asset": "assets/mode-earn/viral-app-guinea-pig/ai-images/env-kitchen.png",
+    "model": "gpt_image_2",
+    "prompt": "An aesthetic bright modern small Gen Z apartment kitchen, empty with no people. Clean white and light-wood cabinets, a kitchen island counter with two stools, a small potted herb, a fruit bowl and a coffee maker, warm natural daylight from a window, a couple of plants. Warm cozy aesthetic cohesive with a pink-toned Gen Z home. Clean, tidy, uncluttered. Establishing wide vertical shot showing the floor and the full counter/island clearly for natural proportions and grounding. Photorealistic, high detail.",
+    "media": {},
+    "params": {
+      "aspect_ratio": "9:16",
+      "resolution": "2k"
+    },
+    "job_id": "1b813d83-857b-4c48-b848-60c2cf390e4d",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260622_073200_1b813d83-857b-4c48-b848-60c2cf390e4d.png",
+    "bytes": 7992198,
+    "created": "2026-06-22T07:34:11+00:00"
+  },
+  {
+    "label": "env-window",
+    "asset": "assets/mode-earn/viral-app-guinea-pig/ai-images/env-window.png",
+    "model": "gpt_image_2",
+    "prompt": "An aesthetic bright airy nook beside a large bright window in a cozy Gen Z apartment, empty with no people. Sheer white curtains with soft daylight streaming in, several potted plants on the floor and windowsill, light wood floor, a cozy cushioned bench seat under the window, warm minimalist decor with a small framed print. Warm cozy aesthetic cohesive with a pink-toned Gen Z home. Clean, uncluttered. Establishing wide vertical shot showing the floor and full window clearly for natural proportions and grounding. Photorealistic, high detail.",
+    "media": {},
+    "params": {
+      "aspect_ratio": "9:16",
+      "resolution": "2k"
+    },
+    "job_id": "92864ece-7c04-4e17-9b00-1dfc7a201ff2",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260622_073402_92864ece-7c04-4e17-9b00-1dfc7a201ff2.png",
+    "bytes": 8339420,
+    "created": "2026-06-22T07:36:06+00:00"
+  },
+  {
+    "label": "img-1-v2",
+    "asset": "assets/mode-earn/viral-app-guinea-pig/ai-images/img-1.png",
+    "model": "gpt_image_2",
+    "prompt": "A trendy 19-year-old East Asian woman, identical identity, face and long dark hair to the first reference image, wearing her plain short-sleeve black crew-neck t-shirt. She is sitting back comfortably on the cream sofa in the cozy living room from the second reference image — the sofa cushions, blush throw pillows and knit blanket clearly around and beneath her, her lap and the seat of the couch visible in frame. Medium shot from a natural eye-level camera showing her from the knees up, her body correctly scaled and proportional to the room and clearly grounded sitting on the sofa, NOT floating. She leans slightly toward the camera with a warm, playful, confident, engaging Gen Z expression and looks directly at the camera. Photorealistic, sharp focus, natural skin detail, anatomically correct hands, a single normal living room with no duplicate furniture.",
+    "media": {
+      "image": [
+        "assets/_shared/personas/gen-z-ashley/base-character-v2.png",
+        "assets/mode-earn/viral-app-guinea-pig/ai-images/env-living-room.png"
+      ]
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "resolution": "2k"
+    },
+    "job_id": "0c0737b0-7b2b-424e-8025-aeed1e0755b9",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260622_073806_0c0737b0-7b2b-424e-8025-aeed1e0755b9.png",
+    "bytes": 9873403,
+    "created": "2026-06-22T07:40:39+00:00"
+  },
+  {
+    "label": "img-2-v2",
+    "asset": "assets/mode-earn/viral-app-guinea-pig/ai-images/img-2.png",
+    "model": "gpt_image_2",
+    "prompt": "The same 19-year-old East Asian woman, identical identity and face to the first reference, wearing her plain short-sleeve black crew-neck t-shirt. She is sitting slumped on the edge of her bed in the pink-lit bedroom from the second reference image — the bed and soft bedding clearly beneath and behind her, her weight sinking into the mattress, her legs toward the floor. Medium-wide shot from a natural eye-level camera, three-quarter body visible, correctly scaled and proportional to the room and clearly grounded sitting on the bed, NOT floating. She holds her Black Samsung Galaxy S22 Ultra phone (from the third reference) loosely in one hand and gives an unimpressed, mock-exasperated, slightly bored deadpan look directly at the camera. Photorealistic, sharp, natural skin detail, anatomically correct hands, the phone is a modern Black Samsung Galaxy S22 Ultra never an iPhone.",
+    "media": {
+      "image": [
+        "assets/_shared/personas/gen-z-ashley/base-character-v2.png",
+        "assets/mode-earn/viral-app-guinea-pig/ai-images/environment.png",
+        "assets/_shared/props/samsung-galaxy-s22-ultra.png"
+      ]
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "resolution": "2k"
+    },
+    "job_id": "ac1525ee-d8d9-44a1-9819-064b08a07fa1",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260622_074052_ac1525ee-d8d9-44a1-9819-064b08a07fa1.png",
+    "bytes": 8422851,
+    "created": "2026-06-22T07:43:41+00:00"
+  },
+  {
+    "label": "img-3-v2",
+    "asset": "assets/mode-earn/viral-app-guinea-pig/ai-images/img-3.png",
+    "model": "gpt_image_2",
+    "prompt": "The same 19-year-old East Asian woman, identical identity and face to the first reference, wearing her plain short-sleeve black crew-neck t-shirt. She is standing in the kitchen from the second reference image, leaning one hip casually against the white island counter, her feet grounded on the wood floor, the counter, stools and floor clearly visible around her. Medium-wide shot from a natural eye-level camera, three-quarter to full body visible, correctly scaled and proportional to the kitchen and clearly grounded standing on the floor, NOT floating. She holds a clear iced coffee cup in one hand and gives a sassy, expressive, slightly exasperated look directly at the camera, mid-gesture with her free hand. Photorealistic, sharp, natural skin detail, anatomically correct hands, single normal kitchen.",
+    "media": {
+      "image": [
+        "assets/_shared/personas/gen-z-ashley/base-character-v2.png",
+        "assets/mode-earn/viral-app-guinea-pig/ai-images/env-kitchen.png"
+      ]
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "resolution": "2k"
+    },
+    "job_id": "591fa47b-25c5-4556-8f46-db4899a0517b",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260622_074202_591fa47b-25c5-4556-8f46-db4899a0517b.png",
+    "bytes": 9627667,
+    "created": "2026-06-22T07:44:37+00:00"
+  },
+  {
+    "label": "img-4-v2",
+    "asset": "assets/mode-earn/viral-app-guinea-pig/ai-images/img-4.png",
+    "model": "gpt_image_2",
+    "prompt": "The same 19-year-old East Asian woman, identical identity and face to the first reference, wearing her plain short-sleeve black crew-neck t-shirt. She is sitting on the floor of her pink-lit bedroom (from the second reference) leaning her back against the side of the bed, cozy cushions around her, her knees up and the floor clearly supporting her. Medium shot from a natural eye-level camera, correctly scaled and proportional to the room and clearly grounded sitting on the floor, NOT floating. Her face brightens with a pleasantly surprised, intrigued, hopeful discovery expression as she looks directly at the camera. Photorealistic, sharp, natural skin detail, anatomically correct hands, single normal bedroom.",
+    "media": {
+      "image": [
+        "assets/_shared/personas/gen-z-ashley/base-character-v2.png",
+        "assets/mode-earn/viral-app-guinea-pig/ai-images/environment.png"
+      ]
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "resolution": "2k"
+    },
+    "job_id": "0eb550c3-6b5c-4e3e-b749-368a2d958429",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260622_074415_0eb550c3-6b5c-4e3e-b749-368a2d958429.png",
+    "bytes": 8515126,
+    "created": "2026-06-22T07:46:52+00:00"
+  },
+  {
+    "label": "img-5-v2",
+    "asset": "assets/mode-earn/viral-app-guinea-pig/ai-images/img-5.png",
+    "model": "gpt_image_2",
+    "prompt": "The same 19-year-old East Asian woman, identical identity and face to the first reference, wearing her plain short-sleeve black crew-neck t-shirt. She is sitting on the cream sofa in the living room from the second reference in a relaxed position with one leg tucked up, the couch cushions and throw pillows clearly beneath and around her. Medium shot from a natural eye-level camera showing her from the knees up, correctly scaled and proportional to the room and clearly grounded sitting on the sofa, NOT floating. She has a skeptical raised-eyebrow expression that is turning impressed and convinced, holding up a couple of fingers as if counting facts, looking directly at the camera. Photorealistic, sharp, natural skin detail, anatomically correct hands, single normal living room.",
+    "media": {
+      "image": [
+        "assets/_shared/personas/gen-z-ashley/base-character-v2.png",
+        "assets/mode-earn/viral-app-guinea-pig/ai-images/env-living-room.png"
+      ]
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "resolution": "2k"
+    },
+    "job_id": "2cb22287-7c3d-4bb2-9c52-62b8b4a6f616",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260622_074607_2cb22287-7c3d-4bb2-9c52-62b8b4a6f616.png",
+    "bytes": 9467995,
+    "created": "2026-06-22T07:48:48+00:00"
+  },
+  {
+    "label": "img-6-v2",
+    "asset": "assets/mode-earn/viral-app-guinea-pig/ai-images/img-6.png",
+    "model": "gpt_image_2",
+    "prompt": "The same 19-year-old East Asian woman, identical identity and face to the first reference, wearing her plain short-sleeve black crew-neck t-shirt. She is standing at the kitchen island from the second reference, feet grounded on the wood floor, the counter and stools beside her and the floor visible. Medium-wide shot from a natural eye-level camera, three-quarter body visible, correctly scaled and proportional to the kitchen and clearly grounded standing on the floor, NOT floating. Bright, friendly explainer energy, counting three options off on her fingers with lively animated hands, looking directly at the camera. Photorealistic, sharp, natural skin detail, anatomically correct hands, single normal kitchen.",
+    "media": {
+      "image": [
+        "assets/_shared/personas/gen-z-ashley/base-character-v2.png",
+        "assets/mode-earn/viral-app-guinea-pig/ai-images/env-kitchen.png"
+      ]
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "resolution": "2k"
+    },
+    "job_id": "36f07d2a-d9ba-4b31-848f-e8827008df82",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260622_074833_36f07d2a-d9ba-4b31-848f-e8827008df82.png",
+    "bytes": 9304989,
+    "created": "2026-06-22T07:51:05+00:00"
+  },
+  {
+    "label": "img-7-v2",
+    "asset": "assets/mode-earn/viral-app-guinea-pig/ai-images/img-7.png",
+    "model": "gpt_image_2",
+    "prompt": "The same 19-year-old East Asian woman, identical identity and face to the first reference, wearing her plain short-sleeve black crew-neck t-shirt. She is lounging back comfortably on her bed in the pink-lit bedroom from the second reference, propped against the pillows with the bed and bedding clearly beneath her supporting her body, relaxed and cozy. Medium-wide shot from a natural eye-level camera, correctly scaled and proportional to the room and clearly grounded on the bed, NOT floating. An easy, breezy casual one-shoulder shrug and a relatable little smile, looking directly at the camera. Photorealistic, sharp, natural skin detail, anatomically correct hands, single normal bedroom.",
+    "media": {
+      "image": [
+        "assets/_shared/personas/gen-z-ashley/base-character-v2.png",
+        "assets/mode-earn/viral-app-guinea-pig/ai-images/environment.png"
+      ]
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "resolution": "2k"
+    },
+    "job_id": "be6f6a24-00cf-42b6-b1be-b1a4c6e6b715",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260622_075035_be6f6a24-00cf-42b6-b1be-b1a4c6e6b715.png",
+    "bytes": 8768175,
+    "created": "2026-06-22T07:53:17+00:00"
+  },
+  {
+    "label": "img-8-v2",
+    "asset": "assets/mode-earn/viral-app-guinea-pig/ai-images/img-8.png",
+    "model": "gpt_image_2",
+    "prompt": "The same 19-year-old East Asian woman, identical identity and face to the first reference, wearing her plain short-sleeve black crew-neck t-shirt. She is standing in the living room from the second reference near the cream sofa, feet grounded on the rug and wood floor, the sofa and room clearly around her. Medium-wide shot from a natural eye-level camera, three-quarter to full body visible, correctly scaled and proportional to the room and clearly grounded standing on the floor, NOT floating. Excited and delighted, both hands raised in a hyped celebratory gesture with a big genuine grin, looking directly at the camera. Photorealistic, sharp, natural skin detail, anatomically correct hands, single normal living room.",
+    "media": {
+      "image": [
+        "assets/_shared/personas/gen-z-ashley/base-character-v2.png",
+        "assets/mode-earn/viral-app-guinea-pig/ai-images/env-living-room.png"
+      ]
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "resolution": "2k"
+    },
+    "job_id": "96f2e278-3b55-4300-bda6-06075731df3e",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260622_075245_96f2e278-3b55-4300-bda6-06075731df3e.png",
+    "bytes": 9628240,
+    "created": "2026-06-22T07:55:20+00:00"
+  },
+  {
+    "label": "img-9-v2",
+    "asset": "assets/mode-earn/viral-app-guinea-pig/ai-images/img-9.png",
+    "model": "gpt_image_2",
+    "prompt": "The same 19-year-old East Asian woman, identical identity and face to the first reference, wearing her plain short-sleeve black crew-neck t-shirt. She is standing in the kitchen from the second reference, feet grounded on the wood floor, counter and floor visible around her. Medium shot from a natural eye-level camera, correctly scaled and proportional to the kitchen and clearly grounded standing on the floor, NOT floating. Both palms open and raised in a relaxed 'no catch, I swear' gesture with a warm grin, looking directly at the camera. Photorealistic, sharp, natural skin detail, anatomically correct hands, single normal kitchen.",
+    "media": {
+      "image": [
+        "assets/_shared/personas/gen-z-ashley/base-character-v2.png",
+        "assets/mode-earn/viral-app-guinea-pig/ai-images/env-kitchen.png"
+      ]
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "resolution": "2k"
+    },
+    "job_id": "3761fbfe-1af6-4a24-913b-4f6e1c6112a7",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260622_075430_3761fbfe-1af6-4a24-913b-4f6e1c6112a7.png",
+    "bytes": 8773195,
+    "created": "2026-06-22T07:56:55+00:00"
+  },
+  {
+    "label": "img-10-v2",
+    "asset": "assets/mode-earn/viral-app-guinea-pig/ai-images/img-10.png",
+    "model": "gpt_image_2",
+    "prompt": "The same 19-year-old East Asian woman, identical identity and face to the first reference, wearing her plain short-sleeve black crew-neck t-shirt. She is sitting on the cushioned window bench in the bright window nook from the second reference, the bench seat and floor clearly supporting and around her, bright daylight from the window behind. Medium shot from a natural eye-level camera, correctly scaled and proportional to the room and clearly grounded on the bench, NOT floating. She points directly at the camera with one hand — her arm is bare skin with short sleeves, no long-sleeve fabric — and gives a confident, encouraging grin, looking directly at the camera. Photorealistic, sharp, natural skin detail, anatomically correct hands.",
+    "media": {
+      "image": [
+        "assets/_shared/personas/gen-z-ashley/base-character-v2.png",
+        "assets/mode-earn/viral-app-guinea-pig/ai-images/env-window.png"
+      ]
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "resolution": "2k"
+    },
+    "job_id": "d4d2d808-2866-419b-8d4a-5c715ea5270a",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260622_075636_d4d2d808-2866-419b-8d4a-5c715ea5270a.png",
+    "bytes": 9041380,
+    "created": "2026-06-22T07:59:29+00:00"
+  },
+  {
+    "label": "phone-reveal-first-v2",
+    "asset": "assets/mode-earn/viral-app-guinea-pig/ai-images/phone-reveal-first.png",
+    "model": "gpt_image_2",
+    "prompt": "The same 19-year-old East Asian woman, identical identity and face to the first reference, wearing her plain short-sleeve black crew-neck t-shirt. She is sitting comfortably on the cream sofa in the cozy living room from the second reference, clearly grounded on the couch cushions with the sofa and pillows around her, correctly scaled and proportional to the room. She is holding her Black Samsung Galaxy S22 Ultra phone (from the third reference) comfortably in both hands at a natural relaxed height in her lap, looking DOWN at the screen and using it — scrolling and tapping with her thumb — with a curious, interested expression. She is using the phone normally, NOT holding it up toward the camera. Medium shot from a natural eye-level camera, grounded and proportional. Photorealistic, sharp, natural skin detail, anatomically correct hands, the phone is a modern Black Samsung Galaxy S22 Ultra never an iPhone.",
+    "media": {
+      "image": [
+        "assets/_shared/personas/gen-z-ashley/base-character-v2.png",
+        "assets/mode-earn/viral-app-guinea-pig/ai-images/env-living-room.png",
+        "assets/_shared/props/samsung-galaxy-s22-ultra.png"
+      ]
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "resolution": "2k"
+    },
+    "job_id": "b48bfc4c-978f-4391-989e-b569eecb4974",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260622_080009_b48bfc4c-978f-4391-989e-b569eecb4974.png",
+    "bytes": 9053372,
+    "created": "2026-06-22T08:02:53+00:00"
+  },
+  {
+    "label": "phone-reveal-first-v3",
+    "asset": "assets/mode-earn/viral-app-guinea-pig/ai-images/phone-reveal-first.png",
+    "model": "gpt_image_2",
+    "prompt": "The same 19-year-old East Asian woman, identical identity and face to the first reference, wearing her plain short-sleeve black crew-neck t-shirt, sitting comfortably and clearly grounded on the cream sofa in the cozy living room from the second reference, proportional to the room. She is absorbed in using a black Samsung Galaxy S22 Ultra Android phone: she holds it LOW in both hands resting near her lap and looks DOWN at the screen, her thumb mid-scroll — a candid everyday 'scrolling on my phone' moment. She is NOT raising the phone toward the camera and the back of the phone is NOT shown to the camera; she is simply using it naturally while looking down at the screen, with a relaxed, curious expression. We see her from the front as she looks down. Medium shot from a natural eye-level camera, grounded and proportional. Photorealistic, sharp, natural skin detail, anatomically correct hands. Modern Black Samsung Galaxy S22 Ultra, never an iPhone.",
+    "media": {
+      "image": [
+        "assets/_shared/personas/gen-z-ashley/base-character-v2.png",
+        "assets/mode-earn/viral-app-guinea-pig/ai-images/env-living-room.png"
+      ]
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "resolution": "2k"
+    },
+    "job_id": "e01dc3b9-24f4-424b-939a-25b765d8ec69",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260622_080350_e01dc3b9-24f4-424b-939a-25b765d8ec69.png",
+    "bytes": 9015400,
+    "created": "2026-06-22T08:06:19+00:00"
+  },
+  {
+    "label": "phone-reveal-last-raw-v2",
+    "asset": "assets/mode-earn/viral-app-guinea-pig/ai-images/phone-reveal-last-raw.png",
+    "model": "gpt_image_2",
+    "prompt": "Edit this photo: the same woman, keeping the same couch, living room, identity, long dark hair and short-sleeve black t-shirt, now LIFTS the phone up and rotates it so its SCREEN faces the camera directly, holding it out toward the lens so the phone is large and the sharp, clear focus in the frame, while she leans back slightly and her face and the living room fall into soft warm bokeh behind her. The phone screen is switched on but blank and clean (nothing on it yet). The phone is a Black Samsung Galaxy S22 Ultra, never an iPhone. Photorealistic, shallow depth of field, the phone screen is the sharp focus.",
+    "media": {
+      "image": [
+        "assets/mode-earn/viral-app-guinea-pig/ai-images/phone-reveal-first.png",
+        "assets/_shared/props/samsung-galaxy-s22-ultra.png"
+      ]
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "resolution": "2k"
+    },
+    "job_id": "f29b1b4e-9dec-4a27-a8d8-cef1f5321448",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260622_080634_f29b1b4e-9dec-4a27-a8d8-cef1f5321448.png",
+    "bytes": 8412258,
+    "created": "2026-06-22T08:08:50+00:00"
+  },
+  {
+    "label": "phone-reveal-last-v2",
+    "asset": "assets/mode-earn/viral-app-guinea-pig/ai-images/phone-reveal-last.png",
+    "model": "gpt_image_2",
+    "prompt": "Edit this photo: the blank white phone screen now displays this exact mobile app user interface from the second reference image, fitted neatly to fill the entire phone screen edge to edge, sharp, bright, vivid and clear, with correct perspective matching the phone in her hand. Do not crop or distort the UI. Keep everything else completely identical — her hand and grip, the Black Samsung Galaxy S22 Ultra phone, her identity and short-sleeve black t-shirt, and the soft warm bokeh background. Photorealistic, the screen is the bright sharp focus.",
+    "media": {
+      "image": [
+        "assets/mode-earn/viral-app-guinea-pig/ai-images/phone-reveal-last-raw.png",
+        "assets/mode-earn/MEA Screenshots/Home.png"
+      ]
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "resolution": "2k"
+    },
+    "job_id": "5ff63656-76a9-4c10-ad06-d72aef45b423",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260622_080932_5ff63656-76a9-4c10-ad06-d72aef45b423.png",
+    "bytes": 9267311,
+    "created": "2026-06-22T08:12:21+00:00"
+  },
+  {
+    "label": "img-1-v3-edit",
+    "asset": "assets/mode-earn/viral-app-guinea-pig/ai-images/img-1.png",
+    "model": "gpt_image_2",
+    "prompt": "Edit this photo: keep her exact same pose, face, identity, hairstyle, the cream couch, the framing and the warm living-room lighting completely unchanged. Change only two things: (1) replace her blue jeans with light ash-grey soft joggers; (2) give her the same Black Samsung Galaxy S22 Ultra Android phone from the second reference, held naturally and casually in one hand resting near her knee as if she has just been using it. Keep it a natural medium shot, head to waist. Photorealistic, identical identity, the phone is a Black Samsung Galaxy S22 Ultra never an iPhone.",
+    "media": {
+      "image": [
+        "assets/mode-earn/viral-app-guinea-pig/ai-images/img-1.png",
+        "assets/_shared/props/samsung-galaxy-s22-ultra.png"
+      ]
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "resolution": "2k"
+    },
+    "job_id": "5b9dd45f-9cab-41ae-93a0-fadd3cc92490",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260622_085458_5b9dd45f-9cab-41ae-93a0-fadd3cc92490.png",
+    "bytes": 9898179,
+    "created": "2026-06-22T08:57:31+00:00"
+  },
+  {
+    "label": "img-2-v3",
+    "asset": "assets/mode-earn/viral-app-guinea-pig/ai-images/img-2.png",
+    "model": "gpt_image_2",
+    "prompt": "The same 19-year-old East Asian woman, identical identity and face to the first reference, wearing a plain short-sleeve black crew-neck t-shirt and light ash-grey joggers. She is sitting on the edge of her bed in the pink-lit bedroom (second reference), clearly grounded on the bed with the bedding around her, the room proportional. Medium shot from a natural eye-level camera, head to waist (NOT full body), like a close personal talking-to-camera TikTok shot. She holds the same Black Samsung Galaxy S22 Ultra Android phone from the third reference loosely in one hand and gives an unimpressed, mock-exasperated, slightly bored deadpan look directly at the camera. Photorealistic, sharp, natural skin detail, anatomically correct hands, modern Black Samsung Galaxy S22 Ultra never an iPhone.",
+    "media": {
+      "image": [
+        "assets/_shared/personas/gen-z-ashley/base-character-v2.png",
+        "assets/mode-earn/viral-app-guinea-pig/ai-images/environment.png",
+        "assets/_shared/props/samsung-galaxy-s22-ultra.png"
+      ]
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "resolution": "2k"
+    },
+    "job_id": "8ce02312-9ca9-43ab-8304-000f1645cce1",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260622_085640_8ce02312-9ca9-43ab-8304-000f1645cce1.png",
+    "bytes": 8572796,
+    "created": "2026-06-22T08:59:19+00:00"
+  },
+  {
+    "label": "img-3-v3",
+    "asset": "assets/mode-earn/viral-app-guinea-pig/ai-images/img-3.png",
+    "model": "gpt_image_2",
+    "prompt": "The same 19-year-old East Asian woman, identical identity and face to the first reference, wearing a plain short-sleeve black crew-neck t-shirt and light ash-grey joggers. She is standing in the kitchen (second reference), leaning a hip casually against the white island counter, clearly grounded standing on the floor with the kitchen proportional behind her. Medium shot from a natural eye-level camera, head to waist (NOT full body), like a close personal talking-to-camera TikTok shot. She holds the same Black Samsung Galaxy S22 Ultra Android phone from the third reference in one hand and gives a sassy, expressive, slightly exasperated look at the camera, mid-gesture with her other hand. Photorealistic, sharp, natural skin detail, anatomically correct hands, modern Black Samsung Galaxy S22 Ultra never an iPhone.",
+    "media": {
+      "image": [
+        "assets/_shared/personas/gen-z-ashley/base-character-v2.png",
+        "assets/mode-earn/viral-app-guinea-pig/ai-images/env-kitchen.png",
+        "assets/_shared/props/samsung-galaxy-s22-ultra.png"
+      ]
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "resolution": "2k"
+    },
+    "job_id": "ea89a183-7fb6-4ac2-934e-5ff518710800",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260622_085917_ea89a183-7fb6-4ac2-934e-5ff518710800.png",
+    "bytes": 8790086,
+    "created": "2026-06-22T09:01:51+00:00"
+  },
+  {
+    "label": "img-4-v3",
+    "asset": "assets/mode-earn/viral-app-guinea-pig/ai-images/img-4.png",
+    "model": "gpt_image_2",
+    "prompt": "The same 19-year-old East Asian woman, identical identity and face to the first reference, wearing a plain short-sleeve black crew-neck t-shirt and light ash-grey joggers. She is sitting on the floor of her bedroom leaning back against the side of the bed with cozy cushions around her, clearly grounded on the floor, the room proportional. Medium shot from a natural eye-level camera, head to waist (NOT full body). She holds the same Black Samsung Galaxy S22 Ultra Android phone from the third reference in one hand — no book, no journal — and her face brightens with a pleasantly surprised, intrigued, hopeful discovery expression as she looks at the camera. Photorealistic, sharp, natural skin detail, anatomically correct hands, modern Black Samsung Galaxy S22 Ultra never an iPhone.",
+    "media": {
+      "image": [
+        "assets/_shared/personas/gen-z-ashley/base-character-v2.png",
+        "assets/mode-earn/viral-app-guinea-pig/ai-images/environment.png",
+        "assets/_shared/props/samsung-galaxy-s22-ultra.png"
+      ]
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "resolution": "2k"
+    },
+    "job_id": "4c84c54f-2217-4936-b794-761bccecf24c",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260622_090123_4c84c54f-2217-4936-b794-761bccecf24c.png",
+    "bytes": 8553748,
+    "created": "2026-06-22T09:04:29+00:00"
+  },
+  {
+    "label": "img-5-v3",
+    "asset": "assets/mode-earn/viral-app-guinea-pig/ai-images/img-5.png",
+    "model": "gpt_image_2",
+    "prompt": "The same 19-year-old East Asian woman, identical identity and face to the first reference, wearing a plain short-sleeve black crew-neck t-shirt and light ash-grey joggers. She is sitting on the cream sofa in the living room (second reference) with one leg tucked up, clearly grounded on the couch with cushions around her, the room proportional. Medium shot from a natural eye-level camera, head to waist (NOT full body). She holds the same Black Samsung Galaxy S22 Ultra Android phone from the third reference in one hand, with a skeptical-turning-convinced, impressed expression, her other hand gesturing as if making a point, looking at the camera. Photorealistic, sharp, natural skin detail, anatomically correct hands, modern Black Samsung Galaxy S22 Ultra never an iPhone.",
+    "media": {
+      "image": [
+        "assets/_shared/personas/gen-z-ashley/base-character-v2.png",
+        "assets/mode-earn/viral-app-guinea-pig/ai-images/env-living-room.png",
+        "assets/_shared/props/samsung-galaxy-s22-ultra.png"
+      ]
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "resolution": "2k"
+    },
+    "job_id": "d8bdb258-dd1c-43c3-9004-1991bcf436cf",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260622_090325_d8bdb258-dd1c-43c3-9004-1991bcf436cf.png",
+    "bytes": 9299449,
+    "created": "2026-06-22T09:06:15+00:00"
+  },
+  {
+    "label": "img-6-v3-fridge",
+    "asset": "assets/mode-earn/viral-app-guinea-pig/ai-images/img-6.png",
+    "model": "gpt_image_2",
+    "prompt": "A creative POV shot taken from INSIDE a refrigerator looking outward: the camera sits among the fridge shelves so the frame is bordered by the softly-lit fridge interior — shelves, a few groceries, a carton and jars, the cool interior fridge light glow — in the slightly dark foreground edges. The same 19-year-old East Asian woman, identical identity and face to the first reference, wearing a plain short-sleeve black crew-neck t-shirt and light ash-grey joggers, has just opened the fridge door and leans in slightly, looking directly into the camera with bright, friendly, playful explainer energy as she talks. She holds the same Black Samsung Galaxy S22 Ultra Android phone from the second reference in one hand. Medium shot, head to waist, she is well lit by warm daylight from the kitchen behind her, clearly grounded and proportional. Photorealistic, sharp, natural skin detail, anatomically correct hands, modern Black Samsung Galaxy S22 Ultra never an iPhone.",
+    "media": {
+      "image": [
+        "assets/_shared/personas/gen-z-ashley/base-character-v2.png",
+        "assets/_shared/props/samsung-galaxy-s22-ultra.png"
+      ]
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "resolution": "2k"
+    },
+    "job_id": "669fcf54-3324-4f9c-a04c-1d3f7929477b",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260622_090601_669fcf54-3324-4f9c-a04c-1d3f7929477b.png",
+    "bytes": 8105238,
+    "created": "2026-06-22T09:08:39+00:00"
+  },
+  {
+    "label": "img-7-v3",
+    "asset": "assets/mode-earn/viral-app-guinea-pig/ai-images/img-7.png",
+    "model": "gpt_image_2",
+    "prompt": "The same 19-year-old East Asian woman, identical identity and face to the first reference, wearing a plain short-sleeve black crew-neck t-shirt and light ash-grey joggers. She is lounging back comfortably on her bed in the pink-lit bedroom (second reference), propped against the pillows, clearly grounded on the bed, the room proportional. Medium shot from a natural eye-level camera, head to waist (NOT full body). She holds the same Black Samsung Galaxy S22 Ultra Android phone from the third reference in one hand and gives an easy, breezy casual shrug with her other hand and a relatable little smile at the camera. Photorealistic, sharp, natural skin detail, anatomically correct hands, modern Black Samsung Galaxy S22 Ultra never an iPhone.",
+    "media": {
+      "image": [
+        "assets/_shared/personas/gen-z-ashley/base-character-v2.png",
+        "assets/mode-earn/viral-app-guinea-pig/ai-images/environment.png",
+        "assets/_shared/props/samsung-galaxy-s22-ultra.png"
+      ]
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "resolution": "2k"
+    },
+    "job_id": "88c54df8-a9d2-4826-93bd-1ad68c405a0c",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260622_090847_88c54df8-a9d2-4826-93bd-1ad68c405a0c.png",
+    "bytes": 8260018,
+    "created": "2026-06-22T09:11:26+00:00"
+  },
+  {
+    "label": "img-8-v3",
+    "asset": "assets/mode-earn/viral-app-guinea-pig/ai-images/img-8.png",
+    "model": "gpt_image_2",
+    "prompt": "The same 19-year-old East Asian woman, identical identity and face to the first reference, wearing a plain short-sleeve black crew-neck t-shirt and light ash-grey joggers. She is standing in the living room (second reference) near the cream sofa, clearly grounded standing on the floor with the room proportional behind her. Medium shot from a natural eye-level camera, head to waist (NOT full body). She holds the same Black Samsung Galaxy S22 Ultra Android phone from the third reference in one hand and raises her other hand in an excited, delighted, hyped celebratory gesture with a big genuine grin at the camera. Photorealistic, sharp, natural skin detail, anatomically correct hands, modern Black Samsung Galaxy S22 Ultra never an iPhone.",
+    "media": {
+      "image": [
+        "assets/_shared/personas/gen-z-ashley/base-character-v2.png",
+        "assets/mode-earn/viral-app-guinea-pig/ai-images/env-living-room.png",
+        "assets/_shared/props/samsung-galaxy-s22-ultra.png"
+      ]
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "resolution": "2k"
+    },
+    "job_id": "5b8d8434-ab45-43c0-bd73-c13ac1676e2d",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260622_091054_5b8d8434-ab45-43c0-bd73-c13ac1676e2d.png",
+    "bytes": 9216627,
+    "created": "2026-06-22T09:13:23+00:00"
+  },
+  {
+    "label": "img-9-v3",
+    "asset": "assets/mode-earn/viral-app-guinea-pig/ai-images/img-9.png",
+    "model": "gpt_image_2",
+    "prompt": "The same 19-year-old East Asian woman, identical identity and face to the first reference, wearing a plain short-sleeve black crew-neck t-shirt and light ash-grey joggers. She is standing in the kitchen (second reference), clearly grounded standing on the floor, the kitchen proportional behind her. Medium shot from a natural eye-level camera, head to waist (NOT full body). She holds the same Black Samsung Galaxy S22 Ultra Android phone from the third reference in one hand and holds her other palm open and raised in a relaxed 'no catch, I swear' gesture with a warm grin at the camera. Photorealistic, sharp, natural skin detail, anatomically correct hands, modern Black Samsung Galaxy S22 Ultra never an iPhone.",
+    "media": {
+      "image": [
+        "assets/_shared/personas/gen-z-ashley/base-character-v2.png",
+        "assets/mode-earn/viral-app-guinea-pig/ai-images/env-kitchen.png",
+        "assets/_shared/props/samsung-galaxy-s22-ultra.png"
+      ]
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "resolution": "2k"
+    },
+    "job_id": "cbb52501-bcad-47bf-ac3a-427cf29ed0f5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260622_091226_cbb52501-bcad-47bf-ac3a-427cf29ed0f5.png",
+    "bytes": 8847318,
+    "created": "2026-06-22T09:14:59+00:00"
+  },
+  {
+    "label": "img-10-v3",
+    "asset": "assets/mode-earn/viral-app-guinea-pig/ai-images/img-10.png",
+    "model": "gpt_image_2",
+    "prompt": "The same 19-year-old East Asian woman, identical identity and face to the first reference, wearing a plain short-sleeve black crew-neck t-shirt and light ash-grey joggers. She is sitting on the cushioned window bench in the bright window nook (second reference), clearly grounded on the bench, proportional, with bright daylight from the window. Medium shot from a natural eye-level camera, head to waist (NOT full body). She holds the same Black Samsung Galaxy S22 Ultra Android phone from the third reference in one hand and points directly at the camera with her other hand (bare arm, short sleeves), with a confident, encouraging grin at the camera. Photorealistic, sharp, natural skin detail, anatomically correct hands, modern Black Samsung Galaxy S22 Ultra never an iPhone.",
+    "media": {
+      "image": [
+        "assets/_shared/personas/gen-z-ashley/base-character-v2.png",
+        "assets/mode-earn/viral-app-guinea-pig/ai-images/env-window.png",
+        "assets/_shared/props/samsung-galaxy-s22-ultra.png"
+      ]
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "resolution": "2k"
+    },
+    "job_id": "980f4275-11ac-496d-81bf-8b84a4b26225",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260622_091418_980f4275-11ac-496d-81bf-8b84a4b26225.png",
+    "bytes": 9049160,
+    "created": "2026-06-22T09:16:54+00:00"
+  },
+  {
+    "label": "phone-reveal-first-v4",
+    "asset": "assets/mode-earn/viral-app-guinea-pig/ai-images/phone-reveal-first.png",
+    "model": "gpt_image_2",
+    "prompt": "The same 19-year-old East Asian woman, identical identity and face to the first reference, wearing a plain short-sleeve black crew-neck t-shirt and light ash-grey joggers, sitting comfortably and clearly grounded on the cream sofa in the living room (second reference), proportional. She is absorbed in using the same Black Samsung Galaxy S22 Ultra Android phone from the third reference: she holds it comfortably in both hands down near her lap and looks DOWN at the screen, thumb mid-scroll — a candid everyday scrolling moment. She is NOT raising the phone toward the camera and the back of the phone is NOT shown to the camera; she is simply using it while looking down at the screen. Medium shot, head to waist. Photorealistic, sharp, natural skin detail, anatomically correct hands, the exact modern Black Samsung Galaxy S22 Ultra from the third reference, never an iPhone.",
+    "media": {
+      "image": [
+        "assets/_shared/personas/gen-z-ashley/base-character-v2.png",
+        "assets/mode-earn/viral-app-guinea-pig/ai-images/env-living-room.png",
+        "assets/_shared/props/samsung-galaxy-s22-ultra.png"
+      ]
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "resolution": "2k"
+    },
+    "job_id": "8e158131-81bd-49fc-ba37-3ffbca43af50",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260622_091834_8e158131-81bd-49fc-ba37-3ffbca43af50.png",
+    "bytes": 9109471,
+    "created": "2026-06-22T09:21:57+00:00"
+  },
+  {
+    "label": "lifestyle-first-v2",
+    "asset": "assets/mode-earn/viral-app-guinea-pig/ai-images/lifestyle-first.png",
+    "model": "gpt_image_2",
+    "prompt": "The same 19-year-old East Asian woman, identical identity and face to the first reference, wearing a plain short-sleeve black crew-neck t-shirt and light ash-grey joggers and casual white over-ear headphones, reclining back against the pillows on her bed in the pink-lit bedroom (second reference), clearly grounded on the bed, the room proportional. She casually holds and scrolls the same Black Samsung Galaxy S22 Ultra Android phone from the third reference in one hand, looking down at the screen with a chill, content, relaxed expression (NOT looking at the camera). Cozy candid everyday lifestyle medium shot. Photorealistic, sharp, natural skin detail, anatomically correct hands, the exact modern Black Samsung Galaxy S22 Ultra from the third reference, never an iPhone.",
+    "media": {
+      "image": [
+        "assets/_shared/personas/gen-z-ashley/base-character-v2.png",
+        "assets/mode-earn/viral-app-guinea-pig/ai-images/environment.png",
+        "assets/_shared/props/samsung-galaxy-s22-ultra.png"
+      ]
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "resolution": "2k"
+    },
+    "job_id": "9eccfc31-1478-4903-b1dd-df986f044524",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260622_092024_9eccfc31-1478-4903-b1dd-df986f044524.png",
+    "bytes": 8293872,
+    "created": "2026-06-22T09:23:02+00:00"
+  },
+  {
+    "label": "phone-reveal-last-v5-composite",
+    "asset": "assets/mode-earn/viral-app-guinea-pig/ai-images/phone-reveal-last.png",
+    "model": "gpt_image_2",
+    "prompt": "Edit this photo: the phone screen now displays this exact Mode Earn 'EARN APP' promo image from the second reference, filling the entire phone screen edge to edge, bright, vivid, sharp and crisp, with correct perspective matching the phone. Also push the focus so the bright phone screen is the sharp subject and the woman and living room behind fall into soft warm bokeh. Keep everything else identical — her hand and grip, the Black Samsung Galaxy S22 Ultra, her identity, the couch. Photorealistic, the screen is the bright sharp focus.",
+    "media": {
+      "image": [
+        "assets/mode-earn/viral-app-guinea-pig/ai-images/phone-reveal-last-raw.png",
+        "assets/mode-earn/brand/MEA-logo.png"
+      ]
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "resolution": "2k"
+    },
+    "job_id": "a7e66165-bf68-455e-a5cc-b576de000ff0",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260622_093850_a7e66165-bf68-455e-a5cc-b576de000ff0.png",
+    "bytes": 9031879,
+    "created": "2026-06-22T09:41:16+00:00"
+  },
+  {
+    "label": "Clip 2",
+    "asset": "assets/mode-earn/viral-app-guinea-pig/ai-videos/Clip 2.mp4",
+    "model": "kling3_0",
+    "prompt": "Begin on a frontal medium shot of the same 19-year-old East Asian woman sitting on the edge of her bed, matching the reference pose precisely — holding her black Samsung phone loosely in one hand, an unimpressed bored expression, wearing the black t-shirt and ash-grey joggers. The pink-lit bedroom remains completely unchanged. The camera is completely static. She speaks directly to the camera in a bubbly Gen Z tone with a dry ironic edge, delivering as a flat deadpan STATEMENT with a settled declarative falling intonation, NOT a question: \"I'm that girl with 200 apps and zero dollars.\" As she speaks she gives a small deadpan eye-roll and a tiny shrug, phone in hand. Her expression stays ironic and self-aware. The shot resolves holding the deadpan look, lighting wardrobe and background completely consistent, a seamless single take.",
+    "media": {
+      "start_image": "assets/mode-earn/viral-app-guinea-pig/ai-images/img-2.png"
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "duration": "4",
+      "mode": "pro",
+      "sound": "on"
+    },
+    "job_id": "3b9e87a7-3f72-4a04-ba31-9284f421cde6",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260622_095118_3b9e87a7-3f72-4a04-ba31-9284f421cde6.mp4",
+    "bytes": 6821596,
+    "created": "2026-06-22T09:59:29+00:00"
+  },
+  {
+    "label": "Clip 3",
+    "asset": "assets/mode-earn/viral-app-guinea-pig/ai-videos/Clip 3.mp4",
+    "model": "kling3_0",
+    "prompt": "Begin on a frontal medium shot of the same 19-year-old East Asian woman standing in her kitchen leaning a hip against the island, matching the reference pose precisely — holding her black Samsung phone in one hand, a sassy expressive face, wearing the black t-shirt and ash-grey joggers. The bright kitchen remains completely unchanged. The camera introduces a slight, natural handheld drift throughout, no zoom or pan. She speaks directly to the camera in a bubbly fast-paced expressive Gen Z tone with a slightly exasperated edge, delivering as a STATEMENT with declarative intonation: \"I'll try anything that's trending, but most of them just want my time and give me nothing back.\" As she speaks she flicks her free hand dismissively and gives a sassy 'so over it' shrug on 'nothing back', phone in her other hand. Her expression stays expressive and playfully annoyed. The shot resolves on a small exasperated head shake, lighting wardrobe and background consistent, a seamless single take.",
+    "media": {
+      "start_image": "assets/mode-earn/viral-app-guinea-pig/ai-images/img-3.png"
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "duration": "7",
+      "mode": "pro",
+      "sound": "on"
+    },
+    "job_id": "fbe31a53-ea42-4a84-b075-dcaa88c7f822",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260622_095124_fbe31a53-ea42-4a84-b075-dcaa88c7f822.mp4",
+    "bytes": 14701855,
+    "created": "2026-06-22T10:00:08+00:00"
+  },
+  {
+    "label": "Clip 1",
+    "asset": "assets/mode-earn/viral-app-guinea-pig/ai-videos/Clip 1.mp4",
+    "model": "kling3_0",
+    "prompt": "Begin on a frontal medium shot of a trendy 19-year-old East Asian woman sitting on her living-room couch, matching the reference pose precisely — leaning slightly toward the camera, holding her black Samsung phone in one hand, wearing a plain short-sleeve black t-shirt and light ash-grey joggers. The cozy living room with warm lighting remains completely unchanged. The camera is completely static with no movement. She speaks directly to the camera in a bubbly, fast-paced, expressive Gen Z tone, a bright higher-mid register with playful trendy TikTok inflection, fun and genuine, delivering with lively confident energy: \"I download every viral app so you don't have to — and bestie, this is the first one that actually rewarded me.\" As she speaks she gives a playful point toward the camera on 'bestie' and an expressive eyebrow raise, big relatable energy, the phone staying naturally in her other hand. Her expression stays playful and sassy. The shot resolves on a confident smile, lighting, wardrobe and background completely consistent, a seamless single take.",
+    "media": {
+      "start_image": "assets/mode-earn/viral-app-guinea-pig/ai-images/img-1.png"
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "duration": "8",
+      "mode": "pro",
+      "sound": "on"
+    },
+    "job_id": "3c5de5e6-661c-4a6b-8c4c-a0afd3cb4e90",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260622_095119_3c5de5e6-661c-4a6b-8c4c-a0afd3cb4e90.mp4",
+    "bytes": 16255286,
+    "created": "2026-06-22T10:05:02+00:00"
+  },
+  {
+    "label": "Clip 4",
+    "asset": "assets/mode-earn/viral-app-guinea-pig/ai-videos/Clip 4.mp4",
+    "model": "kling3_0",
+    "prompt": "Begin on a frontal medium shot of the same 19-year-old East Asian woman sitting on her bedroom floor leaning against the bed, matching the reference pose precisely — holding her black Samsung phone in one hand, a brightening surprised expression, wearing the black t-shirt and ash-grey joggers. The pink-lit bedroom remains completely unchanged. The camera is completely static. She speaks directly to the camera in a bubbly expressive Gen Z tone, delivering as an upbeat declarative STATEMENT, NOT a question: \"Then I found Mode Earn App.\" As she speaks her face lights up with a discovery spark and a small excited nod, briefly glancing at the phone in her hand. Her expression brightens from curious to delighted. The shot resolves on a hopeful smile, lighting wardrobe and background consistent, a seamless single take.",
+    "media": {
+      "start_image": "assets/mode-earn/viral-app-guinea-pig/ai-images/img-4.png"
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "duration": "3",
+      "mode": "pro",
+      "sound": "on"
+    },
+    "job_id": "8c5df909-6aad-46b6-8576-ba0cca677439",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260622_100048_8c5df909-6aad-46b6-8576-ba0cca677439.mp4",
+    "bytes": 4672371,
+    "created": "2026-06-22T10:08:40+00:00"
+  },
+  {
+    "label": "Clip 6",
+    "asset": "assets/mode-earn/viral-app-guinea-pig/ai-videos/Clip 6.mp4",
+    "model": "kling3_0",
+    "prompt": "Begin on a creative POV shot from inside the refrigerator looking out, matching the reference precisely — the same 19-year-old East Asian woman has opened the fridge and leans in toward the camera, framed by the fridge interior, holding her black Samsung phone in one hand, wearing the black t-shirt and ash-grey joggers. The fridge interior and kitchen light remain completely unchanged. The camera is completely static. She speaks directly to the camera in a bubbly fast-paced upbeat Gen Z tone, delivering with bright easy energy: \"It's stupid simple! You open it and pick how you wanna earn — play games, listen to music, read the news.\" As she speaks she counts the three options off on her free hand with lively animated energy, phone in her other hand, a playful caught-at-the-fridge vibe. Her expression stays bright and friendly. The shot resolves on an easy confident smile, lighting and background consistent, a seamless single take.",
+    "media": {
+      "start_image": "assets/mode-earn/viral-app-guinea-pig/ai-images/img-6.png"
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "duration": "8",
+      "mode": "pro",
+      "sound": "on"
+    },
+    "job_id": "71cb906f-1625-48d2-b264-7ba0199e57c7",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260622_100105_71cb906f-1625-48d2-b264-7ba0199e57c7.mp4",
+    "bytes": 10728395,
+    "created": "2026-06-22T10:09:33+00:00"
+  },
+  {
+    "label": "Clip 5",
+    "asset": "assets/mode-earn/viral-app-guinea-pig/ai-videos/Clip 5.mp4",
+    "model": "kling3_0",
+    "prompt": "Begin on a frontal medium shot of the same 19-year-old East Asian woman sitting on her living-room couch with one leg tucked up, matching the reference pose precisely — holding her black Samsung phone in one hand, a skeptical-to-convinced expression, wearing the black t-shirt and ash-grey joggers. The cozy living room remains completely unchanged. The camera is completely static. She speaks directly to the camera in a bubbly Gen Z tone that starts skeptical and turns convinced: \"Lowkey thought it was another scam… but it's actually legit — 10 million downloads and 4.5 stars don't lie.\" She delivers 'don't lie' as a firm matter-of-fact declarative statement, NOT a question. As she speaks her skeptical squint melts into an impressed nod, ticking the stats off on her free hand, phone in the other. Her expression shifts from suspicious to genuinely impressed. The shot resolves on a convinced nod, lighting wardrobe and background consistent, a seamless single take.",
+    "media": {
+      "start_image": "assets/mode-earn/viral-app-guinea-pig/ai-images/img-5.png"
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "duration": "7",
+      "mode": "pro",
+      "sound": "on"
+    },
+    "job_id": "51d808d0-bd56-4073-ab6a-c6891c21a360",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260622_100057_51d808d0-bd56-4073-ab6a-c6891c21a360.mp4",
+    "bytes": 15114993,
+    "created": "2026-06-22T10:12:42+00:00"
+  },
+  {
+    "label": "Clip 7",
+    "asset": "assets/mode-earn/viral-app-guinea-pig/ai-videos/Clip 7.mp4",
+    "model": "kling3_0",
+    "prompt": "Begin on a frontal medium shot of the same 19-year-old East Asian woman lounging back on her bed against the pillows, matching the reference pose precisely — holding her black Samsung phone in one hand, an easy relaxed look, wearing the black t-shirt and ash-grey joggers. The pink-lit bedroom remains completely unchanged. The camera is completely static. She speaks directly to the camera in a bubbly casual Gen Z tone, delivering as a light breezy STATEMENT: \"Stuff I'm already doing anyway.\" As she speaks she gives a casual one-shoulder shrug and a knowing little smile, phone in hand. Her expression stays relaxed and relatable. The shot resolves holding the easy smile, lighting wardrobe and background consistent, a seamless single take.",
+    "media": {
+      "start_image": "assets/mode-earn/viral-app-guinea-pig/ai-images/img-7.png"
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "duration": "3",
+      "mode": "pro",
+      "sound": "on"
+    },
+    "job_id": "815e3bd0-f481-47c4-8160-6be0392a5201",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260622_100638_815e3bd0-f481-47c4-8160-6be0392a5201.mp4",
+    "bytes": 4566031,
+    "created": "2026-06-22T10:13:33+00:00"
+  },
+  {
+    "label": "Clip 9",
+    "asset": "assets/mode-earn/viral-app-guinea-pig/ai-videos/Clip 9.mp4",
+    "model": "kling3_0",
+    "prompt": "Begin on a frontal medium shot of the same 19-year-old East Asian woman standing in her kitchen, matching the reference pose precisely — holding her black Samsung phone in one hand, her other palm raised in a 'no catch' gesture, a warm grin, wearing the black t-shirt and ash-grey joggers. The bright kitchen remains completely unchanged. The camera is completely static. She speaks directly to the camera in a bubbly reassuring Gen Z tone, delivering as a confident declarative STATEMENT: \"No catch, and it's free.\" As she speaks she gives an easy open-palm 'I swear' gesture with her free hand, phone in the other. Her expression stays warm and genuine. The shot resolves on a confident grin, lighting wardrobe and background consistent, a seamless single take.",
+    "media": {
+      "start_image": "assets/mode-earn/viral-app-guinea-pig/ai-images/img-9.png"
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "duration": "3",
+      "mode": "pro",
+      "sound": "on"
+    },
+    "job_id": "f846902f-690a-4d54-b6b1-23feb4972778",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260622_100651_f846902f-690a-4d54-b6b1-23feb4972778.mp4",
+    "bytes": 5664402,
+    "created": "2026-06-22T10:13:39+00:00"
+  },
+  {
+    "label": "Clip 8",
+    "asset": "assets/mode-earn/viral-app-guinea-pig/ai-videos/Clip 8.mp4",
+    "model": "kling3_0",
+    "prompt": "Begin on a frontal medium shot of the same 19-year-old East Asian woman standing in her living room, matching the reference pose precisely — holding her black Samsung phone in one hand, an excited delighted face, wearing the black t-shirt and ash-grey joggers. The cozy living room remains completely unchanged. The camera introduces a slight, natural handheld drift throughout, no zoom or pan. She speaks directly to the camera in a bubbly fast-paced excited Gen Z tone, building in hype: \"And the best part? The points add up way faster than you'd think, and you can redeem them for gift cards or send it to PayPal.\" She delivers 'And the best part?' as an excited rhetorical question, then the rest with rising delighted excitement. As she speaks her eyes widen and she gestures with her free hand, hyped, phone in her other hand. Her expression stays thrilled and genuine. The shot resolves on a big happy grin, lighting wardrobe and background consistent, a seamless single take.",
+    "media": {
+      "start_image": "assets/mode-earn/viral-app-guinea-pig/ai-images/img-8.png"
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "duration": "10",
+      "mode": "pro",
+      "sound": "on"
+    },
+    "job_id": "7a3fee91-3509-4600-9318-43c0b60429ee",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260622_100646_7a3fee91-3509-4600-9318-43c0b60429ee.mp4",
+    "bytes": 17899771,
+    "created": "2026-06-22T10:14:56+00:00"
+  },
+  {
+    "label": "Clip 10",
+    "asset": "assets/mode-earn/viral-app-guinea-pig/ai-videos/Clip 10.mp4",
+    "model": "kling3_0",
+    "prompt": "Begin on a frontal medium shot of the same 19-year-old East Asian woman sitting on her bright window bench, matching the reference pose precisely — holding her black Samsung phone in one hand and pointing at the camera with the other, a confident encouraging grin, wearing the black t-shirt and ash-grey joggers. The bright window nook remains completely unchanged. The camera is completely static. She speaks directly to the camera in a bubbly warm confident Gen Z tone, delivering as an upbeat declarative call to action: \"If you're gonna doomscroll anyway, get rewarded for it. Download Mode Earn App on Google Play.\" As she speaks she points at the camera on 'you' and gives an encouraging nod on 'Google Play', phone in her other hand. Her expression stays warm, friendly and persuasive. The shot resolves on a confident encouraging smile, lighting wardrobe and background consistent, a seamless single take.",
+    "media": {
+      "start_image": "assets/mode-earn/viral-app-guinea-pig/ai-images/img-10.png"
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "duration": "6",
+      "mode": "pro",
+      "sound": "on"
+    },
+    "job_id": "9d8d44fd-d129-4c7c-89ed-3d84163779bf",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260622_101027_9d8d44fd-d129-4c7c-89ed-3d84163779bf.mp4",
+    "bytes": 9314198,
+    "created": "2026-06-22T10:17:08+00:00"
+  },
+  {
+    "label": "lifestyle-broll",
+    "asset": "assets/mode-earn/viral-app-guinea-pig/ai-videos/lifestyle_b-roll.mp4",
+    "model": "kling3_0",
+    "prompt": "She relaxes back against the pillows wearing her white headphones, casually scrolling and tapping the black Samsung phone with her thumb, gently nodding along to music with a chill content vibe, looking down at the screen. Cozy candid everyday moment. The camera holds with only a slight natural handheld drift, no zoom or pan.",
+    "media": {
+      "start_image": "assets/mode-earn/viral-app-guinea-pig/ai-images/lifestyle-first.png"
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "duration": "3",
+      "mode": "pro",
+      "sound": "off"
+    },
+    "job_id": "405e84a0-68cf-4161-a3f8-1ff206ac1b75",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260622_101037_405e84a0-68cf-4161-a3f8-1ff206ac1b75.mp4",
+    "bytes": 4680887,
+    "created": "2026-06-22T10:19:25+00:00"
+  },
+  {
+    "label": "phone-reveal-broll",
+    "asset": "assets/mode-earn/viral-app-guinea-pig/ai-videos/phone-reveal_b-roll.mp4",
+    "model": "kling3_0",
+    "prompt": "Maintaining her relaxed expression, she lifts the black Samsung phone up from her lap and turns it around in a single fluid motion so its bright screen faces the camera, extending it closer; the focus racks from her to the device, blurring her and the living room into soft warm bokeh and resolving on a tight sharp close-up of the phone screen showing the Mode Earn app. Slight natural handheld drift only, no zoom punch, no other camera movement.",
+    "media": {
+      "start_image": "assets/mode-earn/viral-app-guinea-pig/ai-images/phone-reveal-first.png",
+      "end_image": "assets/mode-earn/viral-app-guinea-pig/ai-images/phone-reveal-last.png"
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "duration": "3",
+      "mode": "pro",
+      "sound": "off"
+    },
+    "job_id": "318bf085-78e5-4f0f-8259-841f661795f7",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260622_101039_318bf085-78e5-4f0f-8259-841f661795f7.mp4",
+    "bytes": 5856856,
+    "created": "2026-06-22T10:39:24+00:00"
+  },
+  {
+    "label": "Clip 2 regen-energy",
+    "asset": "assets/mode-earn/viral-app-guinea-pig/ai-videos/Clip 2.mp4",
+    "model": "kling3_0",
+    "prompt": "Begin on a frontal medium shot of the same 19-year-old East Asian woman sitting on the edge of her bed, holding her black Samsung phone in one hand, wearing the black t-shirt and ash-grey joggers. The pink-lit bedroom remains completely unchanged. The camera is completely static. She speaks directly to the camera with HIGH-ENERGY, fast, punchy, animated, expressive Gen Z delivery matching a hype opening — big lively facial expressions and a playful, comedic exasperated flair, bright bubbly tone (NOT flat, NOT low-energy): \"I'm that girl with 200 apps and zero dollars.\" As she speaks she throws a quick animated hand flick and an exaggerated half-laugh eye-roll, vivid and comedic. Her energy is high and expressive throughout. The shot resolves on a lively expressive look, lighting wardrobe and background consistent, a seamless single take.",
+    "media": {
+      "start_image": "assets/mode-earn/viral-app-guinea-pig/ai-images/img-2.png"
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "duration": "4",
+      "mode": "pro",
+      "sound": "on"
+    },
+    "job_id": "b8266d32-9d94-4f6f-820e-34813b6cadba",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260622_114525_b8266d32-9d94-4f6f-820e-34813b6cadba.mp4",
+    "bytes": 7530847,
+    "created": "2026-06-22T11:46:58+00:00"
+  },
+  {
+    "label": "img-8r-phone-turn",
+    "asset": "assets/mode-earn/viral-app-guinea-pig/ai-images/img-8r.png",
+    "model": "gpt_image_2",
+    "prompt": "Edit this photo: keep her exact same pose, body position, excited facial expression, outfit (black short-sleeve t-shirt and light ash-grey joggers), the living-room location and the medium-shot framing all unchanged. Change ONLY the phone in her hand: she now turns her Black Samsung Galaxy S22 Ultra so its SCREEN faces the camera, and the screen displays the Mode Earn 'EARN APP' logo image from the second reference — bright, sharp and filling the screen. Her face stays clearly visible beside the phone. Photorealistic, the phone screen readable, natural medium shot.",
+    "media": {
+      "image": [
+        "assets/mode-earn/viral-app-guinea-pig/ai-images/img-8.png",
+        "assets/mode-earn/brand/MEA-logo.png"
+      ]
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "resolution": "2k"
+    },
+    "job_id": "66b47f44-c5c1-4d08-a3ce-10478f6bd301",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260622_114500_66b47f44-c5c1-4d08-a3ce-10478f6bd301.png",
+    "bytes": 9553142,
+    "created": "2026-06-22T11:47:30+00:00"
+  },
+  {
+    "label": "img-9r-phone-turn",
+    "asset": "assets/mode-earn/viral-app-guinea-pig/ai-images/img-9r.png",
+    "model": "gpt_image_2",
+    "prompt": "Edit this photo: keep her exact same pose, body position, warm facial expression, outfit (black short-sleeve t-shirt and light ash-grey joggers), the kitchen location and the medium-shot framing all unchanged. Change ONLY the phone in her hand: she now turns her Black Samsung Galaxy S22 Ultra so its SCREEN faces the camera, and the screen displays the Mode Earn 'EARN APP' logo image from the second reference — bright, sharp and filling the screen. Her face stays clearly visible beside the phone. Photorealistic, the phone screen readable, natural medium shot.",
+    "media": {
+      "image": [
+        "assets/mode-earn/viral-app-guinea-pig/ai-images/img-9.png",
+        "assets/mode-earn/brand/MEA-logo.png"
+      ]
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "resolution": "2k"
+    },
+    "job_id": "132b87e4-fa97-4aa1-90f6-b657265f013c",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260622_114531_132b87e4-fa97-4aa1-90f6-b657265f013c.png",
+    "bytes": 9140878,
+    "created": "2026-06-22T11:47:47+00:00"
+  },
+  {
+    "label": "img-5r-phone-turn",
+    "asset": "assets/mode-earn/viral-app-guinea-pig/ai-images/img-5r.png",
+    "model": "gpt_image_2",
+    "prompt": "Edit this photo: keep her exact same pose, body position, facial expression, outfit (black short-sleeve t-shirt and light ash-grey joggers), the living-room location and the medium-shot framing all unchanged. Change ONLY the phone in her hand: she now turns her Black Samsung Galaxy S22 Ultra so its SCREEN faces the camera, and the screen displays the Mode Earn 'EARN APP' logo image from the second reference — bright, sharp and filling the screen. Her face stays clearly visible beside the phone. Photorealistic, the phone screen readable, natural medium shot.",
+    "media": {
+      "image": [
+        "assets/mode-earn/viral-app-guinea-pig/ai-images/img-5.png",
+        "assets/mode-earn/brand/MEA-logo.png"
+      ]
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "resolution": "2k"
+    },
+    "job_id": "930239ab-8f1b-4af2-b71f-4672854a245d",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260622_114501_930239ab-8f1b-4af2-b71f-4672854a245d.png",
+    "bytes": 9678778,
+    "created": "2026-06-22T11:47:56+00:00"
+  },
+  {
+    "label": "Clip 9 regen-phone-logo",
+    "asset": "assets/mode-earn/viral-app-guinea-pig/ai-videos/Clip 9.mp4",
+    "model": "kling3_0",
+    "prompt": "Begin on a frontal medium shot of the same 19-year-old East Asian woman standing in her kitchen, holding her Black Samsung phone turned to face the camera with the Mode Earn app logo visible on its screen, a warm reassuring expression, wearing the black t-shirt and ash-grey joggers. The bright kitchen remains completely unchanged. The camera is completely static. She speaks directly to the camera in a bubbly reassuring Gen Z tone, presenting the phone toward the viewer, delivering as a confident declarative STATEMENT: \"No catch, and it's free.\" As she speaks she gives a reassuring present-the-phone gesture and a warm grin, the logo staying visible. Her expression stays warm and genuine. The shot resolves on a confident grin, lighting wardrobe and background consistent, a seamless single take.",
+    "media": {
+      "start_image": "assets/mode-earn/viral-app-guinea-pig/ai-images/img-9r.png"
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "duration": "3",
+      "mode": "pro",
+      "sound": "on"
+    },
+    "job_id": "e1fa9c5e-70b7-42a5-a228-ec8dbbfbfb82",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260622_115132_e1fa9c5e-70b7-42a5-a228-ec8dbbfbfb82.mp4",
+    "bytes": 6315392,
+    "created": "2026-06-22T11:53:15+00:00"
+  },
+  {
+    "label": "Clip 5 regen-phone-logo",
+    "asset": "assets/mode-earn/viral-app-guinea-pig/ai-videos/Clip 5.mp4",
+    "model": "kling3_0",
+    "prompt": "Begin on a frontal medium shot of the same 19-year-old East Asian woman sitting on her living-room couch, holding her Black Samsung phone turned to face the camera with the Mode Earn app logo visible on its screen, wearing the black t-shirt and ash-grey joggers. The cozy living room remains completely unchanged. The camera is completely static. She speaks directly to the camera in a bubbly Gen Z tone that starts skeptical and turns convinced, presenting the phone toward the viewer: \"Lowkey thought it was another scam… but it's actually legit — 10 million downloads and 4.5 stars don't lie.\" She delivers 'don't lie' as a firm declarative statement, NOT a question. As she speaks she gives the phone a small present-to-camera gesture and an impressed nod, the logo staying visible on screen. Her expression shifts from suspicious to genuinely impressed. The shot resolves on a convinced nod, lighting wardrobe and background consistent, a seamless single take.",
+    "media": {
+      "start_image": "assets/mode-earn/viral-app-guinea-pig/ai-images/img-5r.png"
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "duration": "7",
+      "mode": "pro",
+      "sound": "on"
+    },
+    "job_id": "e3a0db7a-c006-4afb-b9fe-3b126b0bd668",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260622_115126_e3a0db7a-c006-4afb-b9fe-3b126b0bd668.mp4",
+    "bytes": 16591196,
+    "created": "2026-06-22T11:53:42+00:00"
+  },
+  {
+    "label": "Clip 8 regen-phone-logo",
+    "asset": "assets/mode-earn/viral-app-guinea-pig/ai-videos/Clip 8.mp4",
+    "model": "kling3_0",
+    "prompt": "Begin on a frontal medium shot of the same 19-year-old East Asian woman standing in her living room, holding her Black Samsung phone turned to face the camera with the Mode Earn app logo visible on its screen, an excited delighted expression, wearing the black t-shirt and ash-grey joggers. The cozy living room remains completely unchanged. The camera introduces a slight natural handheld drift, no zoom or pan. She speaks directly to the camera in a bubbly fast-paced excited Gen Z tone, building hype and presenting the phone toward the viewer: \"And the best part? The points add up way faster than you'd think, and you can redeem them for gift cards or send it to PayPal.\" She delivers 'And the best part?' as an excited rhetorical question, then the rest with rising excitement. As she speaks she presents the phone with a hyped gesture and a big grin, the logo staying visible. The shot resolves on a big happy grin, lighting wardrobe and background consistent, a seamless single take.",
+    "media": {
+      "start_image": "assets/mode-earn/viral-app-guinea-pig/ai-images/img-8r.png"
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "duration": "10",
+      "mode": "pro",
+      "sound": "on"
+    },
+    "job_id": "a84035b0-fa4d-4bce-bb25-f6a959dc74f6",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260622_115132_a84035b0-fa4d-4bce-bb25-f6a959dc74f6.mp4",
+    "bytes": 24821413,
+    "created": "2026-06-22T11:54:27+00:00"
+  },
+  {
+    "label": "cta2",
+    "asset": "assets/mode-earn/viral-app-guinea-pig/ai-videos/cta2.mp4",
+    "model": "kling3_0",
+    "prompt": "Begin on a frontal medium shot of the same 19-year-old East Asian woman sitting on her bright window bench, matching the reference pose precisely — holding her black Samsung phone in one hand and pointing toward the camera with the other, a confident encouraging grin, wearing a plain short-sleeve black t-shirt and light ash-grey joggers. The bright window nook remains completely unchanged. The camera is completely static with no movement. She speaks directly to the camera in a bubbly, warm, confident Gen Z tone, delivering as an upbeat declarative call to action: \"Do yourself a favor and grab the one app that actually gives back. Download the Mode Earn app for free now.\" As she speaks she points at the camera on 'do yourself a favor' and gives an encouraging nod on 'for free now', phone staying in her other hand. Her expression stays warm, friendly and persuasive. The shot resolves on a confident encouraging smile, lighting, wardrobe and background completely consistent, a seamless single take.",
+    "media": {
+      "start_image": "assets/mode-earn/viral-app-guinea-pig/ai-images/img-10.png"
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "duration": "8",
+      "mode": "pro",
+      "sound": "on"
+    },
+    "job_id": "cd1050d2-23c3-426b-9761-f282c6ec5441",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260623_004758_cd1050d2-23c3-426b-9761-f282c6ec5441.mp4",
+    "bytes": 13261849,
+    "created": "2026-06-23T00:50:04+00:00"
+  },
+  {
+    "label": "hook3",
+    "asset": "assets/mode-earn/viral-app-guinea-pig/ai-videos/hook3.mp4",
+    "model": "kling3_0",
+    "prompt": "Begin on a frontal medium shot of the same 19-year-old East Asian woman sitting by her bright window nook with soft string lights, matching the reference pose precisely — holding her black Samsung phone in one hand, wearing a plain short-sleeve black t-shirt and light ash-grey joggers. The bright window nook remains completely unchanged. The camera is completely static with no movement. She speaks directly to the camera in a bubbly, fast-paced, expressive Gen Z tone, a bright higher-mid register with playful trendy TikTok inflection, fun and genuine, delivering with lively confident energy: \"Delete those random apps doing nothing for you, this is the only one that rewards you.\" As she speaks she gives a playful dismissive flick of the hand on 'delete', then points to the phone in her hand on 'this is the only one', big relatable energy. Her expression stays playful and confident. The shot resolves on a confident smile, lighting, wardrobe and background completely consistent, a seamless single take.",
+    "media": {
+      "start_image": "assets/mode-earn/viral-app-guinea-pig/ai-images/img-8.png"
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "duration": "7",
+      "mode": "pro",
+      "sound": "on"
+    },
+    "job_id": "939a318c-3eb2-472a-a521-eae6e7593f78",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260623_004754_939a318c-3eb2-472a-a521-eae6e7593f78.mp4",
+    "bytes": 13352305,
+    "created": "2026-06-23T00:50:08+00:00"
+  },
+  {
+    "label": "hook2",
+    "asset": "assets/mode-earn/viral-app-guinea-pig/ai-videos/hook2.mp4",
+    "model": "kling3_0",
+    "prompt": "Begin on a frontal medium shot of the same trendy 19-year-old East Asian woman sitting cross-legged in her cozy warm-lit living room, matching the reference pose precisely — holding her black Samsung phone in one hand, wearing a plain short-sleeve black t-shirt and light ash-grey joggers. The living room with plants and warm lighting remains completely unchanged. The camera is completely static with no movement. She speaks directly to the camera in a bubbly, fast-paced, expressive Gen Z tone, a bright higher-mid register with playful trendy TikTok inflection, fun and genuine, delivering with lively confident energy: \"POV: you're the friend who tries every free stuff app and they're all scams, until this one.\" As she speaks she gives a playful knowing look and an eyebrow raise on 'scams', then a confident gesture on 'until this one', the phone staying naturally in her other hand. Her expression stays playful and sassy. The shot resolves on a confident smirk, lighting, wardrobe and background completely consistent, a seamless single take.",
+    "media": {
+      "start_image": "assets/mode-earn/viral-app-guinea-pig/ai-images/img-5.png"
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "duration": "8",
+      "mode": "pro",
+      "sound": "on"
+    },
+    "job_id": "acbc86eb-2de7-43cc-b438-c4dc90540a1b",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260623_004749_acbc86eb-2de7-43cc-b438-c4dc90540a1b.mp4",
+    "bytes": 17259446,
+    "created": "2026-06-23T00:50:10+00:00"
+  },
+  {
+    "label": "cta3",
+    "asset": "assets/mode-earn/viral-app-guinea-pig/ai-videos/cta3.mp4",
+    "model": "kling3_0",
+    "prompt": "Begin on a frontal medium shot of the same 19-year-old East Asian woman sitting cross-legged in her cozy warm-lit living room, matching the reference pose precisely — holding her black Samsung phone in one hand, wearing a plain short-sleeve black t-shirt and light ash-grey joggers. The living room with plants and warm lighting remains completely unchanged. The camera is completely static with no movement. She speaks directly to the camera in a bubbly, warm, confident Gen Z tone, delivering as an upbeat declarative call to action: \"Go test it for yourself. Search Mode Earn App on the Play Store, it's free.\" As she speaks she gives an encouraging point toward the camera on 'go test it', then a friendly confident nod on 'it's free', phone staying in her other hand. Her expression stays warm, friendly and persuasive. The shot resolves on a confident encouraging smile, lighting, wardrobe and background completely consistent, a seamless single take.",
+    "media": {
+      "start_image": "assets/mode-earn/viral-app-guinea-pig/ai-images/img-5.png"
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "duration": "7",
+      "mode": "pro",
+      "sound": "on"
+    },
+    "job_id": "ca406ef7-3478-40af-aa53-feeccd7e2bf6",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260623_004806_ca406ef7-3478-40af-aa53-feeccd7e2bf6.mp4",
+    "bytes": 15137706,
+    "created": "2026-06-23T00:51:08+00:00"
+  }
+]

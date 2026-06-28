@@ -1,0 +1,17 @@
+[
+  {
+    "label": "base-character",
+    "asset": "assets/_shared/personas/male-caucasian/base-character.png",
+    "model": "gpt_image_2",
+    "prompt": "A friendly, easygoing 52-year-old Caucasian man, a relatable everyday dad. Short greying brown hair, clean-shaven or light stubble, warm blue-grey eyes, weathered natural skin with smile lines. Wearing a plain solid-colour casual shirt or sweater, no logos or graphics. Hyper-realistic photograph with super-detailed true-to-life skin texture: visible pores, fine lines, subtle natural blemishes and freckles, slight uneven skin tone and natural imperfections, not airbrushed and not too perfect. Natural daylight lighting, front-view close-up portrait looking directly at the camera, passport-style, only the close-up portrait.",
+    "media": {},
+    "params": {
+      "aspect_ratio": "2:3",
+      "resolution": "2k"
+    },
+    "job_id": "1bd8f39f-a974-45d7-8eb5-80d9f68fee1d",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260621_221702_1bd8f39f-a974-45d7-8eb5-80d9f68fee1d.png",
+    "bytes": 5733785,
+    "created": "2026-06-21T22:18:53+00:00"
+  }
+]

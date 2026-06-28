@@ -1,0 +1,302 @@
+[
+  {
+    "label": "img-hook2",
+    "asset": "assets/mode-earn/extra-cushion-on-a-budget/ai-images/img-hook2.png",
+    "model": "gpt_image_2",
+    "prompt": "Medium waist-up vertical shot of the same friendly 52-year-old Caucasian woman from the reference image — shoulder-length light-brown hair with subtle greys, warm blue-grey eyes, fair freckled skin, identical face and identity to the reference — wearing a plain soft dusty-blue crewneck knit sweater (no logos), holding the same Black Samsung Galaxy S22 Ultra from the reference naturally in one hand, screen NOT facing the camera. She is in a warm, lived-in suburban family kitchen with morning light and a wooden island, grounded with the floor and counter visible, looking directly into the camera with a hopeful, brightening 'I found something' expression, lightly lifting her phone hand in a small natural gesture. Anatomically correct hands. extreme realism, detailed skin, realistic facial imperfections, natural daylight lighting, candid high-detail texture, photographic, shot on a phone front camera.",
+    "media": {
+      "image": [
+        "assets/_shared/personas/female-caucasian/base-character.png",
+        "assets/_shared/props/samsung-galaxy-s22-ultra.png"
+      ]
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "resolution": "2k"
+    },
+    "job_id": "53e6cd13-a0b0-47f4-8f70-b5c48e3bc107",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260628_120345_53e6cd13-a0b0-47f4-8f70-b5c48e3bc107.png",
+    "bytes": 9527693,
+    "created": "2026-06-28T12:06:00+00:00"
+  },
+  {
+    "label": "img-4",
+    "asset": "assets/mode-earn/extra-cushion-on-a-budget/ai-images/img-4.png",
+    "model": "gpt_image_2",
+    "prompt": "Medium waist-up vertical shot of the same friendly 52-year-old Caucasian woman from the reference image (identical face and identity), wearing a plain soft dusty-blue crewneck knit sweater (no logos), the same Black Samsung Galaxy S22 Ultra from the reference resting in her hand on her lap, screen away from camera. She sits on a comfy living-room sofa with throw pillows in soft warm window light, grounded and correctly scaled to the sofa, looking into the camera with a wry, self-aware little shrug and raised eyebrow. Anatomically correct hands. extreme realism, detailed skin, realistic facial imperfections, natural daylight lighting, candid high-detail texture, photographic, shot on a phone front camera.",
+    "media": {
+      "image": [
+        "assets/_shared/personas/female-caucasian/base-character.png",
+        "assets/_shared/props/samsung-galaxy-s22-ultra.png"
+      ]
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "resolution": "2k"
+    },
+    "job_id": "e34bd2ce-4c09-4890-b6ea-aa9080665889",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260628_120345_e34bd2ce-4c09-4890-b6ea-aa9080665889.png",
+    "bytes": 9909462,
+    "created": "2026-06-28T12:06:01+00:00"
+  },
+  {
+    "label": "img-3",
+    "asset": "assets/mode-earn/extra-cushion-on-a-budget/ai-images/img-3.png",
+    "model": "gpt_image_2",
+    "prompt": "Medium waist-up vertical shot of the same friendly 52-year-old Caucasian woman from the reference image (identical face, light-brown greying hair, blue-grey eyes, freckled skin), wearing a plain soft dusty-blue crewneck knit sweater (no logos), holding the same Black Samsung Galaxy S22 Ultra from the reference naturally in one hand, screen away from camera. She stands in a bright dining nook beside a sunny window with a small table, one hand resting lightly on the table, grounded with floor and table visible, looking into the camera with a warm but rueful, slightly worried-about-money expression. Anatomically correct hands. extreme realism, detailed skin, realistic facial imperfections, natural daylight lighting, candid high-detail texture, photographic, shot on a phone front camera.",
+    "media": {
+      "image": [
+        "assets/_shared/personas/female-caucasian/base-character.png",
+        "assets/_shared/props/samsung-galaxy-s22-ultra.png"
+      ]
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "resolution": "2k"
+    },
+    "job_id": "933fb7ee-99d0-4ebd-ac91-7eaffac859fc",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260628_120345_933fb7ee-99d0-4ebd-ac91-7eaffac859fc.png",
+    "bytes": 9749806,
+    "created": "2026-06-28T12:06:18+00:00"
+  },
+  {
+    "label": "img-hook1",
+    "asset": "assets/mode-earn/extra-cushion-on-a-budget/ai-images/img-hook1.png",
+    "model": "gpt_image_2",
+    "prompt": "Medium waist-up vertical shot of the same friendly 52-year-old Caucasian woman from the reference image — shoulder-length light-brown hair with subtle greys, warm blue-grey eyes, soft smile lines, fair freckled skin, identical face and identity to the reference — wearing a plain soft dusty-blue crewneck knit sweater (no logos, no graphics, no prints), holding the same Black Samsung Galaxy S22 Ultra from the reference naturally in one hand with the screen NOT facing the camera. She stands on the front porch of a cozy suburban home with potted plants and warm natural daylight, properly grounded with the porch floor visible and her body correctly scaled to the scene, looking directly into the camera with a warm, candid, slightly vulnerable expression and a gentle head tilt. Anatomically correct hands. extreme realism, detailed skin, realistic facial imperfections, natural daylight lighting, candid high-detail texture, photographic, shot on a phone front camera.",
+    "media": {
+      "image": [
+        "assets/_shared/personas/female-caucasian/base-character.png",
+        "assets/_shared/props/samsung-galaxy-s22-ultra.png"
+      ]
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "resolution": "2k"
+    },
+    "job_id": "7fd743af-e5f6-40aa-8b7f-8dfcb53e8b32",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260628_120344_7fd743af-e5f6-40aa-8b7f-8dfcb53e8b32.png",
+    "bytes": 10454276,
+    "created": "2026-06-28T12:06:31+00:00"
+  },
+  {
+    "label": "img-5",
+    "asset": "assets/mode-earn/extra-cushion-on-a-budget/ai-images/img-5.png",
+    "model": "gpt_image_2",
+    "prompt": "Medium waist-up vertical shot of the same friendly 52-year-old Caucasian woman from the reference image (identical face and identity), wearing a plain soft dusty-blue crewneck knit sweater (no logos), holding the same Black Samsung Galaxy S22 Ultra from the reference in one hand, screen away from camera. She leans in at a warm kitchen island with morning light, grounded with the island and floor visible, looking into the camera with a knowing, skeptical-turning-convinced smile and a slightly raised eyebrow. Anatomically correct hands. extreme realism, detailed skin, realistic facial imperfections, natural daylight lighting, candid high-detail texture, photographic, shot on a phone front camera.",
+    "media": {
+      "image": [
+        "assets/_shared/personas/female-caucasian/base-character.png",
+        "assets/_shared/props/samsung-galaxy-s22-ultra.png"
+      ]
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "resolution": "2k"
+    },
+    "job_id": "ed0d9169-a097-452d-9a6a-959915ca77eb",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260628_120345_ed0d9169-a097-452d-9a6a-959915ca77eb.png",
+    "bytes": 9740172,
+    "created": "2026-06-28T12:06:39+00:00"
+  },
+  {
+    "label": "img-6",
+    "asset": "assets/mode-earn/extra-cushion-on-a-budget/ai-images/img-6.png",
+    "model": "gpt_image_2",
+    "prompt": "Medium waist-up vertical shot of the same friendly 52-year-old Caucasian woman from the reference image (identical face and identity), wearing a plain soft dusty-blue crewneck knit sweater (no logos), holding the same Black Samsung Galaxy S22 Ultra from the reference in one hand, screen away from camera. She sits in a snug reading corner with an armchair and bookshelf, warm lamp and daylight, grounded and correctly scaled, looking into the camera with an impressed, eyebrows-raised 'wow, really?' expression. Anatomically correct hands. extreme realism, detailed skin, realistic facial imperfections, natural daylight lighting, candid high-detail texture, photographic, shot on a phone front camera.",
+    "media": {
+      "image": [
+        "assets/_shared/personas/female-caucasian/base-character.png",
+        "assets/_shared/props/samsung-galaxy-s22-ultra.png"
+      ]
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "resolution": "2k"
+    },
+    "job_id": "4d536463-2f19-4f82-997d-bb0287c13b7e",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260628_120618_4d536463-2f19-4f82-997d-bb0287c13b7e.png",
+    "bytes": 10223261,
+    "created": "2026-06-28T12:08:28+00:00"
+  },
+  {
+    "label": "img-7",
+    "asset": "assets/mode-earn/extra-cushion-on-a-budget/ai-images/img-7.png",
+    "model": "gpt_image_2",
+    "prompt": "Medium waist-up vertical shot of the same friendly 52-year-old Caucasian woman from the reference image (identical face and identity), wearing a plain soft dusty-blue crewneck knit sweater (no logos), the same Black Samsung Galaxy S22 Ultra from the reference in one hand, screen away from camera, the other hand making a relaxed open-palm 'it's simple' gesture. She stands at a bright dining nook by the window, grounded with floor and table visible, looking into the camera with an easygoing, explaining-it-to-a-neighbour smile. Anatomically correct hands. extreme realism, detailed skin, realistic facial imperfections, natural daylight lighting, candid high-detail texture, photographic, shot on a phone front camera.",
+    "media": {
+      "image": [
+        "assets/_shared/personas/female-caucasian/base-character.png",
+        "assets/_shared/props/samsung-galaxy-s22-ultra.png"
+      ]
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "resolution": "2k"
+    },
+    "job_id": "78053e48-4c11-4cc6-a8ea-9089e76a7b3c",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260628_120618_78053e48-4c11-4cc6-a8ea-9089e76a7b3c.png",
+    "bytes": 9846899,
+    "created": "2026-06-28T12:08:45+00:00"
+  },
+  {
+    "label": "img-8",
+    "asset": "assets/mode-earn/extra-cushion-on-a-budget/ai-images/img-8.png",
+    "model": "gpt_image_2",
+    "prompt": "Medium waist-up vertical shot of the same friendly 52-year-old Caucasian woman from the reference image (identical face and identity), wearing a plain soft dusty-blue crewneck knit sweater (no logos), holding the same Black Samsung Galaxy S22 Ultra from the reference in one hand, screen away from camera, the free hand mid-gesture as she lists things. She sits on a comfy living-room sofa in warm daylight, grounded and correctly scaled, looking into the camera with a lively, animated, bright and enthusiastic expression. Anatomically correct hands. extreme realism, detailed skin, realistic facial imperfections, natural daylight lighting, candid high-detail texture, photographic, shot on a phone front camera.",
+    "media": {
+      "image": [
+        "assets/_shared/personas/female-caucasian/base-character.png",
+        "assets/_shared/props/samsung-galaxy-s22-ultra.png"
+      ]
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "resolution": "2k"
+    },
+    "job_id": "b4a5c266-0552-4179-972f-45291655cc16",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260628_120644_b4a5c266-0552-4179-972f-45291655cc16.png",
+    "bytes": 9909213,
+    "created": "2026-06-28T12:09:00+00:00"
+  },
+  {
+    "label": "img-hookC",
+    "asset": "assets/mode-earn/extra-cushion-on-a-budget/ai-images/img-hookC.png",
+    "model": "gpt_image_2",
+    "prompt": "Medium close-up vertical shot (slightly tighter, chest-up) of the same friendly 52-year-old Caucasian woman from the reference image (identical face and identity), wearing a plain soft dusty-blue crewneck knit sweater (no logos), holding the same Black Samsung Galaxy S22 Ultra from the reference in one hand, screen away from camera. She sits on a comfy living-room sofa in warm daylight, grounded and correctly scaled, leaning toward the camera in a warm, confidential 'come closer, between us' way with a gentle reassuring smile. Anatomically correct hands. extreme realism, detailed skin, realistic facial imperfections, natural daylight lighting, candid high-detail texture, photographic, shot on a phone front camera.",
+    "media": {
+      "image": [
+        "assets/_shared/personas/female-caucasian/base-character.png",
+        "assets/_shared/props/samsung-galaxy-s22-ultra.png"
+      ]
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "resolution": "2k"
+    },
+    "job_id": "b370a782-896d-4a88-82e6-df7160594667",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260628_120924_b370a782-896d-4a88-82e6-df7160594667.png",
+    "bytes": 10163729,
+    "created": "2026-06-28T12:11:30+00:00"
+  },
+  {
+    "label": "img-10",
+    "asset": "assets/mode-earn/extra-cushion-on-a-budget/ai-images/img-10.png",
+    "model": "gpt_image_2",
+    "prompt": "Medium waist-up vertical shot of the same friendly 52-year-old Caucasian woman from the reference image (identical face and identity), wearing a plain soft dusty-blue crewneck knit sweater (no logos), holding the same Black Samsung Galaxy S22 Ultra from the reference in one hand, screen away from camera, her other hand resting warmly near her heart. She sits in a snug reading corner with armchair and bookshelf, warm light, grounded and correctly scaled, looking into the camera with a warm, content, grateful smile. Anatomically correct hands. extreme realism, detailed skin, realistic facial imperfections, natural daylight lighting, candid high-detail texture, photographic, shot on a phone front camera.",
+    "media": {
+      "image": [
+        "assets/_shared/personas/female-caucasian/base-character.png",
+        "assets/_shared/props/samsung-galaxy-s22-ultra.png"
+      ]
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "resolution": "2k"
+    },
+    "job_id": "c4c0bd8d-59a4-4072-917c-cbd5df7a8b7a",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260628_120709_c4c0bd8d-59a4-4072-917c-cbd5df7a8b7a.png",
+    "bytes": 10395883,
+    "created": "2026-06-28T12:12:08+00:00"
+  },
+  {
+    "label": "img-9",
+    "asset": "assets/mode-earn/extra-cushion-on-a-budget/ai-images/img-9.png",
+    "model": "gpt_image_2",
+    "prompt": "Medium waist-up vertical shot of the same friendly 52-year-old Caucasian woman from the reference image (identical face and identity), wearing a plain soft dusty-blue crewneck knit sweater (no logos), holding the same Black Samsung Galaxy S22 Ultra from the reference in one hand, screen away from camera. She stands in a warm suburban kitchen with morning light, grounded with island and floor visible, looking into the camera with a pleased, satisfied, happy expression. Anatomically correct hands. extreme realism, detailed skin, realistic facial imperfections, natural daylight lighting, candid high-detail texture, photographic, shot on a phone front camera.",
+    "media": {
+      "image": [
+        "assets/_shared/personas/female-caucasian/base-character.png",
+        "assets/_shared/props/samsung-galaxy-s22-ultra.png"
+      ]
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "resolution": "2k"
+    },
+    "job_id": "22c7c4e9-58f0-47f8-8af4-070fd1965473",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260628_120703_22c7c4e9-58f0-47f8-8af4-070fd1965473.png",
+    "bytes": 10063422,
+    "created": "2026-06-28T12:12:09+00:00"
+  },
+  {
+    "label": "img-cta1",
+    "asset": "assets/mode-earn/extra-cushion-on-a-budget/ai-images/img-cta1.png",
+    "model": "gpt_image_2",
+    "prompt": "Medium waist-up vertical shot of the same friendly 52-year-old Caucasian woman from the reference image (identical face and identity), wearing a plain soft dusty-blue crewneck knit sweater (no logos), holding the same Black Samsung Galaxy S22 Ultra from the reference in one hand, screen away from camera. She stands on the front porch of a cozy suburban home with potted plants in warm daylight, grounded with the porch floor visible, looking directly into the camera with an encouraging, bright, 'you should try this' smile. Anatomically correct hands. extreme realism, detailed skin, realistic facial imperfections, natural daylight lighting, candid high-detail texture, photographic, shot on a phone front camera.",
+    "media": {
+      "image": [
+        "assets/_shared/personas/female-caucasian/base-character.png",
+        "assets/_shared/props/samsung-galaxy-s22-ultra.png"
+      ]
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "resolution": "2k"
+    },
+    "job_id": "fe818002-a099-467c-bd05-3adde8418461",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260628_120849_fe818002-a099-467c-bd05-3adde8418461.png",
+    "bytes": 10094287,
+    "created": "2026-06-28T12:12:13+00:00"
+  },
+  {
+    "label": "img-hookB",
+    "asset": "assets/mode-earn/extra-cushion-on-a-budget/ai-images/img-hookB.png",
+    "model": "gpt_image_2",
+    "prompt": "Medium waist-up vertical shot of the same friendly 52-year-old Caucasian woman from the reference image (identical face and identity), wearing a plain soft dusty-blue crewneck knit sweater (no logos), holding the same Black Samsung Galaxy S22 Ultra from the reference in one hand, screen away from camera. She is at a bright dining nook by a sunny window, grounded with the table and floor visible, leaning in slightly toward the camera with a warm, confiding 'let me tell you' expression. Anatomically correct hands. extreme realism, detailed skin, realistic facial imperfections, natural daylight lighting, candid high-detail texture, photographic, shot on a phone front camera.",
+    "media": {
+      "image": [
+        "assets/_shared/personas/female-caucasian/base-character.png",
+        "assets/_shared/props/samsung-galaxy-s22-ultra.png"
+      ]
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "resolution": "2k"
+    },
+    "job_id": "2480acbc-822e-4491-905e-7ad9ce46b54f",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260628_120900_2480acbc-822e-4491-905e-7ad9ce46b54f.png",
+    "bytes": 9774547,
+    "created": "2026-06-28T12:12:13+00:00"
+  },
+  {
+    "label": "img-cta2",
+    "asset": "assets/mode-earn/extra-cushion-on-a-budget/ai-images/img-cta2.png",
+    "model": "gpt_image_2",
+    "prompt": "Medium waist-up vertical shot of the same friendly 52-year-old Caucasian woman from the reference image (identical face and identity), wearing a plain soft dusty-blue crewneck knit sweater (no logos), holding the same Black Samsung Galaxy S22 Ultra from the reference in one hand, screen away from camera. She stands in a warm suburban kitchen with morning light, grounded with island and floor visible, looking directly into the camera with a warm, reassuring, gently encouraging smile. Anatomically correct hands. extreme realism, detailed skin, realistic facial imperfections, natural daylight lighting, candid high-detail texture, photographic, shot on a phone front camera.",
+    "media": {
+      "image": [
+        "assets/_shared/personas/female-caucasian/base-character.png",
+        "assets/_shared/props/samsung-galaxy-s22-ultra.png"
+      ]
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "resolution": "2k"
+    },
+    "job_id": "581a48d9-6a2c-410f-abdc-b1f18ddadf5a",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260628_121214_581a48d9-6a2c-410f-abdc-b1f18ddadf5a.png",
+    "bytes": 9671423,
+    "created": "2026-06-28T12:14:30+00:00"
+  },
+  {
+    "label": "img-cta3",
+    "asset": "assets/mode-earn/extra-cushion-on-a-budget/ai-images/img-cta3.png",
+    "model": "gpt_image_2",
+    "prompt": "Medium waist-up vertical shot of the same friendly 52-year-old Caucasian woman from the reference image (identical face and identity), wearing a plain soft dusty-blue crewneck knit sweater (no logos), holding the same Black Samsung Galaxy S22 Ultra from the reference in one hand, screen away from camera. She stands on the front porch of a cozy suburban home with potted plants in bright warm daylight, grounded with porch floor visible, looking directly into the camera with an upbeat, friendly, motivating smile. Anatomically correct hands. extreme realism, detailed skin, realistic facial imperfections, natural daylight lighting, candid high-detail texture, photographic, shot on a phone front camera.",
+    "media": {
+      "image": [
+        "assets/_shared/personas/female-caucasian/base-character.png",
+        "assets/_shared/props/samsung-galaxy-s22-ultra.png"
+      ]
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "resolution": "2k"
+    },
+    "job_id": "486365f0-15bc-4011-a32d-c405ecf76b9e",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260628_121252_486365f0-15bc-4011-a32d-c405ecf76b9e.png",
+    "bytes": 10251290,
+    "created": "2026-06-28T12:15:04+00:00"
+  }
+]

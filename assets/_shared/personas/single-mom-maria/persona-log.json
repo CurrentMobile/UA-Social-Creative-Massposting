@@ -1,0 +1,36 @@
+[
+  {
+    "label": "base-character",
+    "asset": "assets/_shared/personas/single-mom-maria/base-character.png",
+    "model": "gpt_image_2",
+    "prompt": "A warm, slightly tired but determined 34-year-old Latina woman, a full-time working single mom. Shoulder-length dark brown hair, warm brown eyes, light natural makeup, natural skin with subtle under-eye tiredness and gentle smile lines, friendly approachable expression. Wearing a plain solid-colour casual blouse, no logos or graphics or prints. Extreme realism, detailed skin, realistic facial imperfections, natural daylight lighting, front-view close-up portrait looking directly at the camera, passport-style, only the close-up portrait.",
+    "media": {},
+    "params": {
+      "aspect_ratio": "2:3",
+      "resolution": "2k"
+    },
+    "job_id": "53e5f76d-0cba-4834-b2c7-6b3e486e20f0",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260621_015134_53e5f76d-0cba-4834-b2c7-6b3e486e20f0.png",
+    "bytes": 6021655,
+    "created": "2026-06-21T01:53:20+00:00"
+  },
+  {
+    "label": "base-character-v2",
+    "asset": "assets/_shared/personas/single-mom-maria/base-character-v2.png",
+    "model": "gpt_image_2",
+    "prompt": "Re-render this exact same person as a hyper-realistic photograph. Keep the identical identity, face shape, hair, expression, wardrobe, framing and lighting, but give the skin super-detailed, true-to-life texture: visible pores, fine lines and subtle wrinkles, natural blemishes and freckles, slight redness and uneven skin tone, faint under-eye shadows, peach fuzz and a natural skin sheen. Do NOT airbrush, smooth, or beautify; the face must NOT look too perfect or plastic. Candid, unretouched DSLR close-up realism, natural daylight, passport-style portrait.",
+    "media": {
+      "image": [
+        "assets/_shared/personas/single-mom-maria/base-character.png"
+      ]
+    },
+    "params": {
+      "aspect_ratio": "2:3",
+      "resolution": "2k"
+    },
+    "job_id": "b94e3fcc-f117-49e6-9b02-77827ca15569",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260621_020152_b94e3fcc-f117-49e6-9b02-77827ca15569.png",
+    "bytes": 6300601,
+    "created": "2026-06-21T02:04:00+00:00"
+  }
+]

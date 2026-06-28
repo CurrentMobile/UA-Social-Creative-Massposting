@@ -1,0 +1,17 @@
+[
+  {
+    "label": "base-character",
+    "asset": "assets/_shared/personas/single-dad-marco/base-character.png",
+    "model": "gpt_image_2",
+    "prompt": "Marco, a warm, slightly tired but determined 34-year-old Latino man, a full-time working single dad. Short dark hair, light stubble, warm brown eyes, natural skin with subtle under-eye tiredness and smile lines. Wearing a plain solid-colour casual shirt or tee, no logos or graphics. Hyper-realistic photograph with super-detailed true-to-life skin texture: visible pores, fine lines, subtle natural blemishes and freckles, slight uneven skin tone and natural imperfections, not airbrushed and not too perfect. Natural daylight lighting, front-view close-up portrait looking directly at the camera, passport-style, only the close-up portrait.",
+    "media": {},
+    "params": {
+      "aspect_ratio": "2:3",
+      "resolution": "2k"
+    },
+    "job_id": "6a3b493a-7720-4bbe-bf41-f50a7d43a891",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260621_221700_6a3b493a-7720-4bbe-bf41-f50a7d43a891.png",
+    "bytes": 5686444,
+    "created": "2026-06-21T22:18:53+00:00"
+  }
+]

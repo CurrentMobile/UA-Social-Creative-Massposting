@@ -1,0 +1,36 @@
+[
+  {
+    "label": "base-character",
+    "asset": "assets/_shared/personas/guilt-free-mama-grace/base-character.png",
+    "model": "gpt_image_2",
+    "prompt": "A warm, gentle 32-year-old White woman, a full-time mom balancing childcare and home. Soft wavy light-brown hair, warm hazel eyes, natural skin with a few freckles and faint tiredness, a kind nurturing expression. Wearing a plain solid-colour casual sweater, no logos or graphics or prints. Extreme realism, detailed skin, realistic facial imperfections, natural daylight lighting, front-view close-up portrait looking directly at the camera, passport-style, only the close-up portrait.",
+    "media": {},
+    "params": {
+      "aspect_ratio": "2:3",
+      "resolution": "2k"
+    },
+    "job_id": "01e670a3-ee10-46e3-b761-818ecc0fb92d",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260621_015243_01e670a3-ee10-46e3-b761-818ecc0fb92d.png",
+    "bytes": 6402064,
+    "created": "2026-06-21T01:54:36+00:00"
+  },
+  {
+    "label": "base-character-v2",
+    "asset": "assets/_shared/personas/guilt-free-mama-grace/base-character-v2.png",
+    "model": "gpt_image_2",
+    "prompt": "Re-render this exact same person as a hyper-realistic photograph. Keep the identical identity, face shape, hair, expression, wardrobe, framing and lighting, but give the skin super-detailed, true-to-life texture: visible pores, fine lines and subtle wrinkles, natural blemishes and freckles, slight redness and uneven skin tone, faint under-eye shadows, peach fuzz and a natural skin sheen. Do NOT airbrush, smooth, or beautify; the face must NOT look too perfect or plastic. Candid, unretouched DSLR close-up realism, natural daylight, passport-style portrait.",
+    "media": {
+      "image": [
+        "assets/_shared/personas/guilt-free-mama-grace/base-character.png"
+      ]
+    },
+    "params": {
+      "aspect_ratio": "2:3",
+      "resolution": "2k"
+    },
+    "job_id": "2115daa4-20f5-48c7-8790-6750b1896582",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260621_020215_2115daa4-20f5-48c7-8790-6750b1896582.png",
+    "bytes": 6365970,
+    "created": "2026-06-21T02:04:14+00:00"
+  }
+]

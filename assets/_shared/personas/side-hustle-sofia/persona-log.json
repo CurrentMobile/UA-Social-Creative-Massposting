@@ -1,0 +1,17 @@
+[
+  {
+    "label": "base-character",
+    "asset": "assets/_shared/personas/side-hustle-sofia/base-character.png",
+    "model": "gpt_image_2",
+    "prompt": "Sofia, an energetic, friendly, expressive 28-year-old Latina woman with a hustler vibe, a freelancer and rideshare driver. Dark hair worn loose or pulled back, lively eyes, a ready grin, natural skin texture with light makeup. Wearing a plain solid-colour casual tee or zip hoodie, no logos or graphics. Hyper-realistic photograph with super-detailed true-to-life skin texture: visible pores, fine lines, subtle natural blemishes and freckles, slight uneven skin tone and natural imperfections, not airbrushed and not too perfect. Natural daylight lighting, front-view close-up portrait looking directly at the camera, passport-style, only the close-up portrait.",
+    "media": {},
+    "params": {
+      "aspect_ratio": "2:3",
+      "resolution": "2k"
+    },
+    "job_id": "2bff5258-0380-4d78-a6a3-5e63268325d7",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260621_221700_2bff5258-0380-4d78-a6a3-5e63268325d7.png",
+    "bytes": 5898222,
+    "created": "2026-06-21T22:19:01+00:00"
+  }
+]

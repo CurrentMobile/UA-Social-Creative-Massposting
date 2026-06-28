@@ -1,0 +1,197 @@
+[
+  {
+    "label": "broll-reveal-first",
+    "asset": "assets/mode-earn/extra-cushion-on-a-budget/ai-images/broll-reveal-first.png",
+    "model": "gpt_image_2",
+    "prompt": "Vertical medium shot of the same 52-year-old woman from the reference, wearing a plain soft dusty-blue crewneck knit sweater, sitting on a cozy living-room sofa in warm daylight, holding the same Black Samsung Galaxy S22 Ultra from the reference low in one hand and looking down at it naturally as she taps the screen (screen angled toward herself, NOT toward the camera). Grounded, correctly scaled, soft warm bokeh background. Photographic, natural daylight, candid high-detail texture, vertical 9:16. Anatomically correct hands.",
+    "media": {
+      "image": [
+        "assets/_shared/personas/female-caucasian/base-character.png",
+        "assets/_shared/props/samsung-galaxy-s22-ultra.png"
+      ]
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "resolution": "2k"
+    },
+    "job_id": "aa31f041-f0f1-4fbd-a3d6-9d294a0761d2",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260628_121645_aa31f041-f0f1-4fbd-a3d6-9d294a0761d2.png",
+    "bytes": 9671208,
+    "created": "2026-06-28T12:21:02+00:00"
+  },
+  {
+    "label": "broll-receipt",
+    "asset": "assets/mode-earn/extra-cushion-on-a-budget/ai-images/broll-receipt.png",
+    "model": "gpt_image_2",
+    "prompt": "Close-up cutaway in a warm, lived-in suburban kitchen in soft morning light. A 52-year-old woman's hands, wearing a soft dusty-blue knit sweater sleeve (matching the reference person), hold a long white paper grocery store receipt; a worn brown wallet and a few coins rest on the wooden counter beside it. The mood is a quiet, tired sigh about rising costs. Shallow depth of field, soft bokeh, candid high-detail texture, photographic, natural daylight, vertical 9:16. Anatomically correct hands.",
+    "media": {
+      "image": [
+        "assets/_shared/personas/female-caucasian/base-character.png"
+      ]
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "resolution": "2k"
+    },
+    "job_id": "57f1df0b-d45e-41b0-9320-695b93d08608",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260628_121639_57f1df0b-d45e-41b0-9320-695b93d08608.png",
+    "bytes": 9202693,
+    "created": "2026-06-28T12:21:03+00:00"
+  },
+  {
+    "label": "broll-news-raw",
+    "asset": "assets/mode-earn/extra-cushion-on-a-budget/ai-images/broll-news-raw.png",
+    "model": "gpt_image_2",
+    "prompt": "Over-the-shoulder vertical shot from just behind the right shoulder of the same 52-year-old woman from the reference, sitting on a cozy living-room sofa in warm daylight, holding the same Black Samsung Galaxy S22 Ultra from the reference vertically in both hands; the bright phone screen is sharp, flat, and clearly visible to the camera (a clean placeholder app screen), a coffee mug on the side table. Soft warm bokeh behind. Photographic, natural daylight, candid high-detail texture, vertical 9:16. Anatomically correct hands.",
+    "media": {
+      "image": [
+        "assets/_shared/personas/female-caucasian/base-character.png",
+        "assets/_shared/props/samsung-galaxy-s22-ultra.png"
+      ]
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "resolution": "2k"
+    },
+    "job_id": "8c15b04d-a6e6-4088-8709-2f3e5a226d94",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260628_121645_8c15b04d-a6e6-4088-8709-2f3e5a226d94.png",
+    "bytes": 8754780,
+    "created": "2026-06-28T12:21:04+00:00"
+  },
+  {
+    "label": "broll-giftcards",
+    "asset": "assets/mode-earn/extra-cushion-on-a-budget/ai-images/broll-giftcards.png",
+    "model": "gpt_image_2",
+    "prompt": "Close-up cutaway of a 52-year-old woman's hands, soft dusty-blue knit sweater sleeves (matching the reference person), gently fanning out a few colorful retail gift cards on a warm wooden kitchen table in soft daylight — one dark card with a smile-arrow motif, one bright blue-and-yellow card. Satisfying and tactile, shallow depth of field, soft bokeh, candid high-detail texture, photographic, natural daylight, vertical 9:16. Anatomically correct hands.",
+    "media": {
+      "image": [
+        "assets/_shared/personas/female-caucasian/base-character.png"
+      ]
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "resolution": "2k"
+    },
+    "job_id": "c6c46049-4875-4709-9c03-4f2ea0ca1871",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260628_121639_c6c46049-4875-4709-9c03-4f2ea0ca1871.png",
+    "bytes": 8809608,
+    "created": "2026-06-28T12:21:05+00:00"
+  },
+  {
+    "label": "broll-receipt",
+    "asset": "assets/mode-earn/extra-cushion-on-a-budget/ai-videos/broll-receipt_b-roll.mp4",
+    "model": "kling3_0",
+    "prompt": "A quiet, candid close-up: the woman's hands lower a long paper grocery receipt onto the warm kitchen counter with a small, tired motion, a worn wallet and a few coins beside it, soft morning light, shallow depth of field with soft bokeh. Only a slight, natural handheld drift; no other camera movement.",
+    "media": {
+      "start_image": "assets/mode-earn/extra-cushion-on-a-budget/ai-images/broll-receipt.png"
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "duration": "4",
+      "mode": "pro",
+      "sound": "off"
+    },
+    "job_id": "cc40f99e-3ccb-463e-ba69-c794d9676f52",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260628_122208_cc40f99e-3ccb-463e-ba69-c794d9676f52.mp4",
+    "bytes": 7019865,
+    "created": "2026-06-28T12:23:53+00:00"
+  },
+  {
+    "label": "broll-giftcards",
+    "asset": "assets/mode-earn/extra-cushion-on-a-budget/ai-videos/broll-giftcards_b-roll.mp4",
+    "model": "kling3_0",
+    "prompt": "Close-up: the woman's hands gently fan and spread a few colorful retail gift cards across the warm wooden kitchen table in a satisfying little reveal, soft daylight, shallow depth of field with soft bokeh. Only a slight, natural handheld drift; no other camera movement.",
+    "media": {
+      "start_image": "assets/mode-earn/extra-cushion-on-a-budget/ai-images/broll-giftcards.png"
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "duration": "4",
+      "mode": "pro",
+      "sound": "off"
+    },
+    "job_id": "4041a899-78cc-45c6-9a84-13ad607daa9b",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260628_122208_4041a899-78cc-45c6-9a84-13ad607daa9b.mp4",
+    "bytes": 8118461,
+    "created": "2026-06-28T12:24:03+00:00"
+  },
+  {
+    "label": "broll-reveal-last-raw",
+    "asset": "assets/mode-earn/extra-cushion-on-a-budget/ai-images/broll-reveal-last-raw.png",
+    "model": "gpt_image_2",
+    "prompt": "Edit the first image: turn the phone around to face the viewer and show this exact Mode Earn app home screen UI from the second image on the screen, sharp and bright. Blur the woman and the room behind into soft warm bokeh so the phone screen is the clear focus. Keep the same hand, phone, lighting and scene. Photographic, realistic, clean family-friendly product reveal.",
+    "media": {
+      "image": [
+        "assets/mode-earn/extra-cushion-on-a-budget/ai-images/broll-reveal-first.png",
+        "assets/mode-earn/extra-cushion-on-a-budget/ai-images/ui-home.png"
+      ]
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "resolution": "2k"
+    },
+    "job_id": "335a3252-922a-438f-9412-31be34889eba",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260628_122409_335a3252-922a-438f-9412-31be34889eba.png",
+    "bytes": 7871419,
+    "created": "2026-06-28T12:26:22+00:00"
+  },
+  {
+    "label": "broll-news",
+    "asset": "assets/mode-earn/extra-cushion-on-a-budget/ai-images/broll-news.png",
+    "model": "gpt_image_2",
+    "prompt": "Edit the first image: make the phone screen show this exact Mode Earn app news-screen UI from the second image, sharp, bright, and fit cleanly to the screen. Keep the woman, her hands, the sofa, the coffee mug, the lighting and everything else completely identical and unchanged. Photographic, realistic.",
+    "media": {
+      "image": [
+        "assets/mode-earn/extra-cushion-on-a-budget/ai-images/broll-news-raw.png",
+        "assets/mode-earn/extra-cushion-on-a-budget/ai-images/ui-news.png"
+      ]
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "resolution": "2k"
+    },
+    "job_id": "128d705d-4821-4150-9a3f-54699a977e58",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260628_122409_128d705d-4821-4150-9a3f-54699a977e58.png",
+    "bytes": 9194088,
+    "created": "2026-06-28T12:26:30+00:00"
+  },
+  {
+    "label": "broll-news",
+    "asset": "assets/mode-earn/extra-cushion-on-a-budget/ai-videos/broll-news_b-roll.mp4",
+    "model": "kling3_0",
+    "prompt": "Over-the-shoulder shot: the woman gives a small, natural thumb-scroll as she reads the news on her phone held vertically, the bright app screen clearly visible, a coffee mug nearby, cozy warm light, shallow depth of field. Only a slight, natural handheld drift; no other camera movement.",
+    "media": {
+      "start_image": "assets/mode-earn/extra-cushion-on-a-budget/ai-images/broll-news.png"
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "duration": "4",
+      "mode": "pro",
+      "sound": "off"
+    },
+    "job_id": "ad564ecc-028f-465a-8671-6ad662fec721",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260628_122810_ad564ecc-028f-465a-8671-6ad662fec721.mp4",
+    "bytes": 6345899,
+    "created": "2026-06-28T12:30:16+00:00"
+  },
+  {
+    "label": "broll-reveal",
+    "asset": "assets/mode-earn/extra-cushion-on-a-budget/ai-videos/broll-reveal_b-roll.mp4",
+    "model": "kling3_0",
+    "prompt": "Maintaining her warm expression, she smoothly rotates the phone forward in a single fluid motion so its bright screen faces the camera, extending it a little closer; the focus racks from her face to the device, blurring her and the room into soft warm bokeh and resolving on a tight, sharp close-up of the app home screen. Only a slight, natural handheld drift.",
+    "media": {
+      "start_image": "assets/mode-earn/extra-cushion-on-a-budget/ai-images/broll-reveal-first.png",
+      "end_image": "assets/mode-earn/extra-cushion-on-a-budget/ai-images/broll-reveal-last.png"
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "duration": "3",
+      "mode": "pro",
+      "sound": "off"
+    },
+    "job_id": "26a3b60b-c6af-4115-9a46-e1d8c5ae3234",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260628_122813_26a3b60b-c6af-4115-9a46-e1d8c5ae3234.mp4",
+    "bytes": 7432218,
+    "created": "2026-06-28T12:31:45+00:00"
+  }
+]

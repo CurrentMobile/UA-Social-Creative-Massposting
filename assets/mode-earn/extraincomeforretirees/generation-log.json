@@ -1,0 +1,840 @@
+[
+  {
+    "label": "environment",
+    "asset": "assets/mode-earn/extraincomeforretirees/ai-images/environment.png",
+    "model": "gpt_image_2",
+    "prompt": "A cozy, warm home interior in soft natural daylight: a comfortable living room with a beige sofa and soft cushions, a wooden side table, a large window on the left with sheer curtains letting in warm morning light, framed family photos and a couple of leafy plants in the background, hardwood floor, an open kitchen with wooden cabinets visible further back. Inviting, lived-in, homely but tidy. No people. Photorealistic, natural daylight.",
+    "media": {},
+    "params": {
+      "aspect_ratio": "9:16",
+      "resolution": "2k"
+    },
+    "job_id": "79e26bc6-f1af-4360-ab3c-c05e87ea2213",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260615_185043_79e26bc6-f1af-4360-ab3c-c05e87ea2213.png",
+    "bytes": 9554273,
+    "created": "2026-06-15T18:53:08+00:00"
+  },
+  {
+    "label": "grid-4",
+    "asset": "assets/mode-earn/extraincomeforretirees/ai-images/grid-4.png",
+    "model": "gpt_image_2",
+    "prompt": "A 3x3 grid showing the exact same 66-year-old woman from the reference image, same face and identity, wearing the same mauve cardigan over a cream blouse, seated in a comfortable chair near the bright window with hands gesturing naturally in this same warm cozy home. Nine different sitting positions and camera angles, but she is looking directly at the camera in every one of the nine shots. Keep her identity, wardrobe, and warm natural daylight identical across all nine. Photorealistic, natural skin texture.",
+    "media": {
+      "image": [
+        "assets/_shared/personas/retiree-female-poc/base-character.png",
+        "assets/mode-earn/extraincomeforretirees/ai-images/environment.png"
+      ]
+    },
+    "params": {
+      "aspect_ratio": "1:1",
+      "resolution": "2k"
+    },
+    "job_id": "f84a0ea6-a4fe-4f08-ac5f-a595ca2b55e0",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260615_185842_f84a0ea6-a4fe-4f08-ac5f-a595ca2b55e0.png",
+    "bytes": 10989786,
+    "created": "2026-06-15T19:02:43+00:00"
+  },
+  {
+    "label": "grid-2",
+    "asset": "assets/mode-earn/extraincomeforretirees/ai-images/grid-2.png",
+    "model": "gpt_image_2",
+    "prompt": "A 3x3 grid showing the exact same 66-year-old woman from the reference image, same face and identity, wearing the same mauve cardigan over a cream blouse, standing and leaning gently at the kitchen counter in the background of this same warm cozy home. Nine different standing positions and camera angles, but she is looking directly at the camera in every one of the nine shots. Keep her identity, wardrobe, and warm natural daylight identical across all nine. Photorealistic, natural skin texture.",
+    "media": {
+      "image": [
+        "assets/_shared/personas/retiree-female-poc/base-character.png",
+        "assets/mode-earn/extraincomeforretirees/ai-images/environment.png"
+      ]
+    },
+    "params": {
+      "aspect_ratio": "1:1",
+      "resolution": "2k"
+    },
+    "job_id": "5f4fc8d4-0895-46d4-90a4-b25fe6df48fb",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260615_185840_5f4fc8d4-0895-46d4-90a4-b25fe6df48fb.png",
+    "bytes": 10865829,
+    "created": "2026-06-15T19:02:55+00:00"
+  },
+  {
+    "label": "grid-5",
+    "asset": "assets/mode-earn/extraincomeforretirees/ai-images/grid-5.png",
+    "model": "gpt_image_2",
+    "prompt": "A 3x3 grid showing the exact same 66-year-old woman from the reference image, same face and identity, wearing the same mauve cardigan over a cream blouse, seated by the bright window holding a smartphone in this same warm cozy home. Nine different sitting positions and camera angles, but she is looking directly at the camera in every one of the nine shots. Keep her identity, wardrobe, and warm natural daylight identical across all nine. Photorealistic, natural skin texture.",
+    "media": {
+      "image": [
+        "assets/_shared/personas/retiree-female-poc/base-character.png",
+        "assets/mode-earn/extraincomeforretirees/ai-images/environment.png"
+      ]
+    },
+    "params": {
+      "aspect_ratio": "1:1",
+      "resolution": "2k"
+    },
+    "job_id": "7ae33811-8732-4e72-a74f-13b9540e4114",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260615_185906_7ae33811-8732-4e72-a74f-13b9540e4114.png",
+    "bytes": 10943636,
+    "created": "2026-06-15T19:03:12+00:00"
+  },
+  {
+    "label": "grid-7",
+    "asset": "assets/mode-earn/extraincomeforretirees/ai-images/grid-7.png",
+    "model": "gpt_image_2",
+    "prompt": "A 3x3 grid showing the exact same 66-year-old woman from the reference image, same face and identity, wearing the same mauve cardigan over a cream blouse, standing near the window in the living room with a warm open posture in this same warm cozy home. Nine different standing positions and camera angles, but she is looking directly at the camera in every one of the nine shots. Keep her identity, wardrobe, and warm natural daylight identical across all nine. Photorealistic, natural skin texture.",
+    "media": {
+      "image": [
+        "assets/_shared/personas/retiree-female-poc/base-character.png",
+        "assets/mode-earn/extraincomeforretirees/ai-images/environment.png"
+      ]
+    },
+    "params": {
+      "aspect_ratio": "1:1",
+      "resolution": "2k"
+    },
+    "job_id": "76da4ad3-685d-4615-b3a7-0c519aacb7ec",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260615_185914_76da4ad3-685d-4615-b3a7-0c519aacb7ec.png",
+    "bytes": 11045413,
+    "created": "2026-06-15T19:03:17+00:00"
+  },
+  {
+    "label": "grid-8",
+    "asset": "assets/mode-earn/extraincomeforretirees/ai-images/grid-8.png",
+    "model": "gpt_image_2",
+    "prompt": "A 3x3 grid showing the exact same 66-year-old woman from the reference image, same face and identity, wearing the same mauve cardigan over a cream blouse, seated at the dining table addressing the camera directly in this same warm cozy home. Nine different sitting positions and camera angles, but she is looking directly at the camera in every one of the nine shots. Keep her identity, wardrobe, and warm natural daylight identical across all nine. Photorealistic, natural skin texture.",
+    "media": {
+      "image": [
+        "assets/_shared/personas/retiree-female-poc/base-character.png",
+        "assets/mode-earn/extraincomeforretirees/ai-images/environment.png"
+      ]
+    },
+    "params": {
+      "aspect_ratio": "1:1",
+      "resolution": "2k"
+    },
+    "job_id": "15170dbc-9a4f-4320-9560-e9bf0654f992",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260615_185916_15170dbc-9a4f-4320-9560-e9bf0654f992.png",
+    "bytes": 11132457,
+    "created": "2026-06-15T19:03:18+00:00"
+  },
+  {
+    "label": "grid-6",
+    "asset": "assets/mode-earn/extraincomeforretirees/ai-images/grid-6.png",
+    "model": "gpt_image_2",
+    "prompt": "A 3x3 grid showing the exact same 66-year-old woman from the reference image, same face and identity, wearing the same mauve cardigan over a cream blouse, seated on the beige sofa holding a warm mug with both hands in this same warm cozy home. Nine different sitting positions and camera angles, but she is looking directly at the camera in every one of the nine shots. Keep her identity, wardrobe, and warm natural daylight identical across all nine. Photorealistic, natural skin texture.",
+    "media": {
+      "image": [
+        "assets/_shared/personas/retiree-female-poc/base-character.png",
+        "assets/mode-earn/extraincomeforretirees/ai-images/environment.png"
+      ]
+    },
+    "params": {
+      "aspect_ratio": "1:1",
+      "resolution": "2k"
+    },
+    "job_id": "26159ffb-906a-4d0d-a78b-34e4bda0fb6f",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260615_185906_26159ffb-906a-4d0d-a78b-34e4bda0fb6f.png",
+    "bytes": 11328949,
+    "created": "2026-06-15T19:03:24+00:00"
+  },
+  {
+    "label": "grid-1",
+    "asset": "assets/mode-earn/extraincomeforretirees/ai-images/grid-1.png",
+    "model": "gpt_image_2",
+    "prompt": "A 3x3 grid showing the exact same 66-year-old woman from the reference image, same face and identity, wearing the same mauve cardigan over a cream blouse, seated comfortably on the beige sofa and relaxed in this same warm cozy home. Nine different sitting positions and camera angles, but she is looking directly at the camera in every one of the nine shots. Keep her identity, wardrobe, and warm natural daylight identical across all nine. Photorealistic, natural skin texture.",
+    "media": {
+      "image": [
+        "assets/_shared/personas/retiree-female-poc/base-character.png",
+        "assets/mode-earn/extraincomeforretirees/ai-images/environment.png"
+      ]
+    },
+    "params": {
+      "aspect_ratio": "1:1",
+      "resolution": "2k"
+    },
+    "job_id": "430a2e9b-4bed-491f-a5ac-7871b7e1aff9",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260615_191527_430a2e9b-4bed-491f-a5ac-7871b7e1aff9.png",
+    "bytes": 11040775,
+    "created": "2026-06-15T19:19:27+00:00"
+  },
+  {
+    "label": "grid-3",
+    "asset": "assets/mode-earn/extraincomeforretirees/ai-images/grid-3.png",
+    "model": "gpt_image_2",
+    "prompt": "A 3x3 grid showing the exact same 66-year-old woman from the reference image, same face and identity, wearing the same mauve cardigan over a cream blouse, seated at the wooden coffee table holding a pair of reading glasses in this same warm cozy home. Nine different sitting positions and camera angles, but she is looking directly at the camera in every one of the nine shots. Keep her identity, wardrobe, and warm natural daylight identical across all nine. Photorealistic, natural skin texture.",
+    "media": {
+      "image": [
+        "assets/_shared/personas/retiree-female-poc/base-character.png",
+        "assets/mode-earn/extraincomeforretirees/ai-images/environment.png"
+      ]
+    },
+    "params": {
+      "aspect_ratio": "1:1",
+      "resolution": "2k"
+    },
+    "job_id": "bd59b957-23b8-4e66-89d3-193ffa546153",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260615_192233_bd59b957-23b8-4e66-89d3-193ffa546153.png",
+    "bytes": 10746271,
+    "created": "2026-06-15T19:26:56+00:00"
+  },
+  {
+    "label": "img-1",
+    "asset": "assets/mode-earn/extraincomeforretirees/ai-images/img-1.png",
+    "model": "gpt_image_2",
+    "prompt": "Extract ONLY the single portrait at row 1, column 1 (top-left) of this 3x3 grid, where the woman sits relaxed on the sofa with a warm slight smile. Output a clean full-frame 9:16 vertical portrait of just her, sharp and upscaled, no grid lines, no other tiles, no collage. Preserve her exact face, identity, mauve cardigan over cream blouse, and the warm home background.",
+    "media": {
+      "image": [
+        "assets/mode-earn/extraincomeforretirees/ai-images/grid-1.png"
+      ]
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "resolution": "2k"
+    },
+    "job_id": "3fc7e7e0-00ef-4894-af8f-b886ecfca617",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260615_192845_3fc7e7e0-00ef-4894-af8f-b886ecfca617.png",
+    "bytes": 10225963,
+    "created": "2026-06-15T19:31:14+00:00"
+  },
+  {
+    "label": "img-2",
+    "asset": "assets/mode-earn/extraincomeforretirees/ai-images/img-2.png",
+    "model": "gpt_image_2",
+    "prompt": "Extract ONLY the single portrait at row 2, column 2 (the center tile) of this 3x3 grid, where the woman rests her chin thoughtfully on her hand at the kitchen counter. Output a clean full-frame 9:16 vertical portrait of just her, sharp and upscaled, no grid lines, no other tiles, no collage. Preserve her exact face, identity, mauve cardigan over cream blouse, and the warm kitchen background.",
+    "media": {
+      "image": [
+        "assets/mode-earn/extraincomeforretirees/ai-images/grid-2.png"
+      ]
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "resolution": "2k"
+    },
+    "job_id": "af18fb6c-4e6c-481f-a2a5-6c529b5fb035",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260615_192847_af18fb6c-4e6c-481f-a2a5-6c529b5fb035.png",
+    "bytes": 9919132,
+    "created": "2026-06-15T19:31:23+00:00"
+  },
+  {
+    "label": "img-3",
+    "asset": "assets/mode-earn/extraincomeforretirees/ai-images/img-3.png",
+    "model": "gpt_image_2",
+    "prompt": "Extract ONLY the single portrait at row 1, column 1 (top-left) of this 3x3 grid, where the woman leans on the table holding her reading glasses with a warm, engaged look. Output a clean full-frame 9:16 vertical portrait of just her, sharp and upscaled, no grid lines, no other tiles, no collage. Preserve her exact face, identity, mauve cardigan over cream blouse, and the warm home background.",
+    "media": {
+      "image": [
+        "assets/mode-earn/extraincomeforretirees/ai-images/grid-3.png"
+      ]
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "resolution": "2k"
+    },
+    "job_id": "cd923643-7818-41a4-be79-a7e3fc28d4d6",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260615_192851_cd923643-7818-41a4-be79-a7e3fc28d4d6.png",
+    "bytes": 9782025,
+    "created": "2026-06-15T19:31:30+00:00"
+  },
+  {
+    "label": "img-4",
+    "asset": "assets/mode-earn/extraincomeforretirees/ai-images/img-4.png",
+    "model": "gpt_image_2",
+    "prompt": "Extract ONLY the single portrait at row 1, column 2 (top-center) of this 3x3 grid, where the woman is gesturing with her hand mid-explanation near the window. Output a clean full-frame 9:16 vertical portrait of just her, sharp and upscaled, no grid lines, no other tiles, no collage. Preserve her exact face, identity, mauve cardigan over cream blouse, and the warm home background.",
+    "media": {
+      "image": [
+        "assets/mode-earn/extraincomeforretirees/ai-images/grid-4.png"
+      ]
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "resolution": "2k"
+    },
+    "job_id": "ce2bb4a5-ddb2-4072-916f-65e3affdeda5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260615_192854_ce2bb4a5-ddb2-4072-916f-65e3affdeda5.png",
+    "bytes": 9765833,
+    "created": "2026-06-15T19:31:41+00:00"
+  },
+  {
+    "label": "img-7",
+    "asset": "assets/mode-earn/extraincomeforretirees/ai-images/img-7.png",
+    "model": "gpt_image_2",
+    "prompt": "Extract ONLY the single portrait at row 1, column 1 (top-left) of this 3x3 grid, where the woman stands with a warm, open posture and looks directly at the camera. Output a clean full-frame 9:16 vertical portrait of just her, sharp and upscaled, no grid lines, no other tiles, no collage. Preserve her exact face, identity, mauve cardigan over cream blouse, and the warm home background.",
+    "media": {
+      "image": [
+        "assets/mode-earn/extraincomeforretirees/ai-images/grid-7.png"
+      ]
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "resolution": "2k"
+    },
+    "job_id": "ebe351f1-06b3-45c6-b9c5-2acdd78db858",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260615_193258_ebe351f1-06b3-45c6-b9c5-2acdd78db858.png",
+    "bytes": 10293245,
+    "created": "2026-06-15T19:35:33+00:00"
+  },
+  {
+    "label": "img-6",
+    "asset": "assets/mode-earn/extraincomeforretirees/ai-images/img-6.png",
+    "model": "gpt_image_2",
+    "prompt": "Extract ONLY the single portrait at row 1, column 1 (top-left) of this 3x3 grid, where the woman holds a warm mug with both hands and looks content on the sofa. Output a clean full-frame 9:16 vertical portrait of just her, sharp and upscaled, no grid lines, no other tiles, no collage. Preserve her exact face, identity, mauve cardigan over cream blouse, and the warm home background.",
+    "media": {
+      "image": [
+        "assets/mode-earn/extraincomeforretirees/ai-images/grid-6.png"
+      ]
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "resolution": "2k"
+    },
+    "job_id": "ea5cfbb4-6406-4cae-93bb-55dab3afd784",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260615_193254_ea5cfbb4-6406-4cae-93bb-55dab3afd784.png",
+    "bytes": 10059978,
+    "created": "2026-06-15T19:35:36+00:00"
+  },
+  {
+    "label": "img-5",
+    "asset": "assets/mode-earn/extraincomeforretirees/ai-images/img-5.png",
+    "model": "gpt_image_2",
+    "prompt": "Extract ONLY the single portrait at row 1, column 1 (top-left) of this 3x3 grid, where the woman holds a smartphone and smiles by the window. Output a clean full-frame 9:16 vertical portrait of just her, sharp and upscaled, no grid lines, no other tiles, no collage. Preserve her exact face, identity, mauve cardigan over cream blouse, and the warm home background.",
+    "media": {
+      "image": [
+        "assets/mode-earn/extraincomeforretirees/ai-images/grid-5.png"
+      ]
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "resolution": "2k"
+    },
+    "job_id": "aec4cd7c-240e-4052-a16b-98bca5d2cd73",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260615_193306_aec4cd7c-240e-4052-a16b-98bca5d2cd73.png",
+    "bytes": 9703067,
+    "created": "2026-06-15T19:35:39+00:00"
+  },
+  {
+    "label": "img-8",
+    "asset": "assets/mode-earn/extraincomeforretirees/ai-images/img-8.png",
+    "model": "gpt_image_2",
+    "prompt": "Extract ONLY the single portrait at row 1, column 2 (top-center) of this 3x3 grid, where the woman sits at the dining table with hands clasped and a warm, direct smile. Output a clean full-frame 9:16 vertical portrait of just her, sharp and upscaled, no grid lines, no other tiles, no collage. Preserve her exact face, identity, mauve cardigan over cream blouse, and the warm home background.",
+    "media": {
+      "image": [
+        "assets/mode-earn/extraincomeforretirees/ai-images/grid-8.png"
+      ]
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "resolution": "2k"
+    },
+    "job_id": "53cb190c-63a4-4a42-87b4-4709c8b3be03",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260615_193307_53cb190c-63a4-4a42-87b4-4709c8b3be03.png",
+    "bytes": 9533567,
+    "created": "2026-06-15T19:35:59+00:00"
+  },
+  {
+    "label": "img-2-rerun",
+    "asset": "assets/mode-earn/extraincomeforretirees/ai-images/img-2.png",
+    "model": "gpt_image_2",
+    "prompt": "Extract ONLY the single portrait at row 1, column 1 (top-left) of this 3x3 grid, where the woman stands in the kitchen with a warm expression and one hand resting near the counter, looking at the camera. Output a clean, photorealistic full-frame 9:16 vertical portrait of just her in a single normal kitchen with ONE counter only - no duplicate or overlapping tables, no extra furniture, no surreal artifacts, anatomically correct. Sharp and upscaled, no grid lines, no other tiles, no collage. Preserve her exact face, identity, and mauve cardigan over cream blouse.",
+    "media": {
+      "image": [
+        "assets/mode-earn/extraincomeforretirees/ai-images/grid-2.png"
+      ]
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "resolution": "2k"
+    },
+    "job_id": "17078f8b-1549-4890-baaf-d166f7cd29cc",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260615_200030_17078f8b-1549-4890-baaf-d166f7cd29cc.png",
+    "bytes": 9340037,
+    "created": "2026-06-15T20:03:07+00:00"
+  },
+  {
+    "label": "Clip 1",
+    "asset": "assets/mode-earn/extraincomeforretirees/ai-videos/Clip 1.mp4",
+    "model": "kling3_0",
+    "prompt": "Begin on the exact frontal medium close-up of the 66-year-old African American woman from the reference image, looking directly into the lens, matching her relaxed pose seated on the beige sofa, wearing the mauve cardigan over a cream blouse, with warm natural window light and the cozy living room behind her remaining completely unchanged. The camera remains completely static with no movement throughout the shot. She begins speaking directly to the camera in a warm, soothing, trustworthy grandmotherly tone with a slightly raspy, rich, resonant lower register and slow, deliberate pacing, delivering the line: 'I'm retired... the last thing I wanted was another job.' As she speaks she gives a small, knowing shake of the head and a gentle, easy hand gesture, her expression candid, warm, and a little wry, settling into a relaxed posture as the line concludes. Her lighting, wardrobe, and the background details stay completely consistent throughout, a seamless single take.",
+    "media": {
+      "start_image": "assets/mode-earn/extraincomeforretirees/ai-images/img-1.png"
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "duration": "5",
+      "mode": "pro",
+      "sound": "on"
+    },
+    "job_id": "6990ec05-fbaa-49b9-bd03-f98abbec185b",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260615_200345_6990ec05-fbaa-49b9-bd03-f98abbec185b.mp4",
+    "bytes": 14291593,
+    "created": "2026-06-15T20:05:35+00:00"
+  },
+  {
+    "label": "Clip 1 (v2 declarative)",
+    "asset": "assets/mode-earn/extraincomeforretirees/ai-videos/Clip 1.mp4",
+    "model": "kling3_0",
+    "prompt": "Begin on the exact frontal medium close-up of the 66-year-old African American woman from the reference image, looking directly into the lens, matching her relaxed pose seated on the beige sofa, wearing the mauve cardigan over a cream blouse, with warm natural window light and the cozy living room behind her remaining completely unchanged. The camera remains completely static with no movement throughout the shot. She speaks directly to the camera in a warm, soothing, trustworthy grandmotherly tone with a slightly raspy, rich, resonant lower register and slow, deliberate pacing. She delivers the line as a calm, matter-of-fact STATEMENT with a settled, declarative, falling intonation, NOT a question and with no upward inflection, owning the words with quiet confidence: 'I'm retired. The last thing I wanted was another job.' As she speaks she gives a small, knowing shake of the head and a gentle, easy hand gesture; her expression is candid, warm, and a little wry, settling into a relaxed posture as the line concludes. Her lighting, wardrobe, and the background details stay completely consistent throughout, a seamless single take.",
+    "media": {
+      "start_image": "assets/mode-earn/extraincomeforretirees/ai-images/img-1.png"
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "duration": "5",
+      "mode": "pro",
+      "sound": "on"
+    },
+    "job_id": "dc4c2611-1405-477a-8b3b-e89a44d5bccd",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260615_201424_dc4c2611-1405-477a-8b3b-e89a44d5bccd.mp4",
+    "bytes": 14318093,
+    "created": "2026-06-15T20:16:03+00:00"
+  },
+  {
+    "label": "Clip 3",
+    "asset": "assets/mode-earn/extraincomeforretirees/ai-videos/Clip 3.mp4",
+    "model": "kling3_0",
+    "prompt": "Begin on the exact frontal medium close-up of the 66-year-old African American woman from the reference image, seated at the table holding her reading glasses, looking directly into the lens, wearing the mauve cardigan over a cream blouse, with the warm living room and natural daylight remaining completely unchanged. The camera remains completely static with no movement. She speaks directly to the camera in a warm, soothing, trustworthy grandmotherly tone with a slightly raspy, rich, resonant lower register and slow, deliberate pacing, as a calm matter-of-fact statement with settled, declarative, falling intonation and no question-like inflection, delivering: 'My grandson showed me this app, Mode Earn App.' As she speaks her face brightens with a warm, knowing smile and she makes a small, easy gesture as if recalling the moment. Lighting, wardrobe, and background stay completely consistent throughout, a seamless single take.",
+    "media": {
+      "start_image": "assets/mode-earn/extraincomeforretirees/ai-images/img-3.png"
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "duration": "4",
+      "mode": "pro",
+      "sound": "on"
+    },
+    "job_id": "b48192e7-b6fb-41a5-a365-4bbb54d10cf2",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260615_202024_b48192e7-b6fb-41a5-a365-4bbb54d10cf2.mp4",
+    "bytes": 9214162,
+    "created": "2026-06-15T20:21:58+00:00"
+  },
+  {
+    "label": "Clip 4",
+    "asset": "assets/mode-earn/extraincomeforretirees/ai-videos/Clip 4.mp4",
+    "model": "kling3_0",
+    "prompt": "Begin on the exact frontal medium close-up of the 66-year-old African American woman from the reference image, seated near the window and looking directly into the lens, wearing the mauve cardigan over a cream blouse, with the warm living room and natural daylight remaining completely unchanged. The camera remains completely static with no movement. She speaks directly to the camera in a warm, soothing, trustworthy grandmotherly tone with a slightly raspy, rich, resonant lower register and slow, deliberate pacing, as a calm matter-of-fact statement with settled, declarative, falling intonation and no question-like inflection, delivering: 'At first I thought it was a scam, but it is actually simple.' As she speaks, a brief flicker of skepticism softens into a reassured, warm smile, and she makes a gentle open-hand gesture on the word simple. Lighting, wardrobe, and background stay completely consistent throughout, a seamless single take.",
+    "media": {
+      "start_image": "assets/mode-earn/extraincomeforretirees/ai-images/img-4.png"
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "duration": "5",
+      "mode": "pro",
+      "sound": "on"
+    },
+    "job_id": "7558ce68-0cf0-4a2d-8ab6-a0aa4f494ac3",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260615_202028_7558ce68-0cf0-4a2d-8ab6-a0aa4f494ac3.mp4",
+    "bytes": 11193989,
+    "created": "2026-06-15T20:22:07+00:00"
+  },
+  {
+    "label": "Clip 2",
+    "asset": "assets/mode-earn/extraincomeforretirees/ai-videos/Clip 2.mp4",
+    "model": "kling3_0",
+    "prompt": "Begin on the exact frontal medium shot of the 66-year-old African American woman from the reference image, standing in her kitchen and looking directly into the lens, wearing the mauve cardigan over a cream blouse, with the warm kitchen and natural daylight remaining completely unchanged. The camera remains completely static with no movement. She speaks directly to the camera in a warm, soothing, trustworthy grandmotherly tone with a slightly raspy, rich, resonant lower register and slow, deliberate pacing, as a calm matter-of-fact statement with settled, declarative, falling intonation and no question-like inflection, delivering: 'I'm on a fixed income, so I have to be careful with how I spend.' As she speaks she gives a gentle, grounded nod and a small open-hand gesture, her expression thoughtful, composed, and warm. Lighting, wardrobe, and background stay completely consistent throughout, a seamless single take.",
+    "media": {
+      "start_image": "assets/mode-earn/extraincomeforretirees/ai-images/img-2.png"
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "duration": "6",
+      "mode": "pro",
+      "sound": "on"
+    },
+    "job_id": "a83c1490-3d4e-4da6-85ed-aa7e28dea722",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260615_202023_a83c1490-3d4e-4da6-85ed-aa7e28dea722.mp4",
+    "bytes": 10254010,
+    "created": "2026-06-15T20:22:11+00:00"
+  },
+  {
+    "label": "Clip 5",
+    "asset": "assets/mode-earn/extraincomeforretirees/ai-videos/Clip 5.mp4",
+    "model": "kling3_0",
+    "prompt": "Begin on the exact frontal medium close-up of the 66-year-old African American woman from the reference image, seated by the window holding her smartphone, looking directly into the lens, wearing the mauve cardigan over a cream blouse, with the warm living room and natural daylight remaining completely unchanged. The camera has only a slight, natural handheld drift. She speaks directly to the camera in a warm, soothing, trustworthy grandmotherly tone with a slightly raspy, rich, resonant lower register and slow, deliberate pacing, as a calm matter-of-fact statement with settled, declarative, falling intonation and no question-like inflection, delivering: 'I just listen to music, scroll a bit, and it adds up points.' As she speaks she glances down at the phone with a light, pleased smile, then back up to the camera. Lighting, wardrobe, and background stay completely consistent throughout, a seamless single take.",
+    "media": {
+      "start_image": "assets/mode-earn/extraincomeforretirees/ai-images/img-5.png"
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "duration": "5",
+      "mode": "pro",
+      "sound": "on"
+    },
+    "job_id": "d2bbb5a7-66c1-4fb2-ad79-82d9c9c4d62b",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260615_202032_d2bbb5a7-66c1-4fb2-ad79-82d9c9c4d62b.mp4",
+    "bytes": 12147836,
+    "created": "2026-06-15T20:22:16+00:00"
+  },
+  {
+    "label": "Clip 8",
+    "asset": "assets/mode-earn/extraincomeforretirees/ai-videos/Clip 8.mp4",
+    "model": "kling3_0",
+    "prompt": "Begin on the exact frontal medium shot of the 66-year-old African American woman from the reference image, seated at the table with hands clasped, looking directly into the lens, wearing the mauve cardigan over a cream blouse, with the warm kitchen and natural daylight remaining completely unchanged. The camera remains completely static with no movement. She speaks directly to the camera in a warm, soothing, trustworthy grandmotherly tone with a slightly raspy, rich, resonant lower register and clear, encouraging pacing, as a confident matter-of-fact statement with settled, declarative, falling intonation and no question-like inflection, delivering: 'Just search Mode Earn App on Google Play.' As she finishes she gives a confident, welcoming smile and a small affirming nod. Lighting, wardrobe, and background stay completely consistent throughout, a seamless single take.",
+    "media": {
+      "start_image": "assets/mode-earn/extraincomeforretirees/ai-images/img-8.png"
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "duration": "3",
+      "mode": "pro",
+      "sound": "on"
+    },
+    "job_id": "910d75fd-d95b-4a22-a208-9e8848197d53",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260615_202428_910d75fd-d95b-4a22-a208-9e8848197d53.mp4",
+    "bytes": 6224329,
+    "created": "2026-06-15T20:26:07+00:00"
+  },
+  {
+    "label": "Clip 7",
+    "asset": "assets/mode-earn/extraincomeforretirees/ai-videos/Clip 7.mp4",
+    "model": "kling3_0",
+    "prompt": "Begin on the exact frontal medium shot of the 66-year-old African American woman from the reference image, standing in the living room with a warm, open posture, looking directly into the lens, wearing the mauve cardigan over a cream blouse, with the warm living room and natural daylight remaining completely unchanged. The camera remains completely static with no movement. She speaks directly to the camera in a warm, soothing, trustworthy grandmotherly tone with a slightly raspy, rich, resonant lower register and slow, deliberate pacing, as a calm matter-of-fact statement with settled, declarative, falling intonation and no question-like inflection, delivering: 'If you are already on your phone, you might as well get something back.' As she speaks she makes a gentle, encouraging open-hand gesture toward the viewer, warm and direct. Lighting, wardrobe, and background stay completely consistent throughout, a seamless single take.",
+    "media": {
+      "start_image": "assets/mode-earn/extraincomeforretirees/ai-images/img-7.png"
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "duration": "5",
+      "mode": "pro",
+      "sound": "on"
+    },
+    "job_id": "897e412a-fad9-4377-b19b-e7c0df20128f",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260615_202432_897e412a-fad9-4377-b19b-e7c0df20128f.mp4",
+    "bytes": 13934391,
+    "created": "2026-06-15T20:26:08+00:00"
+  },
+  {
+    "label": "Clip 6",
+    "asset": "assets/mode-earn/extraincomeforretirees/ai-videos/Clip 6.mp4",
+    "model": "kling3_0",
+    "prompt": "Begin on the exact frontal medium shot of the 66-year-old African American woman from the reference image, seated on the sofa holding a warm mug with both hands, looking directly into the lens, wearing the mauve cardigan over a cream blouse, with the warm living room and natural daylight remaining completely unchanged. The camera has only a slight, natural handheld drift. She speaks directly to the camera in a warm, soothing, trustworthy grandmotherly tone with a slightly raspy, rich, resonant lower register and slow, deliberate pacing, as a calm matter-of-fact statement with settled, declarative, falling intonation and no question-like inflection, delivering: 'I have been using it to get grocery gift cards, so that is one less thing coming out of my pocket.' As she speaks she gives a content, satisfied small nod, relaxed and genuinely pleased. Lighting, wardrobe, and background stay completely consistent throughout, a seamless single take.",
+    "media": {
+      "start_image": "assets/mode-earn/extraincomeforretirees/ai-images/img-6.png"
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "duration": "8",
+      "mode": "pro",
+      "sound": "on"
+    },
+    "job_id": "df3c0cb1-1e24-4bc6-8c1a-a757a3eb7061",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260615_202428_df3c0cb1-1e24-4bc6-8c1a-a757a3eb7061.mp4",
+    "bytes": 19226639,
+    "created": "2026-06-15T20:26:36+00:00"
+  },
+  {
+    "label": "broll-grandson",
+    "asset": "assets/mode-earn/extraincomeforretirees/ai-images/broll-grandson.png",
+    "model": "gpt_image_2",
+    "prompt": "A high-quality over-the-shoulder photograph from just behind the right shoulder of the 66-year-old African American woman from the first reference (she is in soft focus in the right foreground), in her warm living room. Facing her, a cheerful 8-year-old grandson holds up a black smartphone toward her and the camera; the bright phone screen is sharp and in focus, clearly displaying this exact rewards-app home screen from the third reference image (points balance at top, a '/usr/bin/bash.50 Missions' banner, and a grid of Earning Modes such as Games, Offers, Music, News). Natural daylight, warm and joyful, shallow depth of field with soft bokeh, candid high-detail texture, photorealistic.",
+    "media": {
+      "image": [
+        "assets/_shared/personas/retiree-female-poc/base-character.png",
+        "assets/mode-earn/extraincomeforretirees/ai-images/environment.png",
+        "MEA Screenshots/Home.png"
+      ]
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "resolution": "2k"
+    },
+    "job_id": "1e5afd84-8949-429d-b89b-0084bf607b7f",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260615_204026_1e5afd84-8949-429d-b89b-0084bf607b7f.png",
+    "bytes": 8579322,
+    "created": "2026-06-15T20:42:59+00:00"
+  },
+  {
+    "label": "broll-cashout",
+    "asset": "assets/mode-earn/extraincomeforretirees/ai-images/broll-cashout.png",
+    "model": "gpt_image_2",
+    "prompt": "A close over-the-shoulder shot of the 66-year-old African American woman from the first reference, seated in her warm living room, holding a black smartphone vertically. The phone screen is sharp and in focus, clearly displaying this exact cashout screen from the third reference image (a 'Your Points Balance' card showing about 100k points and a dollar value, with Cash Options including a blue PayPal card and an Amazon card, and a gift-card offer below). She looks quietly pleased. Natural daylight, shallow depth of field, photorealistic, high detail, consistent identity and mauve cardigan.",
+    "media": {
+      "image": [
+        "assets/_shared/personas/retiree-female-poc/base-character.png",
+        "assets/mode-earn/extraincomeforretirees/ai-images/environment.png",
+        "MEA Screenshots/Cashout.png"
+      ]
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "resolution": "2k"
+    },
+    "job_id": "c961a4f8-857d-44f8-8757-d445b1e9416c",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260615_204041_c961a4f8-857d-44f8-8757-d445b1e9416c.png",
+    "bytes": 8983050,
+    "created": "2026-06-15T20:43:17+00:00"
+  },
+  {
+    "label": "broll-music",
+    "asset": "assets/mode-earn/extraincomeforretirees/ai-images/broll-music.png",
+    "model": "gpt_image_2",
+    "prompt": "A close over-the-shoulder shot of the 66-year-old African American woman from the first reference, seated in her warm living room, holding a black smartphone vertically in both hands. The phone screen is sharp and in focus, clearly displaying this exact music-app screen from the third reference image (a Music tab with circular genre icons, trending stations, a points balance at the top, and a bottom navigation bar). She is relaxed, listening. Natural daylight, shallow depth of field, photorealistic, high detail, consistent identity and mauve cardigan.",
+    "media": {
+      "image": [
+        "assets/_shared/personas/retiree-female-poc/base-character.png",
+        "assets/mode-earn/extraincomeforretirees/ai-images/environment.png",
+        "MEA Screenshots/Music.png"
+      ]
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "resolution": "2k"
+    },
+    "job_id": "d6a035a4-a35b-494f-892a-c32e8254c452",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260615_204038_d6a035a4-a35b-494f-892a-c32e8254c452.png",
+    "bytes": 8824352,
+    "created": "2026-06-15T20:43:25+00:00"
+  },
+  {
+    "label": "broll-phone-first",
+    "asset": "assets/mode-earn/extraincomeforretirees/ai-images/broll-phone-first.png",
+    "model": "gpt_image_2",
+    "prompt": "The 66-year-old African American woman from the reference, in her warm living room, looking at the camera with a warm smile, holding a black smartphone in her right hand with the BACK of the phone toward the camera so the screen is NOT visible. Medium close-up, natural daylight, photorealistic, consistent identity and mauve cardigan over cream blouse.",
+    "media": {
+      "image": [
+        "assets/_shared/personas/retiree-female-poc/base-character.png",
+        "assets/mode-earn/extraincomeforretirees/ai-images/environment.png"
+      ]
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "resolution": "2k"
+    },
+    "job_id": "643ffad4-c079-47cc-a194-482902edbf53",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260615_204049_643ffad4-c079-47cc-a194-482902edbf53.png",
+    "bytes": 10247409,
+    "created": "2026-06-15T20:43:31+00:00"
+  },
+  {
+    "label": "music_b-roll",
+    "asset": "assets/mode-earn/extraincomeforretirees/ai-videos/music_b-roll.mp4",
+    "model": "kling3_0",
+    "prompt": "Over-the-shoulder shot of the woman holding her phone: her thumb gently scrolls and taps the music app, the bright screen staying sharp and clearly visible throughout. Subtle, natural hand motion, a slight handheld camera drift, warm sunlit living room. No text overlays, seamless single take.",
+    "media": {
+      "start_image": "assets/mode-earn/extraincomeforretirees/ai-images/broll-music.png"
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "duration": "5",
+      "mode": "pro",
+      "sound": "off"
+    },
+    "job_id": "7f448535-faee-4425-a073-21bf7e7975df",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260615_204542_7f448535-faee-4425-a073-21bf7e7975df.mp4",
+    "bytes": 7664645,
+    "created": "2026-06-15T20:47:12+00:00"
+  },
+  {
+    "label": "broll-phone-last",
+    "asset": "assets/mode-earn/extraincomeforretirees/ai-images/broll-phone-last.png",
+    "model": "gpt_image_2",
+    "prompt": "The same 66-year-old African American woman from the first reference, in the same warm living room wearing the same mauve cardigan, now holding the black smartphone up close toward the camera with the SCREEN facing the viewer. The phone fills much of the frame; its screen is large, sharp, and in focus, clearly displaying this exact rewards-app home screen from the second reference image (points balance at top, a '/usr/bin/bash.50 Missions' banner, and a grid of Earning Modes such as Games, Offers, Music, News). Her warm smiling face is slightly soft and out of focus behind the phone. Natural daylight, shallow depth of field, photorealistic.",
+    "media": {
+      "image": [
+        "assets/mode-earn/extraincomeforretirees/ai-images/broll-phone-first.png",
+        "MEA Screenshots/Home.png"
+      ]
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "resolution": "2k"
+    },
+    "job_id": "41b5ef6c-bc1f-4c5d-9afe-d9d009de3cad",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260615_204510_41b5ef6c-bc1f-4c5d-9afe-d9d009de3cad.png",
+    "bytes": 8947170,
+    "created": "2026-06-15T20:47:46+00:00"
+  },
+  {
+    "label": "cashout_b-roll",
+    "asset": "assets/mode-earn/extraincomeforretirees/ai-videos/cashout_b-roll.mp4",
+    "model": "kling3_0",
+    "prompt": "Over-the-shoulder shot of the woman looking at her cashout screen on the phone; she gives a small, pleased nod and her thumb gently scrolls, the bright screen with the points balance and PayPal and Amazon options staying sharp and clearly visible throughout. Subtle, natural motion, a slight handheld camera drift, warm sunlit living room. No text overlays, seamless single take.",
+    "media": {
+      "start_image": "assets/mode-earn/extraincomeforretirees/ai-images/broll-cashout.png"
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "duration": "8",
+      "mode": "pro",
+      "sound": "off"
+    },
+    "job_id": "d33da139-22d3-4d0a-bbfd-07e60f456b1f",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260615_204545_d33da139-22d3-4d0a-bbfd-07e60f456b1f.mp4",
+    "bytes": 12941664,
+    "created": "2026-06-15T20:47:51+00:00"
+  },
+  {
+    "label": "grandson_b-roll",
+    "asset": "assets/mode-earn/extraincomeforretirees/ai-videos/grandson-app_b-roll.mp4",
+    "model": "kling3_0",
+    "prompt": "Over-the-shoulder shot: the cheerful young grandson holds the smartphone steady toward his grandmother and the camera, showing her the rewards app; he grins and the app screen stays sharp, bright, and clearly visible the whole time. The grandmother's shoulder stays softly in the foreground. Gentle, natural movement only, a slight handheld camera drift, warm sunlit living room. No text overlays, seamless single take.",
+    "media": {
+      "start_image": "assets/mode-earn/extraincomeforretirees/ai-images/broll-grandson.png"
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "duration": "4",
+      "mode": "pro",
+      "sound": "off"
+    },
+    "job_id": "86bd4dd8-d3df-414a-89b8-d1c84c4338f5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260615_204759_86bd4dd8-d3df-414a-89b8-d1c84c4338f5.mp4",
+    "bytes": 6401311,
+    "created": "2026-06-15T20:49:25+00:00"
+  },
+  {
+    "label": "phone-to-camera_b-roll",
+    "asset": "assets/mode-earn/extraincomeforretirees/ai-videos/phone-to-camera_b-roll.mp4",
+    "model": "kling3_0",
+    "prompt": "The woman smoothly rotates the phone forward in a single fluid motion, turning it so the bright screen faces the camera and bringing it a little closer. The focus gently racks from her warm smiling face to the phone, and the rewards-app home screen becomes sharp and clearly visible. Only a slight, natural handheld camera drift, warm sunlit living room, seamless single take. No text overlays.",
+    "media": {
+      "start_image": "assets/mode-earn/extraincomeforretirees/ai-images/broll-phone-first.png",
+      "end_image": "assets/mode-earn/extraincomeforretirees/ai-images/broll-phone-last.png"
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "duration": "5",
+      "mode": "pro",
+      "sound": "off"
+    },
+    "job_id": "9453bc81-5105-493d-b764-c55ae6946123",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260615_205211_9453bc81-5105-493d-b764-c55ae6946123.mp4",
+    "bytes": 11063900,
+    "created": "2026-06-15T20:54:14+00:00"
+  },
+  {
+    "label": "broll-phone-first (v2 android)",
+    "asset": "assets/mode-earn/extraincomeforretirees/ai-images/broll-phone-first.png",
+    "model": "gpt_image_2",
+    "prompt": "The 66-year-old African American woman from the reference, seated in her warm living room, looking at the camera with a warm, natural smile. She holds a modern Black Samsung Galaxy S22 Ultra Android smartphone comfortably and naturally in one hand at chest height, with the BACK of the phone toward the camera so the screen is NOT visible. Her grip is relaxed and natural, fingers resting comfortably around the phone (not awkward or stiff). Medium close-up, natural daylight, photorealistic, consistent identity and mauve cardigan over cream blouse.",
+    "media": {
+      "image": [
+        "assets/_shared/personas/retiree-female-poc/base-character.png",
+        "assets/mode-earn/extraincomeforretirees/ai-images/environment.png"
+      ]
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "resolution": "2k"
+    },
+    "job_id": "99aa27d3-ce66-4e60-a1d8-294e48bcb8c5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260615_211514_99aa27d3-ce66-4e60-a1d8-294e48bcb8c5.png",
+    "bytes": 9769157,
+    "created": "2026-06-15T21:17:34+00:00"
+  },
+  {
+    "label": "broll-phone-last (v5 nano-banana, person bokeh)",
+    "asset": "assets/mode-earn/extraincomeforretirees/ai-images/broll-phone-last.png",
+    "model": "nano_banana_2",
+    "prompt": "A modern Black Samsung Galaxy S22 Ultra Android phone held up toward the camera, screen facing the viewer and filling about 70 percent of the frame, sharp and in crisp focus, clearly displaying this exact Mode Earn app promotional graphic from the first reference image (the purple 'EARN APP' banner, the green dollar icon, the PayPal and Amazon reward cards, the 'EARN REAL REWARDS BY LISTENING TO MUSIC' text, and the 'Get it on Google Play' button). The friendly smiling senior woman from the second reference is behind the phone, strongly out of focus in soft warm bokeh, in the cozy sunlit living room from the third reference. Shallow depth of field, the phone screen is the clear subject and main focus, natural daylight, photorealistic, wholesome.",
+    "media": {
+      "image": [
+        "assets/mode-earn/brand/MEA-logo.png",
+        "assets/_shared/personas/retiree-female-poc/base-character.png",
+        "assets/mode-earn/extraincomeforretirees/ai-images/environment.png"
+      ]
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "resolution": "2k"
+    },
+    "job_id": "c381b1e6-5d0c-4974-910f-3d5a71a2c8ce",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260615_213652_c381b1e6-5d0c-4974-910f-3d5a71a2c8ce.png",
+    "bytes": 7395127,
+    "created": "2026-06-15T21:37:41+00:00"
+  },
+  {
+    "label": "broll-phone-last (v6 connected arm, strong bokeh)",
+    "asset": "assets/mode-earn/extraincomeforretirees/ai-images/broll-phone-last.png",
+    "model": "nano_banana_2",
+    "prompt": "First-person reveal composition: the senior woman from the second reference extends HER OWN right arm straight toward the camera, holding a Black Samsung Galaxy S22 Ultra Android phone in her hand in the foreground center of the frame. Her arm connects naturally and anatomically from her hand all the way back to her shoulder. The phone screen faces the camera and fills about 70 percent of the frame, perfectly sharp and in crisp focus, clearly displaying this exact Mode Earn app promo from the first reference image (the purple 'EARN APP' banner, the green dollar icon, the PayPal and Amazon reward cards, the 'EARN REAL REWARDS BY LISTENING TO MUSIC' text, and the 'Get it on Google Play' button). She sits DIRECTLY BEHIND the phone, centered, her smiling face and body very strongly blurred and soft in shallow depth of field, clearly out of focus and NOT the subject. Cozy sunlit living room behind her, also blurred. Natural daylight, photorealistic, wholesome, anatomically correct hand and arm with five fingers.",
+    "media": {
+      "image": [
+        "assets/mode-earn/brand/MEA-logo.png",
+        "assets/_shared/personas/retiree-female-poc/base-character.png",
+        "assets/mode-earn/extraincomeforretirees/ai-images/environment.png"
+      ]
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "resolution": "2k"
+    },
+    "job_id": "ba1ff73c-b5b4-4c45-a615-dee8e9cf9713",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260615_214505_ba1ff73c-b5b4-4c45-a615-dee8e9cf9713.png",
+    "bytes": 7385141,
+    "created": "2026-06-15T21:45:51+00:00"
+  },
+  {
+    "label": "broll-phone-last (variant: from first-frame+logo)",
+    "asset": "assets/mode-earn/extraincomeforretirees/ai-images/broll-phone-last-fromfirst.png",
+    "model": "nano_banana_2",
+    "prompt": "Using the exact scene from the first reference image (the same senior woman in the same mauve cardigan, same living room, holding her Black Samsung Galaxy S22 Ultra Android phone), she has now turned the phone around so its SCREEN faces the camera, held in the foreground and filling about 70 percent of the frame, sharp and in crisp focus. The screen clearly displays this exact Mode Earn app promo from the second reference image (the purple 'EARN APP' banner, the green dollar icon, the PayPal and Amazon reward cards, the 'EARN REAL REWARDS BY LISTENING TO MUSIC' text, and the 'Get it on Google Play' button). Her arm connects naturally to the phone; she sits directly behind it, smiling, strongly blurred and clearly out of focus. Shallow depth of field, the phone screen is the subject, natural daylight, photorealistic, wholesome.",
+    "media": {
+      "image": [
+        "assets/mode-earn/extraincomeforretirees/ai-images/broll-phone-first.png",
+        "assets/mode-earn/brand/MEA-logo.png"
+      ]
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "resolution": "2k"
+    },
+    "job_id": "f9c69da6-793c-4b77-b98a-6691c7cc6c13",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260615_214851_f9c69da6-793c-4b77-b98a-6691c7cc6c13.png",
+    "bytes": 8097823,
+    "created": "2026-06-15T21:49:30+00:00"
+  },
+  {
+    "label": "phone-to-camera_b-roll (v3 3s gpt-lastframe)",
+    "asset": "assets/mode-earn/extraincomeforretirees/ai-videos/phone-to-camera_b-roll.mp4",
+    "model": "kling3_0",
+    "prompt": "The woman smoothly rotates her Black Samsung Galaxy S22 Ultra phone forward to face the camera and brings it a little closer. The focus gently racks from her to the phone screen, which reveals the Mode Earn app promo, sharp and clearly visible, while she softens into warm bokeh behind. Only a slight, natural handheld camera drift, warm sunlit living room, seamless single take. No text overlays.",
+    "media": {
+      "start_image": "assets/mode-earn/extraincomeforretirees/ai-images/broll-phone-first.png",
+      "end_image": "assets/mode-earn/extraincomeforretirees/ai-images/broll-phone-last.png"
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "duration": "3",
+      "mode": "pro",
+      "sound": "off"
+    },
+    "job_id": "6a26a4a5-817f-4d4a-8036-3d2c533ccd7b",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260615_223211_6a26a4a5-817f-4d4a-8036-3d2c533ccd7b.mp4",
+    "bytes": 7613172,
+    "created": "2026-06-15T22:34:14+00:00"
+  },
+  {
+    "label": "img-5 (v2 samsung phone)",
+    "asset": "assets/mode-earn/extraincomeforretirees/ai-images/img-5.png",
+    "model": "gpt_image_2",
+    "prompt": "Edit the first reference image: keep the exact same scene, the same woman, her pose, seating, framing, lighting, and mauve cardigan over cream blouse, but replace the smartphone in her hand with the same Black Samsung Galaxy S22 Ultra Android phone shown in the second reference image (same model and color). It must be a modern Android phone, not an iPhone. Natural, photorealistic, consistent identity, she is still holding it the same way.",
+    "media": {
+      "image": [
+        "assets/mode-earn/extraincomeforretirees/ai-images/img-5.png",
+        "assets/mode-earn/extraincomeforretirees/ai-images/broll-phone-first.png"
+      ]
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "resolution": "2k"
+    },
+    "job_id": "a5cae030-cbd1-4765-89bb-e32590f34124",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260615_223213_a5cae030-cbd1-4765-89bb-e32590f34124.png",
+    "bytes": 9795736,
+    "created": "2026-06-15T22:34:34+00:00"
+  },
+  {
+    "label": "Clip 5 (v2 samsung phone)",
+    "asset": "assets/mode-earn/extraincomeforretirees/ai-videos/Clip 5.mp4",
+    "model": "kling3_0",
+    "prompt": "Begin on the exact frontal medium close-up of the 66-year-old African American woman from the reference, seated in her warm living room holding her Black Samsung Galaxy S22 Ultra Android phone, looking directly into the lens, wearing the mauve cardigan over a cream blouse, with the warm living room and natural daylight remaining completely unchanged. The camera has only a slight, natural handheld drift. She speaks directly to the camera in a warm, soothing, trustworthy grandmotherly tone with a slightly raspy, rich, resonant lower register and slow, deliberate pacing, as a calm matter-of-fact statement with settled, declarative, falling intonation and no question-like inflection, delivering: 'I just listen to music, scroll a bit, and it adds up points.' As she speaks she glances down at the phone with a light, pleased smile, then back up to the camera. Lighting, wardrobe, and background stay completely consistent throughout, a seamless single take.",
+    "media": {
+      "start_image": "assets/mode-earn/extraincomeforretirees/ai-images/img-5.png"
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "duration": "5",
+      "mode": "pro",
+      "sound": "on"
+    },
+    "job_id": "fc5b5dc2-0166-4144-b2d1-b7ea6b569935",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260615_223729_fc5b5dc2-0166-4144-b2d1-b7ea6b569935.mp4",
+    "bytes": 11746423,
+    "created": "2026-06-15T22:38:59+00:00"
+  }
+]

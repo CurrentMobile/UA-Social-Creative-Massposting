@@ -1,0 +1,17 @@
+[
+  {
+    "label": "base-character",
+    "asset": "assets/_shared/personas/student-jake/base-character.png",
+    "model": "gpt_image_2",
+    "prompt": "Jake, a 22-year-old American college student, broke and relatable, easygoing. Short messy brown hair, light stubble, friendly tired-but-cheerful expression, fair skin with natural texture and a couple of small blemishes. Wearing a plain solid-colour crew-neck tee with no logos, no graphics, no prints. Casual, genuine, slightly scrappy. Extreme realism, detailed skin, realistic facial imperfections, natural daylight lighting, front-view close-up portrait looking directly at the camera, passport-style, only the close-up.",
+    "media": {},
+    "params": {
+      "aspect_ratio": "2:3",
+      "resolution": "2k"
+    },
+    "job_id": "2d0fefff-75cf-4f77-af6b-145eff62df44",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260615_184310_2d0fefff-75cf-4f77-af6b-145eff62df44.png",
+    "bytes": 5491725,
+    "created": "2026-06-15T18:45:41+00:00"
+  }
+]

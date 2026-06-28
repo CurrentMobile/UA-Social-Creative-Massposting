@@ -1,0 +1,17 @@
+[
+  {
+    "label": "base-character",
+    "asset": "assets/_shared/personas/crypto-curious-priya/base-character.png",
+    "model": "gpt_image_2",
+    "prompt": "Priya, a thoughtful, smart 30-year-old South Asian woman, a crypto hobbyist and tech enthusiast. Dark hair, intelligent observant eyes, optional clear glasses, natural skin texture with light makeup. Wearing a plain solid-colour casual top, no logos or graphics. Hyper-realistic photograph with super-detailed true-to-life skin texture: visible pores, fine lines, subtle natural blemishes and freckles, slight uneven skin tone and natural imperfections, not airbrushed and not too perfect. Natural daylight lighting, front-view close-up portrait looking directly at the camera, passport-style, only the close-up portrait.",
+    "media": {},
+    "params": {
+      "aspect_ratio": "2:3",
+      "resolution": "2k"
+    },
+    "job_id": "84c81f92-e09b-43d4-bcf3-d7b128848b78",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260621_221855_84c81f92-e09b-43d4-bcf3-d7b128848b78.png",
+    "bytes": 6173753,
+    "created": "2026-06-21T22:21:02+00:00"
+  }
+]

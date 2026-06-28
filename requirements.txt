@@ -1,0 +1,17 @@
+# Python dependencies for the Mode AI Creative Loop pipeline.
+# Install into the project venv after a fresh pull:
+#   python -m venv .venv
+#   .venv\Scripts\python.exe -m pip install -r requirements.txt      (Windows)
+#   .venv/bin/python -m pip install -r requirements.txt              (macOS/Linux)
+#
+# External (non-pip) tools — ffmpeg, ffprobe, node/npx, git, gh — are installed by the OS
+# package manager; see workflows/setup_environment.md. HyperFrames runs via `npx --yes
+# hyperframes` (downloads itself on first run). Higgsfield is API-key based (no install).
+
+requests          # HTTP for all API tools (Higgsfield, Gemini, Apify, Postiz, HeyGen, ElevenLabs)
+yt-dlp            # music / SFX / URL sourcing (fetch_music, fetch_sfx, resolve_sfx)
+python-docx       # extract_docx (script-writing-guide .docx briefs)
+librosa           # audio analysis for mix_audio (loudness, beat)
+numpy             # numerics (mix_audio, build tools)
+matplotlib        # waveform / debug plots
+pillow            # image handling (higgsfield_gen, cropping)

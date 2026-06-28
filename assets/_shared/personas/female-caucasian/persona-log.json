@@ -1,0 +1,17 @@
+[
+  {
+    "label": "base-character",
+    "asset": "assets/_shared/personas/female-caucasian/base-character.png",
+    "model": "gpt_image_2",
+    "prompt": "A friendly 52-year-old Caucasian woman, a relatable everyday mom. Shoulder-length light-brown hair with subtle greys, warm blue-grey eyes, soft smile lines, fair skin with natural freckles and texture. Wearing a plain solid-colour casual sweater with no logos, no graphics, no prints. Warm, genuine, approachable expression. Extreme realism, detailed skin, realistic facial imperfections, natural daylight lighting, front-view close-up portrait looking directly at the camera, passport-style, only the close-up.",
+    "media": {},
+    "params": {
+      "aspect_ratio": "2:3",
+      "resolution": "2k"
+    },
+    "job_id": "1b102626-a808-43bc-b387-ba2855651155",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260615_184308_1b102626-a808-43bc-b387-ba2855651155.png",
+    "bytes": 6585692,
+    "created": "2026-06-15T18:45:28+00:00"
+  }
+]

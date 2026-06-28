@@ -1,170 +1,88 @@
-# Mode Marketing UA Skills
+# Mode AI Creative Loop
 
-Mode Marketing's AI creative toolkit for Claude Code — a one-click plugin that turns a plain-English brief into a finished marketing video using the [HyperFrames](https://github.com/heygen-com/hyperframes) framework. Install it once, then just describe the video you want and Claude takes over.
+Local project for the Mode AI Creative Loop shared drive collaboration with Gianne.
+Set up as an **AI video editing studio**: drop in raw A-roll / B-roll or AI clips and get
+back an edited, captioned, scored vertical video.
 
-## Quick Start (non-technical — start here)
+## What it does (full pipeline)
 
-You need [Claude Code](https://claude.com/claude-code) installed. Then it's three steps, once.
+Remove dead space + filler words · cut on word boundaries · color grade · add motion
+graphics + animated captions · mix royalty-free background music + sound effects ·
+render vertical 9:16 (1080×1920) · deliver to `outputs/`.
 
-### 1. Install the plugin
+Built on two open-source skills plus local glue tools (WAT framework):
 
-In Claude Code, run these two commands:
+| Layer | What |
+|-------|------|
+| **`video-use`** skill | Editing engine — transcribe (ElevenLabs Scribe), cut, grade, captions, render. `.claude/skills/video-use/` |
+| **`hyperframes`** skill | Motion graphics + animated captions (HTML→MP4). Run via `npx --yes hyperframes`. |
+| `tools/fetch_music.py` | Download royalty-free background music (yt-dlp) → `assets/music/` |
+| `tools/fetch_sfx.py` | Download sound effects (yt-dlp) → `assets/sfx/` |
+| `tools/mix_audio.py` | Duck music under dialogue, sync SFX, normalize to −14 LUFS |
+| `tools/env_check.py` | Preflight: verify binaries, deps, and ELEVENLABS_API_KEY |
 
-```
-/plugin marketplace add currentmobile/mode-marketing-ua-skills
-/plugin install mode-marketing-ua@mode-marketing
-```
+## How to use
 
-That's it — all 15 video skills are now loaded. You don't clone anything or touch the code.
+Tell Claude what you want, e.g. *"Edit these clips in `.tmp/launch/`, cut the filler, add
+captions and a whoosh on each cut, score it with calm lofi, vertical."* Claude follows
+`workflows/edit_video.md`. To preflight manually:
 
-### 2. Set your API keys (once)
-
-The skills use a few services (for AI images, voiceover, scraping, publishing). Get the keys from the **team vault** — ask the owner. **Never paste a key into a file you commit, or into Slack.**
-
-Pick whichever is easier for you:
-
-**Option A — set them globally (recommended).** Add these lines to your `~/.zshrc` (or `~/.bashrc`), then open a new terminal:
-
-```bash
-export HIGGSFIELD_API_ID="..."
-export HIGGSFIELD_API_KEY="..."
-export GEMINI_API_KEY="..."
-export APIFY_API_KEY="..."
-export POSTIZ_API_KEY="..."
-export HEYGEN_API_KEY="..."
-# Optional, only if you use ElevenLabs voiceover:
-# export ELEVENLABS_API_KEY="..."
+```powershell
+.venv\Scripts\python.exe tools\env_check.py --strict
 ```
 
-**Option B — per project.** Copy `.env.example` to a file named `.env` in the folder you're working in and fill in the values. The HyperFrames CLI auto-loads `.env` from your current folder.
+The end-to-end SOP is `workflows/edit_video.md`; sub-workflows cover music, SFX, and motion
+graphics. **Always run Python via the project venv** (`.venv\Scripts\python.exe`) and from the
+project root (so the ElevenLabs key in `.env` resolves).
 
-You only do this once. See `.env.example` for the full list.
-
-### 3. Describe the video — Claude takes over
-
-Open Claude Code in any folder and just say what you want, in plain English. For example:
-
-> *"Make a 15-second vertical ad from getmode.com — punchy, upbeat, with a voiceover. Caption it and get it ready to post."*
-
-Claude picks the right skills, captures the site, writes the script, generates the voiceover, animates the scenes, renders the video, and hands you the file. Ask for changes the same way — *"make the intro snappier"*, *"swap the music"* — and it iterates.
-
-### Getting the latest version
-
-When the team ships new or improved skills, update with:
+## Structure
 
 ```
-/plugin marketplace update mode-marketing
+mode-ai-creative-loop/
+├── .claude/skills/      ← installed skills: video-use, hyperframes, gsap, css-animations, …
+├── vendor/hyperframes/  ← hyperframes monorepo clone (registry/blocks reference)
+├── tools/               ← fetch_music, fetch_sfx, mix_audio, env_check
+├── workflows/           ← WAT SOPs (edit_video is the spine)
+├── assets/music|sfx/    ← downloaded audio (+ library.json catalog)
+├── .venv/               ← project Python env (regenerable)
+├── .tmp/                ← per-project working dir; <project>/edit/ holds artifacts
+├── outputs/             ← final deliverables
+└── .env                 ← API keys (gitignored; do NOT sync)
 ```
 
-You'll have everyone's latest skills. That's it.
+## First-time setup (fresh pull / new machine)
 
-## What's inside (the 15 skills)
+Cloning onto a new Windows or Mac? Follow **`workflows/setup_environment.md`** — or just ask
+Claude to *"set up the environment,"* which runs the same SOP: it runs `tools/env_check.py`,
+installs whatever's missing (each failure prints the exact per-OS install command), creates
+the venv from `requirements.txt`, and helps you fill `.env` from `.env.example`.
 
-### Core Authoring
-| Skill | Description |
-|-------|-------------|
-| **hyperframes** | Create video compositions, animations, title cards, captions, and audio-reactive visuals in HTML |
-| **hyperframes-cli** | Dev loop commands: scaffold, lint, preview, render |
-| **hyperframes-media** | Asset preprocessing: TTS (Kokoro), transcription (Whisper), background removal |
-| **hyperframes-registry** | Install reusable blocks and components from the registry |
-
-### Animation Adapters
-| Skill | Description |
-|-------|-------------|
-| **gsap** | GSAP tweens, timelines, stagger patterns |
-| **css-animations** | CSS keyframe animations (shimmer, glow, etc.) |
-| **waapi** | Web Animations API patterns |
-| **animejs** | Anime.js adapter for seek-driven playback |
-| **lottie** | Lottie / dotLottie deterministic playback |
-
-### 3D / GPU
-| Skill | Description |
-|-------|-------------|
-| **three** | Three.js / WebGL scenes and AnimationMixer sync |
-| **typegpu** | WebGPU shaders, particle systems, liquid glass |
-
-### Conversion & Ingestion
-| Skill | Description |
-|-------|-------------|
-| **website-to-hyperframes** | Capture a website URL and produce a HyperFrames video (7-step workflow) |
-| **remotion-to-hyperframes** | Port Remotion (React) video projects to HyperFrames |
-
-### Supporting
-| Skill | Description |
-|-------|-------------|
-| **tailwind** | Tailwind CSS v4 patterns for compositions |
-| **contribute-catalog** | Guide for authoring new registry entries |
-
-## Integrations
-
-| Service | Purpose |
-|---------|---------|
-| Higgsfield | AI image & video generation |
-| Gemini | Google AI models (image descriptions, scripting) |
-| Apify | Web scraping |
-| Postiz | Social media scheduling/publishing (via MCP) |
-| HeyGen | AI avatar video |
-| ElevenLabs | Optional voiceover (alternative to built-in Kokoro TTS) |
-
----
-
-## For developers / contributors
-
-If you're working *on* the skills themselves (rather than just using them), you can run this repo directly.
-
-### Clone + run
-
-```bash
-git clone https://github.com/currentmobile/mode-marketing-ua-skills.git
-cd mode-marketing-ua-skills
-cp .env.example .env   # fill in keys from the team vault
-./run.sh               # launches Claude Code with .env loaded
+```powershell
+python tools\env_check.py            # see what's missing (works on any OS, no venv needed)
 ```
 
-`run.sh` sources `.env` so that `${VAR}` references in `.mcp.json` (e.g. `${POSTIZ_API_KEY}`) resolve before launching Claude Code.
+Heavy media (per-video AI clips, rendered edits, personas) is **not** in git — it lives in
+the Google Shared Drive. The repo ships the reusable, lightweight assets only (CTA, brand,
+screenshots, reviews, script guide, SFX, music, props, fonts).
 
-### Project structure
+## Prerequisites
 
-```
-.
-├── .claude-plugin/
-│   ├── plugin.json            # Plugin manifest (points skills → .agents/skills)
-│   └── marketplace.json       # Marketplace manifest (mode-marketing)
-├── CLAUDE.md                  # Agent instructions (WAT framework)
-├── .agents/skills/            # All 15 HyperFrames skills (referenced in place)
-├── .claude/                   # Claude Code config (settings, skill symlinks)
-├── .mcp.json                  # MCP server config (gitignored)
-├── .env.example               # API key template
-├── run.sh                     # Launch script (sources .env, runs claude)
-├── skills-lock.json           # Skill version lock file
-├── src/                       # Source code (future use)
-└── outputs/                   # Generated outputs (future use)
-```
+Python 3.11, ffmpeg/ffprobe, Node/npx, git, yt-dlp (in venv); optional: gh, Bun, uv.
+`env_check.py` verifies all of them. If the venv is recreated, also recreate
+`.venv/Lib/site-packages/sitecustomize.py` (forces UTF-8 stdio so the helpers' Unicode
+output doesn't crash on Windows — see setup workflow step 4).
 
-### Architecture
+## .env Setup
 
-This project follows the **WAT framework** (Workflows, Agents, Tools):
-- **Workflows** — Markdown SOPs defining objectives and procedures
-- **Agents** — Claude Code as the decision-maker and orchestrator
-- **Tools** — Deterministic scripts for execution
+Real keys live in `.env` (gitignored **and** must be excluded from any shared-drive sync).
+Never put real keys in `.env.example`. Keys: Higgsfield, OpenRouter, Apify, Postiz, HeyGen,
+and **ElevenLabs** (transcription).
 
-See `CLAUDE.md` for full agent instructions.
+## Sync to Shared Drive
 
-### Using & contributing — read me first
+Files build locally and copy to `G:\Shared drives\Mode AI Creative Loop\osasenaga\`.
 
-This repo is the team's shared source of truth for our Claude Code skills. Treat `main` as read-only: you pull from it, you don't push straight to it.
-
-**Suggesting an improvement.** Found a better prompt, a fix, or a new skill? Don't edit `main` directly. In Claude Code, just say: *"Create a branch, commit these changes, and open a pull request."* Claude Code handles the git for you. The owner reviews it; if it's good, it gets merged and everyone gets it on their next `/plugin marketplace update mode-marketing`.
-
-**Want a personal tweak just for you?** Keep personal experiments in your own user-level skills folder (`~/.claude/skills`), NOT by editing the shared files here. That way your version survives every update and never collides with the team's.
-
-**Please don't.**
-- ❌ Put API keys (or any passwords) in any committed file.
-- ❌ Push directly to `main` — it's protected; use a pull request.
-- ❌ Edit `CLAUDE.md`, `run.sh`, `skills-lock.json`, or `.claude/` unless you know what they do.
-
-**Who owns this.** @Prodart is the admin and reviewer. Changes get announced in #ad-creatives Slack channel with a link to the GitHub release notes.
-
-## Credits
-
-Skills sourced from [heygen-com/hyperframes](https://github.com/heygen-com/hyperframes).
+> ⚠️ **Exclude heavy regenerable dirs from the sync**: `.venv/`, `vendor/`, `node_modules/`,
+> `.tmp/`, and `assets/music|sfx/`. They are large and rebuildable; syncing them bloats the
+> shared drive. `.gitignore` already excludes them from git — the robocopy/Drive sync needs
+> the same exclusions. `.env` must always stay excluded.

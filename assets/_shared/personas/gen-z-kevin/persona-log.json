@@ -1,0 +1,17 @@
+[
+  {
+    "label": "base-character",
+    "asset": "assets/_shared/personas/gen-z-kevin/base-character.png",
+    "model": "gpt_image_2",
+    "prompt": "Kevin, a trendy, expressive 19-year-old East Asian man, a Gen Z TikTok native who loves aesthetic tech. Stylish dark hair, clear youthful skin with natural texture, bright curious eyes, a playful confident expression. Wearing a plain solid-colour casual top, no logos or graphics. Hyper-realistic photograph with super-detailed true-to-life skin texture: visible pores, fine lines, subtle natural blemishes and freckles, slight uneven skin tone and natural imperfections, not airbrushed and not too perfect. Natural daylight lighting, front-view close-up portrait looking directly at the camera, passport-style, only the close-up portrait.",
+    "media": {},
+    "params": {
+      "aspect_ratio": "2:3",
+      "resolution": "2k"
+    },
+    "job_id": "39cdd96e-f534-41bd-a4cc-21a1b8119f17",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260621_221854_39cdd96e-f534-41bd-a4cc-21a1b8119f17.png",
+    "bytes": 5131163,
+    "created": "2026-06-21T22:20:45+00:00"
+  }
+]
