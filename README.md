@@ -71,8 +71,8 @@ on Windows — see setup workflow step 4).
 ### API keys (.env)
 Real keys live in `.env` (gitignored — never committed). Copy `.env.example` to `.env` and fill
 in the values: **Higgsfield** (AI footage), **ElevenLabs** (transcription), **Gemini**
-(scriptwriting), plus optional Apify, Postiz, HeyGen, OpenRouter. Get the values from your team
-admin.
+(analyzes scraped competitor videos during research — Claude writes the scripts), plus optional
+Apify (competitor scraping), Postiz, HeyGen, OpenRouter. Get the values from your team admin.
 
 ### Assets
 The repo ships the **reusable** assets (CTA, brand, screenshots, reviews, script-writing guide,
