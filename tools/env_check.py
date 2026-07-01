@@ -175,7 +175,7 @@ def main() -> None:
 
     print("\n== Secrets (.env) ==")
     if not (PROJECT_ROOT / ".env").exists():
-        print(f"{bad}  .env not found — copy .env.example to .env and fill in keys (get them from Gianne)")
+        print(f"{bad}  .env not found — copy .env.example to .env and fill in keys (get them from your team admin)")
         failures += 1
     for k in REQUIRED_ENV_KEYS:
         v = read_env_key(k)

@@ -13,7 +13,7 @@ what's missing, install it, then verify.
 
 - This repo, cloned locally (`git clone` of `CurrentMobile/UA-Social-Creative-Massposting`).
 - A package manager: **winget** (Windows, built in) or **Homebrew** (macOS — install from https://brew.sh if absent).
-- The API keys (from Gianne) to fill into `.env`.
+- The API keys (from your team admin) to fill into `.env`.
 
 ## The single source of truth for "what's needed"
 
@@ -83,7 +83,7 @@ for s in (sys.stdout, sys.stderr):
 Copy-Item .env.example .env   # Windows
 # cp .env.example .env        # macOS/Linux
 ```
-Then fill in the keys (from Gianne). **Required** for the core pipeline:
+Then fill in the keys (from your team admin). **Required** for the core pipeline:
 `HIGGSFIELD_API_ID`, `HIGGSFIELD_API_KEY`, `GEMINI_API_KEY`, `ELEVENLABS_API_KEY`.
 Optional: `OPENROUTER_API_KEY`, `APIFY_API_KEY`, `POSTIZ_API_KEY`, `HEYGEN_API_KEY`.
 `.env` is gitignored — never commit it.

@@ -1,88 +1,92 @@
 # Mode AI Creative Loop
 
-Local project for the Mode AI Creative Loop shared drive collaboration with Gianne.
-Set up as an **AI video editing studio**: drop in raw A-roll / B-roll or AI clips and get
-back an edited, captioned, scored vertical video.
+An AI creative studio that turns a short brief into finished, on-brand **vertical (9:16)
+UGC-style videos** for Mode's apps. You pick a presenter and answer a few quick questions;
+it writes the script, generates the AI presenter footage and B-roll, then edits everything
+together with animated captions, motion graphics, music, sound effects, and the app's
+call-to-action — and hands you ready-to-post videos, usually in several variations.
 
-## What it does (full pipeline)
+Built on the **WAT framework** (Workflows, Agents, Tools): plain-language playbooks guide the
+AI, which runs reliable, repeatable tools under the hood.
 
-Remove dead space + filler words · cut on word boundaries · color grade · add motion
-graphics + animated captions · mix royalty-free background music + sound effects ·
-render vertical 9:16 (1080×1920) · deliver to `outputs/`.
+## What you get
 
-Built on two open-source skills plus local glue tools (WAT framework):
+- **Finished 9:16 videos** (1080×1920) — often multiple variations from a single run
+- An **AI presenter (persona)** plus **B-roll** cutaways
+- **Animated captions**, **motion-graphic cards** (app UI, social proof, count-ups, "FREE"),
+  **background music**, and **sound effects**
+- The correct **app CTA / endscreen** added automatically
+- On-brand copy and visuals throughout (persona voice, brand language, required disclaimers)
 
-| Layer | What |
-|-------|------|
-| **`video-use`** skill | Editing engine — transcribe (ElevenLabs Scribe), cut, grade, captions, render. `.claude/skills/video-use/` |
-| **`hyperframes`** skill | Motion graphics + animated captions (HTML→MP4). Run via `npx --yes hyperframes`. |
-| `tools/fetch_music.py` | Download royalty-free background music (yt-dlp) → `assets/music/` |
-| `tools/fetch_sfx.py` | Download sound effects (yt-dlp) → `assets/sfx/` |
-| `tools/mix_audio.py` | Duck music under dialogue, sync SFX, normalize to −14 LUFS |
-| `tools/env_check.py` | Preflight: verify binaries, deps, and ELEVENLABS_API_KEY |
+## How to use it — one command
 
-## How to use
+Everything runs through the **`/create-ugc-video`** command inside Claude. You don't touch code.
 
-Tell Claude what you want, e.g. *"Edit these clips in `.tmp/launch/`, cut the filler, add
-captions and a whoosh on each cut, score it with calm lofi, vertical."* Claude follows
-`workflows/edit_video.md`. To preflight manually:
+1. **Start it** — run `/create-ugc-video <persona> <app>`
+   (e.g. `/create-ugc-video single-mom-maria mode-earn`).
+2. **Answer a few quick questions** — it asks:
+   - which **persona** (the on-screen presenter),
+   - **video length** (~30s / ~45s / ~60s),
+   - whether **you'll provide a script** or **Claude writes it**, and
+   - **Autonomy: On or Off** — the one setting that decides how hands-on you are (see below).
+3. **Approve the script — this is the key checkpoint.**
+   - If Claude writes it, it drafts a few **script options**; you review, tweak until you're
+     happy, and pick which ones to produce. **Nothing is generated until you approve.**
+   - If you provide the script, it's used as-is.
+4. **It produces the videos** — generates the presenter footage + B-roll, then edits, captions,
+   scores, and renders each variation, and appends the app's CTA endscreen.
+5. **You get finished videos back**, ready to post.
 
-```powershell
-.venv\Scripts\python.exe tools\env_check.py --strict
+### The one choice that matters: Autonomy On vs Off
+- **Autonomy On** → once you approve the script, it runs **straight through** to finished
+  videos. Fastest and most hands-off.
+- **Autonomy Off** → it **pauses after each step** (location, presenter shots, B-roll, video
+  clips, final edit) so you can tweak or approve before it continues. Most control.
+
+Either way, it **never spends generation credits before you've approved the script.**
+
+---
+
+## For whoever sets it up (technical)
+
+Everything below is only needed to install and run the project on a machine — not for day-to-day
+use of the `/create-ugc-video` command.
+
+### First-time setup (fresh clone)
+On a new Windows or Mac, follow **`workflows/setup_environment.md`** — or just tell Claude
+*"set up the environment."* It runs `tools/env_check.py`, installs anything missing (each
+failure prints the exact per-OS install command), builds the Python venv from
+`requirements.txt`, and helps you create `.env` from `.env.example`.
+
+```
+python tools/env_check.py        # shows what's missing (any OS, no venv needed)
 ```
 
-The end-to-end SOP is `workflows/edit_video.md`; sub-workflows cover music, SFX, and motion
-graphics. **Always run Python via the project venv** (`.venv\Scripts\python.exe`) and from the
-project root (so the ElevenLabs key in `.env` resolves).
+### Prerequisites
+Python 3.11, ffmpeg/ffprobe, Node/npx, git, yt-dlp (in the venv); optional: gh, Bun, uv.
+`env_check.py` verifies them all. If the venv is recreated, also recreate
+`.venv/Lib/site-packages/sitecustomize.py` (forces UTF-8 stdio so helper output doesn't crash
+on Windows — see setup workflow step 4).
 
-## Structure
+### API keys (.env)
+Real keys live in `.env` (gitignored — never committed). Copy `.env.example` to `.env` and fill
+in the values: **Higgsfield** (AI footage), **ElevenLabs** (transcription), **Gemini**
+(scriptwriting), plus optional Apify, Postiz, HeyGen, OpenRouter. Get the values from your team
+admin.
 
+### Assets
+The repo ships the **reusable** assets (CTA, brand, screenshots, reviews, script-writing guide,
+SFX, music, props, fonts, personas). Heavy per-video AI clips and rendered edits are **not** in
+git — they live in the team's Google Shared Drive.
+
+### Project structure
 ```
 mode-ai-creative-loop/
-├── .claude/skills/      ← installed skills: video-use, hyperframes, gsap, css-animations, …
-├── vendor/hyperframes/  ← hyperframes monorepo clone (registry/blocks reference)
-├── tools/               ← fetch_music, fetch_sfx, mix_audio, env_check
-├── workflows/           ← WAT SOPs (edit_video is the spine)
-├── assets/music|sfx/    ← downloaded audio (+ library.json catalog)
-├── .venv/               ← project Python env (regenerable)
-├── .tmp/                ← per-project working dir; <project>/edit/ holds artifacts
-├── outputs/             ← final deliverables
-└── .env                 ← API keys (gitignored; do NOT sync)
+├── .agents/skills/     ← bundled skills (video-use, hyperframes, higgsfield, …)
+├── tools/              ← Python pipeline scripts (the WAT "tools")
+├── workflows/          ← plain-language SOPs (create_ugc_video is the spine)
+├── assets/             ← per-app brand, personas, CTA, SFX, music, script guides
+├── requirements.txt    ← Python dependencies for the venv
+├── .venv/              ← project Python env (regenerable, gitignored)
+└── .env                ← API keys (gitignored)
 ```
-
-## First-time setup (fresh pull / new machine)
-
-Cloning onto a new Windows or Mac? Follow **`workflows/setup_environment.md`** — or just ask
-Claude to *"set up the environment,"* which runs the same SOP: it runs `tools/env_check.py`,
-installs whatever's missing (each failure prints the exact per-OS install command), creates
-the venv from `requirements.txt`, and helps you fill `.env` from `.env.example`.
-
-```powershell
-python tools\env_check.py            # see what's missing (works on any OS, no venv needed)
-```
-
-Heavy media (per-video AI clips, rendered edits, personas) is **not** in git — it lives in
-the Google Shared Drive. The repo ships the reusable, lightweight assets only (CTA, brand,
-screenshots, reviews, script guide, SFX, music, props, fonts).
-
-## Prerequisites
-
-Python 3.11, ffmpeg/ffprobe, Node/npx, git, yt-dlp (in venv); optional: gh, Bun, uv.
-`env_check.py` verifies all of them. If the venv is recreated, also recreate
-`.venv/Lib/site-packages/sitecustomize.py` (forces UTF-8 stdio so the helpers' Unicode
-output doesn't crash on Windows — see setup workflow step 4).
-
-## .env Setup
-
-Real keys live in `.env` (gitignored **and** must be excluded from any shared-drive sync).
-Never put real keys in `.env.example`. Keys: Higgsfield, OpenRouter, Apify, Postiz, HeyGen,
-and **ElevenLabs** (transcription).
-
-## Sync to Shared Drive
-
-Files build locally and copy to `G:\Shared drives\Mode AI Creative Loop\osasenaga\`.
-
-> ⚠️ **Exclude heavy regenerable dirs from the sync**: `.venv/`, `vendor/`, `node_modules/`,
-> `.tmp/`, and `assets/music|sfx/`. They are large and rebuildable; syncing them bloats the
-> shared drive. `.gitignore` already excludes them from git — the robocopy/Drive sync needs
-> the same exclusions. `.env` must always stay excluded.
