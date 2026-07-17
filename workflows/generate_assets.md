@@ -29,6 +29,8 @@ Given a per-video brief + script and the app's reusable persona, deliver:
 |------|-----|
 | Chunk the VO into Kling-sized beats | `tools/chunk_script.py` |
 | Generate any image/clip + download + log | `tools/higgsfield_gen.py` (wraps `higgsfield` CLI) |
+| **AI-vision QA every image / clip frame** | `tools/qa_image.py` (Gemini; rubric `qa/rubrics.json`) |
+| **Inject learned prompt rules / log new defects** | `tools/guardrails.py` (ledger in `guardrails/`) |
 | QC the asset set + flip manifest status | `tools/check_assets.py` |
 | Scaffold the video folder | `tools/scaffold.py` |
 | Prompt style templates | `workflows/asset_prompts.md` |
@@ -60,10 +62,23 @@ The B-roll examples in `asset_prompts.md` and the `backinthe-80s` SOP (grandchil
 phone-to-camera, playing-game / listening-music / reading-news) are **illustrative format
 references only** — never copy them as the actual ideas. For each new video, brainstorm
 *new*, scroll-stopping, platform-native B-roll that fits the specific script beat, persona,
-and app. Push for creative cutaways: unexpected visual metaphors, pattern interrupts,
-meme-aware/native gags, POV shots, reaction inserts, props, before/after, exaggerated
-comedic beats, dynamic transitions. (Still: muted overlay, duration ≤ its A-roll beat, and
-for MEA show the real app UI on a modern Android phone where relevant.)
+and app. Start from the category scaffolding in `assets/_shared/b-roll-bank/bank.md`
+(metaphor, POV, meme gag, before/after, prop gag, reaction insert, transition), brainstorm
+**≥ 2 ideas per slot across ≥ 3 different categories**, then grep the bank's
+**used-concepts registry** and discard any collision — the registry is what makes "never
+repeat" checkable instead of memory-based. After generating, **append every shipped
+concept to the registry** (date · category · concept · video). (Still: muted overlay,
+duration ≤ its A-roll beat, and for MEA show the real app UI on a modern Android phone
+where relevant.)
+
+**1b. B-roll QUOTA (hard minimum — fixes low pattern-interruption).**
+Every video gets **at least 1 B-roll per script beat** (HOOK / PROBLEM / SOLUTION /
+HOW IT WORKS / RESULT / CTA) and targets **a cutaway every 3–5 seconds of A-roll**:
+`n_broll >= max(beats, ceil(total_duration_s / 5) - n_clips)`, with a floor of
+`n_chunks - 1` for typical chunk counts. `chunk_script.py` emits a `broll_slots` array in
+`edit/chunks.json` marking which chunks REQUIRE a cutaway — fill every required slot
+(write the chosen concept into the chunk's `b_roll` field) BEFORE generating clips;
+`check_assets.py` fails the Step-7 QC while required slots are unfilled.
 
 **2. A-roll: make characters LIVELY — perform in the persona's personality.**
 Talking-head delivery must never be flat/generic. Give each persona real personality in
@@ -83,6 +98,41 @@ gets characterful. Suggested mapping (adapt per persona/script):
 Keep the declarative-intonation rule for statements, but let the energy and gestures be
 alive and on-character. Match cultural cadence to the persona too.
 
+## QA gates (STANDING — every image is checked before it costs money)
+
+`tools/qa_image.py` sends each generated asset to Gemini Flash (~$0.002/check, ~45
+checks/video ≈ under $0.10 total) with a per-shot-type rubric (`qa/rubrics.json`) and
+returns `pass | warn | fail` + defect codes + a regenerate hint. **A `fail` asset must
+NEVER feed a paid Kling job.** The tool judges; YOU decide (regenerate vs escalate):
+
+- **Gate A — after each pose grid:** `qa_image.py --input grid-<N>.png --shot-type grid
+  --persona <base.png>` before choosing a cell (tool + eyeball, not instead of eyeball).
+- **Gate B — after each first-frame extract (THE MONEY GATE, be strict):**
+  `qa_image.py --input img-<N>.png --shot-type extract --persona <base.png>
+  --context "<chunk beat + pose + phone note>"`. On `fail`: regenerate loop, **max 2
+  re-attempts** — attempt 1 re-extract another cell, attempt 2 regenerate the grid —
+  rewriting the prompt from the verdict's `regenerate_hint` plus the injected guardrails.
+  After 2 fails: **STOP and show the owner** (never silently burn a 3rd attempt).
+- **Gate C — B-roll stills (incl. phone-ui frames) before their Kling calls:** same loop
+  as Gate B with `--shot-type broll-still|phone-shot --app-ui <brand ui png>`.
+- **Gate D — after clips download (ADVISORY):** `qa_image.py --input "Clip <N>.mp4"
+  --shot-type aroll-clip --persona <base.png>` (extracts first+last frames). Verdict is
+  recorded; **never auto-regenerate a paid clip** — on warn/fail, pause and show the
+  owner the flagged frames; the owner decides re-rolls.
+
+Autonomy On: gates A–C auto-loop within the max-2 cap; a Gate-D fail still pauses.
+Autonomy Off: every fail pauses. Every QA call logs to `generation-log.json`
+(`--log … --label <same label as the generation record>`) so cost_report can show QA
+overhead. QA checks defects only — creative taste stays human.
+
+**Guardrail loop (both directions, every video):**
+- **Before authoring prompts** for a shot type, run
+  `guardrails.py inject --model <gen model> --shot-type <type>` and honor every rule.
+- **After any QA fail**, feed it back:
+  `guardrails.py add --from-verdict <verdict.json> --model <gen model> --failed-fragment
+  "<the prompt phrase that failed>"`. Candidates await human promotion — see
+  `guardrails/README.md` for lifecycle + anti-bloat rules.
+
 ## Project conventions (read before running)
 
 - **Python**: always `.\.venv\Scripts\python.exe tools\<script> …` — never bare `python`.
@@ -97,13 +147,17 @@ alive and on-character. Match cultural cadence to the persona too.
   `female-caucasian`, `student-jake`) and are reused across apps. Each video's
   `manifest.md` records which one it uses via the `persona:` frontmatter field. Generate
   a new persona (Steps 1-3) only when none fits.
-- **Consistent phone prop (MEA + any Android brand).** Whenever a persona holds a phone —
-  in ANY image (grid, extract, B-roll frame) or clip first-frame — pass
-  `assets/_shared/props/samsung-galaxy-s22-ultra.png` as an ADDITIONAL `--image` reference
-  (alongside the persona base image) and write "holding the same Black Samsung Galaxy S22
-  Ultra from the reference" in the prompt. This keeps the device one consistent modern
-  Android across every asset and prevents stray iPhones / mismatched phones (the bug seen
-  in the early `backinthe-80s` clips). The reference shows the phone front + back.
+- **Consistent phone prop + screen visibility (MEA + any Android brand).** Whenever a
+  persona holds a phone — in ANY image (grid, extract, B-roll frame) or clip first-frame —
+  follow the **Phone visibility grammar** at the top of `asset_prompts.md`: the screen
+  faces the viewer showing the real app logo/home UI (the character is presenting the app).
+  Pass TWO additional `--image` references: `assets/_shared/props/s22-ultra-front.png`
+  (screen-facing shots; `s22-ultra-back.png` ONLY for a reveal first-frame) AND the app's
+  UI/logo still from `assets/<app>/brand/`. Write "holding the same Black Samsung Galaxy
+  S22 Ultra from the reference, its bright screen facing the camera showing the <app> home
+  screen" in the prompt. Never write bare "holding a phone" — that's how the
+  back-of-phone-to-viewer defect happens. This keeps the device one consistent modern
+  Android and the app visible across every asset.
 - **The camera rule (non-negotiable in A-roll prompts):** only a completely static camera
   OR a slight, natural handheld drift. **No zoom-in, no dolly, no other camera move.**
 - **Paid API.** Image + (especially) video generation spend Higgsfield credits. Per
@@ -166,14 +220,23 @@ Generate the environment still, then per chunk a 3x3 pose grid and an extracted 
     --prompt "Extract the image in row R column C as a single clean 9:16 portrait of the character, no grid lines" ^
     --param aspect_ratio=9:16 --param resolution=2k --out ai-images\img-<N>.png --log generation-log.json --label img-<N>
 ```
-**QC realism BEFORE extracting, then QC the extract.** GPT Image can hallucinate
-(duplicate/merged furniture, "pinned between two tables", warped anatomy). For each
-grid: pick a cell that is clean AND realistic; if the best pose sits at a busy surface,
-prefer a simpler standing/single-surface cell to avoid extraction artifacts, and add
-"single normal <room>, one surface only, no duplicate furniture, anatomically correct"
-to the extract prompt. After extracting, **view each `img-<N>`** for realism + identity
-drift; re-extract from another cell (or regenerate the grid, or manually crop) if wrong.
-Never feed a bad frame into a paid Kling clip.
+**QC realism BEFORE extracting (Gate A), then QC the extract (Gate B — the money gate).**
+GPT Image can hallucinate (duplicate/merged furniture, "pinned between two tables",
+warped anatomy, floating/ungrounded characters). Run the QA gates from the standing
+section above:
+```
+:: Gate A — per grid, before choosing a cell
+... qa_image.py --input ai-images\grid-<N>.png --shot-type grid ^
+    --persona assets\_shared\personas\<slug>\base-character.png --log generation-log.json --label grid-<N>
+:: Gate B — per extract, before ANY paid clip
+... qa_image.py --input ai-images\img-<N>.png --shot-type extract ^
+    --persona assets\_shared\personas\<slug>\base-character.png ^
+    --context "chunk <N>: <beat + pose + phone note>" --log generation-log.json --label img-<N>
+```
+On a Gate-B `fail`: max 2 re-attempts (re-extract another cell, then regenerate the
+grid), rewriting from the verdict's `regenerate_hint` + injected guardrails, then STOP
+and show the owner. Also still **eyeball each `img-<N>`** — QA is a filter, not a
+replacement. Never feed a bad frame into a paid Kling clip.
 
 ### 5. A-roll clips (`kling3_0`, sound ON) — CONFIRM COST FIRST
 Author each clip prompt from the A-roll template in `asset_prompts.md` (pose-match +
@@ -189,9 +252,11 @@ Tip: preview the batch with `--dry-run` first; estimate credits with
 `higgsfield generate cost kling3_0 …`. Generate sequentially.
 
 ### 6. B-roll clips (`gpt_image_2` -> `kling3_0`, sound OFF)
-For each cued moment, generate the image(s) then the muted clip, **duration matched to
-the underlying A-roll**. Templates (grandchild OTSS, phone-UI first+last, activity
-shots) are in `asset_prompts.md`.
+For each cued moment (every REQUIRED `broll_slots` slot + any extras), generate the
+image(s), run **Gate C** on each still (`qa_image.py --shot-type broll-still|phone-shot
+--app-ui assets\<app>\brand\<ui>.png --context "<the concept>"`), then the muted clip,
+**duration matched to the underlying A-roll**. Templates (grandchild OTSS, phone-UI
+first+last, activity shots) are in `asset_prompts.md`.
 - **Grandchild / activity:** one start image -> `kling3_0 --start-image … --param sound=off`.
 - **Phone-UI display (first+last frame):** generate the first frame (holding phone),
   generate the last frame, then composite the **real app UI/logo** onto the last frame:
@@ -204,9 +269,15 @@ shots) are in `asset_prompts.md`.
   Then: `kling3_0 --start-image ai-images\phone-ui-first.png --end-image ai-images\phone-ui-last.png --param mode=pro --param sound=off`.
 
 ### 7. QC + manifest
+Gate D (advisory) on the finished clips, then the structural QC:
 ```
+.venv\Scripts\python.exe tools\qa_image.py --batch assets\<app>\<video>\ai-videos ^
+  --persona assets\_shared\personas\<slug>\base-character.png --log assets\<app>\<video>\generation-log.json
 .venv\Scripts\python.exe tools\check_assets.py assets\<app>\<video> --update-manifest
 ```
+On any Gate-D warn/fail: show the owner the flagged frames (never auto-regenerate a
+paid clip). Then append every shipped B-roll concept to
+`assets\_shared\b-roll-bank\bank.md`'s used-concepts registry.
 Fill the manifest Assets table (clips + B-roll + cue lines, mirroring the
 `backinthe-80s` manifest), confirm `status: assets`. The folder is now consumable by
 `edit_video.md` unchanged.

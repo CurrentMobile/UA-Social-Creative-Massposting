@@ -1,0 +1,17 @@
+# Q&A turn anatomy — street interview, reaction, play/pause (speaker-tagged dialogue).
+# Script lines are written "SPEAKER: dialogue". Each turn is a beat boundary; chunks
+# carry a `speaker` field so the asset recipe knows which character voices each clip.
+# A line that is just "PAUSE" is an EDIT EVENT (freeze/beat drop), not spoken VO.
+id: interview-turns
+vo: true
+chunking:
+  mode: turns
+  wps: 2.9              # street energy runs faster than the grandmotherly 2.7
+  min_words: 6          # interview answers can be short
+  max_words: 20
+speakers: [INTERVIEWER, PERSON1, PERSON2, HOST]
+sections:               # optional all-caps beat labels still work around the turns
+  - {label: HOOK, required: true}
+  - {label: CTA, required: true}
+markers:
+  - {label: PAUSE, event: pause}

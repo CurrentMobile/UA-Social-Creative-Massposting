@@ -1,0 +1,79 @@
+<!doctype html>
+<!--
+  PATTERN A — "Phone Card + Fanned Chips"
+  Use for: a screenshot/UI proof pinned to a phone-shaped card, with N labeled
+  chips (payment methods, features, tags) fanning out around it.
+  Source: card_cashout (Ask Your Phone For A Raise) — real cashout screenshot
+  + PayPal/Amazon/Best Buy chips. Swap #phonecard's <img src> and the chip
+  text/positions; the animation choreography below is what to reuse verbatim.
+-->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1080, height=1920" />
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+    <style>
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+      html, body { width: 1080px; height: 1920px; overflow: hidden; background: transparent; }
+      #root { position: relative; width: 1080px; height: 1920px; overflow: hidden; background: transparent; }
+      .phonecard {
+        position: absolute; left: 50%; top: 46%;
+        width: 660px; margin-left: -330px; margin-top: -586px;
+        border-radius: 44px; border: 14px solid #ffffff;
+        box-shadow: 0 30px 80px rgba(0,0,0,.55);
+        overflow: hidden; background: #fff;
+      }
+      .phonecard img { display: block; width: 100%; }
+      .chip {
+        position: absolute; left: 50%;
+        font-family: Arial, Helvetica, sans-serif; font-weight: 900; font-size: 44px;
+        color: #141414; background: #ffffff;
+        padding: 18px 36px; border-radius: 40px;
+        box-shadow: 0 10px 30px rgba(0,0,0,.45); white-space: nowrap;
+      }
+      /* fan the chips around the card — 3 shown, add/remove freely */
+      #chip1 { top: 1210px; margin-left: -430px; color: #0a2540; }
+      #chip2 { top: 1300px; margin-left: -60px;  color: #131921; }
+      #chip3 { top: 1210px; margin-left: 220px;  color: #0a4abf; }
+    </style>
+  </head>
+  <body>
+    <div id="root" data-composition-id="main" data-start="0" data-duration="4.2"
+         data-width="1080" data-height="1920">
+      <div class="clip phonecard" id="phonecard" data-start="0" data-duration="4.2">
+        <img src="REPLACE_ME_screenshot.png" alt="" />
+      </div>
+      <div class="clip chip" id="chip1" data-start="0" data-duration="4.2">Chip One</div>
+      <div class="clip chip" id="chip2" data-start="0" data-duration="4.2">Chip Two</div>
+      <div class="clip chip" id="chip3" data-start="0" data-duration="4.2">Chip Three</div>
+    </div>
+    <script>
+      window.__timelines = window.__timelines || {};
+      const tl = gsap.timeline({ paused: true });
+      // 1. ENTER — card pops in with a springy overshoot (back.out), off a slightly
+      //    high transform-origin so it feels like it's dropping into place.
+      tl.fromTo("#phonecard", {scale:0.55, rotation:-4, opacity:0, transformOrigin:"50% 30%"},
+        {scale:1, rotation:0, opacity:1, duration:0.55, ease:"back.out(1.9)"}, 0.0);
+      // 2. IDLE — a single slow up/down drift (sine.inOut, yoyo, repeat:1) so the
+      //    card never looks frozen mid-hold. ~1.5-2s duration reads as "floating".
+      tl.to("#phonecard", {y:-10, duration:1.6, yoyo:true, repeat:1, ease:"sine.inOut"}, 0.6);
+      // 3. SECONDARY POP-INS — chips fan in STAGGERED (~0.2s apart), each with its
+      //    OWN rotation direction/magnitude (alternate +/- so the fan reads as
+      //    organic, not mechanical). Same back.out ease, slightly punchier (2.2).
+      tl.fromTo("#chip1", {scale:0, rotation:-10, opacity:0}, {scale:1, rotation:-4, opacity:1, duration:0.4, ease:"back.out(2.2)"}, 0.55);
+      tl.fromTo("#chip2", {scale:0, rotation:8,  opacity:0}, {scale:1, rotation:3,  opacity:1, duration:0.4, ease:"back.out(2.2)"}, 0.75);
+      tl.fromTo("#chip3", {scale:0, rotation:-8, opacity:0}, {scale:1, rotation:5,  opacity:1, duration:0.4, ease:"back.out(2.2)"}, 0.95);
+      // 4. IDLE WOBBLE — each chip gets its own small rotation-only yoyo (no
+      //    scale/position change) so the fan keeps a little life without
+      //    competing with the card's float. Stagger the start times too.
+      tl.to("#chip1", {rotation:2,  duration:1.2, yoyo:true, repeat:1, ease:"sine.inOut"}, 1.1);
+      tl.to("#chip2", {rotation:-3, duration:1.2, yoyo:true, repeat:1, ease:"sine.inOut"}, 1.2);
+      tl.to("#chip3", {rotation:-2, duration:1.2, yoyo:true, repeat:1, ease:"sine.inOut"}, 1.3);
+      // 5. EXIT — everything shrinks + fades together, tiny stagger (0.02s) so it
+      //    doesn't feel like a single flat cut. power2.in = accelerating out.
+      tl.to(["#phonecard","#chip1","#chip2","#chip3"],
+        {scale:0.88, opacity:0, duration:0.25, ease:"power2.in", stagger:0.02}, 3.9);
+      window.__timelines["main"] = tl;
+    </script>
+  </body>
+</html>

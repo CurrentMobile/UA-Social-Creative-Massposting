@@ -1,0 +1,1176 @@
+[
+  {
+    "label": "environment",
+    "asset": "assets/mode-earn/laziest-way-to-earn/ai-images/environment.png",
+    "model": "gpt_image_2",
+    "prompt": "A sunny American college campus quad walkway in bright afternoon daylight, wide paved pedestrian path, vivid green trees and lawns, a few brick academic buildings, blurred students walking in the background bokeh (no faces in focus), punchy saturated colors, high-contrast vivid social-media look, bright natural light, no foreground subject, photorealistic candid documentary feel, vertical framing",
+    "media": {},
+    "params": {
+      "aspect_ratio": "9:16",
+      "resolution": "2k"
+    },
+    "job_id": "ee0dd4a4-73ec-46b0-97d0-909a603acbba",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260710_195703_ee0dd4a4-73ec-46b0-97d0-909a603acbba.png",
+    "bytes": 10248029,
+    "created": "2026-07-10T19:59:19+00:00"
+  },
+  {
+    "label": "meme-judge",
+    "asset": "assets/mode-earn/laziest-way-to-earn/ai-images/meme-judge.png",
+    "model": "gpt_image_2",
+    "prompt": "A comedic meme-style photograph of a stern elderly judge in black robes mid-slam of a wooden gavel on the bench, mouth wide open yelling, eyes bulging, dramatic harsh camera flash, slightly overexposed, ultra-saturated colors, grainy deep-fried internet meme aesthetic, wood-paneled courtroom background, hilarious exaggerated expression, photorealistic, no text or captions anywhere",
+    "media": {},
+    "params": {
+      "aspect_ratio": "9:16",
+      "resolution": "1k"
+    },
+    "job_id": "472b77bc-320f-4707-8ce0-0e1a527b3ee2",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260710_195756_472b77bc-320f-4707-8ce0-0e1a527b3ee2.png",
+    "bytes": 2613050,
+    "created": "2026-07-10T19:59:39+00:00"
+  },
+  {
+    "label": "meme-pugcop",
+    "asset": "assets/mode-earn/laziest-way-to-earn/ai-images/meme-pugcop.png",
+    "model": "gpt_image_2",
+    "prompt": "A comedic meme-style photograph of a chubby pug dog wearing a tiny police officer peaked cap, sitting behind the wheel of a police car, giving a suspicious judging side-eye with a slight head tilt, jowls drooping, harsh direct flash photography, ultra-saturated colors, grainy deep-fried internet meme aesthetic, hilarious, photorealistic, no text or captions anywhere",
+    "media": {},
+    "params": {
+      "aspect_ratio": "9:16",
+      "resolution": "1k"
+    },
+    "job_id": "bc3531fa-5345-4749-84fa-0afd1886f2fd",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260710_195758_bc3531fa-5345-4749-84fa-0afd1886f2fd.png",
+    "bytes": 2534753,
+    "created": "2026-07-10T19:59:48+00:00"
+  },
+  {
+    "label": "duo-turnaround",
+    "asset": "assets/mode-earn/laziest-way-to-earn/ai-images/duo-turnaround.png",
+    "model": "gpt_image_2",
+    "prompt": "Handheld first-person interviewer POV photo on the sunny campus walkway from the third reference: TWO college girls just turned around toward the camera, startled and amused, caught mid-step — on the left the 19-year-old East Asian American student from the first reference (same face, long dark hair, light dewy makeup, plain coral-pink crew-neck tee, no logos) grinning mid-exclamation with wide surprised eyes; on the right the 20-year-old American student from the second reference (same face, mid-length messy brown hair, fair skin, plain light-blue crew-neck sweatshirt, no logos) breaking into a laugh with a hand near her mouth. Both anatomically correct, all fingers naturally formed, feet on the pavement, one surface only. The black foam-tipped handheld interview microphone from the fourth reference just enters the lower frame pointed toward them, held from out of frame by the unseen interviewer — neither girl touches it. Medium two-shot at eye level, arm's-length handheld street framing with a slight tilt, blurred passersby behind, punchy saturated daylight, photorealistic candid documentary feel, vertical 9:16.",
+    "media": {
+      "image": [
+        "assets/_shared/personas/gen-z-ashley/base-character.png",
+        "assets/_shared/personas/student-chloe/base-character.png",
+        "assets/mode-earn/laziest-way-to-earn/ai-images/environment.png",
+        "assets/_shared/props/handheld-mic.png"
+      ]
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "resolution": "2k"
+    },
+    "job_id": "00545d62-4a9d-4b0c-85d0-8e3edce3697b",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260710_200151_00545d62-4a9d-4b0c-85d0-8e3edce3697b.png",
+    "bytes": 10629386,
+    "created": "2026-07-10T20:04:33+00:00"
+  },
+  {
+    "label": "duo-chase",
+    "asset": "assets/mode-earn/laziest-way-to-earn/ai-images/duo-chase.png",
+    "model": "gpt_image_2",
+    "prompt": "Handheld first-person interviewer POV action photo on the sunny campus walkway from the third reference, camera mid-SPRINT chasing after TWO college girls seen from BEHIND at mid-distance walking away down the path: on the left the 19-year-old East Asian American student from the first reference (long dark hair, plain coral-pink crew-neck tee, no logos), on the right the 20-year-old American student from the second reference (mid-length messy brown hair, plain light-blue crew-neck sweatshirt, no logos). Strong running motion energy: slight motion blur at the frame edges, tilted dynamic framing, the black foam-tipped handheld interview microphone from the fourth reference thrusting into the lower right frame held by the unseen sprinting interviewer. Both girls anatomically correct, feet on the pavement. Blurred passersby, punchy saturated daylight, photorealistic candid documentary feel, vertical 9:16.",
+    "media": {
+      "image": [
+        "assets/_shared/personas/gen-z-ashley/base-character.png",
+        "assets/_shared/personas/student-chloe/base-character.png",
+        "assets/mode-earn/laziest-way-to-earn/ai-images/environment.png",
+        "assets/_shared/props/handheld-mic.png"
+      ]
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "resolution": "2k"
+    },
+    "job_id": "f6428c34-6c0f-473a-b58b-64a4cbd97a9b",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260710_200157_f6428c34-6c0f-473a-b58b-64a4cbd97a9b.png",
+    "bytes": 10211846,
+    "created": "2026-07-10T20:04:34+00:00"
+  },
+  {
+    "label": "grid-4",
+    "asset": "assets/mode-earn/laziest-way-to-earn/ai-images/grid-4.png",
+    "model": "gpt_image_2",
+    "prompt": "A 3x3 grid of the exact same 20-year-old American college student from the first reference — same face, mid-length messy brown hair, fair skin, minimal makeup — wearing the same plain light-blue crew-neck sweatshirt with no logos, standing naturally on the sunny campus walkway from the reference, feet on the pavement, anatomically correct, one surface only. She is being street-interviewed and is PROUDLY telling a funny story: smug half-grin, chin slightly raised, hands gesturing mid-story, breaking into a laugh at her own answer — candid variations of proud comedic storytelling across the nine tiles, all fingers naturally formed and correctly proportioned. The same black handheld interview microphone from the reference just enters the lower or side frame in some tiles, pointed toward her by an unseen interviewer. She looks toward the off-camera interviewer / into the lens. Handheld street framing at arm's length, blurred passersby behind, punchy saturated daylight. Identity and wardrobe identical across all nine tiles. Photorealistic, candid, documentary feel.",
+    "media": {
+      "image": [
+        "assets/_shared/personas/student-chloe/base-character.png",
+        "assets/mode-earn/laziest-way-to-earn/ai-images/environment.png",
+        "assets/_shared/props/handheld-mic.png"
+      ]
+    },
+    "params": {
+      "aspect_ratio": "1:1",
+      "resolution": "2k"
+    },
+    "job_id": "4e2606f2-3af7-437d-b7ee-9c9635b2ee6c",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260710_200151_4e2606f2-3af7-437d-b7ee-9c9635b2ee6c.png",
+    "bytes": 11479392,
+    "created": "2026-07-10T20:05:37+00:00"
+  },
+  {
+    "label": "duo-looks",
+    "asset": "assets/mode-earn/laziest-way-to-earn/ai-images/duo-looks.png",
+    "model": "gpt_image_2",
+    "prompt": "Handheld first-person interviewer POV photo on the sunny campus walkway from the third reference: TWO college girls turning to EXCHANGE a skeptical wide-eyed look with EACH OTHER, faces in profile-to-three-quarter view — on the left the 19-year-old East Asian American student from the first reference (same face, long dark hair, light dewy makeup, plain coral-pink crew-neck tee, no logos) mouthing 'no way' with raised eyebrows, on the right the 20-year-old American student from the second reference (same face, mid-length messy brown hair, fair skin, plain light-blue crew-neck sweatshirt, no logos) squinting back at her in disbelief. Both anatomically correct, all fingers naturally formed, feet on the pavement, one surface only. The black foam-tipped handheld interview microphone from the fourth reference just enters the lower frame, held from out of frame by the unseen interviewer — neither girl touches it. Medium two-shot at eye level, arm's-length handheld street framing, blurred passersby behind, punchy saturated daylight, photorealistic candid documentary feel, vertical 9:16.",
+    "media": {
+      "image": [
+        "assets/_shared/personas/gen-z-ashley/base-character.png",
+        "assets/_shared/personas/student-chloe/base-character.png",
+        "assets/mode-earn/laziest-way-to-earn/ai-images/environment.png",
+        "assets/_shared/props/handheld-mic.png"
+      ]
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "resolution": "2k"
+    },
+    "job_id": "cc15f957-584e-44fa-a524-b68de144b885",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260710_200303_cc15f957-584e-44fa-a524-b68de144b885.png",
+    "bytes": 10561621,
+    "created": "2026-07-10T20:05:38+00:00"
+  },
+  {
+    "label": "grid-7",
+    "asset": "assets/mode-earn/laziest-way-to-earn/ai-images/grid-7.png",
+    "model": "gpt_image_2",
+    "prompt": "A 3x3 grid of the exact same 19-year-old East Asian American college student from the first reference — same face, long dark hair, light dewy natural makeup — wearing the same plain coral-pink crew-neck tee with no logos, standing naturally on the sunny campus walkway from the reference, feet on the pavement, anatomically correct, one surface only. She is being street-interviewed and reacts with playful MOCK OUTRAGE: eyes comically wide, jaw dropped, leaning back, one hand on her chest in exaggerated disbelief like she just heard something scandalous — candid variations of theatrical Gen Z outrage across the nine tiles, all fingers naturally formed and correctly proportioned. The same black handheld interview microphone from the reference just enters the lower or side frame in some tiles, pointed toward her by an unseen interviewer. She looks toward the off-camera interviewer / into the lens. Handheld street framing at arm's length, blurred passersby behind, punchy saturated daylight. Identity and wardrobe identical across all nine tiles. Photorealistic, candid, documentary feel.",
+    "media": {
+      "image": [
+        "assets/_shared/personas/gen-z-ashley/base-character.png",
+        "assets/mode-earn/laziest-way-to-earn/ai-images/environment.png",
+        "assets/_shared/props/handheld-mic.png"
+      ]
+    },
+    "params": {
+      "aspect_ratio": "1:1",
+      "resolution": "2k"
+    },
+    "job_id": "5c400fcd-651b-40df-be77-647969862d80",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260710_200158_5c400fcd-651b-40df-be77-647969862d80.png",
+    "bytes": 11510594,
+    "created": "2026-07-10T20:05:38+00:00"
+  },
+  {
+    "label": "grid-8",
+    "asset": "assets/mode-earn/laziest-way-to-earn/ai-images/grid-8.png",
+    "model": "gpt_image_2",
+    "prompt": "A 3x3 grid of the exact same 20-year-old American college student from the first reference — same face, mid-length messy brown hair, fair skin, minimal makeup — wearing the same plain light-blue crew-neck sweatshirt with no logos, standing naturally on the sunny campus walkway from the reference, feet on the pavement, anatomically correct, one surface only. She is being street-interviewed and is SKEPTICAL, calling out nonsense: arms loosely crossed, unimpressed side-eye toward the lens, flat 'yeah right' smirk, tiny dismissive head shake — candid variations of dry disbelief across the nine tiles, all fingers naturally formed and correctly proportioned. The same black handheld interview microphone from the reference just enters the lower or side frame in some tiles, pointed toward her by an unseen interviewer. She looks toward the off-camera interviewer / into the lens. Handheld street framing at arm's length, blurred passersby behind, punchy saturated daylight. Identity and wardrobe identical across all nine tiles. Photorealistic, candid, documentary feel.",
+    "media": {
+      "image": [
+        "assets/_shared/personas/student-chloe/base-character.png",
+        "assets/mode-earn/laziest-way-to-earn/ai-images/environment.png",
+        "assets/_shared/props/handheld-mic.png"
+      ]
+    },
+    "params": {
+      "aspect_ratio": "1:1",
+      "resolution": "2k"
+    },
+    "job_id": "c83e6ce9-fea9-4fda-a67d-a2342e0025d2",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260710_200155_c83e6ce9-fea9-4fda-a67d-a2342e0025d2.png",
+    "bytes": 11664608,
+    "created": "2026-07-10T20:05:46+00:00"
+  },
+  {
+    "label": "grid-11",
+    "asset": "assets/mode-earn/laziest-way-to-earn/ai-images/grid-11.png",
+    "model": "gpt_image_2",
+    "prompt": "A 3x3 grid of the exact same 19-year-old East Asian American college student from the first reference — same face, long dark hair, light dewy natural makeup — wearing the same plain coral-pink crew-neck tee with no logos, standing naturally on the sunny campus walkway from the reference, feet on the pavement, anatomically correct, one surface only. She is HOOKED and excited, mid-download: big genuine grin, holding up in ONE hand a Black Samsung Galaxy S22 Ultra with centered punch-hole front camera and squared corners matching the phone reference exactly, its bright softly-glowing BLANK screen facing the camera — a clean bright glow with no readable text or icons on it. Her other hand is relaxed at her side or gesturing excitedly — she holds NOTHING else, all fingers naturally formed and correctly proportioned. The same black handheld interview microphone from the reference just enters the lower frame in some tiles, held by the unseen interviewer. Handheld street framing at arm's length, blurred passersby behind, punchy saturated daylight. Identity, wardrobe, and phone identical across all nine tiles. Photorealistic, candid, documentary feel.",
+    "media": {
+      "image": [
+        "assets/_shared/personas/gen-z-ashley/base-character.png",
+        "assets/mode-earn/laziest-way-to-earn/ai-images/environment.png",
+        "assets/_shared/props/handheld-mic.png",
+        "assets/_shared/props/s22-ultra-front.png"
+      ]
+    },
+    "params": {
+      "aspect_ratio": "1:1",
+      "resolution": "2k"
+    },
+    "job_id": "abde73ba-3773-4295-a676-7f65104c9507",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260710_200222_abde73ba-3773-4295-a676-7f65104c9507.png",
+    "bytes": 11316416,
+    "created": "2026-07-10T20:06:18+00:00"
+  },
+  {
+    "type": "qa",
+    "label": "grid-4",
+    "verdict": "fail",
+    "score": 0.3,
+    "defects": [
+      {
+        "code": "WARDROBE_DRIFT",
+        "severity": "fail",
+        "description": "The character wears a light-blue crew sweatshirt in all tiles, which differs from the dark grey crew sweatshirt shown in the persona reference image.",
+        "region": "all tiles"
+      },
+      {
+        "code": "ANATOMY",
+        "severity": "fail",
+        "description": "Left hand fingers are merged and indistinct.",
+        "region": "grid row 1 col 2 left hand"
+      },
+      {
+        "code": "ANATOMY",
+        "severity": "fail",
+        "description": "Left hand fingers appear fused and thick.",
+        "region": "grid row 1 col 3 left hand"
+      },
+      {
+        "code": "ANATOMY",
+        "severity": "fail",
+        "description": "Left hand fingers are merged and indistinct.",
+        "region": "grid row 2 col 2 left hand"
+      },
+      {
+        "code": "ANATOMY",
+        "severity": "fail",
+        "description": "Left hand fingers are merged.",
+        "region": "grid row 2 col 3 left hand"
+      },
+      {
+        "code": "ANATOMY",
+        "severity": "fail",
+        "description": "Left hand fingers are thick and somewhat fused.",
+        "region": "grid row 3 col 2 left hand"
+      }
+    ],
+    "regenerate_hint": "Ensure the character consistently wears a dark grey crew sweatshirt as depicted in the persona reference image.",
+    "guardrail_candidates": [
+      {
+        "shot_type": "grid",
+        "defect": "WARDROBE_DRIFT",
+        "rule": "The character's outfit must precisely match the persona reference image, including color and style."
+      },
+      {
+        "shot_type": "grid",
+        "defect": "ANATOMY",
+        "rule": "Ensure hands have clearly defined, distinct fingers and natural joint articulation."
+      }
+    ],
+    "asset": "assets/mode-earn/laziest-way-to-earn/ai-images/grid-4.png",
+    "shot_type": "grid",
+    "qa_model": "gemini-2.5-flash",
+    "checked_at": "2026-07-10T21:06:12",
+    "attempt": 1
+  },
+  {
+    "label": "duo-listen",
+    "asset": "assets/mode-earn/laziest-way-to-earn/ai-images/duo-listen.png",
+    "model": "gpt_image_2",
+    "prompt": "Handheld first-person interviewer POV photo on the sunny campus walkway from the third reference: TWO college girls standing side by side facing the camera, LISTENING to an off-camera pitch with curious amused expressions — on the left the 19-year-old East Asian American student from the first reference (same face, long dark hair, light dewy makeup, plain coral-pink crew-neck tee, no logos) with eyebrows rising and a half-smile, on the right the 20-year-old American student from the second reference (same face, mid-length messy brown hair, fair skin, plain light-blue crew-neck sweatshirt, no logos) with her head tilted, lips pressed in a doubtful-but-intrigued look. Both anatomically correct, all fingers naturally formed, feet on the pavement, one surface only. The black foam-tipped handheld interview microphone from the fourth reference just enters the lower frame between them, held from out of frame by the unseen interviewer — neither girl touches it. Medium two-shot at eye level, arm's-length handheld street framing, blurred passersby behind, punchy saturated daylight, photorealistic candid documentary feel, vertical 9:16.",
+    "media": {
+      "image": [
+        "assets/_shared/personas/gen-z-ashley/base-character.png",
+        "assets/_shared/personas/student-chloe/base-character.png",
+        "assets/mode-earn/laziest-way-to-earn/ai-images/environment.png",
+        "assets/_shared/props/handheld-mic.png"
+      ]
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "resolution": "2k"
+    },
+    "job_id": "990a9b56-a30e-4b6a-b5d1-e632bfd53ad4",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260710_200549_990a9b56-a30e-4b6a-b5d1-e632bfd53ad4.png",
+    "bytes": 10734209,
+    "created": "2026-07-10T20:08:21+00:00"
+  },
+  {
+    "label": "grid-10",
+    "asset": "assets/mode-earn/laziest-way-to-earn/ai-images/grid-10.png",
+    "model": "gpt_image_2",
+    "prompt": "A 3x3 grid of the exact same 20-year-old American college student from the first reference — same face, mid-length messy brown hair, fair skin, minimal makeup — wearing the same plain light-blue crew-neck sweatshirt with no logos, standing naturally on the sunny campus walkway from the reference, feet on the pavement, anatomically correct, one surface only. She is being street-interviewed and has a DAWNING REALIZATION she's been missing out: eyes going wide, staring into the distance, hand slowly rising toward her forehead, mouth slightly open in stunned self-reproach, then an incredulous laugh — candid variations of comedic realization across the nine tiles, all fingers naturally formed and correctly proportioned. The same black handheld interview microphone from the reference just enters the lower or side frame in some tiles, pointed toward her by an unseen interviewer. She looks toward the off-camera interviewer / into the lens. Handheld street framing at arm's length, blurred passersby behind, punchy saturated daylight. Identity and wardrobe identical across all nine tiles. Photorealistic, candid, documentary feel.",
+    "media": {
+      "image": [
+        "assets/_shared/personas/student-chloe/base-character.png",
+        "assets/mode-earn/laziest-way-to-earn/ai-images/environment.png",
+        "assets/_shared/props/handheld-mic.png"
+      ]
+    },
+    "params": {
+      "aspect_ratio": "1:1",
+      "resolution": "2k"
+    },
+    "job_id": "5e8a5bc6-115a-44b5-9b28-7b5024c3e70e",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260710_200450_5e8a5bc6-115a-44b5-9b28-7b5024c3e70e.png",
+    "bytes": 11532183,
+    "created": "2026-07-10T20:08:38+00:00"
+  },
+  {
+    "label": "duo-huddle",
+    "asset": "assets/mode-earn/laziest-way-to-earn/ai-images/duo-huddle.png",
+    "model": "gpt_image_2",
+    "prompt": "Handheld first-person interviewer POV photo on the sunny campus walkway from the third reference: TWO college girls huddled shoulder to shoulder, both grinning excitedly — on the left the 19-year-old East Asian American student from the first reference (same face, long dark hair, light dewy makeup, plain coral-pink crew-neck tee, no logos) holding up in ONE hand a Black Samsung Galaxy S22 Ultra with centered punch-hole front camera and squared corners matching the fifth reference exactly, its bright softly-glowing BLANK screen angled toward the camera — a clean bright glow with no readable text or icons; on the right the 20-year-old American student from the second reference (same face, mid-length messy brown hair, fair skin, plain light-blue crew-neck sweatshirt, no logos) leaning in to look at the screen, pointing at it with one finger. Both anatomically correct, all fingers naturally formed, feet on the pavement, one surface only, neither holds anything else. The black foam-tipped handheld interview microphone from the fourth reference just enters the lower frame, held from out of frame by the unseen interviewer. Medium two-shot at eye level, arm's-length handheld street framing, blurred passersby behind, punchy saturated daylight, photorealistic candid documentary feel, vertical 9:16.",
+    "media": {
+      "image": [
+        "assets/_shared/personas/gen-z-ashley/base-character.png",
+        "assets/_shared/personas/student-chloe/base-character.png",
+        "assets/mode-earn/laziest-way-to-earn/ai-images/environment.png",
+        "assets/_shared/props/handheld-mic.png",
+        "assets/_shared/props/s22-ultra-front.png"
+      ]
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "resolution": "2k"
+    },
+    "job_id": "eb4b3bcb-2e43-4752-ac65-c322d5ecfdf6",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260710_200620_eb4b3bcb-2e43-4752-ac65-c322d5ecfdf6.png",
+    "bytes": 10572952,
+    "created": "2026-07-10T20:08:46+00:00"
+  },
+  {
+    "type": "qa",
+    "label": "grid-7",
+    "verdict": "fail",
+    "score": 0.5,
+    "defects": [
+      {
+        "code": "WARDROBE_DRIFT",
+        "severity": "fail",
+        "description": "The character is wearing a coral-pink t-shirt, but the persona reference image shows a dark/black t-shirt.",
+        "region": "All tiles"
+      }
+    ],
+    "regenerate_hint": "Ensure the character wears the dark/black t-shirt as depicted in the persona reference image.",
+    "guardrail_candidates": [
+      {
+        "shot_type": "grid",
+        "defect": "WARDROBE_DRIFT",
+        "rule": "Maintain the character's canonical wardrobe from the persona reference image, specifically the dark-colored t-shirt."
+      }
+    ],
+    "asset": "assets/mode-earn/laziest-way-to-earn/ai-images/grid-7.png",
+    "shot_type": "grid",
+    "qa_model": "gemini-2.5-flash",
+    "checked_at": "2026-07-10T21:07:28",
+    "attempt": 1
+  },
+  {
+    "label": "grid-5",
+    "asset": "assets/mode-earn/laziest-way-to-earn/ai-images/grid-5.png",
+    "model": "gpt_image_2",
+    "prompt": "A 3x3 grid of the exact same 19-year-old East Asian American college student from the first reference — same face, long dark hair, light dewy natural makeup — wearing the same plain coral-pink crew-neck tee with no logos, standing naturally on the sunny campus walkway from the reference, feet on the pavement, anatomically correct, one surface only. She is being street-interviewed and is DEADPAN matter-of-fact telling an absurd story: flat unbothered expression, small shrug, palms briefly up in a 'that's it, that's the job' gesture, one eyebrow slightly raised — candid variations of dry comedic delivery across the nine tiles, all fingers naturally formed and correctly proportioned. The same black handheld interview microphone from the reference just enters the lower or side frame in some tiles, pointed toward her by an unseen interviewer. She looks toward the off-camera interviewer / into the lens. Handheld street framing at arm's length, blurred passersby behind, punchy saturated daylight. Identity and wardrobe identical across all nine tiles. Photorealistic, candid, documentary feel.",
+    "media": {
+      "image": [
+        "assets/_shared/personas/gen-z-ashley/base-character.png",
+        "assets/mode-earn/laziest-way-to-earn/ai-images/environment.png",
+        "assets/_shared/props/handheld-mic.png"
+      ]
+    },
+    "params": {
+      "aspect_ratio": "1:1",
+      "resolution": "2k"
+    },
+    "job_id": "b2d0c575-e6af-4344-b4b1-7e6bcdc0bdec",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260710_200512_b2d0c575-e6af-4344-b4b1-7e6bcdc0bdec.png",
+    "bytes": 11329566,
+    "created": "2026-07-10T20:09:15+00:00"
+  },
+  {
+    "type": "qa",
+    "label": "grid-8",
+    "verdict": "fail",
+    "score": 0.4,
+    "defects": [
+      {
+        "code": "WARDROBE_DRIFT",
+        "severity": "fail",
+        "description": "The character is wearing a light-blue crew sweatshirt, but the persona reference image clearly shows a dark grey crew-neck sweatshirt.",
+        "region": "All tiles"
+      }
+    ],
+    "regenerate_hint": "Ensure the character consistently wears a dark grey crew-neck sweatshirt across all tiles, matching the persona reference.",
+    "guardrail_candidates": [
+      {
+        "shot_type": "any",
+        "defect": "WARDROBE_DRIFT",
+        "rule": "Ensure character's wardrobe precisely matches the canonical reference, including garment type, color, and style."
+      }
+    ],
+    "asset": "assets/mode-earn/laziest-way-to-earn/ai-images/grid-8.png",
+    "shot_type": "grid",
+    "qa_model": "gemini-2.5-flash",
+    "checked_at": "2026-07-10T21:08:42",
+    "attempt": 1
+  },
+  {
+    "type": "qa",
+    "label": "grid-11",
+    "verdict": "fail",
+    "score": 0.6,
+    "defects": [
+      {
+        "code": "WARDROBE_DRIFT",
+        "severity": "fail",
+        "description": "The character is wearing a coral-pink tee instead of the black top shown in the Persona Reference.",
+        "region": "all tiles"
+      }
+    ],
+    "regenerate_hint": "Ensure the character wears a black top that matches the Persona Reference.",
+    "guardrail_candidates": [
+      {
+        "shot_type": "grid",
+        "defect": "WARDROBE_DRIFT",
+        "rule": "The character's outfit must match the provided persona reference image."
+      }
+    ],
+    "asset": "assets/mode-earn/laziest-way-to-earn/ai-images/grid-11.png",
+    "shot_type": "grid",
+    "qa_model": "gemini-2.5-flash",
+    "checked_at": "2026-07-10T21:09:21",
+    "attempt": 1
+  },
+  {
+    "type": "qa",
+    "label": "grid-5",
+    "verdict": "fail",
+    "score": 0.35,
+    "defects": [
+      {
+        "code": "ANATOMY",
+        "severity": "fail",
+        "description": "Fingers on the right hand appear slightly merged and unnatural.",
+        "region": "grid row 1 col 2, right hand"
+      },
+      {
+        "code": "IDENTITY_DRIFT",
+        "severity": "fail",
+        "description": "The character's face, particularly the eye shape and jawline, differs subtly but consistently from the persona reference.",
+        "region": "all tiles"
+      }
+    ],
+    "regenerate_hint": "Ensure the character's facial features, including eye shape and jawline, precisely match the provided persona reference.",
+    "guardrail_candidates": [
+      {
+        "shot_type": "grid",
+        "defect": "IDENTITY_DRIFT",
+        "rule": "Maintain the exact facial features, including eye shape, nose, and jawline, as shown in the persona reference image."
+      }
+    ],
+    "asset": "assets/mode-earn/laziest-way-to-earn/ai-images/grid-5.png",
+    "shot_type": "grid",
+    "qa_model": "gemini-2.5-flash",
+    "checked_at": "2026-07-11T03:37:39",
+    "attempt": 1
+  },
+  {
+    "type": "qa",
+    "label": "grid-10",
+    "verdict": "pass",
+    "score": 1.0,
+    "defects": [],
+    "regenerate_hint": "",
+    "asset": "assets/mode-earn/laziest-way-to-earn/ai-images/grid-10.png",
+    "shot_type": "grid",
+    "qa_model": "gemini-2.5-flash",
+    "checked_at": "2026-07-11T03:38:06",
+    "attempt": 1
+  },
+  {
+    "label": "img-10",
+    "asset": "assets/mode-earn/laziest-way-to-earn/ai-images/img-10.png",
+    "model": "gpt_image_2",
+    "prompt": "Extract the image in row 2 column 1 as a single clean 9:16 handheld-framed portrait of the young woman — hand on her forehead, wide stunned eyes, mouth open in dawning realization — the black foam-tipped interview microphone just entering the lower left frame, no grid lines, preserve her exact face, mid-length messy brown hair, fair skin, plain light-blue crew-neck sweatshirt, and the sunny campus walkway background with blurred passersby.",
+    "media": {
+      "image": [
+        "assets/mode-earn/laziest-way-to-earn/ai-images/grid-10.png"
+      ]
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "resolution": "2k"
+    },
+    "job_id": "9a40d3af-624d-47bc-ac53-16f6ead578c0",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260711_024011_9a40d3af-624d-47bc-ac53-16f6ead578c0.png",
+    "bytes": 6536418,
+    "created": "2026-07-11T02:42:13+00:00"
+  },
+  {
+    "label": "img-4",
+    "asset": "assets/mode-earn/laziest-way-to-earn/ai-images/img-4.png",
+    "model": "gpt_image_2",
+    "prompt": "Extract the image in row 2 column 1 as a single clean 9:16 handheld-framed portrait of the young woman — raised index finger mid-story, amused proud grin — the black foam-tipped interview microphone just entering the lower right frame, no grid lines, preserve her exact face, mid-length messy brown hair, fair skin, plain light-blue crew-neck sweatshirt, and the sunny campus walkway background with blurred passersby.",
+    "media": {
+      "image": [
+        "assets/mode-earn/laziest-way-to-earn/ai-images/grid-4.png"
+      ]
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "resolution": "2k"
+    },
+    "job_id": "0e003489-2910-4b0c-81aa-c172003f00ac",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260711_024000_0e003489-2910-4b0c-81aa-c172003f00ac.png",
+    "bytes": 6137528,
+    "created": "2026-07-11T02:42:19+00:00"
+  },
+  {
+    "label": "img-11",
+    "asset": "assets/mode-earn/laziest-way-to-earn/ai-images/img-11.png",
+    "model": "gpt_image_2",
+    "prompt": "Extract the image in row 3 column 1 as a single clean 9:16 handheld-framed portrait of the young woman — big excited grin, holding up in one hand the Black Samsung Galaxy S22 Ultra with its bright softly-glowing BLANK white screen facing the camera (no readable text or icons, just a clean bright glow), her other hand in an open-palm presenting gesture — the black foam-tipped interview microphone just entering the lower left frame, no grid lines, preserve her exact face, long dark hair, plain coral-pink crew-neck tee, and the sunny campus walkway background with blurred passersby.",
+    "media": {
+      "image": [
+        "assets/mode-earn/laziest-way-to-earn/ai-images/grid-11.png"
+      ]
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "resolution": "2k"
+    },
+    "job_id": "6e8a239c-394a-47b3-b398-fdf17f531146",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260711_024013_6e8a239c-394a-47b3-b398-fdf17f531146.png",
+    "bytes": 6304766,
+    "created": "2026-07-11T02:42:22+00:00"
+  },
+  {
+    "label": "img-7",
+    "asset": "assets/mode-earn/laziest-way-to-earn/ai-images/img-7.png",
+    "model": "gpt_image_2",
+    "prompt": "Extract the image in row 1 column 1 as a single clean 9:16 handheld-framed portrait of the young woman — comically wide eyes, jaw dropped in playful mock outrage, one hand on her chest — the black foam-tipped interview microphone just entering the lower right frame, no grid lines, preserve her exact face, long dark hair, plain coral-pink crew-neck tee, and the sunny campus walkway background with blurred passersby.",
+    "media": {
+      "image": [
+        "assets/mode-earn/laziest-way-to-earn/ai-images/grid-7.png"
+      ]
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "resolution": "2k"
+    },
+    "job_id": "9140a31d-c72c-4f8d-9300-1c135d616005",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260711_024009_9140a31d-c72c-4f8d-9300-1c135d616005.png",
+    "bytes": 5871143,
+    "created": "2026-07-11T02:43:00+00:00"
+  },
+  {
+    "label": "grid-5-v2",
+    "asset": "assets/mode-earn/laziest-way-to-earn/ai-images/grid-5.png",
+    "model": "gpt_image_2",
+    "prompt": "A 3x3 grid of the exact same 19-year-old East Asian American college student whose face must be an EXACT match to the first reference portrait — identical eye shape, jawline, and facial proportions — and identical to the girl in the second reference grid: long dark hair, light dewy natural makeup, wearing the same plain coral-pink crew-neck tee with no logos, standing naturally on the sunny campus walkway from the third reference, feet on the pavement, anatomically correct, one surface only. She is being street-interviewed and is DEADPAN matter-of-fact telling an absurd story: flat unbothered expression, small shrug, palms briefly up in a 'that's it, that's the job' gesture, one eyebrow slightly raised — candid variations of dry comedic delivery across the nine tiles, all fingers naturally formed, distinct and correctly proportioned. The same black handheld interview microphone from the fourth reference just enters the lower or side frame in some tiles, pointed toward her by an unseen interviewer. She looks toward the off-camera interviewer / into the lens. Handheld street framing at arm's length, blurred passersby behind, punchy saturated daylight. Identity and wardrobe identical across all nine tiles. Photorealistic, candid, documentary feel.",
+    "media": {
+      "image": [
+        "assets/_shared/personas/gen-z-ashley/base-character.png",
+        "assets/mode-earn/laziest-way-to-earn/ai-images/grid-7.png",
+        "assets/mode-earn/laziest-way-to-earn/ai-images/environment.png",
+        "assets/_shared/props/handheld-mic.png"
+      ]
+    },
+    "params": {
+      "aspect_ratio": "1:1",
+      "resolution": "2k"
+    },
+    "job_id": "898b4fc8-f09e-4b18-802f-f34301672adf",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260711_024004_898b4fc8-f09e-4b18-802f-f34301672adf.png",
+    "bytes": 6954522,
+    "created": "2026-07-11T02:43:37+00:00"
+  },
+  {
+    "type": "qa",
+    "label": "img-4",
+    "verdict": "fail",
+    "score": 0.3,
+    "defects": [
+      {
+        "code": "ANATOMY",
+        "severity": "fail",
+        "description": "The little finger of the character's raised hand is unnaturally long and thin with an odd bend, and other fingers appear slightly distorted.",
+        "region": "right hand (viewer's left)"
+      },
+      {
+        "code": "IDENTITY_DRIFT",
+        "severity": "fail",
+        "description": "The character's face shape and features, particularly the cheeks and nose, are subtly but noticeably different from the persona reference, failing to clearly read as the same person.",
+        "region": "face"
+      }
+    ],
+    "regenerate_hint": "Ensure the character's facial features and overall face shape are highly consistent with the provided persona reference, and that all hand and finger anatomy is natural and correctly proportioned.",
+    "guardrail_candidates": [
+      {
+        "shot_type": "extract",
+        "defect": "IDENTITY_DRIFT",
+        "rule": "Maintain the exact facial structure and features of the reference person across all shots."
+      },
+      {
+        "shot_type": "extract",
+        "defect": "ANATOMY",
+        "rule": "Render hands and fingers with natural proportions and articulation."
+      }
+    ],
+    "asset": "assets/mode-earn/laziest-way-to-earn/ai-images/img-4.png",
+    "shot_type": "extract",
+    "qa_model": "gemini-2.5-flash",
+    "checked_at": "2026-07-11T03:43:45",
+    "attempt": 1
+  },
+  {
+    "type": "qa",
+    "label": "img-7",
+    "verdict": "pass",
+    "score": 1.0,
+    "defects": [],
+    "regenerate_hint": "",
+    "asset": "assets/mode-earn/laziest-way-to-earn/ai-images/img-7.png",
+    "shot_type": "extract",
+    "qa_model": "gemini-2.5-flash",
+    "checked_at": "2026-07-11T03:44:15",
+    "attempt": 1
+  },
+  {
+    "label": "Clip 2",
+    "asset": "assets/mode-earn/laziest-way-to-earn/ai-videos/Clip 2.mp4",
+    "model": "kling3_0",
+    "prompt": "Begin on the handheld street two-shot of the two college girls from the reference who have just turned around startled, the interview mic just in the lower frame. ONLY the girl on the left in the coral-pink tee speaks, in Voice Tag: A 19-year-old American woman (East Asian). Bubbly, fast-paced, expressive Gen Z tone, bright higher-mid register with playful trendy inflection and casual energy, like talking straight to camera on TikTok. Fun, novelty-loving, and genuine. Laughing in amused disbelief while catching her breath from turning around: \"Oh my god, he's actually sprinting.\" The girl on the right in the light-blue sweatshirt giggles silently behind her hand, glancing at her friend. Only a slight natural handheld drift settling from the turn, no zoom, no dolly. Blurred passersby behind, both girls' faces, hair, and wardrobe staying exactly consistent with the reference throughout — a seamless single take.",
+    "media": {
+      "start_image": "assets/mode-earn/laziest-way-to-earn/ai-images/duo-turnaround.png"
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "duration": "3",
+      "mode": "pro",
+      "sound": "on"
+    },
+    "job_id": "78d1b164-417a-407f-a3a7-c792267b4386",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260711_024119_78d1b164-417a-407f-a3a7-c792267b4386.mp4",
+    "bytes": 8073945,
+    "created": "2026-07-11T02:44:41+00:00"
+  },
+  {
+    "type": "qa",
+    "label": "img-10",
+    "verdict": "pass",
+    "score": 1,
+    "defects": [],
+    "regenerate_hint": "",
+    "asset": "assets/mode-earn/laziest-way-to-earn/ai-images/img-10.png",
+    "shot_type": "extract",
+    "qa_model": "gemini-2.5-flash",
+    "checked_at": "2026-07-11T03:44:33",
+    "attempt": 1
+  },
+  {
+    "type": "qa",
+    "label": "img-11",
+    "verdict": "pass",
+    "score": 0.95,
+    "defects": [],
+    "regenerate_hint": "",
+    "asset": "assets/mode-earn/laziest-way-to-earn/ai-images/img-11.png",
+    "shot_type": "extract",
+    "qa_model": "gemini-2.5-flash",
+    "checked_at": "2026-07-11T03:44:57",
+    "attempt": 1
+  },
+  {
+    "label": "chase_b-roll",
+    "asset": "assets/mode-earn/laziest-way-to-earn/ai-videos/chase_b-roll.mp4",
+    "model": "kling3_0",
+    "prompt": "Handheld first-person interviewer POV: the camera SPRINTS forward along the sunny campus walkway chasing the two college girls from the reference seen from behind — heavy realistic running camera shake, bobbing up and down with each stride, the black foam interview microphone bouncing wildly at the bottom of frame in the unseen interviewer's hand. As the camera closes the distance the two girls hear him and begin turning around toward the lens, surprised. Blurred students passing, motion energy, documentary street chase feel, both girls' hair and wardrobe exactly consistent with the reference — a seamless single muted take.",
+    "media": {
+      "start_image": "assets/mode-earn/laziest-way-to-earn/ai-images/duo-chase.png"
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "duration": "5",
+      "mode": "pro",
+      "sound": "off"
+    },
+    "job_id": "96381e98-0b08-48ea-a284-530ffb9307ed",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260711_024127_96381e98-0b08-48ea-a284-530ffb9307ed.mp4",
+    "bytes": 19053705,
+    "created": "2026-07-11T02:45:18+00:00"
+  },
+  {
+    "label": "looks_b-roll",
+    "asset": "assets/mode-earn/laziest-way-to-earn/ai-videos/looks_b-roll.mp4",
+    "model": "kling3_0",
+    "prompt": "The two college girls from the reference on the sunny campus walkway turn to EXCHANGE a stunned skeptical look with each other as an off-camera voice makes a big claim, the interview mic just in the lower frame: the girl on the left in the coral-pink tee mouths 'no way' with raised eyebrows at her friend; the girl on the right in the light-blue sweatshirt squints back in disbelief, then both slowly turn back toward the lens. Neither speaks aloud. Only a slight natural handheld drift, no zoom, no dolly. Blurred passersby behind, both girls' faces, hair, and wardrobe staying exactly consistent with the reference throughout — a seamless single muted take.",
+    "media": {
+      "start_image": "assets/mode-earn/laziest-way-to-earn/ai-images/duo-looks.png"
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "duration": "5",
+      "mode": "pro",
+      "sound": "off"
+    },
+    "job_id": "7803ddbc-498b-4821-a1ce-d44694a0780b",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260711_024136_7803ddbc-498b-4821-a1ce-d44694a0780b.mp4",
+    "bytes": 12171306,
+    "created": "2026-07-11T02:46:33+00:00"
+  },
+  {
+    "label": "listen_b-roll",
+    "asset": "assets/mode-earn/laziest-way-to-earn/ai-videos/listen_b-roll.mp4",
+    "model": "kling3_0",
+    "prompt": "The two college girls from the reference stand side by side on the sunny campus walkway LISTENING to an off-camera pitch, the interview mic just in the lower frame: the girl on the left in the coral-pink tee's eyebrows slowly rise as the pitch lands, breaking into an intrigued smile; the girl on the right in the light-blue sweatshirt tilts her head, doubtful pressed lips slowly giving way to curiosity, exchanging a quick glance with her friend. Neither speaks. Only a slight natural handheld drift, no zoom, no dolly. Blurred passersby behind, both girls' faces, hair, and wardrobe staying exactly consistent with the reference throughout — a seamless single muted take.",
+    "media": {
+      "start_image": "assets/mode-earn/laziest-way-to-earn/ai-images/duo-listen.png"
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "duration": "5",
+      "mode": "pro",
+      "sound": "off"
+    },
+    "job_id": "37ded475-b7db-485c-8a1f-dc6e048290b8",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260711_024132_37ded475-b7db-485c-8a1f-dc6e048290b8.mp4",
+    "bytes": 10800112,
+    "created": "2026-07-11T02:46:48+00:00"
+  },
+  {
+    "label": "img-5",
+    "asset": "assets/mode-earn/laziest-way-to-earn/ai-images/img-5.png",
+    "model": "gpt_image_2",
+    "prompt": "Extract the image in row 1 column 1 as a single clean 9:16 handheld-framed portrait of the young woman — flat deadpan expression, both palms up in a small unbothered shrug — the black foam-tipped interview microphone just entering the lower right frame, no grid lines, preserve her exact face, long dark hair, plain coral-pink crew-neck tee, and the sunny campus walkway background with blurred passersby.",
+    "media": {
+      "image": [
+        "assets/mode-earn/laziest-way-to-earn/ai-images/grid-5.png"
+      ]
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "resolution": "2k"
+    },
+    "job_id": "988db950-5821-4f96-b548-861c467e57c7",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260711_024430_988db950-5821-4f96-b548-861c467e57c7.png",
+    "bytes": 6219140,
+    "created": "2026-07-11T02:46:59+00:00"
+  },
+  {
+    "label": "img-4-v2",
+    "asset": "assets/mode-earn/laziest-way-to-earn/ai-images/img-4.png",
+    "model": "gpt_image_2",
+    "prompt": "Extract the image in row 2 column 1 of the first reference grid as a single clean 9:16 handheld-framed portrait of the young woman — raised index finger mid-story, amused proud grin — her face must be an EXACT match to the second reference portrait: identical cheeks, nose, eye shape and jawline, 20 years old, mid-length messy brown hair, fair skin. The black foam-tipped interview microphone just entering the lower right frame, no grid lines, plain light-blue crew-neck sweatshirt, sunny campus walkway background with blurred passersby.",
+    "media": {
+      "image": [
+        "assets/mode-earn/laziest-way-to-earn/ai-images/grid-4.png",
+        "assets/_shared/personas/student-chloe/base-character.png"
+      ]
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "resolution": "2k"
+    },
+    "job_id": "6c0e5cfd-27c0-44d4-a452-4c9dd24df772",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260711_024657_6c0e5cfd-27c0-44d4-a452-4c9dd24df772.png",
+    "bytes": 6245283,
+    "created": "2026-07-11T02:49:02+00:00"
+  },
+  {
+    "type": "qa",
+    "label": "img-4-v2",
+    "verdict": "pass",
+    "score": 1.0,
+    "defects": [],
+    "regenerate_hint": "",
+    "guardrail_candidates": [],
+    "asset": "assets/mode-earn/laziest-way-to-earn/ai-images/img-4.png",
+    "shot_type": "extract",
+    "qa_model": "gemini-2.5-flash",
+    "checked_at": "2026-07-11T03:49:43",
+    "attempt": 1
+  },
+  {
+    "type": "qa",
+    "label": "img-5",
+    "verdict": "pass",
+    "score": 1.0,
+    "defects": [],
+    "regenerate_hint": "",
+    "asset": "assets/mode-earn/laziest-way-to-earn/ai-images/img-5.png",
+    "shot_type": "extract",
+    "qa_model": "gemini-2.5-flash",
+    "checked_at": "2026-07-11T03:50:06",
+    "attempt": 1
+  },
+  {
+    "label": "img-8",
+    "asset": "assets/mode-earn/laziest-way-to-earn/ai-images/img-8.png",
+    "model": "gpt_image_2",
+    "prompt": "Extract the image in row 2 column 2 as a single clean 9:16 handheld-framed portrait of the young woman — arms loosely crossed, unimpressed knowing smirk straight at the lens — the black foam-tipped interview microphone just entering the lower frame, no grid lines, preserve her exact face, mid-length messy brown hair, fair skin, plain light-blue crew-neck sweatshirt, and the sunny campus walkway background with blurred passersby.",
+    "media": {
+      "image": [
+        "assets/mode-earn/laziest-way-to-earn/ai-images/grid-8.png"
+      ]
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "resolution": "2k"
+    },
+    "job_id": "83abf355-75c0-4e35-a7ef-70ec0206267e",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260711_025130_83abf355-75c0-4e35-a7ef-70ec0206267e.png",
+    "bytes": 6345273,
+    "created": "2026-07-11T02:53:44+00:00"
+  },
+  {
+    "label": "Clip 7",
+    "asset": "assets/mode-earn/laziest-way-to-earn/ai-videos/Clip 7.mp4",
+    "model": "kling3_0",
+    "prompt": "Begin on the handheld street shot of the 19-year-old East Asian college student from the reference — eyes comically wide, hand on her chest — the interview mic just in the lower right frame, reacting to an off-camera claim in Voice Tag: A 19-year-old American woman (East Asian). Bubbly, fast-paced, expressive Gen Z tone, bright higher-mid register with playful trendy inflection and casual energy, like talking straight to camera on TikTok. Fun, novelty-loving, and genuine. Playful mock outrage, scandalized, leaning back: \"Charging it? No. That's illegal.\" A theatrical little head shake on 'illegal', fighting a smile. Only a slight natural handheld drift, no zoom, no dolly. Blurred passersby behind, wearing the exact plain coral-pink crew-neck tee from the reference, lighting, wardrobe, and all background details staying completely consistent throughout — a seamless single take.",
+    "media": {
+      "start_image": "assets/mode-earn/laziest-way-to-earn/ai-images/img-7.png"
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "duration": "3",
+      "mode": "pro",
+      "sound": "on"
+    },
+    "job_id": "cebc9c55-bfb4-4c66-a280-5fb494022049",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260711_025136_cebc9c55-bfb4-4c66-a280-5fb494022049.mp4",
+    "bytes": 7209428,
+    "created": "2026-07-11T02:53:49+00:00"
+  },
+  {
+    "label": "Clip 4",
+    "asset": "assets/mode-earn/laziest-way-to-earn/ai-videos/Clip 4.mp4",
+    "model": "kling3_0",
+    "prompt": "Begin on the handheld street shot of the 20-year-old college student from the reference, the interview mic just in the lower frame, answering an off-camera question in Voice Tag: A 20-year-old American woman. Casual, upbeat, friendly tone, youthful mid register with natural energy and quick conversational pacing. Genuine and relatable, like a friend putting you on to a deal. Proud of her absurd answer, half-laughing through it with a smug grin and her index finger raised: \"Laziest? I got paid to nap once. Sleep study. Best Tuesday of my life.\" A little self-satisfied nod at the end. Only a slight natural handheld drift, no zoom, no dolly. Blurred passersby behind, wearing the exact plain light-blue crew-neck sweatshirt from the reference, lighting, wardrobe, and all background details staying completely consistent throughout — a seamless single take.",
+    "media": {
+      "start_image": "assets/mode-earn/laziest-way-to-earn/ai-images/img-4.png"
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "duration": "5",
+      "mode": "pro",
+      "sound": "on"
+    },
+    "job_id": "7742b2e7-d70d-4b3d-9bde-1684ed67da1a",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260711_025136_7742b2e7-d70d-4b3d-9bde-1684ed67da1a.mp4",
+    "bytes": 12580285,
+    "created": "2026-07-11T02:54:01+00:00"
+  },
+  {
+    "label": "Clip 10",
+    "asset": "assets/mode-earn/laziest-way-to-earn/ai-videos/Clip 10.mp4",
+    "model": "kling3_0",
+    "prompt": "Begin on the handheld street shot of the 20-year-old college student from the reference — hand on her forehead, wide stunned eyes — the interview mic just in the lower left frame, reacting in Voice Tag: A 20-year-old American woman. Casual, upbeat, friendly tone, youthful mid register with natural energy and quick conversational pacing. Genuine and relatable, like a friend putting you on to a deal. A dawning comedic realization, staring past the camera, half to herself: \"I charge my phone every single night… for free. Like an idiot.\" Her hand slides slightly down her face on 'like an idiot', an incredulous little laugh at the end. Only a slight natural handheld drift, no zoom, no dolly. Blurred passersby behind, wearing the exact plain light-blue crew-neck sweatshirt from the reference, lighting, wardrobe, and all background details staying completely consistent throughout — a seamless single take.",
+    "media": {
+      "start_image": "assets/mode-earn/laziest-way-to-earn/ai-images/img-10.png"
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "duration": "5",
+      "mode": "pro",
+      "sound": "on"
+    },
+    "job_id": "f5367760-1873-4364-b505-09b62aff9953",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260711_025142_f5367760-1873-4364-b505-09b62aff9953.mp4",
+    "bytes": 11888496,
+    "created": "2026-07-11T02:54:19+00:00"
+  },
+  {
+    "label": "Clip 5",
+    "asset": "assets/mode-earn/laziest-way-to-earn/ai-videos/Clip 5.mp4",
+    "model": "kling3_0",
+    "prompt": "Begin on the handheld street shot of the 19-year-old East Asian college student from the reference, the interview mic just in the lower right frame, answering an off-camera question in Voice Tag: A 19-year-old American woman (East Asian). Bubbly, fast-paced, expressive Gen Z tone, bright higher-mid register with playful trendy inflection and casual energy, like talking straight to camera on TikTok. Fun, novelty-loving, and genuine. Totally deadpan and unbothered, small shrug with both palms up: \"I stood in a line for some rich guy for six hours. That's it. That's the job.\" A flat matter-of-fact delivery with one eyebrow raised, dry comedic timing. Only a slight natural handheld drift, no zoom, no dolly. Blurred passersby behind, wearing the exact plain coral-pink crew-neck tee from the reference, lighting, wardrobe, and all background details staying completely consistent throughout — a seamless single take.",
+    "media": {
+      "start_image": "assets/mode-earn/laziest-way-to-earn/ai-images/img-5.png"
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "duration": "5",
+      "mode": "pro",
+      "sound": "on"
+    },
+    "job_id": "c35810bd-da32-4558-833c-3ca3f558f673",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260711_025133_c35810bd-da32-4558-833c-3ca3f558f673.mp4",
+    "bytes": 11872483,
+    "created": "2026-07-11T02:54:27+00:00"
+  },
+  {
+    "type": "qa",
+    "label": "img-8",
+    "verdict": "pass",
+    "score": 1.0,
+    "defects": [],
+    "regenerate_hint": "",
+    "asset": "assets/mode-earn/laziest-way-to-earn/ai-images/img-8.png",
+    "shot_type": "extract",
+    "qa_model": "gemini-2.5-flash",
+    "checked_at": "2026-07-11T03:54:35",
+    "attempt": 1
+  },
+  {
+    "label": "Clip 11",
+    "asset": "assets/mode-earn/laziest-way-to-earn/ai-videos/Clip 11.mp4",
+    "model": "kling3_0",
+    "prompt": "Begin on the handheld street shot of the 19-year-old East Asian college student from the reference holding up the Black Samsung Galaxy S22 Ultra in one hand, its bright blank glowing screen facing the camera with no readable text, the interview mic in the lower left corner held from out of frame. In Voice Tag: A 19-year-old American woman (East Asian). Bubbly, fast-paced, expressive Gen Z tone, bright higher-mid register with playful trendy inflection and casual energy, like talking straight to camera on TikTok. Fun, novelty-loving, and genuine. Completely hooked, rapid-fire excited: \"Okay, what's it called? Spell it. I'm downloading it right now.\" She keeps the phone screen toward the camera giving it a small excited shake, her other hand gesturing freely, never touching the microphone or any cable. Only a slight natural handheld drift, no zoom, no dolly. Blurred passersby behind, wearing the exact plain coral-pink crew-neck tee from the reference, the phone screen staying a clean bright glow with no text, lighting, wardrobe, and all background details staying completely consistent throughout — a seamless single take.",
+    "media": {
+      "start_image": "assets/mode-earn/laziest-way-to-earn/ai-images/img-11.png"
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "duration": "4",
+      "mode": "pro",
+      "sound": "on"
+    },
+    "job_id": "1be21840-4c3d-412f-9927-c37215952a9b",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260711_025147_1be21840-4c3d-412f-9927-c37215952a9b.mp4",
+    "bytes": 9407986,
+    "created": "2026-07-11T02:54:58+00:00"
+  },
+  {
+    "label": "huddle_b-roll",
+    "asset": "assets/mode-earn/laziest-way-to-earn/ai-videos/huddle_b-roll.mp4",
+    "model": "kling3_0",
+    "prompt": "The two college girls from the reference huddle shoulder to shoulder on the sunny campus walkway, both grinning excitedly at the Black Samsung Galaxy S22 Ultra the girl in the coral-pink tee holds up, its bright blank glowing screen angled toward the camera with no readable text; the girl in the light-blue sweatshirt points at the screen and mouths 'download it' silently, both bouncing slightly with excitement, the interview mic just in the lower frame. Neither speaks aloud. Only a slight natural handheld drift, no zoom, no dolly. Blurred passersby behind, the phone screen staying a clean bright glow, both girls' faces, hair, and wardrobe staying exactly consistent with the reference throughout — a seamless single muted take.",
+    "media": {
+      "start_image": "assets/mode-earn/laziest-way-to-earn/ai-images/duo-huddle.png"
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "duration": "4",
+      "mode": "pro",
+      "sound": "off"
+    },
+    "job_id": "e749e40a-ccfb-423c-8151-2b048ac8d898",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260711_025324_e749e40a-ccfb-423c-8151-2b048ac8d898.mp4",
+    "bytes": 10401502,
+    "created": "2026-07-11T02:56:13+00:00"
+  },
+  {
+    "label": "Clip 8",
+    "asset": "assets/mode-earn/laziest-way-to-earn/ai-videos/Clip 8.mp4",
+    "model": "kling3_0",
+    "prompt": "Begin on the handheld street shot of the 20-year-old college student from the reference — arms loosely crossed, unimpressed knowing smirk — the interview mic just in the lower frame, calling out an off-camera claim in Voice Tag: A 20-year-old American woman. Casual, upbeat, friendly tone, youthful mid register with natural energy and quick conversational pacing. Genuine and relatable, like a friend putting you on to a deal. Dry skeptical delivery, one eyebrow up, shaking her head slightly: \"Nobody is giving out free rewards for charging a phone, bro.\" She keeps her arms crossed, ending with a flat 'try again' look at the lens. Only a slight natural handheld drift, no zoom, no dolly. Blurred passersby behind, wearing the exact plain light-blue crew-neck sweatshirt from the reference, lighting, wardrobe, and all background details staying completely consistent throughout — a seamless single take.",
+    "media": {
+      "start_image": "assets/mode-earn/laziest-way-to-earn/ai-images/img-8.png"
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "duration": "4",
+      "mode": "pro",
+      "sound": "on"
+    },
+    "job_id": "49091389-b3a2-4017-a5b6-747a75645043",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260711_025528_49091389-b3a2-4017-a5b6-747a75645043.mp4",
+    "bytes": 8831812,
+    "created": "2026-07-11T02:57:21+00:00"
+  },
+  {
+    "label": "img-11-v2",
+    "asset": "assets/mode-earn/laziest-way-to-earn/ai-images/img-11-v2.png",
+    "model": "gpt_image_2",
+    "prompt": "A candid street-interview photo: the 19-year-old East Asian American college student from the first reference — same face, long dark hair, light dewy natural makeup — wearing her plain coral-pink crew-neck tee, standing on the sunny campus walkway from the second reference. She holds a Black Samsung Galaxy S22 Ultra matching the third reference in ONE hand at chest height, looking DOWN at its screen with a focused, absorbed expression, thumb poised near the screen as if about to type and search for something — she is NOT looking at the camera, her face tilted down toward the phone. The screen shows a soft natural glow with no readable text, held at a natural downward angle, never facing the viewer directly. Her other hand is relaxed at her side — she holds NOTHING else. The black foam-tipped interview microphone from the fourth reference enters the lower frame corner, held from out of frame by the unseen interviewer — she doesn't touch it. Anatomically correct, all fingers naturally formed and correctly proportioned. Blurred passersby behind, punchy saturated daylight, photorealistic candid documentary feel, vertical 9:16.",
+    "media": {
+      "image": [
+        "assets/_shared/personas/gen-z-ashley/base-character.png",
+        "assets/mode-earn/laziest-way-to-earn/ai-images/environment.png",
+        "assets/_shared/props/s22-ultra-front.png",
+        "assets/_shared/props/handheld-mic.png"
+      ]
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "resolution": "2k"
+    },
+    "job_id": "4acf16cb-1a48-4dfa-ab83-a7e59db90c8b",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260711_120842_4acf16cb-1a48-4dfa-ab83-a7e59db90c8b.png",
+    "bytes": 6307724,
+    "created": "2026-07-11T12:10:53+00:00"
+  },
+  {
+    "label": "A1_chase_vehicle",
+    "asset": "assets/mode-earn/laziest-way-to-earn/audio_vehicle/A1_chase.mp4",
+    "model": "kling3_0",
+    "prompt": "A close, static handheld shot of the 22-year-old college student from the reference, breathing hard, hands on his knees for a beat then standing, grinning, sweat on his brow, catching his breath after sprinting. In Voice Tag: A 22-year-old American man. Casual, upbeat, friendly tone with a youthful mid register and natural energy. Quick but clear conversational pacing with relaxed, everyday inflection. Genuine and down-to-earth, like a friend hyping you up about a good deal he just found. Breathless, gasping for air between phrases, laughing through the exertion, half out of breath from sprinting a whole block: \"Wait wait wait — ladies!! One question — I ran a whole block for this!\" Photorealistic, candid, documentary feel, vertical 9:16.",
+    "media": {
+      "start_image": "assets/_shared/personas/student-jake/base-character.png"
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "duration": "5",
+      "mode": "pro",
+      "sound": "on"
+    },
+    "job_id": "7de3c829-d94d-409f-90c5-e9aa1987b333",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260711_120757_7de3c829-d94d-409f-90c5-e9aa1987b333.mp4",
+    "bytes": 10742912,
+    "created": "2026-07-11T12:11:15+00:00"
+  },
+  {
+    "label": "Clip2_v2_continuity",
+    "asset": "assets/mode-earn/laziest-way-to-earn/ai-videos/Clip 2_v2.mp4",
+    "model": "kling3_0",
+    "prompt": "Begin the shot still carrying HEAVY residual handheld bounce and shake, as if the camera/interviewer has just skidded to a stop after sprinting a full block — the shake and slight stumble-settle rapidly decay to a normal handheld drift within the first second and a half. The two girls from the reference are still caught mid-turn from spinning around to face the camera, their own posture slightly unsettled/settling too (like they just stopped walking), both breathing a touch quicker, amused and startled. The interview mic is just in the lower frame. ONLY the girl on the left in the coral-pink tee speaks, in Voice Tag: A 19-year-old American woman (East Asian). Bubbly, fast-paced, expressive Gen Z tone, bright higher-mid register with playful trendy inflection and casual energy, like talking straight to camera on TikTok. Fun, novelty-loving, and genuine. Laughing in amused disbelief while the moment is still unfolding, mid-reaction: \"Oh my god, he's actually sprinting.\" The girl on the right in the light-blue sweatshirt giggles silently behind her hand. Blurred passersby behind, both girls' faces, hair, and wardrobe staying exactly consistent with the reference throughout — a seamless single take.",
+    "media": {
+      "start_image": "assets/mode-earn/laziest-way-to-earn/ai-images/duo-turnaround.png"
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "duration": "3",
+      "mode": "pro",
+      "sound": "on"
+    },
+    "job_id": "01357257-208a-4a69-a738-464afc1d65b6",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260711_120825_01357257-208a-4a69-a738-464afc1d65b6.mp4",
+    "bytes": 7790713,
+    "created": "2026-07-11T12:11:19+00:00"
+  },
+  {
+    "label": "A2_turn3_vehicle",
+    "asset": "assets/mode-earn/laziest-way-to-earn/audio_vehicle/A2_turn3.mp4",
+    "model": "kling3_0",
+    "prompt": "A relaxed handheld shot of the 22-year-old college student from the reference, casual curious energy, leaning in slightly as he asks a question. In Voice Tag: A 22-year-old American man. Casual, upbeat, friendly tone with a youthful mid register and natural energy. Quick but clear conversational pacing with relaxed, everyday inflection. Genuine and down-to-earth, like a friend hyping you up about a good deal he just found. Genuinely curious, upbeat: \"What's the laziest way you've ever earned money?\" Photorealistic, candid, documentary feel, vertical 9:16.",
+    "media": {
+      "start_image": "assets/_shared/personas/student-jake/base-character.png"
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "duration": "4",
+      "mode": "pro",
+      "sound": "on"
+    },
+    "job_id": "3989cf92-55b2-40be-a865-28e4c1f56fa3",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260711_120758_3989cf92-55b2-40be-a865-28e4c1f56fa3.mp4",
+    "bytes": 8614913,
+    "created": "2026-07-11T12:11:44+00:00"
+  },
+  {
+    "label": "chase_b-roll_v2",
+    "asset": "assets/mode-earn/laziest-way-to-earn/ai-videos/chase_b-roll_v2.mp4",
+    "model": "kling3_0",
+    "prompt": "Handheld POV chase — HEAVY, realistic running-camera shake: the frame bounces hard up and down with every stride, natural jarring joggling motion exactly like a person sprinting at full speed while gripping a camera and a microphone, motion blur streaking at the frame edges on each bounce, occasional quick horizontal sway. The two college girls from the reference are up ahead on the sunny campus walkway, seen from behind, walking casually side by side, unaware of the chase behind them at first. Blurred students passing, punchy saturated daylight, both girls' hair and wardrobe exactly consistent with the reference — a single continuous take, no dialogue.",
+    "media": {
+      "start_image": "assets/mode-earn/laziest-way-to-earn/ai-images/duo-chase.png"
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "duration": "5",
+      "mode": "pro",
+      "sound": "off"
+    },
+    "job_id": "d3ba42d4-45a7-43f8-8dbe-a2b2bb561f9e",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260711_120825_d3ba42d4-45a7-43f8-8dbe-a2b2bb561f9e.mp4",
+    "bytes": 20200534,
+    "created": "2026-07-11T12:11:58+00:00"
+  },
+  {
+    "label": "A6_turn12_vehicle",
+    "asset": "assets/mode-earn/laziest-way-to-earn/audio_vehicle/A6_turn12.mp4",
+    "model": "kling3_0",
+    "prompt": "A relaxed handheld shot of the 22-year-old college student from the reference, energetic closing energy, driving the point home with a confident nod. In Voice Tag: A 22-year-old American man. Casual, upbeat, friendly tone with a youthful mid register and natural energy. Quick but clear conversational pacing with relaxed, everyday inflection. Genuine and down-to-earth, like a friend hyping you up about a good deal he just found. Energetic closing line: \"Mode Earn App — Google Play. Stop charging your phone for free.\" Photorealistic, candid, documentary feel, vertical 9:16.",
+    "media": {
+      "start_image": "assets/_shared/personas/student-jake/base-character.png"
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "duration": "5",
+      "mode": "pro",
+      "sound": "on"
+    },
+    "job_id": "b8938089-bd92-4582-8f9f-bc5438cac220",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260711_120823_b8938089-bd92-4582-8f9f-bc5438cac220.mp4",
+    "bytes": 11737615,
+    "created": "2026-07-11T12:12:00+00:00"
+  },
+  {
+    "label": "A5_turn9_vehicle",
+    "asset": "assets/mode-earn/laziest-way-to-earn/audio_vehicle/A5_turn9.mp4",
+    "model": "kling3_0",
+    "prompt": "A relaxed handheld shot of the 22-year-old college student from the reference, rattling off facts quickly and confidently, counting lightly on his fingers. In Voice Tag: A 22-year-old American man. Casual, upbeat, friendly tone with a youthful mid register and natural energy. Quick but clear conversational pacing with relaxed, everyday inflection. Genuine and down-to-earth, like a friend hyping you up about a good deal he just found. Rattling off the proof quickly and confidently: \"Points turn into gift cards — Amazon, PayPal. Ten million downloads, four and a half stars.\" Photorealistic, candid, documentary feel, vertical 9:16.",
+    "media": {
+      "start_image": "assets/_shared/personas/student-jake/base-character.png"
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "duration": "7",
+      "mode": "pro",
+      "sound": "on"
+    },
+    "job_id": "e698b7da-d59a-4d2d-aa88-3e1f6567b060",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260711_120817_e698b7da-d59a-4d2d-aa88-3e1f6567b060.mp4",
+    "bytes": 16491196,
+    "created": "2026-07-11T12:12:14+00:00"
+  },
+  {
+    "type": "qa",
+    "label": "img-11-v2",
+    "verdict": "fail",
+    "score": 0.6,
+    "defects": [
+      {
+        "code": "PHONE_BACK_TO_VIEWER",
+        "severity": "fail",
+        "description": "The phone's back panel and camera bump are facing directly towards the viewer.",
+        "region": "held phone"
+      }
+    ],
+    "regenerate_hint": "Ensure the character is holding the phone so the screen is visible to them, even if the screen content is not facing the viewer.",
+    "guardrail_candidates": [
+      {
+        "shot_type": "extract",
+        "defect": "PHONE_BACK_TO_VIEWER",
+        "rule": "Always show the phone screen oriented towards the character's face. The phone's back should not directly face the viewer."
+      }
+    ],
+    "asset": "assets/mode-earn/laziest-way-to-earn/ai-images/img-11-v2.png",
+    "shot_type": "extract",
+    "qa_model": "gemini-2.5-flash",
+    "checked_at": "2026-07-11T13:12:37",
+    "attempt": 1
+  },
+  {
+    "label": "A3_turn6_vehicle",
+    "asset": "assets/mode-earn/laziest-way-to-earn/audio_vehicle/A3_turn6.mp4",
+    "model": "kling3_0",
+    "prompt": "A relaxed handheld shot of the 22-year-old college student from the reference, building his pitch with playful confidence, hand gesturing lightly. In Voice Tag: A 22-year-old American man. Casual, upbeat, friendly tone with a youthful mid register and natural energy. Quick but clear conversational pacing with relaxed, everyday inflection. Genuine and down-to-earth, like a friend hyping you up about a good deal he just found. Playful and confident, building the pitch: \"Okay, but your phone can out-lazy both of you. It rewards you for music, games — even charging it.\" Photorealistic, candid, documentary feel, vertical 9:16.",
+    "media": {
+      "start_image": "assets/_shared/personas/student-jake/base-character.png"
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "duration": "8",
+      "mode": "pro",
+      "sound": "on"
+    },
+    "job_id": "802d4cbf-d375-4c98-96e7-d464282e8c1d",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260711_120805_802d4cbf-d375-4c98-96e7-d464282e8c1d.mp4",
+    "bytes": 17412407,
+    "created": "2026-07-11T12:13:58+00:00"
+  },
+  {
+    "label": "A4_newline_vehicle",
+    "asset": "assets/mode-earn/laziest-way-to-earn/audio_vehicle/A4_newline.mp4",
+    "model": "kling3_0",
+    "prompt": "A relaxed handheld shot of the 22-year-old college student from the reference, a playful confident grin, like he's been waiting to say this. In Voice Tag: A 22-year-old American man. Casual, upbeat, friendly tone with a youthful mid register and natural energy. Quick but clear conversational pacing with relaxed, everyday inflection. Genuine and down-to-earth, like a friend hyping you up about a good deal he just found. A playful confident reveal: \"That's because you haven't tried Mode Earn App.\" Photorealistic, candid, documentary feel, vertical 9:16.",
+    "media": {
+      "start_image": "assets/_shared/personas/student-jake/base-character.png"
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "duration": "4",
+      "mode": "pro",
+      "sound": "on"
+    },
+    "job_id": "e0d81fdf-59e6-4dbc-af5b-66d368e02662",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260711_121056_e0d81fdf-59e6-4dbc-af5b-66d368e02662.mp4",
+    "bytes": 9428328,
+    "created": "2026-07-11T12:14:06+00:00"
+  },
+  {
+    "label": "Clip11_v2_lookdown",
+    "asset": "assets/mode-earn/laziest-way-to-earn/ai-videos/Clip 11_v2.mp4",
+    "model": "kling3_0",
+    "prompt": "Begin on the handheld street shot of the 19-year-old East Asian college student from the reference, looking down naturally at the Black Samsung Galaxy S22 Ultra in her hand, thumb poised as if searching for something, the interview mic in the lower left corner held from out of frame. In Voice Tag: A 19-year-old American woman (East Asian). Bubbly, fast-paced, expressive Gen Z tone, bright higher-mid register with playful trendy inflection and casual energy, like talking straight to camera on TikTok. Fun, novelty-loving, and genuine. Completely hooked, rapid-fire excited, eyes on her phone the whole time, typing as she talks: \"Okay, what's it called? Spell it. I'm downloading it right now.\" She keeps looking down at the phone, thumbs moving like she's actively searching, glancing up briefly only at the very end. Only a slight natural handheld drift, no zoom, no dolly. Blurred passersby behind, wearing the exact plain coral-pink crew-neck tee from the reference, lighting, wardrobe, and all background details staying completely consistent throughout — a seamless single take.",
+    "media": {
+      "start_image": "assets/mode-earn/laziest-way-to-earn/ai-images/img-11-v2.png"
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "duration": "4",
+      "mode": "pro",
+      "sound": "on"
+    },
+    "job_id": "71b95009-f2c2-4530-956b-227e10d0b3c1",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260711_121416_71b95009-f2c2-4530-956b-227e10d0b3c1.mp4",
+    "bytes": 10188223,
+    "created": "2026-07-11T12:16:52+00:00"
+  }
+]

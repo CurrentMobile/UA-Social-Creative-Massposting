@@ -25,9 +25,11 @@ final video **variations** that all share the angle's body. Only approved variat
 - The chosen **persona** (confirmed with the user) and its avatar in `assets/_shared/personas/<slug>/`.
 - `assets/<app>/script-library/index.md` + `approved/*.md` — what's already been used (novelty check).
 - Sample scripts in the brief folder — **for tone/style only, never to copy**.
-- **FUTURE (after Steps 2–4):** competitor winning-video references. When available, read them here as
-  an extra inspiration input and note which competitor angle inspired each variation. Until then this
-  input is empty — do not block on it.
+- Competitor/reference inspiration, when present — do not block on either:
+  - `assets/<app>/competitor-research/<date>/breakdown.md` (Step 3 triage synthesis).
+  - `assets/<app>/reference-analysis/**/blueprint.md` (Step 3b deep recreation blueprints,
+    from `workflows/analyze_video.md`) — read the Overview + Tagged Transcript as inspiration
+    and note which reference inspired each variation.
 
 ## Runtime gates (ask every run)
 1. **Confirm the persona.** Ask which persona this batch targets, then select the matching presenter

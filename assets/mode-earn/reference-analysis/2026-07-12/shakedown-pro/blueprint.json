@@ -1,0 +1,115 @@
+{
+  "app": "mode-earn",
+  "slug": "shakedown-pro",
+  "generated_at": "2026-07-12T23:11:18+00:00",
+  "model": "gemini-3.1-pro-preview",
+  "source": {
+    "origin": "file",
+    "path": "C:\\Users\\ADMIN\\Projects\\mode-ai-creative-loop\\assets\\mode-earn\\ask-your-phone-for-a-raise\\ai-videos\\Clip 1.mp4",
+    "duration_s": 3.0,
+    "local_file": ".tmp/mode-earn/reference-analysis/2026-07-12/shakedown-pro/source.mp4",
+    "is_static": false
+  },
+  "generation": {
+    "fps": null,
+    "media_resolution": "default",
+    "usage": {
+      "promptTokenCount": 802,
+      "candidatesTokenCount": 926,
+      "totalTokenCount": 2457,
+      "promptTokensDetails": [
+        {
+          "modality": "VIDEO",
+          "tokenCount": 273
+        },
+        {
+          "modality": "TEXT",
+          "tokenCount": 529
+        }
+      ],
+      "thoughtsTokenCount": 729,
+      "serviceTier": "standard"
+    },
+    "est_usd": 0.0103,
+    "retry_note": null
+  },
+  "qa_warnings": [],
+  "blueprint": {
+    "overview": {
+      "format_and_aspect": "Street Interview (Vox Pop), 9:16 vertical.",
+      "color_grading": "Natural daylight, vibrant greens, bright and sunny college campus setting, balanced contrast.",
+      "target_audience": "Gen Z, college students, young adults interested in passive income or mobile rewards.",
+      "personas": [
+        {
+          "person": "Interviewer",
+          "persona": "Off-camera, authoritative but casual voice, holds a standard black dynamic microphone into frame."
+        },
+        {
+          "person": "Interviewee",
+          "persona": "Young male, casual dark t-shirt, relaxed posture, appears slightly surprised but willing to engage as he is stopped while walking."
+        }
+      ],
+      "pacing": "Single continuous shot, immediate hook delivery.",
+      "creative_direction": "Direct, pattern-interrupt question delivered in a natural public setting to immediately spark curiosity about a passive benefit."
+    },
+    "scenes": [
+      {
+        "start": "00:00.000",
+        "end": "00:02.133",
+        "scene_focus": "The Hook",
+        "visuals_broll": "A-roll: Interviewer's hand thrusts a microphone toward a young man walking down a busy campus path. The man stops, turns his head toward the interviewer, and listens to the question. No B-roll or text overlays are present.",
+        "camera_shot_angle": "Medium shot, eye-level.",
+        "framing": "Subject is roughly center-framed. The microphone enters from the bottom right corner, crossing into the lower third of the frame.",
+        "camera_movement": "Handheld tracking, panning slightly left to follow the subject as he halts his forward momentum.",
+        "transitions_animations": "Hard cut in at start. No text animations, overlays, or visual transitions."
+      }
+    ],
+    "technical_execution": {
+      "asset_layering_rotoscoping": "N/A. Single unedited continuous A-roll clip with no layered assets.",
+      "end_card_cta": {
+        "text": "N/A - Video ends before CTA.",
+        "logos": "N/A",
+        "implied_sfx": "N/A",
+        "animate_on_behavior": "N/A - abrupt end."
+      }
+    },
+    "production_checklist": {
+      "a_roll": [
+        {
+          "action": "Subject walking on a pathway, abruptly stopped by an off-camera person holding a microphone, turns to listen.",
+          "environment": "Sunny, tree-lined college campus pedestrian walkway with students in the background."
+        }
+      ],
+      "b_roll_digital_assets": []
+    },
+    "broll_generation_template": [
+      {
+        "trigger_keyword": "phone",
+        "core_theme": "Mobile Device Usage",
+        "broll_standard": "Over-the-shoulder shot of a user holding a smartphone in portrait mode."
+      },
+      {
+        "trigger_keyword": "earn rewards",
+        "core_theme": "Passive Income / Gamification",
+        "broll_standard": "UI mockup of points accumulating on a mobile app screen with a coin drop sound effect."
+      },
+      {
+        "trigger_keyword": "scroll",
+        "core_theme": "Content Consumption",
+        "broll_standard": "Close-up profile shot of a thumb swiping up on a glowing phone screen in a dimly lit room."
+      },
+      {
+        "trigger_keyword": "student",
+        "core_theme": "Campus Life",
+        "broll_standard": "Wide shot of young adults walking with backpacks across a university quad."
+      }
+    ],
+    "transcript": [
+      {
+        "speaker": "Interviewer",
+        "text": "Would you let your phone earn rewards while you scroll?",
+        "start": "00:00.000"
+      }
+    ]
+  }
+}

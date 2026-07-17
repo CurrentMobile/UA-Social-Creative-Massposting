@@ -1,0 +1,14 @@
+# No-VO anatomy — Lo-Fi text-on-screen loops and statics. There is no spoken dialogue;
+# the "script" is the on-screen overlay copy. chunk_script.py --anatomy <this> produces
+# an overlay-plan.json (one card per line, reading-speed durations) instead of chunks.
+# The overlay copy still goes through script approval + the script library (format-tagged).
+id: no-vo-overlay
+vo: false
+chunking:
+  mode: none
+  reading_wps: 3.3      # on-screen reading speed for card durations
+  min_card_s: 2.0
+  max_card_s: 7.0
+sections:
+  - {label: HOOK, required: true}
+  - {label: CTA, required: true}

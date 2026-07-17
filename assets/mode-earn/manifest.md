@@ -75,4 +75,6 @@ named `<action>-SR`. List the key ones:
 | [funding-my-little-treats](funding-my-little-treats/manifest.md) | scripting | tiktok,instagram | Funding My Little Treats |
 | [earning-while-i-sleep](earning-while-i-sleep/manifest.md) | scripting | tiktok,instagram | Earning While I Sleep |
 | [extra-cushion-on-a-budget](extra-cushion-on-a-budget/manifest.md) | scripting | tiktok,instagram | Extra Cushion On A Budget |
+| [ask-your-phone-for-a-raise](ask-your-phone-for-a-raise/manifest.md) | scripting | tiktok,instagram | Ask Your Phone For A Raise |
+| [laziest-way-to-earn](laziest-way-to-earn/manifest.md) | scripting | tiktok,instagram | Laziest Way To Earn |
 <!-- scaffold.py appends rows here -->

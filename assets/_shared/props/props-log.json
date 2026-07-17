@@ -47,5 +47,20 @@
     "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260626_105443_636d3727-9958-4866-9f94-d0ac709767c2.png",
     "bytes": 4722389,
     "created": "2026-06-26T10:57:17+00:00"
+  },
+  {
+    "label": "handheld-mic",
+    "asset": "assets/_shared/props/handheld-mic.png",
+    "model": "gpt_image_2",
+    "prompt": "A professional handheld dynamic interview microphone, matte black body with a charcoal foam windscreen ball, held upright, product reference photograph on a plain light-gray studio background, centered, sharp focus, no hands, no people, no text or logos. Clean prop reference shot.",
+    "media": {},
+    "params": {
+      "aspect_ratio": "1:1",
+      "resolution": "2k"
+    },
+    "job_id": "a5102cfe-5cb4-4bbd-84b2-e9640860c4ec",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260709_200316_a5102cfe-5cb4-4bbd-84b2-e9640860c4ec.png",
+    "bytes": 4022238,
+    "created": "2026-07-09T20:05:47+00:00"
   }
 ]

@@ -3,7 +3,20 @@
     "allow": [
       "Bash(sed -E 's/=.*/=<redacted>/' .env)",
       "Bash(ls -la tools/)",
-      "Bash(ls -la workflows/)"
+      "Bash(ls -la workflows/)",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "Bash(.venv/Scripts/python.exe tools/*)",
+      "Bash(./.venv/Scripts/python.exe tools/*)",
+      "Bash(.venv/Scripts/python.exe .claude/skills/video-use/helpers/*)",
+      "Bash(./.venv/Scripts/python.exe .claude/skills/video-use/helpers/*)",
+      "Bash(npx --yes hyperframes *)",
+      "Bash(npx hyperframes *)",
+      "Bash(higgsfield *)",
+      "PowerShell(.venv\\Scripts\\python.exe tools\\*)",
+      "PowerShell(.venv\\Scripts\\python.exe .claude\\skills\\video-use\\helpers\\*)",
+      "PowerShell(npx --yes hyperframes *)",
+      "PowerShell(npx hyperframes *)",
+      "PowerShell(robocopy *)"
     ]
   }
 }

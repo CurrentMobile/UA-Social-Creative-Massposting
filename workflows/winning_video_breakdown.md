@@ -58,6 +58,10 @@ CTA`) so findings drop straight into Step 5.
   in `generate_scripts.md`).
 - `.tmp/<app>/competitor-research/<date>/videos/` — downloaded clips (disposable).
 
+**Next:** `breakdowns.json` is *triage across many* winners. For a recreation-grade, scene-by-scene
+blueprint of ONE winner (camera mechanics, transitions/animations, B-roll trigger rules, tagged
+transcript), run **Step 3b** — `workflows/analyze_video.md` (`/analyze-video <rank>`).
+
 ## Edge cases & notes
 - **Cost gate.** Dry-run first, start at `--top 3`, scale only after the output looks right.
 - **Gemini model id / availability.** Default `gemini-2.5-flash`. The tool lists available models on the

@@ -1,0 +1,15 @@
+# Clone self-dialogue anatomy — one persona voicing 2-3 clones in turn.
+# Modeled on interview-turns.yaml; speakers are the clones. chunk_script.py --anatomy
+# <this> gives turn chunks carrying `speaker` (which clone talks) so the asset recipe
+# knows which composite + which clone is speaking. Keep turns short (<=8s) — LOCKED.
+id: clone-self-dialogue
+vo: true
+chunking:
+  mode: turns
+  wps: 2.8
+  min_words: 4
+  max_words: 18        # ~<=8s at 2.8 wps — enforces the short-turn rule
+speakers: [CLONE1, CLONE2, CLONE3]
+sections:
+  - {label: HOOK, required: true}
+  - {label: CTA, required: true}

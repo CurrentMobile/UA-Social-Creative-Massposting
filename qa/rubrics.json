@@ -1,0 +1,113 @@
+{
+  "_readme": [
+    "QA rubric consumed by tools/qa_image.py. Each defect code maps 1:1 to a guardrail",
+    "category in guardrails/ (tools/guardrails.py add --from-verdict uses the code).",
+    "severity 'fail' = asset must NOT feed a paid Kling job; 'warn' = usable but noted.",
+    "shot_types list which codes apply on top of 'universal' plus extra instructions.",
+    "QA checks DEFECTS only — creative taste stays human."
+  ],
+  "defects": {
+    "ANATOMY": {
+      "severity": "fail",
+      "check": "Hands, fingers, limbs, teeth, eyes: wrong counts, merged/extra fingers, twisted joints, impossible limb positions, garbled teeth."
+    },
+    "WARPED_TEXT": {
+      "severity": "fail",
+      "check": "Any visible text (screen UI, signage, labels, clothing) that is warped, gibberish, misspelled, or pseudo-lettering."
+    },
+    "DUPLICATED_OBJECTS": {
+      "severity": "fail",
+      "check": "Duplicated or merged furniture/objects: two fused tables, a chair growing out of a sofa, doubled phones, cloned limbs or props."
+    },
+    "SPATIAL_INTERSECTION": {
+      "severity": "fail",
+      "check": "The character clips through, merges with, or is pinned between furniture/objects: body passing through a table edge, seated INSIDE a sofa arm, wedged unnaturally between two surfaces."
+    },
+    "FLOATING_CHARACTER": {
+      "severity": "fail",
+      "check": "The character is not physically grounded: hovering above the seat cushion or floor, feet not planted, sitting on air beside the chair, drifting posture with no support under them."
+    },
+    "UNNATURAL_SEATING": {
+      "severity": "fail",
+      "check": "The pose is physically implausible or looks odd/weird: seated at an impossible angle, torso disconnected from hips, leaning with no support, a pose no comfortable human would hold. The character must look naturally and comfortably seated or standing."
+    },
+    "WATERMARK_ARTIFACT": {
+      "severity": "warn",
+      "check": "Watermarks, logos of stock sites, residual grid lines, tiling seams, halo/JPEG artifacts."
+    },
+    "IDENTITY_DRIFT": {
+      "severity": "fail",
+      "check": "Compared to the PERSONA REFERENCE image: different face shape, age, skin tone, hairstyle, or facial features — must read as clearly the same person."
+    },
+    "WARDROBE_DRIFT": {
+      "severity": "fail",
+      "check": "Compared to the PERSONA REFERENCE (and any prior-shot context given): different garment, color, pattern, or accessories. Wardrobe must be consistent across all shots."
+    },
+    "ENVIRONMENT_DRIFT": {
+      "severity": "warn",
+      "check": "Compared to the stated environment/context: noticeably different room, lighting temperature, or background layout."
+    },
+    "PHONE_BACK_TO_VIEWER": {
+      "severity": "fail",
+      "check": "A held phone shows its back panel / camera bump to the viewer. FAIL unless the provided context explicitly says this is a reveal first-frame (back-to-viewer allowed only then)."
+    },
+    "WRONG_DEVICE": {
+      "severity": "fail",
+      "check": "The phone is not the Black Samsung Galaxy S22 Ultra from the reference: iPhone notch/Dynamic Island, Apple logo, wrong color, wrong camera layout, rounded iPhone silhouette."
+    },
+    "SCREEN_CONTENT_MISSING": {
+      "severity": "fail",
+      "check": "For a screen-facing phone shot: the visible screen does NOT clearly show the expected app UI/logo (blank, generic, hallucinated UI, or illegible). Only applies when context says the screen should show the app."
+    },
+    "PEOPLE_PRESENT": {
+      "severity": "fail",
+      "check": "An environment plate that should contain no people has a person, partial figure, or reflection of one."
+    },
+    "GIBBERISH_SIGNAGE": {
+      "severity": "warn",
+      "check": "Background signage/posters with pseudo-text (acceptable if soft-focus and unreadable; warn if legible-but-gibberish)."
+    },
+    "GRID_ARTIFACT": {
+      "severity": "warn",
+      "check": "Residual grid lines, neighboring-tile fragments, or collage borders in an extracted single portrait."
+    },
+    "INCONSISTENT_TILES": {
+      "severity": "fail",
+      "check": "In a 3x3 pose grid: identity, wardrobe, or lighting varies between tiles — every tile must show the same person, outfit, and light."
+    }
+  },
+  "shot_types": {
+    "persona": {
+      "codes": ["ANATOMY", "WARPED_TEXT", "WATERMARK_ARTIFACT"],
+      "instructions": "A base-character portrait: front view, passport style. Judge realism and anatomy only; there is no reference to compare against."
+    },
+    "environment": {
+      "codes": ["DUPLICATED_OBJECTS", "SPATIAL_INTERSECTION", "WATERMARK_ARTIFACT", "PEOPLE_PRESENT", "GIBBERISH_SIGNAGE"],
+      "instructions": "An empty environment plate. It must contain NO people and look like one coherent, physically plausible room/space."
+    },
+    "grid": {
+      "codes": ["ANATOMY", "DUPLICATED_OBJECTS", "SPATIAL_INTERSECTION", "FLOATING_CHARACTER", "UNNATURAL_SEATING", "IDENTITY_DRIFT", "WARDROBE_DRIFT", "INCONSISTENT_TILES", "WARPED_TEXT", "WATERMARK_ARTIFACT", "PHONE_BACK_TO_VIEWER", "WRONG_DEVICE"],
+      "instructions": "A 3x3 pose grid. Evaluate EVERY tile; report the tile position (row, column) in each defect's region. Identity/wardrobe must match the PERSONA REFERENCE in all nine tiles."
+    },
+    "extract": {
+      "codes": ["ANATOMY", "DUPLICATED_OBJECTS", "SPATIAL_INTERSECTION", "FLOATING_CHARACTER", "UNNATURAL_SEATING", "IDENTITY_DRIFT", "WARDROBE_DRIFT", "ENVIRONMENT_DRIFT", "GRID_ARTIFACT", "WARPED_TEXT", "WATERMARK_ARTIFACT", "PHONE_BACK_TO_VIEWER", "WRONG_DEVICE", "SCREEN_CONTENT_MISSING"],
+      "instructions": "A single extracted first-frame portrait that will seed a PAID video clip — this is the money gate, be strict. The character must be naturally grounded (seated or standing with real support), clearly the same person and wardrobe as the PERSONA REFERENCE."
+    },
+    "phone-shot": {
+      "codes": ["ANATOMY", "PHONE_BACK_TO_VIEWER", "WRONG_DEVICE", "SCREEN_CONTENT_MISSING", "IDENTITY_DRIFT", "WARDROBE_DRIFT", "SPATIAL_INTERSECTION", "FLOATING_CHARACTER", "UNNATURAL_SEATING", "WARPED_TEXT"],
+      "instructions": "A shot where the character holds the phone. DEFAULT RULE: the screen faces the viewer clearly showing the app UI/logo (compare against the APP UI REFERENCE if provided). Back-to-viewer is allowed ONLY if the context explicitly says this is a reveal first-frame."
+    },
+    "broll-still": {
+      "codes": ["ANATOMY", "DUPLICATED_OBJECTS", "SPATIAL_INTERSECTION", "FLOATING_CHARACTER", "UNNATURAL_SEATING", "IDENTITY_DRIFT", "WARDROBE_DRIFT", "WARPED_TEXT", "WATERMARK_ARTIFACT", "PHONE_BACK_TO_VIEWER", "WRONG_DEVICE", "SCREEN_CONTENT_MISSING"],
+      "instructions": "A B-roll start frame about to seed a paid muted clip. Judge against the given concept context; any phone in frame follows the screen-facing rule."
+    },
+    "aroll-clip": {
+      "codes": ["ANATOMY", "IDENTITY_DRIFT", "WARDROBE_DRIFT", "ENVIRONMENT_DRIFT", "SPATIAL_INTERSECTION", "FLOATING_CHARACTER", "UNNATURAL_SEATING", "PHONE_BACK_TO_VIEWER", "WRONG_DEVICE", "WARPED_TEXT"],
+      "instructions": "First/last frames of a rendered A-roll clip. Verify the character stayed the same person with the same wardrobe and environment as the start frame / persona reference, still naturally grounded at both ends."
+    },
+    "broll-clip": {
+      "codes": ["ANATOMY", "DUPLICATED_OBJECTS", "SPATIAL_INTERSECTION", "FLOATING_CHARACTER", "UNNATURAL_SEATING", "WARPED_TEXT", "PHONE_BACK_TO_VIEWER", "WRONG_DEVICE", "SCREEN_CONTENT_MISSING"],
+      "instructions": "First/last frames of a rendered B-roll clip. Judge against the concept context; any phone screen shown must display the real app UI."
+    }
+  }
+}

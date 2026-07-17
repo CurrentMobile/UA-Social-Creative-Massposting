@@ -4132,5 +4132,24 @@
     "tags": [],
     "license_note": "User-curated local asset.",
     "added": "2026-06-16T19:32:09+00:00"
+  },
+  {
+    "id": "ycMZJ-8JLwY",
+    "kind": "sfx",
+    "source": "download",
+    "title": "Courtyard Ambience and Hallway Ambience",
+    "uploader": "Chris Kanuga",
+    "duration_s": 30,
+    "source_url": "https://www.youtube.com/watch?v=ycMZJ-8JLwY",
+    "file": "assets/sfx/downloads/Courtyard_Ambience_and_Hallway_Ambience [ycMZJ-8JLwY].mp3",
+    "tags": [
+      "campus",
+      "courtyard",
+      "ambience",
+      "people",
+      "talking"
+    ],
+    "license_note": "Verify license before commercial use. Prefer CC0 / royalty-free sources.",
+    "added": "2026-07-11T12:08:55+00:00"
   }
 ]

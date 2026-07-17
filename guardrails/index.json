@@ -1,0 +1,168 @@
+{
+  "next_id": 11,
+  "rules": [
+    {
+      "id": "GR-001",
+      "model": "gpt_image_2",
+      "shot_types": [
+        "phone-shot",
+        "extract",
+        "grid",
+        "broll-still"
+      ],
+      "defect": "PHONE_BACK_TO_VIEWER",
+      "status": "active",
+      "hits": 4,
+      "added": "2026-07-08",
+      "last_hit": "2026-07-08",
+      "rule": "State positively which phone surface faces the camera: \"she holds the phone up with its bright screen facing the camera, clearly showing the <app> home screen exactly as in the reference image\". Never write bare \"holding a phone\"; never mention the back of the phone unless the shot is a tagged reveal first-frame.",
+      "failed_fragment": "holding a phone naturally",
+      "description": "Character holds phone with back panel / camera bump to viewer when the screen should be presenting the app."
+    },
+    {
+      "id": "GR-002",
+      "model": "gpt_image_2",
+      "shot_types": [
+        "phone-shot",
+        "extract",
+        "grid",
+        "broll-still"
+      ],
+      "defect": "WRONG_DEVICE",
+      "status": "active",
+      "hits": 2,
+      "added": "2026-07-08",
+      "last_hit": "2026-07-08",
+      "rule": "Describe the device positively and pass the per-surface prop crop as a reference: \"a Black Samsung Galaxy S22 Ultra with centered punch-hole front camera and squared corners, matching the reference exactly\" + --image assets/_shared/props/s22-ultra-front.png.",
+      "failed_fragment": "never an iPhone",
+      "description": "Model draws an iPhone (notch/Dynamic Island/Apple logo) or a mismatched Android instead of the S22 Ultra prop."
+    },
+    {
+      "id": "GR-003",
+      "model": "gpt_image_2",
+      "shot_types": [
+        "phone-shot",
+        "broll-still"
+      ],
+      "defect": "SCREEN_CONTENT_MISSING",
+      "status": "active",
+      "hits": 1,
+      "added": "2026-07-08",
+      "last_hit": "2026-07-08",
+      "rule": "Pass the real app UI/logo still from assets/<app>/brand/ as an --image reference and prompt \"the phone screen shows this exact app UI, sharp, bright, and legible\" — for hard composites, edit an existing clean frame + the UI asset instead of composing from scratch.",
+      "failed_fragment": "",
+      "description": "Visible phone screen is blank, generic, or shows a hallucinated UI instead of the real app home screen/logo."
+    },
+    {
+      "id": "GR-004",
+      "model": "gpt_image_2",
+      "shot_types": [
+        "grid",
+        "extract"
+      ],
+      "defect": "SPATIAL_INTERSECTION",
+      "status": "active",
+      "hits": 2,
+      "added": "2026-07-08",
+      "last_hit": "2026-07-08",
+      "rule": "Anchor the character to ONE surface: \"single normal <room> with one <sofa/table>, she sits naturally ON the seat cushion, feet on the floor, anatomically correct, one surface only\". If the best grid pose sits at a busy multi-surface area, prefer a simpler standing/single-surface cell.",
+      "failed_fragment": "sitting at the table in the cozy room",
+      "description": "Character pinned between two tables / merged with furniture / seated inside a sofa arm (the classic GPT Image grid hallucination)."
+    },
+    {
+      "id": "GR-005",
+      "model": "kling3_0",
+      "shot_types": [
+        "aroll-clip"
+      ],
+      "defect": "WARDROBE_DRIFT",
+      "status": "active",
+      "hits": 1,
+      "added": "2026-07-08",
+      "last_hit": "2026-07-08",
+      "rule": "Name the exact wardrobe in every clip prompt and close with the continuity clause: \"wearing <the exact garments from the reference>… lighting, wardrobe, and all background details staying completely consistent throughout — a seamless single take\".",
+      "failed_fragment": "",
+      "description": "Kling drifts the outfit (color/garment) mid-clip or between clips when wardrobe is not restated explicitly."
+    },
+    {
+      "id": "GR-006",
+      "model": "gpt_image_2",
+      "shot_types": [
+        "grid"
+      ],
+      "defect": "ANATOMY",
+      "status": "candidate",
+      "hits": 2,
+      "added": "2026-07-09",
+      "last_hit": "2026-07-09",
+      "rule": "Render hands and fingers with natural proportions and articulation. Ensure all fingers are clearly defined and appropriately sized.",
+      "failed_fragment": "one hand gesturing 'wait, really?'",
+      "description": "",
+      "source_asset": "assets/mode-earn/ask-your-phone-for-a-raise/ai-images/grid-6.png"
+    },
+    {
+      "id": "GR-007",
+      "model": "gpt_image_2",
+      "shot_types": [
+        "grid"
+      ],
+      "defect": "WARPED_TEXT",
+      "status": "candidate",
+      "hits": 1,
+      "added": "2026-07-09",
+      "last_hit": "2026-07-09",
+      "rule": "Display all on-screen text as sharp, clear, and perfectly legible. Render branding and app store logos with accurate details.",
+      "failed_fragment": "happily tapping the screen while still angling it toward the lens",
+      "description": "",
+      "source_asset": "assets/mode-earn/ask-your-phone-for-a-raise/ai-images/grid-8.png"
+    },
+    {
+      "id": "GR-008",
+      "model": "nano_banana_flash",
+      "shot_types": [
+        "extract"
+      ],
+      "defect": "IDENTITY_DRIFT",
+      "status": "candidate",
+      "hits": 1,
+      "added": "2026-07-09",
+      "last_hit": "2026-07-09",
+      "rule": "Maintain consistent facial features, age, and hair style as the provided persona reference. Ensure the character's appearance is identical to the reference.",
+      "failed_fragment": "Expand this exact photo... preserve every detail (no persona reference passed)",
+      "description": "",
+      "source_asset": "assets/mode-earn/ask-your-phone-for-a-raise/ai-images/img-8.png"
+    },
+    {
+      "id": "GR-009",
+      "model": "nano_banana_flash",
+      "shot_types": [
+        "broll-still"
+      ],
+      "defect": "ANATOMY",
+      "status": "candidate",
+      "hits": 1,
+      "added": "2026-07-09",
+      "last_hit": "2026-07-09",
+      "rule": "Ensure all characters have naturally formed hands and fingers. Every limb should appear anatomically correct and clearly defined.",
+      "failed_fragment": "held by the unseen interviewer's arm",
+      "description": "",
+      "source_asset": "assets/mode-earn/ask-your-phone-for-a-raise/ai-images/broll-establishing.png"
+    },
+    {
+      "id": "GR-010",
+      "model": "nano_banana_flash",
+      "shot_types": [
+        "phone-shot"
+      ],
+      "defect": "ANATOMY",
+      "status": "candidate",
+      "hits": 1,
+      "added": "2026-07-09",
+      "last_hit": "2026-07-09",
+      "rule": "Ensure all hands are anatomically correct with five fingers.",
+      "failed_fragment": "bring the phone much closer to the camera, screen fills seventy percent of frame (hand wrapped around phone edge)",
+      "description": "",
+      "source_asset": "assets/mode-earn/ask-your-phone-for-a-raise/ai-images/broll-reviews.png"
+    }
+  ]
+}

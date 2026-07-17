@@ -1,0 +1,16 @@
+[
+  {
+    "type": "video_analysis",
+    "label": "shakedown-pro",
+    "model": "gemini-3.1-pro-preview",
+    "source": "C:\\Users\\ADMIN\\Projects\\mode-ai-creative-loop\\assets\\mode-earn\\ask-your-phone-for-a-raise\\ai-videos\\Clip 1.mp4",
+    "duration_s": 3.0,
+    "usage": {
+      "promptTokenCount": 802,
+      "candidatesTokenCount": 926,
+      "totalTokenCount": 2457
+    },
+    "est_usd": 0.0103,
+    "created": "2026-07-12T23:11:18+00:00"
+  }
+]

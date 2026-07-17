@@ -1,0 +1,1062 @@
+[
+  {
+    "label": "environment",
+    "asset": "assets/mode-earn/ask-your-phone-for-a-raise/ai-images/environment.png",
+    "model": "gpt_image_2",
+    "prompt": "A sunny American university campus walkway in daylight, wide paved pedestrian path with green lawns, a few brick academic buildings and trees, blurred students walking in the background bokeh (no faces in focus), bright natural afternoon light, no foreground subject, photorealistic candid documentary feel, vertical framing",
+    "media": {},
+    "params": {
+      "aspect_ratio": "9:16",
+      "resolution": "2k"
+    },
+    "job_id": "76e4b224-7c17-431d-8aa6-5e6ef90dbe80",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260709_200611_76e4b224-7c17-431d-8aa6-5e6ef90dbe80.png",
+    "bytes": 9527875,
+    "created": "2026-07-09T20:08:12+00:00"
+  },
+  {
+    "label": "grid-2",
+    "asset": "assets/mode-earn/ask-your-phone-for-a-raise/ai-images/grid-2.png",
+    "model": "gpt_image_2",
+    "prompt": "A 3x3 grid of the exact same 22-year-old American college student from the reference — same face, short messy brown hair, light stubble — wearing the same plain dark navy crew-neck tee with no logos, standing naturally on the sunny campus walkway from the reference, feet on the pavement, anatomically correct, one surface only. He is being street-interviewed and is SKEPTICAL: squinting one eye, head tilted, half-smirk, doubtful raised eyebrow, arms loose — candid variations of skeptical disbelief across the nine tiles. The same black handheld interview microphone from the reference just enters the lower or side frame in some tiles, pointed toward him by an unseen interviewer. He looks toward the off-camera interviewer / into the lens. Handheld street framing at arm's length, blurred passersby behind. Identity and wardrobe identical across all nine tiles. Photorealistic, candid, documentary feel.",
+    "media": {
+      "image": [
+        "assets/_shared/personas/student-jake/base-character.png",
+        "assets/mode-earn/ask-your-phone-for-a-raise/ai-images/environment.png",
+        "assets/_shared/props/handheld-mic.png"
+      ]
+    },
+    "params": {
+      "aspect_ratio": "1:1",
+      "resolution": "2k"
+    },
+    "job_id": "9dee558b-e473-4f72-90c1-688ca8301049",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260709_201026_9dee558b-e473-4f72-90c1-688ca8301049.png",
+    "bytes": 10608417,
+    "created": "2026-07-09T20:14:00+00:00"
+  },
+  {
+    "label": "grid-4",
+    "asset": "assets/mode-earn/ask-your-phone-for-a-raise/ai-images/grid-4.png",
+    "model": "gpt_image_2",
+    "prompt": "A 3x3 grid of the exact same 22-year-old American college student from the reference — same face, short messy brown hair, light stubble — wearing the same plain dark navy crew-neck tee with no logos, standing naturally on the sunny campus walkway from the reference, feet on the pavement, anatomically correct, one surface only. He is being street-interviewed and is suddenly CURIOUS and hooked: eyebrows shooting up, leaning in toward the microphone, mouth open mid-question, animated hands, goofy high-energy student reactions — candid variations of surprised curiosity across the nine tiles. The same black handheld interview microphone from the reference just enters the lower or side frame in some tiles, pointed toward him by an unseen interviewer. He looks toward the off-camera interviewer / into the lens. Handheld street framing at arm's length, blurred passersby behind. Identity and wardrobe identical across all nine tiles. Photorealistic, candid, documentary feel.",
+    "media": {
+      "image": [
+        "assets/_shared/personas/student-jake/base-character.png",
+        "assets/mode-earn/ask-your-phone-for-a-raise/ai-images/environment.png",
+        "assets/_shared/props/handheld-mic.png"
+      ]
+    },
+    "params": {
+      "aspect_ratio": "1:1",
+      "resolution": "2k"
+    },
+    "job_id": "5a596682-45fc-4836-b046-9f7f0dd196ce",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260709_201029_5a596682-45fc-4836-b046-9f7f0dd196ce.png",
+    "bytes": 10582134,
+    "created": "2026-07-09T20:14:11+00:00"
+  },
+  {
+    "label": "grid-6",
+    "asset": "assets/mode-earn/ask-your-phone-for-a-raise/ai-images/grid-6.png",
+    "model": "gpt_image_2",
+    "prompt": "A 3x3 grid of the exact same 22-year-old American college student from the reference — same face, short messy brown hair, light stubble — wearing the same plain dark navy crew-neck tee with no logos, standing naturally on the sunny campus walkway from the reference, feet on the pavement, anatomically correct, one surface only. He is being street-interviewed and is in grinning DISBELIEF, double-checking what he just heard: half-grin, glancing between the microphone and the lens, one hand gesturing 'wait, really?', comedic exaggerated student energy — candid variations of amused disbelief across the nine tiles. The same black handheld interview microphone from the reference just enters the lower or side frame in some tiles, pointed toward him by an unseen interviewer. He looks toward the off-camera interviewer / into the lens. Handheld street framing at arm's length, blurred passersby behind. Identity and wardrobe identical across all nine tiles. Photorealistic, candid, documentary feel.",
+    "media": {
+      "image": [
+        "assets/_shared/personas/student-jake/base-character.png",
+        "assets/mode-earn/ask-your-phone-for-a-raise/ai-images/environment.png",
+        "assets/_shared/props/handheld-mic.png"
+      ]
+    },
+    "params": {
+      "aspect_ratio": "1:1",
+      "resolution": "2k"
+    },
+    "job_id": "2b351395-995f-43c5-a381-5b115c9d6d33",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260709_201058_2b351395-995f-43c5-a381-5b115c9d6d33.png",
+    "bytes": 10488245,
+    "created": "2026-07-09T20:14:32+00:00"
+  },
+  {
+    "label": "grid-8",
+    "asset": "assets/mode-earn/ask-your-phone-for-a-raise/ai-images/grid-8.png",
+    "model": "gpt_image_2",
+    "prompt": "A 3x3 grid of the exact same 22-year-old American college student from the reference — same face, short messy brown hair, light stubble — wearing the same plain dark navy crew-neck tee with no logos, standing naturally on the sunny campus walkway from the reference, feet on the pavement, anatomically correct, one surface only. He is SOLD and excited, mid-download: big genuine grin, holding up a Black Samsung Galaxy S22 Ultra with centered punch-hole front camera and squared corners matching the reference exactly, its bright screen facing the camera clearly showing the Mode Earn app logo exactly as in the reference image, glowing and legible. In other tiles he is happily tapping the screen while still angling it toward the lens. The same black handheld interview microphone from the reference just enters the lower frame in some tiles. Handheld street framing at arm's length, blurred passersby behind. Identity, wardrobe, and phone identical across all nine tiles. Photorealistic, candid, documentary feel.",
+    "media": {
+      "image": [
+        "assets/_shared/personas/student-jake/base-character.png",
+        "assets/mode-earn/ask-your-phone-for-a-raise/ai-images/environment.png",
+        "assets/_shared/props/handheld-mic.png",
+        "assets/_shared/props/s22-ultra-front.png",
+        "assets/mode-earn/brand/MEA-logo.png"
+      ]
+    },
+    "params": {
+      "aspect_ratio": "1:1",
+      "resolution": "2k"
+    },
+    "job_id": "d1198b28-40a6-4517-83f9-f424097c9dd2",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260709_201106_d1198b28-40a6-4517-83f9-f424097c9dd2.png",
+    "bytes": 10657050,
+    "created": "2026-07-09T20:14:40+00:00"
+  },
+  {
+    "type": "qa",
+    "label": "grid-2",
+    "verdict": "pass",
+    "score": 1,
+    "defects": [],
+    "regenerate_hint": "",
+    "asset": "assets/mode-earn/ask-your-phone-for-a-raise/ai-images/grid-2.png",
+    "shot_type": "grid",
+    "qa_model": "gemini-2.5-flash",
+    "checked_at": "2026-07-09T21:15:03",
+    "attempt": 1
+  },
+  {
+    "type": "qa",
+    "label": "grid-4",
+    "verdict": "pass",
+    "score": 1.0,
+    "defects": [],
+    "regenerate_hint": "",
+    "asset": "assets/mode-earn/ask-your-phone-for-a-raise/ai-images/grid-4.png",
+    "shot_type": "grid",
+    "qa_model": "gemini-2.5-flash",
+    "checked_at": "2026-07-09T21:16:11",
+    "attempt": 1
+  },
+  {
+    "type": "qa",
+    "label": "grid-6",
+    "verdict": "fail",
+    "score": 0.6,
+    "defects": [
+      {
+        "code": "ANATOMY",
+        "severity": "fail",
+        "description": "Left pinky finger is unusually short and stubby, and the hand shape appears stiff and unnatural.",
+        "region": "grid row 1 col 1 (left hand)"
+      },
+      {
+        "code": "ANATOMY",
+        "severity": "fail",
+        "description": "Left pinky finger is unusually short and stubby, and the hand shape appears stiff and unnatural.",
+        "region": "grid row 2 col 2 (left hand)"
+      },
+      {
+        "code": "ANATOMY",
+        "severity": "fail",
+        "description": "Left pinky finger is unusually short and stubby, and the hand shape appears stiff and unnatural.",
+        "region": "grid row 3 col 1 (left hand)"
+      }
+    ],
+    "regenerate_hint": "Ensure hands are naturally formed and articulate, with all fingers correctly proportioned.",
+    "guardrail_candidates": [
+      {
+        "shot_type": "grid",
+        "defect": "ANATOMY",
+        "rule": "Render hands and fingers with natural proportions and articulation. Ensure all fingers are clearly defined and appropriately sized."
+      }
+    ],
+    "asset": "assets/mode-earn/ask-your-phone-for-a-raise/ai-images/grid-6.png",
+    "shot_type": "grid",
+    "qa_model": "gemini-2.5-flash",
+    "checked_at": "2026-07-09T21:17:07",
+    "attempt": 1
+  },
+  {
+    "type": "qa",
+    "label": "grid-8",
+    "verdict": "fail",
+    "score": 0.4,
+    "defects": [
+      {
+        "code": "ANATOMY",
+        "severity": "fail",
+        "description": "Right hand fingers appear thick and partially merged.",
+        "region": "grid row 1 col 1"
+      },
+      {
+        "code": "WARPED_TEXT",
+        "severity": "fail",
+        "description": "Text on the phone screen is warped, blurry, and difficult to read.",
+        "region": "grid row 1 col 1"
+      },
+      {
+        "code": "ANATOMY",
+        "severity": "fail",
+        "description": "Right hand's pointing finger is unnaturally short and stubby.",
+        "region": "grid row 1 col 2"
+      },
+      {
+        "code": "WARPED_TEXT",
+        "severity": "fail",
+        "description": "Text on the phone screen is warped, blurry, and difficult to read.",
+        "region": "grid row 1 col 2"
+      },
+      {
+        "code": "ANATOMY",
+        "severity": "fail",
+        "description": "Left hand holding the phone has a distorted thumb joint and palm area.",
+        "region": "grid row 1 col 3"
+      },
+      {
+        "code": "WARPED_TEXT",
+        "severity": "fail",
+        "description": "Text on the phone screen is warped, blurry, and difficult to read.",
+        "region": "grid row 1 col 3"
+      },
+      {
+        "code": "WARPED_TEXT",
+        "severity": "fail",
+        "description": "Text on the phone screen is warped, blurry, and difficult to read.",
+        "region": "grid row 2 col 1"
+      },
+      {
+        "code": "WARPED_TEXT",
+        "severity": "fail",
+        "description": "Text on the phone screen is warped, blurry, and difficult to read.",
+        "region": "grid row 2 col 2"
+      },
+      {
+        "code": "ANATOMY",
+        "severity": "fail",
+        "description": "Right hand fingers appear thick and partially merged.",
+        "region": "grid row 2 col 3"
+      },
+      {
+        "code": "WARPED_TEXT",
+        "severity": "fail",
+        "description": "Text on the phone screen is warped, blurry, and difficult to read.",
+        "region": "grid row 2 col 3"
+      },
+      {
+        "code": "ANATOMY",
+        "severity": "fail",
+        "description": "Left hand holding the phone has a thick and indistinct palm area.",
+        "region": "grid row 3 col 1"
+      },
+      {
+        "code": "WARPED_TEXT",
+        "severity": "fail",
+        "description": "Text on the phone screen is warped, blurry, and difficult to read.",
+        "region": "grid row 3 col 1"
+      },
+      {
+        "code": "WARPED_TEXT",
+        "severity": "fail",
+        "description": "Text on the phone screen is warped, blurry, and difficult to read.",
+        "region": "grid row 3 col 2"
+      },
+      {
+        "code": "ANATOMY",
+        "severity": "fail",
+        "description": "Left hand's thumb appears unnaturally short and its base is indistinct.",
+        "region": "grid row 3 col 3"
+      },
+      {
+        "code": "WARPED_TEXT",
+        "severity": "fail",
+        "description": "Text on the phone screen is warped, blurry, and difficult to read.",
+        "region": "grid row 3 col 3"
+      }
+    ],
+    "regenerate_hint": "Ensure that all text displayed on the phone screen is clear, sharply rendered, and perfectly legible.",
+    "guardrail_candidates": [
+      {
+        "shot_type": "grid",
+        "defect": "WARPED_TEXT",
+        "rule": "Display all on-screen text as sharp, clear, and perfectly legible. Render branding and app store logos with accurate details."
+      },
+      {
+        "shot_type": "grid",
+        "defect": "ANATOMY",
+        "rule": "Ensure all hands and fingers are naturally formed, with correct digit count and articulation for realistic poses."
+      }
+    ],
+    "asset": "assets/mode-earn/ask-your-phone-for-a-raise/ai-images/grid-8.png",
+    "shot_type": "grid",
+    "qa_model": "gemini-2.5-flash",
+    "checked_at": "2026-07-09T21:17:36",
+    "attempt": 1
+  },
+  {
+    "label": "img-2",
+    "asset": "assets/mode-earn/ask-your-phone-for-a-raise/ai-images/img-2.png",
+    "model": "gpt_image_2",
+    "prompt": "Extract the image in row 1 column 1 as a single clean 9:16 handheld-framed portrait of the young man — skeptical one-eye squint, head tilted, half-smirk — the black foam-tipped interview microphone and the interviewer's hand just entering the lower right frame, no grid lines, preserve his exact face, short messy brown hair, light stubble, plain dark navy crew-neck tee, and the sunny campus walkway background with blurred passersby.",
+    "media": {
+      "image": [
+        "assets/mode-earn/ask-your-phone-for-a-raise/ai-images/grid-2.png"
+      ]
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "resolution": "2k"
+    },
+    "job_id": "f9a29892-f081-482c-a8c9-5e5cdef9a5f2",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260709_202118_f9a29892-f081-482c-a8c9-5e5cdef9a5f2.png",
+    "bytes": 9199599,
+    "created": "2026-07-09T20:23:30+00:00"
+  },
+  {
+    "label": "img-6",
+    "asset": "assets/mode-earn/ask-your-phone-for-a-raise/ai-images/img-6.png",
+    "model": "gpt_image_2",
+    "prompt": "Extract the image in row 2 column 3 as a single clean 9:16 handheld-framed portrait of the young man — amused disbelief, eyebrows raised, mouth open in a surprised half-grin, no hands in frame — the black foam-tipped interview microphone just entering the lower right frame, no grid lines, preserve his exact face, short messy brown hair, light stubble, plain dark navy crew-neck tee, and the sunny campus walkway background with blurred passersby.",
+    "media": {
+      "image": [
+        "assets/mode-earn/ask-your-phone-for-a-raise/ai-images/grid-6.png"
+      ]
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "resolution": "2k"
+    },
+    "job_id": "b2032d8c-6a2d-4a44-bf8d-a1333c7da65a",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260709_202129_b2032d8c-6a2d-4a44-bf8d-a1333c7da65a.png",
+    "bytes": 9061190,
+    "created": "2026-07-09T20:23:40+00:00"
+  },
+  {
+    "label": "img-4",
+    "asset": "assets/mode-earn/ask-your-phone-for-a-raise/ai-images/img-4.png",
+    "model": "gpt_image_2",
+    "prompt": "Extract the image in row 2 column 2 as a single clean 9:16 handheld-framed portrait of the young man — wide-eyed surprised curiosity, eyebrows up, mouth open mid-question, one hand raised mid-gesture — the black foam-tipped interview microphone just entering the lower frame, no grid lines, preserve his exact face, short messy brown hair, light stubble, plain dark navy crew-neck tee, and the sunny campus walkway background with blurred passersby.",
+    "media": {
+      "image": [
+        "assets/mode-earn/ask-your-phone-for-a-raise/ai-images/grid-4.png"
+      ]
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "resolution": "2k"
+    },
+    "job_id": "115f4aa4-e46d-4841-af72-2b06a94f7bad",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260709_202122_115f4aa4-e46d-4841-af72-2b06a94f7bad.png",
+    "bytes": 9242463,
+    "created": "2026-07-09T20:23:45+00:00"
+  },
+  {
+    "type": "qa",
+    "label": "img-2",
+    "verdict": "pass",
+    "score": 1.0,
+    "defects": [],
+    "regenerate_hint": "",
+    "asset": "assets/mode-earn/ask-your-phone-for-a-raise/ai-images/img-2.png",
+    "shot_type": "extract",
+    "qa_model": "gemini-2.5-flash",
+    "checked_at": "2026-07-09T21:30:22",
+    "attempt": 1
+  },
+  {
+    "type": "qa",
+    "label": "img-4",
+    "verdict": "pass",
+    "score": 1.0,
+    "defects": [],
+    "regenerate_hint": "",
+    "asset": "assets/mode-earn/ask-your-phone-for-a-raise/ai-images/img-4.png",
+    "shot_type": "extract",
+    "qa_model": "gemini-2.5-flash",
+    "checked_at": "2026-07-09T21:31:03",
+    "attempt": 1
+  },
+  {
+    "type": "qa",
+    "label": "img-6",
+    "verdict": "pass",
+    "score": 1,
+    "defects": [],
+    "regenerate_hint": "",
+    "asset": "assets/mode-earn/ask-your-phone-for-a-raise/ai-images/img-6.png",
+    "shot_type": "extract",
+    "qa_model": "gemini-2.5-flash",
+    "checked_at": "2026-07-09T21:32:01",
+    "attempt": 1
+  },
+  {
+    "label": "img-8-nb",
+    "asset": "assets/mode-earn/ask-your-phone-for-a-raise/ai-images/img-8.png",
+    "model": "nano_banana_flash",
+    "prompt": "Expand this exact photo into a clean 9:16 vertical portrait: keep the young man's face and expression, dark navy tee, the Black Samsung Galaxy S22 Ultra held up with its bright screen facing the camera showing the exact same Mode Earn app promo screen with sharp legible text, and the black foam interview microphone in the lower frame. Extend the sunny campus walkway background naturally above and below. Preserve every detail, photorealistic documentary feel.",
+    "media": {
+      "image": [
+        "assets/mode-earn/ask-your-phone-for-a-raise/ai-images/img-8-cell.png"
+      ]
+    },
+    "params": {
+      "aspect_ratio": "9:16"
+    },
+    "job_id": "6c3bddc6-af0b-4f87-a065-0c04074cf0b9",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260709_203615_6c3bddc6-af0b-4f87-a065-0c04074cf0b9.png",
+    "bytes": 2684578,
+    "created": "2026-07-09T20:36:35+00:00"
+  },
+  {
+    "type": "qa",
+    "label": "img-8",
+    "verdict": "fail",
+    "score": 0.3,
+    "defects": [
+      {
+        "code": "IDENTITY_DRIFT",
+        "severity": "fail",
+        "description": "The character's facial features, age, and hairstyle noticeably drift from the persona reference, appearing slightly older with different hair volume and texture.",
+        "region": "face and hair"
+      }
+    ],
+    "regenerate_hint": "Ensure the character's facial features, age, and hairstyle are an exact match to the provided persona reference, maintaining the same appearance in the generated image.",
+    "guardrail_candidates": [
+      {
+        "shot_type": "extract",
+        "defect": "IDENTITY_DRIFT",
+        "rule": "Maintain consistent facial features, age, and hair style as the provided persona reference. Ensure the character's appearance is identical to the reference."
+      }
+    ],
+    "asset": "assets/mode-earn/ask-your-phone-for-a-raise/ai-images/img-8.png",
+    "shot_type": "extract",
+    "qa_model": "gemini-2.5-flash",
+    "checked_at": "2026-07-09T21:36:58",
+    "attempt": 1
+  },
+  {
+    "label": "img-8-nb2",
+    "asset": "assets/mode-earn/ask-your-phone-for-a-raise/ai-images/img-8.png",
+    "model": "nano_banana_flash",
+    "prompt": "Expand the first photo into a clean 9:16 vertical portrait. The young man's face must be an EXACT match to the second reference portrait: 22 years old, short messy brown hair, light stubble, same facial features. Keep his big excited grin, dark navy crew-neck tee, the Black Samsung Galaxy S22 Ultra held up with its bright screen facing the camera showing the exact same Mode Earn app promo screen with sharp legible text, and the black foam interview microphone in the lower frame. Extend the sunny campus walkway background naturally above and below. Photorealistic documentary feel.",
+    "media": {
+      "image": [
+        "assets/mode-earn/ask-your-phone-for-a-raise/ai-images/img-8-cell2.png",
+        "assets/_shared/personas/student-jake/base-character.png"
+      ]
+    },
+    "params": {
+      "aspect_ratio": "9:16"
+    },
+    "job_id": "716234d7-31f7-461c-8257-b3913a829f7f",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260709_203907_716234d7-31f7-461c-8257-b3913a829f7f.png",
+    "bytes": 2510608,
+    "created": "2026-07-09T20:39:36+00:00"
+  },
+  {
+    "type": "qa",
+    "label": "img-8",
+    "verdict": "pass",
+    "score": 1.0,
+    "defects": [],
+    "regenerate_hint": "",
+    "asset": "assets/mode-earn/ask-your-phone-for-a-raise/ai-images/img-8.png",
+    "shot_type": "extract",
+    "qa_model": "gemini-2.5-flash",
+    "checked_at": "2026-07-09T21:40:09",
+    "attempt": 1
+  },
+  {
+    "label": "Clip 2",
+    "asset": "assets/mode-earn/ask-your-phone-for-a-raise/ai-videos/Clip 2.mp4",
+    "model": "kling3_0",
+    "prompt": "Begin on the handheld street shot of the 22-year-old college student from the reference, the interview mic just in the lower frame, reacting to an off-camera question in Voice Tag: A 22-year-old American man. Casual, upbeat, friendly tone with a youthful mid register and natural energy. Quick but clear conversational pacing with relaxed, everyday inflection. Genuine and down-to-earth, like a friend hyping you up about a good deal he just found. He answers skeptically, squinting one eye with a doubtful smirk: \"Sounds fake, honestly. What's the catch?\" A slow lean-back and a suspicious head-tilt toward the off-camera interviewer. Only a slight natural handheld drift, no zoom, no dolly. Blurred passersby behind, wearing the exact plain dark navy crew-neck tee from the reference, lighting, wardrobe, and all background details staying completely consistent throughout — a seamless single take.",
+    "media": {
+      "start_image": "assets/mode-earn/ask-your-phone-for-a-raise/ai-images/img-2.png"
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "duration": "3",
+      "mode": "pro",
+      "sound": "on"
+    },
+    "job_id": "301ad5cc-985f-4652-8376-e6ca1fba15f0",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260709_204223_301ad5cc-985f-4652-8376-e6ca1fba15f0.mp4",
+    "bytes": 6668394,
+    "created": "2026-07-09T20:44:30+00:00"
+  },
+  {
+    "label": "Clip 4",
+    "asset": "assets/mode-earn/ask-your-phone-for-a-raise/ai-videos/Clip 4.mp4",
+    "model": "kling3_0",
+    "prompt": "Begin on the handheld street shot of the 22-year-old college student from the reference, the interview mic just in the lower frame, reacting to an off-camera pitch in Voice Tag: A 22-year-old American man. Casual, upbeat, friendly tone with a youthful mid register and natural energy. Quick but clear conversational pacing with relaxed, everyday inflection. Genuine and down-to-earth, like a friend hyping you up about a good deal he just found. Suddenly hooked, eyebrows shooting up, leaning in with goofy high-energy disbelief: \"Wait — stuff I already do all day?\" An animated hand gesture and a quick glance to the off-camera interviewer. Only a slight natural handheld drift, no zoom, no dolly. Blurred passersby behind, wearing the exact plain dark navy crew-neck tee from the reference, lighting, wardrobe, and all background details staying completely consistent throughout — a seamless single take.",
+    "media": {
+      "start_image": "assets/mode-earn/ask-your-phone-for-a-raise/ai-images/img-4.png"
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "duration": "3",
+      "mode": "pro",
+      "sound": "on"
+    },
+    "job_id": "fa351950-7d24-48da-bd8d-ea4724cbb426",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260709_204444_fa351950-7d24-48da-bd8d-ea4724cbb426.mp4",
+    "bytes": 6103686,
+    "created": "2026-07-09T20:46:53+00:00"
+  },
+  {
+    "label": "Clip 6",
+    "asset": "assets/mode-earn/ask-your-phone-for-a-raise/ai-videos/Clip 6.mp4",
+    "model": "kling3_0",
+    "prompt": "Begin on the handheld street shot of the 22-year-old college student from the reference, the interview mic just in the lower right frame, reacting to an off-camera fact in Voice Tag: A 22-year-old American man. Casual, upbeat, friendly tone with a youthful mid register and natural energy. Quick but clear conversational pacing with relaxed, everyday inflection. Genuine and down-to-earth, like a friend hyping you up about a good deal he just found. Amused disbelief, eyebrows raised, double-checking with a half-grin: \"And ten million people are on this?\" A quick glance side to side and back to the off-camera interviewer. Only a slight natural handheld drift, no zoom, no dolly. Blurred passersby behind, wearing the exact plain dark navy crew-neck tee from the reference, lighting, wardrobe, and all background details staying completely consistent throughout — a seamless single take.",
+    "media": {
+      "start_image": "assets/mode-earn/ask-your-phone-for-a-raise/ai-images/img-6.png"
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "duration": "3",
+      "mode": "pro",
+      "sound": "on"
+    },
+    "job_id": "0760222c-9fd7-4ef0-9b0f-f897be797011",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260709_204822_0760222c-9fd7-4ef0-9b0f-f897be797011.mp4",
+    "bytes": 6194239,
+    "created": "2026-07-09T20:50:14+00:00"
+  },
+  {
+    "label": "Clip 8",
+    "asset": "assets/mode-earn/ask-your-phone-for-a-raise/ai-videos/Clip 8.mp4",
+    "model": "kling3_0",
+    "prompt": "Begin on the handheld street shot of the 22-year-old college student from the reference holding the Black Samsung Galaxy S22 Ultra with its bright screen facing the camera showing the Mode Earn app promo screen exactly as in the reference, the interview mic in the lower frame. In Voice Tag: A 22-year-old American man. Casual, upbeat, friendly tone with a youthful mid register and natural energy. Quick but clear conversational pacing with relaxed, everyday inflection. Genuine and down-to-earth, like a friend hyping you up about a good deal he just found. Completely sold, big grin, hyped: \"Okay, that's genius. I'm downloading it right now.\" He keeps the phone screen toward the camera, giving it an excited little shake, glancing between the screen and the off-camera interviewer. Only a slight natural handheld drift, no zoom, no dolly. Blurred passersby behind, wearing the exact plain dark navy crew-neck tee from the reference, the phone screen content staying exactly the same, lighting, wardrobe, and all background details staying completely consistent throughout — a seamless single take.",
+    "media": {
+      "start_image": "assets/mode-earn/ask-your-phone-for-a-raise/ai-images/img-8.png"
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "duration": "3",
+      "mode": "pro",
+      "sound": "on"
+    },
+    "job_id": "05cdae83-30e2-4065-a77b-f50609b003c3",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260709_205029_05cdae83-30e2-4065-a77b-f50609b003c3.mp4",
+    "bytes": 6755280,
+    "created": "2026-07-09T20:53:00+00:00"
+  },
+  {
+    "label": "broll-cashout",
+    "asset": "assets/mode-earn/ask-your-phone-for-a-raise/ai-images/broll-cashout.png",
+    "model": "nano_banana_flash",
+    "prompt": "Edit the first photo: bring the Black Samsung Galaxy S22 Ultra much closer to the camera so its bright screen fills about seventy percent of the frame, screen facing the viewer, now clearly showing this exact Mode Earn cashout screen from the second image — gift card options sharp, bright and legible — his thumb hovering over the screen edge, the young man softly out of focus in the bokeh behind, keeping his exact same face, dark navy tee, sunny campus walkway background and lighting. Clean family-friendly advertisement style, photorealistic, vertical 9:16.",
+    "media": {
+      "image": [
+        "assets/mode-earn/ask-your-phone-for-a-raise/ai-images/img-8.png",
+        "assets/mode-earn/brand/MEA Cashout Screenshots/Cashout.png"
+      ]
+    },
+    "params": {
+      "aspect_ratio": "9:16"
+    },
+    "job_id": "38387217-8b59-43f9-aaa9-e772c191525d",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260709_210100_38387217-8b59-43f9-aaa9-e772c191525d.png",
+    "bytes": 2463222,
+    "created": "2026-07-09T21:01:27+00:00"
+  },
+  {
+    "label": "broll-establishing",
+    "asset": "assets/mode-earn/ask-your-phone-for-a-raise/ai-images/broll-establishing.png",
+    "model": "nano_banana_flash",
+    "prompt": "Handheld first-person interviewer POV photo: striding up to a 22-year-old college student whose face is an EXACT match to the first reference portrait — short messy brown hair, light stubble — wearing a plain dark navy crew-neck tee, standing mid-distance on the sunny campus walkway from the second reference, feet on the pavement. The black foam-tipped interview microphone from the third reference thrusts into the frame from the bottom-right, held by the unseen interviewer's arm, pointing toward the student. The student notices and turns toward the camera. Motion-energy documentary framing, slight tilt, blurred passersby, photorealistic candid street feel, vertical 9:16.",
+    "media": {
+      "image": [
+        "assets/_shared/personas/student-jake/base-character.png",
+        "assets/mode-earn/ask-your-phone-for-a-raise/ai-images/environment.png",
+        "assets/_shared/props/handheld-mic.png"
+      ]
+    },
+    "params": {
+      "aspect_ratio": "9:16"
+    },
+    "job_id": "6be7da6c-15eb-4768-b860-0a74f8f88c17",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260709_210110_6be7da6c-15eb-4768-b860-0a74f8f88c17.png",
+    "bytes": 2747429,
+    "created": "2026-07-09T21:01:37+00:00"
+  },
+  {
+    "label": "broll-reviews",
+    "asset": "assets/mode-earn/ask-your-phone-for-a-raise/ai-images/broll-reviews.png",
+    "model": "nano_banana_flash",
+    "prompt": "Edit the first photo: bring the Black Samsung Galaxy S22 Ultra much closer to the camera so its bright screen fills about seventy percent of the frame, screen facing the viewer, now clearly showing a Google Play reviews page with these exact five-star review cards from the other reference images — stars and text sharp, bright and legible — the young man softly out of focus in the bokeh behind, keeping his exact same face, dark navy tee, sunny campus walkway background and lighting. Clean family-friendly advertisement style, photorealistic, vertical 9:16.",
+    "media": {
+      "image": [
+        "assets/mode-earn/ask-your-phone-for-a-raise/ai-images/img-8.png",
+        "assets/mode-earn/MEA Reviews/1Review.png",
+        "assets/mode-earn/MEA Reviews/2Review_1.png"
+      ]
+    },
+    "params": {
+      "aspect_ratio": "9:16"
+    },
+    "job_id": "a8801a95-e7a6-42aa-9f5c-fe1f611c55e3",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260709_210111_a8801a95-e7a6-42aa-9f5c-fe1f611c55e3.png",
+    "bytes": 2392104,
+    "created": "2026-07-09T21:01:38+00:00"
+  },
+  {
+    "type": "qa",
+    "label": "Clip 2",
+    "verdict": "fail",
+    "score": 0.4,
+    "defects": [
+      {
+        "code": "ENVIRONMENT_DRIFT",
+        "severity": "warn",
+        "description": "The background environment is an outdoor setting with trees and blurred people, significantly different from the plain white background of the persona reference.",
+        "region": "[first frame] background environment"
+      },
+      {
+        "code": "IDENTITY_DRIFT",
+        "severity": "fail",
+        "description": "The character's face shape, jawline, and subtle facial features differ from the persona reference, not clearly reading as the same person.",
+        "region": "[last frame] face"
+      }
+    ],
+    "regenerate_hint": "Ensure the character's facial features, face shape, and overall appearance consistently match the provided persona reference.",
+    "guardrail_candidates": [
+      {
+        "shot_type": "aroll-clip",
+        "defect": "ENVIRONMENT_DRIFT",
+        "rule": "Maintain a consistent background environment matching the persona reference. Ensure a plain white studio background."
+      },
+      {
+        "shot_type": "aroll-clip",
+        "defect": "IDENTITY_DRIFT",
+        "rule": "Ensure the character's face maintains identical features, shape, and age as the persona reference."
+      }
+    ],
+    "asset": "assets/mode-earn/ask-your-phone-for-a-raise/ai-videos/Clip 2.mp4",
+    "shot_type": "aroll-clip",
+    "qa_model": "gemini-2.5-flash",
+    "checked_at": "2026-07-09T22:01:07",
+    "attempt": 1
+  },
+  {
+    "type": "qa",
+    "label": "Clip 4",
+    "verdict": "warn",
+    "score": 0.8,
+    "defects": [
+      {
+        "code": "ENVIRONMENT_DRIFT",
+        "severity": "warn",
+        "description": "The character is in an outdoor campus environment, which noticeably differs from the plain white background implied by the persona reference.",
+        "region": "[last frame] background"
+      }
+    ],
+    "regenerate_hint": "Ensure the character is placed in a clean, plain studio environment.",
+    "guardrail_candidates": [
+      {
+        "shot_type": "aroll-clip",
+        "defect": "ENVIRONMENT_DRIFT",
+        "rule": "Maintain a consistent studio background with a plain, neutral color."
+      }
+    ],
+    "asset": "assets/mode-earn/ask-your-phone-for-a-raise/ai-videos/Clip 4.mp4",
+    "shot_type": "aroll-clip",
+    "qa_model": "gemini-2.5-flash",
+    "checked_at": "2026-07-09T22:02:15",
+    "attempt": 1
+  },
+  {
+    "type": "qa",
+    "label": "Clip 6",
+    "verdict": "warn",
+    "score": 0.75,
+    "defects": [
+      {
+        "code": "ENVIRONMENT_DRIFT",
+        "severity": "warn",
+        "description": "The environment in the candidate image (outdoor campus) is noticeably different from the plain background of the persona reference.",
+        "region": "[first frame] Background"
+      },
+      {
+        "code": "ENVIRONMENT_DRIFT",
+        "severity": "warn",
+        "description": "The background environment is an outdoor campus path, which is significantly different from the plain white background of the persona reference.",
+        "region": "[last frame] background"
+      }
+    ],
+    "regenerate_hint": "Present the character against a simple, consistent background to match the persona reference.",
+    "guardrail_candidates": [
+      {
+        "shot_type": "aroll-clip",
+        "defect": "ENVIRONMENT_DRIFT",
+        "rule": "Maintain a simple, consistent background matching the persona reference."
+      },
+      {
+        "shot_type": "aroll-clip",
+        "defect": "ENVIRONMENT_DRIFT",
+        "rule": "Maintain a consistent background environment throughout the clip. Ensure the environment matches the established setting, such as a plain white background."
+      }
+    ],
+    "asset": "assets/mode-earn/ask-your-phone-for-a-raise/ai-videos/Clip 6.mp4",
+    "shot_type": "aroll-clip",
+    "qa_model": "gemini-2.5-flash",
+    "checked_at": "2026-07-09T22:03:00",
+    "attempt": 1
+  },
+  {
+    "type": "qa",
+    "label": "Clip 8",
+    "verdict": "fail",
+    "score": 0.3,
+    "defects": [
+      {
+        "code": "WRONG_DEVICE",
+        "severity": "fail",
+        "description": "The phone displayed is a generic smartphone and not a Black Samsung Galaxy S22 Ultra, identifiable by the different camera layout.",
+        "region": "[first frame] held phone"
+      },
+      {
+        "code": "WRONG_DEVICE",
+        "severity": "fail",
+        "description": "The phone is purple and does not match the Black Samsung Galaxy S22 Ultra from the reference, having a different color and camera layout.",
+        "region": "[last frame] phone in right hand"
+      },
+      {
+        "code": "WARPED_TEXT",
+        "severity": "fail",
+        "description": "Text on the phone screen, particularly the body text and parts of the app store buttons, is gibberish and warped.",
+        "region": "[last frame] phone screen"
+      }
+    ],
+    "regenerate_hint": "Ensure the character holds a Black Samsung Galaxy S22 Ultra in their hand.",
+    "guardrail_candidates": [
+      {
+        "shot_type": "aroll-clip",
+        "defect": "WRONG_DEVICE",
+        "rule": "Always include a Black Samsung Galaxy S22 Ultra in the character's hand, ensuring the distinct camera array is visible."
+      },
+      {
+        "shot_type": "aroll-clip",
+        "defect": "WRONG_DEVICE",
+        "rule": "The character holds a Black Samsung Galaxy S22 Ultra phone. The phone should be clearly visible and accurate to the model."
+      },
+      {
+        "shot_type": "aroll-clip",
+        "defect": "WARPED_TEXT",
+        "rule": "Any on-screen text or labels must be perfectly legible, correctly spelled, and free from warping or distortion."
+      }
+    ],
+    "asset": "assets/mode-earn/ask-your-phone-for-a-raise/ai-videos/Clip 8.mp4",
+    "shot_type": "aroll-clip",
+    "qa_model": "gemini-2.5-flash",
+    "checked_at": "2026-07-09T22:03:44",
+    "attempt": 1
+  },
+  {
+    "type": "qa",
+    "label": "broll-establishing",
+    "verdict": "fail",
+    "score": 0.5,
+    "defects": [
+      {
+        "code": "ANATOMY",
+        "severity": "fail",
+        "description": "The interviewer's hand holding the microphone has malformed fingers, appearing merged or unnaturally shaped.",
+        "region": "interviewer's right hand holding the microphone"
+      }
+    ],
+    "regenerate_hint": "Ensure the interviewer's hand is naturally formed with distinct fingers, holding the microphone firmly and clearly.",
+    "guardrail_candidates": [
+      {
+        "shot_type": "broll-still",
+        "defect": "ANATOMY",
+        "rule": "Ensure all characters have naturally formed hands and fingers. Every limb should appear anatomically correct and clearly defined."
+      }
+    ],
+    "asset": "assets/mode-earn/ask-your-phone-for-a-raise/ai-images/broll-establishing.png",
+    "shot_type": "broll-still",
+    "qa_model": "gemini-2.5-flash",
+    "checked_at": "2026-07-09T22:05:53",
+    "attempt": 1
+  },
+  {
+    "type": "qa",
+    "label": "broll-cashout",
+    "verdict": "pass",
+    "score": 1.0,
+    "defects": [],
+    "regenerate_hint": "",
+    "asset": "assets/mode-earn/ask-your-phone-for-a-raise/ai-images/broll-cashout.png",
+    "shot_type": "phone-shot",
+    "qa_model": "gemini-2.5-flash",
+    "checked_at": "2026-07-09T22:06:25",
+    "attempt": 1
+  },
+  {
+    "type": "qa",
+    "label": "broll-reviews",
+    "verdict": "pass",
+    "score": 0.95,
+    "defects": [],
+    "regenerate_hint": "",
+    "asset": "assets/mode-earn/ask-your-phone-for-a-raise/ai-images/broll-reviews.png",
+    "shot_type": "phone-shot",
+    "qa_model": "gemini-2.5-flash",
+    "checked_at": "2026-07-09T22:06:43",
+    "attempt": 1
+  },
+  {
+    "label": "broll-establishing",
+    "asset": "assets/mode-earn/ask-your-phone-for-a-raise/ai-images/broll-establishing.png",
+    "model": "nano_banana_flash",
+    "prompt": "Handheld first-person interviewer POV photo: striding up to a 22-year-old college student whose face is an EXACT match to the first reference portrait — short messy brown hair, light stubble — wearing a plain dark navy crew-neck tee, standing mid-distance on the sunny campus walkway from the second reference, feet on the pavement. The black foam-tipped interview microphone from the third reference enters the frame from the bottom-right corner pointing toward the student — only the microphone itself in frame, NO hand and NO arm visible, as if held just out of frame. The student notices and turns toward the camera. Motion-energy documentary framing, slight tilt, blurred passersby, photorealistic candid street feel, vertical 9:16.",
+    "media": {
+      "image": [
+        "assets/_shared/personas/student-jake/base-character.png",
+        "assets/mode-earn/ask-your-phone-for-a-raise/ai-images/environment.png",
+        "assets/_shared/props/handheld-mic.png"
+      ]
+    },
+    "params": {
+      "aspect_ratio": "9:16"
+    },
+    "job_id": "b3fb4c58-027c-45a2-9232-1e4f0df9253e",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260709_210807_b3fb4c58-027c-45a2-9232-1e4f0df9253e.png",
+    "bytes": 2763555,
+    "created": "2026-07-09T21:08:45+00:00"
+  },
+  {
+    "type": "qa",
+    "label": "broll-establishing",
+    "verdict": "pass",
+    "score": 1.0,
+    "defects": [],
+    "regenerate_hint": "",
+    "asset": "assets/mode-earn/ask-your-phone-for-a-raise/ai-images/broll-establishing.png",
+    "shot_type": "broll-still",
+    "qa_model": "gemini-2.5-flash",
+    "checked_at": "2026-07-09T22:09:12",
+    "attempt": 1
+  },
+  {
+    "label": "broll-reviews",
+    "asset": "assets/mode-earn/ask-your-phone-for-a-raise/ai-images/broll-reviews.png",
+    "model": "nano_banana_flash",
+    "prompt": "Edit the first photo: bring the Black Samsung Galaxy S22 Ultra much closer to the camera so its bright GLASS SCREEN fills about seventy percent of the frame — the screen side faces the viewer exactly as in the first photo, NO camera lenses visible, never the back panel — the screen now clearly showing a Google Play reviews page with these exact five-star review cards from the other reference images, stars and text sharp, bright and legible, the young man softly out of focus in the bokeh behind, keeping his exact same face, dark navy tee, sunny campus walkway background and lighting. Clean family-friendly advertisement style, photorealistic, vertical 9:16.",
+    "media": {
+      "image": [
+        "assets/mode-earn/ask-your-phone-for-a-raise/ai-images/img-8.png",
+        "assets/mode-earn/MEA Reviews/1Review.png",
+        "assets/mode-earn/MEA Reviews/2Review_1.png"
+      ]
+    },
+    "params": {
+      "aspect_ratio": "9:16"
+    },
+    "job_id": "d4158a2f-e7d5-4ac5-a681-a150be9c0b57",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260709_211122_d4158a2f-e7d5-4ac5-a681-a150be9c0b57.png",
+    "bytes": 2529582,
+    "created": "2026-07-09T21:11:50+00:00"
+  },
+  {
+    "type": "qa",
+    "label": "broll-reviews",
+    "verdict": "fail",
+    "score": 0.3,
+    "defects": [
+      {
+        "code": "ANATOMY",
+        "severity": "fail",
+        "description": "The hand holding the phone has six fingers.",
+        "region": "right hand holding phone"
+      }
+    ],
+    "regenerate_hint": "Ensure the character's hands have correct human anatomy with five fingers.",
+    "guardrail_candidates": [
+      {
+        "shot_type": "phone-shot",
+        "defect": "ANATOMY",
+        "rule": "Ensure all hands are anatomically correct with five fingers."
+      }
+    ],
+    "asset": "assets/mode-earn/ask-your-phone-for-a-raise/ai-images/broll-reviews.png",
+    "shot_type": "phone-shot",
+    "qa_model": "gemini-2.5-flash",
+    "checked_at": "2026-07-09T22:12:23",
+    "attempt": 1
+  },
+  {
+    "label": "img-8v2",
+    "asset": "assets/mode-earn/ask-your-phone-for-a-raise/ai-images/img-8v2.png",
+    "model": "nano_banana_flash",
+    "prompt": "Using the second reference photo's scene (sunny campus walkway, handheld street framing, blurred passersby): the same 22-year-old college student — face an EXACT match to the first reference portrait, short messy brown hair, light stubble, plain dark navy crew-neck tee — now with a big excited open-mouth grin, holding up in ONE hand a Black Samsung Galaxy S22 Ultra matching the third reference, its bright softly-glowing screen facing the camera with no readable text on it, just a clean bright glow. His other hand is relaxed at his side — he holds NOTHING else. The black foam-tipped interview microphone enters the lower frame corner pointed at him, held from out of frame by the unseen interviewer — no cable touching the student. Photorealistic candid documentary feel, vertical 9:16.",
+    "media": {
+      "image": [
+        "assets/_shared/personas/student-jake/base-character.png",
+        "assets/mode-earn/ask-your-phone-for-a-raise/ai-images/img-6.png",
+        "assets/_shared/props/s22-ultra-front.png"
+      ]
+    },
+    "params": {
+      "aspect_ratio": "9:16"
+    },
+    "job_id": "93a0035b-5556-4124-ac5e-47bc411903ed",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260709_215314_93a0035b-5556-4124-ac5e-47bc411903ed.png",
+    "bytes": 2287445,
+    "created": "2026-07-09T21:53:43+00:00"
+  },
+  {
+    "type": "qa",
+    "label": "img-8v2",
+    "verdict": "pass",
+    "score": 0.95,
+    "defects": [],
+    "regenerate_hint": "",
+    "asset": "assets/mode-earn/ask-your-phone-for-a-raise/ai-images/img-8v2.png",
+    "shot_type": "extract",
+    "qa_model": "gemini-2.5-flash",
+    "checked_at": "2026-07-09T22:54:10",
+    "attempt": 1
+  },
+  {
+    "label": "Clip 8 v2",
+    "asset": "assets/mode-earn/ask-your-phone-for-a-raise/ai-videos/Clip 8.mp4",
+    "model": "kling3_0",
+    "prompt": "Begin on the handheld street shot of the 22-year-old college student from the reference holding up the Black Samsung Galaxy S22 Ultra in one hand, its bright blank glowing screen facing the camera with no readable text, the interview mic in the lower corner held from out of frame. In Voice Tag: A 22-year-old American man. Casual, upbeat, friendly tone with a youthful mid register and natural energy. Quick but clear conversational pacing with relaxed, everyday inflection. Genuine and down-to-earth, like a friend hyping you up about a good deal he just found. Completely sold, big grin, hyped: \"Okay, that's genius. I'm downloading it right now.\" He keeps the phone screen toward the camera giving it a small excited shake, his other hand gesturing freely, never touching the microphone or any cable. Only a slight natural handheld drift, no zoom, no dolly. Blurred passersby behind, wearing the exact plain dark navy crew-neck tee from the reference, the phone screen staying a clean bright glow with no text, lighting, wardrobe, and all background details staying completely consistent throughout — a seamless single take.",
+    "media": {
+      "start_image": "assets/mode-earn/ask-your-phone-for-a-raise/ai-images/img-8v2.png"
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "duration": "3",
+      "mode": "pro",
+      "sound": "on"
+    },
+    "job_id": "88d59e23-cdaf-414b-98cb-c069f2e8448b",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260709_215548_88d59e23-cdaf-414b-98cb-c069f2e8448b.mp4",
+    "bytes": 6045487,
+    "created": "2026-07-09T21:58:19+00:00"
+  },
+  {
+    "label": "establishing_b-roll",
+    "asset": "assets/mode-earn/ask-your-phone-for-a-raise/ai-videos/establishing_b-roll.mp4",
+    "model": "kling3_0",
+    "prompt": "Handheld interviewer POV: the camera strides forward along the sunny campus walkway toward the college student in the dark navy tee from the reference as he notices and turns toward the lens, the black foam interview microphone bobbing at the bottom-right of frame as the unseen interviewer walks, natural handheld walking motion, blurred students passing, documentary street energy, lighting and all details consistent — a seamless single take.",
+    "media": {
+      "start_image": "assets/mode-earn/ask-your-phone-for-a-raise/ai-images/broll-establishing.png"
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "duration": "4",
+      "mode": "pro",
+      "sound": "off"
+    },
+    "job_id": "d62b841d-c107-4e9c-b127-94bfafdff8a6",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260709_215830_d62b841d-c107-4e9c-b127-94bfafdff8a6.mp4",
+    "bytes": 9826521,
+    "created": "2026-07-09T22:01:53+00:00"
+  },
+  {
+    "label": "squint-insert_b-roll",
+    "asset": "assets/mode-earn/ask-your-phone-for-a-raise/ai-videos/squint-insert_b-roll.mp4",
+    "model": "kling3_0",
+    "prompt": "The 22-year-old college student from the reference in the exact plain dark navy crew-neck tee holds a skeptical one-eye squint, slowly leaning back with a doubtful smirk, giving a tiny 'yeah right' head shake, not speaking, the interview mic just in the lower frame. Only a slight natural handheld drift, no zoom, no dolly. Blurred passersby behind, lighting, wardrobe, and background consistent — a seamless single muted take.",
+    "media": {
+      "start_image": "assets/mode-earn/ask-your-phone-for-a-raise/ai-images/img-2.png"
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "duration": "3",
+      "mode": "pro",
+      "sound": "off"
+    },
+    "job_id": "d15eef3b-bd81-40a3-843b-1fa30fb21b51",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260709_220209_d15eef3b-bd81-40a3-843b-1fa30fb21b51.mp4",
+    "bytes": 6720488,
+    "created": "2026-07-09T22:03:48+00:00"
+  },
+  {
+    "label": "listening_b-roll",
+    "asset": "assets/mode-earn/ask-your-phone-for-a-raise/ai-videos/listening_b-roll.mp4",
+    "model": "kling3_0",
+    "prompt": "The 22-year-old college student from the reference in the exact plain dark navy crew-neck tee listens to the off-camera interviewer, eyebrows slowly rising as the pitch lands, nodding slightly, mouth closed, curiosity replacing doubt, the interview mic just in the lower frame. Only a slight natural handheld drift, no zoom, no dolly. Blurred passersby behind, lighting, wardrobe, and background consistent — a seamless single muted take.",
+    "media": {
+      "start_image": "assets/mode-earn/ask-your-phone-for-a-raise/ai-images/img-2.png"
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "duration": "5",
+      "mode": "pro",
+      "sound": "off"
+    },
+    "job_id": "209deb98-20f0-4bbc-a755-047b81a4c0d0",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260709_220404_209deb98-20f0-4bbc-a755-047b81a4c0d0.mp4",
+    "bytes": 10007411,
+    "created": "2026-07-09T22:06:40+00:00"
+  },
+  {
+    "label": "double-take_b-roll",
+    "asset": "assets/mode-earn/ask-your-phone-for-a-raise/ai-videos/double-take_b-roll.mp4",
+    "model": "kling3_0",
+    "prompt": "The 22-year-old college student from the reference in the exact plain dark navy crew-neck tee does an exaggerated comedic double-take at the microphone, head snapping back slightly, eyes going wide, hand pausing mid-air, not speaking, goofy student energy, the interview mic just in the lower frame. Only a slight natural handheld drift, no zoom, no dolly. Blurred passersby behind, lighting, wardrobe, and background consistent — a seamless single muted take.",
+    "media": {
+      "start_image": "assets/mode-earn/ask-your-phone-for-a-raise/ai-images/img-4.png"
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "duration": "3",
+      "mode": "pro",
+      "sound": "off"
+    },
+    "job_id": "72ca9c8e-5912-4bb2-8951-8a328df3303d",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260709_220651_72ca9c8e-5912-4bb2-8951-8a328df3303d.mp4",
+    "bytes": 5988451,
+    "created": "2026-07-09T22:08:49+00:00"
+  },
+  {
+    "label": "look-around_b-roll",
+    "asset": "assets/mode-earn/ask-your-phone-for-a-raise/ai-videos/look-around_b-roll.mp4",
+    "model": "kling3_0",
+    "prompt": "The 22-year-old college student from the reference in the exact plain dark navy crew-neck tee glances left then right with a grinning 'is this a prank?' expression, looking for a hidden camera crew, then back to the lens with amused disbelief, not speaking, the interview mic just in the lower right frame. Only a slight natural handheld drift, no zoom, no dolly. Blurred passersby behind, lighting, wardrobe, and background consistent — a seamless single muted take.",
+    "media": {
+      "start_image": "assets/mode-earn/ask-your-phone-for-a-raise/ai-images/img-6.png"
+    },
+    "params": {
+      "aspect_ratio": "9:16",
+      "duration": "3",
+      "mode": "pro",
+      "sound": "off"
+    },
+    "job_id": "992c21d8-3d91-46e5-911f-4890f73253a0",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_347IJ6uKRzbMoGW6qTCqauGMbW2/hf_20260709_220902_992c21d8-3d91-46e5-911f-4890f73253a0.mp4",
+    "bytes": 6159869,
+    "created": "2026-07-09T22:11:54+00:00"
+  },
+  {
+    "type": "qa",
+    "label": "Clip 8 v2",
+    "verdict": "fail",
+    "score": 0.4,
+    "defects": [
+      {
+        "code": "ANATOMY",
+        "severity": "fail",
+        "description": "The right hand has an unnaturally thick thumb and indistinct, somewhat merged fingers.",
+        "region": "[first frame] right hand"
+      },
+      {
+        "code": "ANATOMY",
+        "severity": "fail",
+        "description": "The character's lower teeth appear fused and irregularly shaped, lacking the natural definition of individual teeth.",
+        "region": "[last frame] mouth/teeth"
+      }
+    ],
+    "regenerate_hint": "Ensure all visible hands have correctly formed and distinct fingers with natural proportions.",
+    "guardrail_candidates": [
+      {
+        "shot_type": "aroll-clip",
+        "defect": "ANATOMY",
+        "rule": "Ensure hands are naturally posed with distinct, correctly formed fingers and natural proportions."
+      },
+      {
+        "shot_type": "aroll-clip",
+        "defect": "ANATOMY",
+        "rule": "Ensure all anatomical features, including teeth, are naturally formed and realistic."
+      }
+    ],
+    "asset": "assets/mode-earn/ask-your-phone-for-a-raise/ai-videos/Clip 8.mp4",
+    "shot_type": "aroll-clip",
+    "qa_model": "gemini-2.5-flash",
+    "checked_at": "2026-07-09T23:12:47",
+    "attempt": 1
+  }
+]

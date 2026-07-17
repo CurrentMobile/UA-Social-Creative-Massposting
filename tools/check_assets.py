@@ -53,14 +53,14 @@ def first_existing(directory: Path, stem: str, exts: tuple[str, ...]) -> Path | 
     return None
 
 
-def load_chunks(videodir: Path, override: Path | None) -> list[dict]:
+def load_plan(videodir: Path, override: Path | None) -> dict:
     path = override or (videodir / "edit" / "chunks.json")
     if not path.exists():
-        return []
+        return {}
     try:
-        return json.loads(path.read_text(encoding="utf-8")).get("chunks", [])
+        return json.loads(path.read_text(encoding="utf-8"))
     except Exception:  # noqa: BLE001
-        return []
+        return {}
 
 
 def read_frontmatter_value(manifest: Path, key: str) -> str | None:
@@ -96,7 +96,8 @@ def main() -> int:
     ai_images = videodir / "ai-images"
     ai_videos = videodir / "ai-videos"
 
-    chunks = load_chunks(videodir, args.chunks)
+    plan = load_plan(videodir, args.chunks)
+    chunks = plan.get("chunks", [])
     missing = 0
     warnings = 0
     print(f"\nQC: {videodir.relative_to(PROJECT_ROOT).as_posix()}  (app: {app})")
@@ -137,20 +138,26 @@ def main() -> int:
                   f"({durtxt} / rec {rec}s)")
             missing += (img is None) + (not has_clip)
 
-        # 3. B-roll cues
+        # 3. B-roll cues + required-slot quota (standing rule 1b in generate_assets.md)
         cued = [c for c in chunks if (c.get("b_roll") or "").strip()]
         brolls = sorted(p for p in ai_videos.glob("*_b-roll.*")) if ai_videos.exists() else []
-        print(f"\n[b-roll] {len(brolls)} file(s) found; {len(cued)} chunk(s) cue B-roll")
+        slots = plan.get("broll_slots", [])
+        required_slots = [s for s in slots if s.get("required")]
+        print(f"\n[b-roll] {len(brolls)} file(s) found; {len(cued)} chunk(s) cue B-roll; "
+              f"{len(required_slots)} slot(s) REQUIRED by quota")
         for p in brolls:
             d = probe_duration(p)
             print(f"  - {p.name}  ({f'{d:.1f}s' if d else '?'})")
+
+        def match_broll(cue: str) -> Path | None:
+            # heuristic match: a b-roll whose name shares a token with the cue
+            return next((p for p in brolls
+                         if any(tok in p.name.lower() for tok in re.findall(r"[a-z]+", cue.lower()))), None)
+
         for c in cued:
             cid = c["id"]
             adur = clip_dur.get(cid)
-            # heuristic match: a b-roll whose name shares a token with the cue
-            cue = (c["b_roll"] or "").lower()
-            match = next((p for p in brolls
-                          if any(tok in p.name.lower() for tok in re.findall(r"[a-z]+", cue))), None)
+            match = match_broll(c["b_roll"] or "")
             if not match:
                 print(f"  [warn] chunk {cid} cues B-roll '{c['b_roll']}' but no matching file")
                 warnings += 1
@@ -159,6 +166,19 @@ def main() -> int:
             if adur and bdur and bdur > adur + DUR_TOLERANCE:
                 print(f"  [warn] {match.name} ({bdur:.1f}s) longer than Clip {cid} ({adur:.1f}s)")
                 warnings += 1
+
+        # required slots: chunk must declare a cue AND its file must exist -> else MISSING
+        by_id = {c["id"]: c for c in chunks}
+        for s in required_slots:
+            cid = s["chunk_id"]
+            cue = (by_id.get(cid, {}).get("b_roll") or s.get("idea") or "").strip()
+            if not cue:
+                print(f"  [MISS] required B-roll slot for chunk {cid} "
+                      f"[{s.get('section','')}] has no concept — fill chunk's b_roll field")
+                missing += 1
+            elif not match_broll(cue):
+                print(f"  [MISS] required B-roll slot for chunk {cid} cues '{cue}' but no file generated")
+                missing += 1
 
     # 4. log
     log = videodir / "generation-log.json"

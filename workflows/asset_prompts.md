@@ -12,6 +12,41 @@ Two invariants run through everything:
 
 ---
 
+## Phone visibility grammar (STANDING RULE — every phone shot, every asset)
+
+The character is talking about the app, so **whenever the character holds the phone, the
+phone's screen faces the viewer, clearly showing the app logo or the app's home UI.**
+Bare phrases like "holding a phone" or "holding a phone naturally" are **BANNED** — image
+models resolve the ambiguity by showing the back of the phone. Every phone mention in
+every prompt MUST use one of these three positive clauses:
+
+1. **Screen-to-viewer (THE DEFAULT — use unless the shot explicitly needs otherwise):**
+   > "she holds the phone up with its bright screen facing the camera, clearly showing
+   > the <app> home screen / logo exactly as in the reference image, glowing and legible"
+2. **Screen-to-character (rare — only when the script beat is the character privately
+   using the phone, e.g. scrolling/reading):**
+   > "the screen is tilted toward her own face, seen in three-quarter profile — the
+   > viewer sees the side edge of the phone and the glow on her face, never its back panel"
+3. **Back-to-viewer (EXCEPTION — allowed ONLY as the first frame of a deliberate
+   phone-reveal clip that ends screen-to-viewer, and must be tagged as such):**
+   > "holding the phone with its back panel to the camera, about to turn it around"
+
+**Reference images per phone shot (pass BOTH as extra `--image` refs):**
+- `assets/_shared/props/s22-ultra-front.png` — for ANY screen-facing shot (default).
+  Use `assets/_shared/props/s22-ultra-back.png` ONLY for a reveal first-frame; use the
+  combined `samsung-galaxy-s22-ultra.png` only when both surfaces appear in one shot.
+  Pass only the surface that should be visible — showing the model the back invites it
+  to draw the back.
+- `assets/<app>/brand/<app-home-ui>.png` (or the logo still) — so the visible screen
+  shows the REAL app UI, not a hallucinated one.
+
+**Device phrasing is positive, not negative:** say "a Black Samsung Galaxy S22 Ultra
+with centered punch-hole front camera and squared corners, matching the reference
+exactly" — never rely on "not an iPhone" (negatives underperform; the reference image +
+QA's WRONG_DEVICE check are the real guards).
+
+---
+
 ## Step 1 — Character description (LLM, text out)
 
 > Generate a well-detailed image description of a character that fits this video:
@@ -141,20 +176,21 @@ Then `kling3_0 --start-image … --param sound=off`, duration = matching A-roll.
 
 ### Phone-UI display (Kling first frame + last frame)
 **Always name a specific modern phone + color** in phone shots (for MEA: a modern
-**Android**, e.g. "Black Samsung Galaxy S22 Ultra" / "Google Pixel 9" — never an iPhone;
-MEA is Android/Play Store only). See the app manifest's AI-generation rules.
-**Phone-prop consistency:** for ANY phone-holding shot (here or in A-roll/activity frames),
-ALSO pass `assets/_shared/props/samsung-galaxy-s22-ultra.png` (front+back reference) as an
-extra `--image` and prompt "the same Black Samsung Galaxy S22 Ultra from the reference" so
-the device is identical across every asset.
-1. **First frame** image: `<character> in <environment> holding a <modern Android model +
-   color> in one hand with the back of the phone to the camera, relaxed natural grip,
-   warm smile.`
-2. **Last frame** image: `<character> turning the phone to face the viewer, the screen
-   held close to the camera`, then composite the **real app UI/logo** (reference:
-   `assets/<app>/brand/<app-ui>.png`): "the phone screen shows this exact app UI/logo,
-   sharp and bright." **Frame it tight: the phone screen fills ~70% of the frame and is
-   the clear focus; the character sits behind in soft-focus bokeh.**
+**Android**, e.g. "Black Samsung Galaxy S22 Ultra", described positively per the phone
+visibility grammar; MEA is Android/Play Store only). See the app manifest's AI-generation
+rules. **Follow the Phone visibility grammar (top of this file)** — pass the per-surface
+prop crop + the real app-UI still as extra `--image` refs on every phone shot.
+1. **First frame** image (⚠️ the ONE permitted back-to-viewer exception — this frame
+   exists only so the clip can rotate to the screen): `<character> in <environment>
+   holding the Black Samsung Galaxy S22 Ultra from the reference in one hand with its
+   back panel to the camera, about to turn it around, relaxed natural grip, warm smile.`
+   (references: `base-character.png` + `s22-ultra-back.png`)
+2. **Last frame** image: `<character> turning the phone to face the viewer, the bright
+   screen held close to the camera`, then composite the **real app UI/logo** (references:
+   `s22-ultra-front.png` + `assets/<app>/brand/<app-ui>.png`): "the phone screen shows
+   this exact app UI/logo, sharp, bright, and legible." **Frame it tight: the phone
+   screen fills ~70% of the frame and is the clear focus; the character sits behind in
+   soft-focus bokeh.**
 3. **Clip** — **3 seconds** for the reveal (`kling3_0 --start-image phone-ui-first.png
    --end-image phone-ui-last.png --param duration=3 --param mode=pro --param sound=off`):
    > Maintaining her warm expression, she smoothly rotates the phone forward in a single
@@ -163,11 +199,14 @@ the device is identical across every asset.
    > and resolving on a tight, sharp close-up of the screen. Slight natural handheld only.
 
 ### Activity shots (game / music / news)
-References: `base-character.png` + `environment.png`. Phone held vertically; screen shows
-the activity. Examples:
-- **Game:** "low side-angle shot of `<character>` smiling, using her phone held
-  vertically, a game on the screen."
-- **Music:** "over-the-shoulder shot; a music player on her phone; she is playing music,
-  phone held vertically."
-- **News:** "over-the-shoulder shot; news on her phone; she is reading, phone vertical."
+References: `base-character.png` + `environment.png` + `s22-ultra-front.png` + the app
+UI/activity still. Phone held vertically; **the screen must be visible to the viewer and
+show the activity** (phone visibility grammar clause 1, or clause 2 for an over-the-
+shoulder angle where the screen still faces the camera). Examples:
+- **Game:** "low side-angle shot of `<character>` smiling, holding her phone vertically
+  with its bright screen angled toward the camera, gameplay clearly visible on screen."
+- **Music:** "over-the-shoulder shot past her shoulder; the phone's bright screen faces
+  the camera showing a music player, sharp and legible; she is playing music."
+- **News:** "over-the-shoulder shot past her shoulder; the phone's bright screen faces
+  the camera showing a news feed, sharp and legible; she is reading."
 Then `kling3_0 --start-image … --param sound=off`, duration = matching A-roll.

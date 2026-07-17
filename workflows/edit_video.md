@@ -38,14 +38,31 @@ background music + sound effects, and lands in `outputs/`.
   (pass `--edit-dir`). Copy only the final deliverable to `outputs\`. See `asset_organization.md`.
 - **Read manifests first** (see step 0): `assets\<app>\manifest.md` then the video manifest are
   the single source of truth for brand, CTA, screen recordings, and asset choices.
+- **Recreating a reference?** If the manifest points at a recreation blueprint
+  (`assets\<app>\reference-analysis\**\blueprint.md`, from `workflows/analyze_video.md`), read it
+  before cutting: its scene table maps to `chunks.json` boundaries + B-roll slots, its
+  Transitions & Animations column drives the timeline's animation choices, and its End Card
+  mechanics drive the CTA/endscreen build. `reference_mode: recreate` = structural contract;
+  `inspiration` = style cues only.
 - **Paid API**: transcription spends ElevenLabs credits. Per CLAUDE.md, confirm with the
   user before transcribing real footage. Transcripts are cached — never re-transcribe.
 
-### STANDING RULES (2026-06-16) — apply to every edit
-- **Audio is single-source on the HyperFrames-render path.** A-roll video carries its own VO
-  (`data-has-audio="true"`, NOT muted) — never add a duplicate dialogue/endscreen `<audio>` track
-  (HF render bakes BOTH → echo + phase-cancelled silence). **Only B-roll is muted AND audio-stripped**
-  (`-an`); logo + CTA keep their audio. Always ffprobe B-roll → 0 audio streams.
+### STANDING RULES (2026-06-16, corrected 2026-07-10) — apply to every edit
+- **Audio is single-source, but every A-roll/endscreen video is MUTED with its dialogue on a
+  paired sibling `<audio>` element** (same src, same timing), never on the video itself. The
+  2026-06-16 version of this rule said the opposite (unmuted video carrying `data-has-audio="true"`,
+  no separate track) — that plays **silently in HyperFrames Studio's interactive scrubber**, which
+  only drives sound through `<audio>` elements per the current HyperFrames media contract
+  (`hyperframes-core` skill → `variables-and-media.md`: "Video elements must be muted... Audio must
+  be a separate `<audio>` element, even when it uses the same source file"). `hyperframes render`
+  still produced correct audio under the old rule (it reads `data-has-audio` as a render-time hint),
+  which is why the bug went unnoticed in delivered outputs but every editable-timeline preview was
+  silent. Verified fix (waveform-matched against a known-good render, no doubling/echo):
+  `build_editable_timeline.py` now emits muted video + a same-timed `<audio>` sibling on its own
+  dedicated track for every A-roll segment, the endscreen, and any card with `keep_audio`. **Only
+  B-roll is muted AND audio-stripped** (`-an`) with no paired track at all (it has none to pair).
+  Always ffprobe B-roll → 0 audio streams. Legacy projects: `tools/fix_editable_timeline_audio.py`
+  patches an already-generated editable-timeline in place (idempotent).
 - **B-roll fills its A-roll segment — no end gap.** Stretch (slow) a short B-roll to the segment
   span, or play the first-span of a long one; tile multiple B-rolls contiguously, last ends at the
   segment end. (`build_editable_timeline.stage_broll`.)

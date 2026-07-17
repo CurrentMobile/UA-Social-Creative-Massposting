@@ -1,0 +1,30 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "editable-timeline-preview",
+      "runtimeExecutable": "npx",
+      "runtimeArgs": [
+        "--yes",
+        "hyperframes",
+        "preview",
+        "assets/mode-earn/ask-your-phone-for-a-raise/edit/editable-timeline",
+        "--port",
+        "3017"
+      ],
+      "port": 3017
+    },
+    {
+      "name": "intake-form-video",
+      "runtimeExecutable": ".venv\\Scripts\\python.exe",
+      "runtimeArgs": ["-u", "tools/intake_form.py", "--family", "video", "--port", "8765", "--timeout", "1800"],
+      "port": 8765
+    },
+    {
+      "name": "intake-form-static",
+      "runtimeExecutable": ".venv\\Scripts\\python.exe",
+      "runtimeArgs": ["-u", "tools/intake_form.py", "--family", "static", "--port", "8766", "--timeout", "1800"],
+      "port": 8766
+    }
+  ]
+}

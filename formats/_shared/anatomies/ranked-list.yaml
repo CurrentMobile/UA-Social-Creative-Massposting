@@ -1,0 +1,15 @@
+# Ranked-list anatomy — "Top 5 …" countdowns. Item labels like "RANK 5:" / "RANK 1:"
+# (or "#5:") are beat boundaries; chunks carry `item_index` so the edit recipe can fire
+# the ranking-badge card per item. Rank order in the script is the on-screen order
+# (usually N -> 1 countdown).
+id: ranked-list
+vo: true
+chunking:
+  mode: items
+  wps: 2.9
+  min_words: 6
+  max_words: 20
+sections:
+  - {label: HOOK, required: true}
+  - {label: CTA, required: true}
+item_pattern: '^(?:RANK|ITEM|#)\s*(\d+)'

@@ -1,0 +1,16 @@
+# The classic six-beat UGC anatomy (the current sacred labels — the default anatomy).
+# Consumed by tools/chunk_script.py --anatomy. Omitting --anatomy gives exactly this.
+id: hook-problem-solution
+vo: true
+chunking:
+  mode: sections        # all-caps labels are beat boundaries; pack whole sentences
+  wps: 2.7
+  min_words: 10
+  max_words: 20
+sections:
+  - {label: HOOK, required: true}
+  - {label: PROBLEM, required: true}
+  - {label: SOLUTION, required: true}
+  - {label: HOW IT WORKS, required: true}
+  - {label: RESULT, required: true}
+  - {label: CTA, required: true}

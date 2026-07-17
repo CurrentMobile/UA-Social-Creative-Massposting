@@ -48,14 +48,41 @@ def parse_front_matter(text: str) -> dict[str, str]:
 
 def index_template(app: str) -> str:
     return (
-        f"# Mode Earn — Script Library Index\n\n"
-        f"> Every **approved** script for `{app}`, banked verbatim in `approved/`. Step 5\n"
-        f"> (`workflows/generate_scripts.md`) scans this before writing so we never repeat a script.\n"
+        f"# Script Library Index — {app}\n\n"
+        f"> Every **approved** script for `{app}`, banked verbatim in `approved/`. The script\n"
+        f"> stage scans this before writing so we never repeat a script — the novelty scan\n"
+        f"> filters by the Format column (a Ranking hook doesn't block a UGC hook).\n"
         f"> Rows are upserted by `tools/save_approved_script.py`.\n\n"
-        f"| ID | Date | Persona | Angle | Chosen hook | Status | Video | File |\n"
-        f"|----|------|---------|-------|-------------|--------|-------|------|\n"
+        f"| ID | Date | Format | Persona | Angle | Chosen hook | Status | Video | File |\n"
+        f"|----|------|--------|---------|-------|-------------|--------|-------|------|\n"
         f"{ROW_MARKER}\n"
     )
+
+
+def migrate_index(text: str) -> str:
+    """Upgrade a pre-format index (8 columns) to include the Format column.
+
+    Old rows are tagged ugc-single (everything before formats existed was UGC)."""
+    if "| Format |" in text:
+        return text
+    out = []
+    for line in text.splitlines():
+        s = line.strip()
+        if s.startswith("| ID | Date |"):
+            out.append(line.replace("| ID | Date |", "| ID | Date | Format |", 1))
+        elif s.startswith("|") and set(s) <= {"|", "-", " "}:
+            # separator row — rebuild with one group per header column (9)
+            out.append("|" + "----|" * 9)
+        elif s.startswith("|") and s != ROW_MARKER and not s.startswith("| ID") and "---" not in s:
+            cells = line.split("|")
+            if len(cells) >= 9:  # | id | date | persona | ... -> insert after date
+                cells.insert(3, " ugc-single ")
+                out.append("|".join(cells))
+            else:
+                out.append(line)
+        else:
+            out.append(line)
+    return "\n".join(out)
 
 
 def esc(val: str) -> str:
@@ -68,15 +95,16 @@ def build_row(fm: dict[str, str], file_rel: str) -> str:
         hook = hook[:77] + "…"
     video = esc(fm.get("video_folder", "") or "—")
     name = Path(file_rel).name
+    fmt = esc(fm.get("format", "ugc-single"))
     return (
-        f"| {esc(fm['id'])} | {esc(fm['date'])} | {esc(fm['persona'])} | {esc(fm['angle'])} | "
+        f"| {esc(fm['id'])} | {esc(fm['date'])} | {fmt} | {esc(fm['persona'])} | {esc(fm['angle'])} | "
         f"{hook} | {esc(fm['status'])} | {video} | [{name}]({file_rel}) |"
     )
 
 
 def upsert_row(index_path: Path, app: str, row: str, row_id: str) -> str:
     if index_path.exists():
-        text = index_path.read_text(encoding="utf-8")
+        text = migrate_index(index_path.read_text(encoding="utf-8"))
     else:
         text = index_template(app)
     if ROW_MARKER not in text:
@@ -103,12 +131,15 @@ def upsert_row(index_path: Path, app: str, row: str, row_id: str) -> str:
 def main() -> int:
     ap = argparse.ArgumentParser(description="Register an approved script into the library")
     ap.add_argument("file", type=Path, help="the approved-script markdown file")
+    ap.add_argument("--format", dest="format_slug",
+                    help="content-format slug (default: front-matter `format:` or ugc-single)")
     args = ap.parse_args()
 
     if not args.file.exists():
         sys.exit(f"file not found: {args.file}")
     text = args.file.read_text(encoding="utf-8")
     fm = parse_front_matter(text)
+    fm["format"] = args.format_slug or fm.get("format") or "ugc-single"
 
     missing = [k for k in REQUIRED if not fm.get(k)]
     if missing:

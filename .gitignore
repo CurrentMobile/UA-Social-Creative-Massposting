@@ -9,6 +9,8 @@ token.json
 # Claude runtime (do not sync)
 .claude/sessions/
 .claude/shell-snapshots/
+# Machine-local one-off permission approvals (durable wildcards live in settings.json)
+.claude/settings.local.json
 
 # Python / Node (regenerable — do not sync)
 .venv/
@@ -27,6 +29,12 @@ vendor/
 .tmp/
 .tmp.driveupload/
 sync.log
+.bootstrap-state.json
+
+# Owner-only, un-synced (see Part E5 of the build plan)
+.claude/skills/pitch-audit/
+pitches/
+.claude/skills/slack-team-updates/
 
 # === Assets: SELECTIVE tracking (see workflows/asset_organization.md) ===
 # Heavy per-video media — AI-generated A-roll/B-roll, screen recordings, and rendered
@@ -56,3 +64,7 @@ desktop.ini
 
 # Outputs (632MB of finals — these live in Google Drive; uncomment to version them anyway)
 outputs/
+
+# OS-Content Studio sync (machine-local state)
+.studio-sync-state.json
+.studio-sync.log

@@ -60,11 +60,12 @@ assets/
   posted), platform, aspect, runtime_target_s, hook, created` + an **Assets** table and
   **Output** section.
 
-## Current temporary mode (until Higgsfield CLI is wired in)
+## AI asset generation (Higgsfield CLI)
 
-The user manually drops AI clips into `assets/<app>/<video-title>/ai-videos/` and images into
-`ai-images/`. Edit from there. When the Higgsfield CLI lands, it will populate these same
-folders — no workflow change needed.
+`workflows/generate_assets.md` (Stage 6) drives `tools/higgsfield_gen.py` to populate
+`assets/<app>/<video-title>/ai-videos/` and `ai-images/` automatically — persona, grids,
+extracts, A-roll, and B-roll all generated and QA-gated before landing in these folders.
+Edit from there once `manifest.md` status flips to `assets`.
 
 ## Future phases (homes already reserved)
 

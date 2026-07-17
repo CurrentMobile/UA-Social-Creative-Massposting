@@ -1,0 +1,109 @@
+<!doctype html>
+<!--
+  PATTERN B — "Stat Card + Count-Up + Side-Sliding Proof Cards"
+  Use for: a headline number that counts up (rating, price, downloads) plus a
+  pill badge and 1-2 supporting proof cards (reviews, screenshots, quotes)
+  that slide in from opposite sides.
+  Source: card_reviews (Ask Your Phone For A Raise) — 4.5★ rating count-up +
+  "10M+ downloads" pill + two real review screenshots. Swap the counted value,
+  the pill text, and the review images; keep the choreography.
+-->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1080, height=1920" />
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+    <style>
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+      html, body { width: 1080px; height: 1920px; overflow: hidden; background: transparent; }
+      #root { position: relative; width: 1080px; height: 1920px; overflow: hidden; background: transparent; }
+      .statbox {
+        position: absolute; left: 50%; top: 330px; margin-left: -330px; width: 660px;
+        background: #ffffff; border-radius: 44px; padding: 40px 30px 34px;
+        box-shadow: 0 26px 70px rgba(0,0,0,.55); text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      #bignum { font-weight: 900; font-size: 150px; line-height: 1; color: #141414; }
+      .fillbar { position: relative; display: inline-block; font-size: 72px; line-height: 1.15;
+               letter-spacing: 6px; margin-top: 6px; }
+      .fillbar .track { color: #d3d6db; }
+      .fillbar .fill { position: absolute; left: 0; top: 0; color: #f5a623; overflow: hidden;
+                     white-space: nowrap; width: 0%; }
+      .sub { font-weight: 700; font-size: 34px; color: #5f6368; margin-top: 8px; }
+      .pill {
+        position: absolute; left: 50%; top: 700px; margin-left: -240px; width: 480px;
+        background: #17a34a; color: #fff; font-family: Arial, Helvetica, sans-serif;
+        font-weight: 900; font-size: 48px; text-align: center;
+        padding: 22px 0; border-radius: 46px; box-shadow: 0 14px 40px rgba(0,0,0,.5);
+      }
+      .proofcard {
+        position: absolute; left: 50%; width: 700px; margin-left: -350px;
+        border-radius: 30px; box-shadow: 0 18px 50px rgba(0,0,0,.5); overflow: hidden;
+        background: #fff;
+      }
+      .proofcard img { display: block; width: 100%; }
+      #proof1 { top: 850px; }
+      #proof2 { top: 1230px; }
+    </style>
+  </head>
+  <body>
+    <div id="root" data-composition-id="main" data-start="0" data-duration="3.0"
+         data-width="1080" data-height="1920">
+      <div class="clip statbox" id="statbox" data-start="0" data-duration="3.0">
+        <div id="bignum">0.0</div>
+        <!-- fillbar: a "track" glyph row (gray) with a "fill" copy (colored) clipped
+             to a width that gets tweened 0%->N% in lockstep with the count-up -->
+        <div class="fillbar"><span class="track">★★★★★</span><span class="fill" id="fillglyphs">★★★★★</span></div>
+        <div class="sub">on Google Play</div>
+      </div>
+      <div class="clip pill" id="pill" data-start="0" data-duration="3.0">10M+ downloads</div>
+      <div class="clip proofcard" id="proof1" data-start="0" data-duration="3.0"><img src="REPLACE_ME_proof1.png" alt=""/></div>
+      <div class="clip proofcard" id="proof2" data-start="0" data-duration="3.0"><img src="REPLACE_ME_proof2.png" alt=""/></div>
+    </div>
+    <script>
+      window.__timelines = window.__timelines || {};
+      const tl = gsap.timeline({ paused: true });
+      // 1. ENTER — stat box drops in from above (y:-40 -> 0) with a springy
+      //    back.out, transform-origin pinned to its TOP edge so it reads as
+      //    "landing" rather than scaling from center.
+      tl.fromTo("#statbox", {scale:0.6, y:-40, opacity:0, transformOrigin:"50% 0%"},
+        {scale:1, y:0, opacity:1, duration:0.45, ease:"back.out(2)"}, 0.0);
+      // 2. COUNT-UP — drive a plain JS object's value with a GSAP tween and
+      //    write it into the DOM on every tick (onUpdate). This is SEEK-SAFE:
+      //    HyperFrames scrubs by re-evaluating the timeline at any timestamp,
+      //    and onUpdate fires correctly on a frame-accurate seek, not just
+      //    during forward playback. Pair the number tween with a WIDTH tween
+      //    on the "fill" glyph layer so a star-rating (or progress bar) fills
+      //    in at the exact same rate as the number climbs.
+      const counter = {v: 0};
+      tl.to(counter, {v: 4.5, duration: 0.9, ease: "power2.out",
+        onUpdate: () => { document.getElementById("bignum").textContent = counter.v.toFixed(1); }}, 0.25);
+      tl.fromTo("#fillglyphs", {width: "0%"}, {width: "90%", duration: 0.9, ease: "power2.out"}, 0.25);
+      // 3. PILL POP — same back.out language as the phone-chips pattern, fires
+      //    right after the count-up lands.
+      tl.fromTo("#pill", {scale:0, rotation:-6, opacity:0},
+        {scale:1, rotation:0, opacity:1, duration:0.4, ease:"back.out(2.2)"}, 0.9);
+      // 4. PROOF CARDS SLIDE IN — opposite directions (left card from x:-900,
+      //    right card from x:+900), each with a slight rotation that
+      //    straightens out as it lands. power3.out = fast start, soft landing
+      //    (distinct from the back.out "overshoot" bounce used elsewhere —
+      //    use power3.out for anything traveling a LONG distance so it doesn't
+      //    overshoot back off-frame).
+      tl.fromTo("#proof1", {x:-900, rotation:-6, opacity:0},
+        {x:0, rotation:-2, opacity:1, duration:0.4, ease:"power3.out"}, 1.25);
+      tl.fromTo("#proof2", {x:900, rotation:6, opacity:0},
+        {x:0, rotation:2, opacity:1, duration:0.4, ease:"power3.out"}, 1.55);
+      // 5. IDLE DRIFT — small vertical yoyo per element, staggered/offset so
+      //    they don't all bob in unison (statbox drifts earlier/slower; the
+      //    two proof cards drift in OPPOSITE vertical directions at the same
+      //    time for a subtle parallax feel).
+      tl.to("#statbox", {y:-8, duration:0.9, yoyo:true, repeat:1, ease:"sine.inOut"}, 1.1);
+      tl.to("#proof1", {y:-6, duration:0.7, yoyo:true, repeat:1, ease:"sine.inOut"}, 2.0);
+      tl.to("#proof2", {y:6, duration:0.7, yoyo:true, repeat:1, ease:"sine.inOut"}, 2.0);
+      // 6. EXIT — unified shrink+fade, tiny stagger.
+      tl.to(["#statbox","#pill","#proof1","#proof2"],
+        {scale:0.9, opacity:0, duration:0.22, ease:"power2.in", stagger:0.02}, 2.75);
+      window.__timelines["main"] = tl;
+    </script>
+  </body>
+</html>

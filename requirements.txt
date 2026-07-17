@@ -15,3 +15,4 @@ librosa           # audio analysis for mix_audio (loudness, beat)
 numpy             # numerics (mix_audio, build tools)
 matplotlib        # waveform / debug plots
 pillow            # image handling (higgsfield_gen, cropping)
+pyyaml            # format manifests + script anatomies (formats/, chunk_script --anatomy)

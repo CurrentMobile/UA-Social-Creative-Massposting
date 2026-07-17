@@ -53,7 +53,9 @@ can scan them and the strongest organic picks can be handed to Step 3.
 5. **Write winners.** `winners.json` (machine-readable, for Step 3) + `winners.md` (per-platform review
    tables with clickable links).
 6. **Present the top picks** to the user from `winners.md` and confirm which to break down. Hand the
-   `winners.json` to **Step 3** (`workflows/winning_video_breakdown.md`).
+   `winners.json` to **Step 3** (`workflows/winning_video_breakdown.md`). A winner **approved for
+   recreation** additionally goes to **Step 3b** (`workflows/analyze_video.md`, `/analyze-video <rank>`)
+   for a recreation-grade blueprint.
 
 ## Outputs
 - `assets/<app>/competitor-research/<date>/winners.json` — normalized + ranked winners (Step 3 input).
@@ -75,5 +77,6 @@ can scan them and the strongest organic picks can be handed to Step 3.
 - **Rate limits / partial results.** These scrapers proxy around login-gating but can return fewer items
   than requested; `--days` + `--min-views` keep the set tight and relevant.
 - **Never paste secrets** into files under `assets/` (it syncs to the Shared Drive). Keys stay in `.env`.
-- **FUTURE wiring:** once you trust the output, point `generate_scripts.md`'s competitor hook (its
-  Inputs section) at `assets/<app>/competitor-research/<date>/breakdown.md` (produced by Step 3).
+- **Downstream wiring (live):** `generate_scripts.md`'s Inputs section reads
+  `assets/<app>/competitor-research/<date>/breakdown.md` (Step 3) and
+  `assets/<app>/reference-analysis/**/blueprint.md` (Step 3b) as inspiration when present.

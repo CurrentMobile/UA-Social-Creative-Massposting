@@ -34,7 +34,7 @@ BINARIES = [
     ("uv", ["--version"], False),
 ]
 
-PY_PACKAGES = ["requests", "librosa", "matplotlib", "PIL", "numpy", "docx", "yt_dlp"]
+PY_PACKAGES = ["requests", "librosa", "matplotlib", "PIL", "numpy", "docx", "yt_dlp", "yaml"]
 
 # Keys the core pipeline needs vs. nice-to-haves. See .env.example for what each does.
 REQUIRED_ENV_KEYS = ["HIGGSFIELD_API_ID", "HIGGSFIELD_API_KEY", "GEMINI_API_KEY", "ELEVENLABS_API_KEY"]

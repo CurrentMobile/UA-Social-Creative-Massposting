@@ -6,6 +6,10 @@ allowed-tools: Read, Write, Edit, Glob, Grep, AskUserQuestion, Bash(.venv/Script
 ---
 
 Read `workflows/create_ugc_video.md` and execute it end-to-end.
+(Backward-compat alias — equivalent to `/create-videos ugc-single $1 $2`. Prefer the
+one-shot intake form via `tools/intake_form.py --family video --prefill
+format=ugc-single --prefill persona=$1 --prefill app=$2` for Phase 1 when a browser is
+available; fall back to the workflow's AskUserQuestion form otherwise.)
 
 - Persona slug: **$1**  (required — must already exist under `assets/_shared/personas/<slug>/`)
 - App slug: **$2**  (optional — default `mode-earn`)

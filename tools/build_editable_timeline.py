@@ -6,13 +6,25 @@ overlay card, and caption is its own tweakable track/clip — NOT one flattened 
 review/edit surface the user scrubs BEFORE the final render (workflows/edit_video.md step 8).
 
 Track layout (data-track-index keeps same-track clips from overlapping; CSS z-index stacks them):
-  0      A-roll segments      video, full-frame (data-media-start trims the source)
-  1      B-roll cutaways      video, full-frame, on top of A-roll
-  2      overlay cards        alpha video (WebM) / image, floats over the video
+  0/4    A-roll segments      video, full-frame, MUTED (data-media-start trims the source)
+  1/5    B-roll cutaways      video, full-frame, on top of A-roll (always muted)
+  2/10   overlay cards        alpha video (WebM) / image, floats over the video
   3      captions             text divs, one per SRT cue
-  10     dialogue             audio, one per A-roll segment (video is muted per HF rules)
+  6      hook sticker         text div
+  7      disclaimer           text div
+  8      endscreen            video, MUTED (its audio is the paired track-61 <audio>)
+  9      flicker              text div (white-flash transitions)
   11     music                audio, looped under the whole edit (no ducking in preview)
   12+    SFX                  audio, one track each (so they never collide)
+  50/51  dialogue             audio, one per A-roll segment (paired with the muted 0/4 video)
+  61     endscreen audio      audio, paired with the muted endscreen video
+
+Per the HyperFrames media contract (hyperframes-core skill, variables-and-media.md):
+"Video elements must be muted... Audio must be a separate <audio> element, even when it uses the
+same source file." Studio's interactive scrubber ONLY drives sound through <audio> elements — an
+unmuted <video data-has-audio="true"> plays no sound in the live preview (only `hyperframes render`
+bakes it, via that attribute, as a render-time hint). So every A-roll/endscreen video is muted here
+and paired with a same-timed sibling <audio> pointing at the identical src, on a track of its own.
 
 Source media is hardlinked (copy fallback) into the project with browser-safe names. The alpha card
 is served as WebM, not ProRes MOV — browsers can't decode ProRes.
@@ -207,10 +219,15 @@ def main() -> int:
             link_media(sp, media_dir / name)
         src_safe[key] = name
 
-    # A-roll: each segment's VIDEO carries its own VO (data-has-audio="true", NOT muted) so there
-    # is exactly ONE audio source per moment — no separate dialogue track (that duplicate is what
-    # caused the echo / phase-cancellation on hyperframes render). Zoom = per-segment scale,
-    # alternating within a source clip (cut via inline transform; "smooth" via a GSAP tween).
+    # A-roll: each segment's video is MUTED and paired with a sibling <audio> at the identical
+    # timing (same src, data-media-start, data-duration) on its own dedicated track — the pattern
+    # HyperFrames' media contract requires for Studio's interactive scrubber to produce sound.
+    # (An earlier version left the video unmuted with data-has-audio="true" and no separate audio
+    # element: that plays silently in Studio — the scrubber never reads a video's native track —
+    # even though `hyperframes render` still baked audio via the attribute. Giving each dialogue
+    # <audio> its OWN never-reused track index, rather than sharing one, sidesteps any risk of the
+    # old "echo" (that bug was two unmuted sources firing at once, not a single muted+audio pair).)
+    # Zoom = per-segment scale, alternating within a source clip (inline transform; "smooth" = GSAP tween).
     fps = float(edl.get("fps", 30) or 30)
     def _snap(t: float) -> float:
         # Snap an output time to the integer frame grid. Consecutive A-roll clips must abut on
@@ -219,6 +236,7 @@ def main() -> int:
         return round(round(t * fps) / fps, 6)
 
     video_clips: list[str] = []
+    dialogue_clips: list[str] = []
     smooth_tweens: list[str] = []
     offset = 0.0  # RAW cumulative time; snapped only at use so per-clip rounding can't accumulate
     seg_index = 0
@@ -248,7 +266,15 @@ def main() -> int:
         video_clips.append(
             f'      <video class="clip seg" id="seg{seg_index}" title="{beat}: {key}" '
             f'data-start="{out}" data-media-start="{start}" data-duration="{dur}" data-track-index="{seg_trk}" '
-            f'data-has-audio="true" src="{name}" playsinline style="{style}"></video>'
+            f'data-has-audio="false" src="{name}" muted playsinline style="{style}"></video>'
+        )
+        # paired dialogue audio (same src/timing), on a track never shared with anything else —
+        # alternate 50/51 in lockstep with the video's 0/4 parity so adjacent dialogue clips can
+        # never land on the same track at a shared boundary either.
+        dlg_trk = 50 if seg_index % 2 == 0 else 51
+        dialogue_clips.append(
+            f'      <audio class="clip" id="dlg{seg_index}" data-start="{out}" data-media-start="{start}" '
+            f'data-duration="{dur}" data-track-index="{dlg_trk}" src="{name}" data-volume="1"></audio>'
         )
         if smooth and z != 1.0:
             smooth_tweens.append(
@@ -306,10 +332,11 @@ def main() -> int:
             )
         else:
             # cards (logo / pop-ups): keep audio only when the overlay asks (e.g. the logo pop).
+            # Always muted; when keep_audio, paired with a sibling <audio> on track 70+i (globally
+            # unique per overlay index, so it never collides with dialogue/SFX/endscreen tracks).
             keep = bool(ov.get("keep_audio"))
             if op.exists():
                 link_media(op, media_dir / name)
-            mute_attr = "" if keep else "muted "
             # alternate cards across tracks 2/10 so adjacent cards never share a track (a tiny gap
             # between two cards on one track makes HF's per-track player drop the second one).
             card_trk = 2 if card_n % 2 == 0 else 10
@@ -317,8 +344,13 @@ def main() -> int:
             card_clips.append(
                 f'      <video class="clip card" id="card{i}" title="{note}" '
                 f'data-start="{st}" data-duration="{du}" data-track-index="{card_trk}" '
-                f'data-has-audio="{"true" if keep else "false"}" src="{name}" {mute_attr}playsinline></video>'
+                f'data-has-audio="false" src="{name}" muted playsinline></video>'
             )
+            if keep:
+                card_clips.append(
+                    f'      <audio class="clip" id="card{i}-audio" data-start="{st}" '
+                    f'data-duration="{du}" data-track-index="{70 + i}" src="{name}" data-volume="1"></audio>'
+                )
 
     # ---- captions: one div per SRT cue (Title Case; skipped during pop-up blackout windows) ----
     blackouts = edl.get("caption_blackouts", [])
@@ -380,15 +412,19 @@ def main() -> int:
             link_media(esp, media_dir / ename)
             est = round(float(es["start_in_output"]), 3)
             esd = round(float(es["duration"]), 3)
-            # CTA video carries its own audio (keep_audio default True) — single source, so NO
-            # separate track-60 audio (that duplicate would echo on render).
+            # CTA video is always muted; when keep_audio (default True) it's paired with a sibling
+            # <audio> on its own dedicated track (61) — same rationale as the A-roll dialogue above.
             keep = es.get("keep_audio", True)
-            mute_attr = "" if keep else "muted "
             endscreen_clips.append(
                 f'      <video class="clip endscreen" id="endscreen" data-start="{est}" '
-                f'data-duration="{esd}" data-track-index="8" data-has-audio="{"true" if keep else "false"}" '
-                f'src="{ename}" {mute_attr}playsinline></video>'
+                f'data-duration="{esd}" data-track-index="8" data-has-audio="false" '
+                f'src="{ename}" muted playsinline></video>'
             )
+            if keep:
+                endscreen_clips.append(
+                    f'      <audio class="clip" id="endscreen-audio" data-start="{est}" '
+                    f'data-duration="{esd}" data-track-index="61" src="{ename}" data-volume="1"></audio>'
+                )
 
     # ---- hook sticker (top, balanced multi-line, leaves when the hook clip ends) ----
     sticker_clips: list[str] = []
@@ -430,7 +466,7 @@ def main() -> int:
         )
 
     body = "\n".join(video_clips + broll_clips + card_clips + endscreen_clips
-                     + caption_clips + flicker_clips + sticker_clips + fx_clips)
+                     + caption_clips + flicker_clips + sticker_clips + dialogue_clips + fx_clips)
     all_tweens = smooth_tweens + flicker_tweens
     tween_js = ("\n      ".join(all_tweens)) if all_tweens else "// (no tweens)"
 
@@ -504,7 +540,8 @@ def main() -> int:
 
     print(f"editable timeline -> {project_dir / 'index.html'}")
     print(f"  duration   : {total}s")
-    print(f"  A-roll segs: {len(video_clips)} (track 0, carry own VO; {len(smooth_tweens)} smooth-zoom)")
+    print(f"  A-roll segs: {len(video_clips)} (muted; {len(dialogue_clips)} paired dialogue audio; "
+          f"{len(smooth_tweens)} smooth-zoom)")
     print(f"  B-roll     : {len(broll_clips)} (track 1)")
     print(f"  cards      : {len(card_clips)} (track 2)")
     print(f"  captions   : {len(caption_clips)} (track 3)")
